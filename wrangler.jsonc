@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "onerate-docs",
+  "compatibility_date": "2026-08-09",
+
+  // An ASSETS-ONLY Worker: there is no `main`, and therefore deliberately no `"binding"` either.
+  // Cloudflare's own migration guide is explicit that the binding "is only valid if you have a
+  // Worker script indicated by a `main` property" — adding it to a static site is a config error
+  // that only surfaces at deploy time.
+  //
+  // Workers static assets rather than Pages, unlike `onerate-landing`. ADR-0009 §2 records why
+  // that project cannot move: it was created by Direct Upload, and Cloudflare does not allow a
+  // Direct Upload project to become Git-connected afterwards. That constraint binds an EXISTING
+  // project. This one does not exist yet, so it is chosen rather than inherited, and Workers is
+  // Cloudflare's current recommendation for new static sites.
+  "assets": {
+    "directory": "./dist",
+    // NOT "single-page-application". Astro pre-renders every page to its own file, so the SPA
+    // setting would answer every mistyped URL with 200 + the home page — the exact failure
+    // ADR-0009 §3 documents on the landing project, where `GET /ROADMAP.md` returns 200 and tells
+    // you nothing. "404-page" serves the `404.html` Starlight builds, at a real 404.
+    "not_found_handling": "404-page"
+  },
+
+  // The apex and `app.` are not ours to touch; this Worker owns exactly one hostname.
+  "routes": [{ "pattern": "docs.onerate.travel", "custom_domain": true }],
+
+  // No `*.workers.dev` origin. A second hostname serving identical content is a duplicate-content
+  // problem for a site whose whole job is being findable, and the canonical URLs Astro emits point
+  // at docs.onerate.travel regardless — so the workers.dev copy could only ever be the wrong one.
+  // Preview URLs stay on: that is what `npm run deploy:staging` (`wrangler versions upload`)
+  // publishes to, and a preview is meant to be seen before it becomes production.
+  "workers_dev": false,
+  "preview_urls": true,
+
+  "observability": { "enabled": true }
+}

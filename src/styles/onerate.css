@@ -1,0 +1,36 @@
+/*
+ * The brand's accent, carried over from the promo page (`onerate-landing/public/index.html`,
+ * `--accent: #5b8cff`) so a reader arriving from onerate.travel does not land on a different
+ * product. Only the accent ramp and the number treatment are set here — Starlight's own greys,
+ * spacing and type scale are left alone on purpose: overriding them is how a docs theme drifts
+ * into an unmaintainable fork of its own upstream.
+ */
+:root {
+  --sl-color-accent-low: #16264d;
+  --sl-color-accent: #3f6fe0;
+  --sl-color-accent-high: #b9ccff;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #d8e3ff;
+  --sl-color-accent: #2b57bd;
+  --sl-color-accent-high: #16264d;
+}
+
+/*
+ * Amounts render `tr-TR` with tabular figures throughout the portal (CLAUDE.md, "Language
+ * conventions"). Documentation that shows a price in a proportional font is showing a different
+ * artifact than the one on the reader's screen, so money and reference codes in prose get the
+ * same treatment: `€48,52`, `TRY 12.480,00`, a supplier confirmation reference.
+ */
+.kv-num,
+.kv-price {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* Tables in these pages are mostly reference matrices — roles against actions, statuses against
+ * what an agent may do. Left-aligned numerals in a narrow column are unreadable; these are not. */
+.sl-markdown-content table td:has(+ td) {
+  white-space: normal;
+}

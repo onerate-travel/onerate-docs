@@ -1,0 +1,54 @@
+name: Deploy
+
+# Astro + Starlight, built and published as an assets-only Worker:
+#   staging -> a Cloudflare preview URL
+#   main    -> production, docs.onerate.travel
+#
+# The gate is `npm run build && npm test && npm run check`. It is seconds, not minutes — which is
+# the entire reason this site is not in the product monorepo, where a wording fix would wait behind
+# a miniflare suite and a Playwright booking flow (ADR-0009 §1, applied again in ADR-0012).
+on:
+  push:
+    branches: [main, staging]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Build BEFORE test, not after. test/links.test.js reads `dist/` — the shipped site — so
+      # running it first would either check the previous build or, on a clean checkout, check
+      # nothing at all. The suite refuses to pass on an empty `dist/` for exactly this reason.
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test
+
+      - name: Check types and content schema
+        run: npm run check
+
+      # `wrangler deploy` promotes to the live route; `versions upload` publishes a preview URL
+      # without touching production. Split by branch rather than parameterised, because unlike the
+      # landing repo's Pages deploy these are two different wrangler commands, not one command with
+      # a different argument — collapsing them would need a shell conditional that reads worse than
+      # two guarded steps.
+      - name: Deploy preview (staging)
+        if: github.ref_name == 'staging'
+        run: npx wrangler versions upload
+
+      - name: Deploy production (main)
+        if: github.ref_name == 'main'
+        run: npx wrangler deploy

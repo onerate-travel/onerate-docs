@@ -1,0 +1,54 @@
+---
+title: OneRate dokümantasyonu
+description: OneRate portalında otel araması, rezervasyon ve yönetim — acente sahipleri, yöneticiler, satış temsilcileri ve müşterileri için.
+template: splash
+hero:
+  tagline: Tüm tedarikçileriniz, tek ekranda. Elinizdeki her kontratı aynı anda arayın, gerçekten savunabileceğiniz fiyatları karşılaştırın ve rezervasyon yapın.
+  actions:
+    - text: OneRate nedir
+      link: /tr/what-is-onerate/
+      icon: right-arrow
+    - text: Portalı aç
+      link: https://app.onerate.travel
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="İlk gününüz" icon="rocket">
+    Giriş yapın, portalda yolunuzu bulun ve rolünüzün neler yapabildiğini öğrenin.
+
+    [Giriş yapmak](/tr/start/signing-in/) · [Portal](/tr/start/the-portal/) · [Roller](/tr/start/roles/)
+  </Card>
+
+  <Card title="Ara ve rezerve et" icon="magnifier">
+    Günlük iş: kontrat sahibi olduğunuz tüm tedarikçilerde arama yapın, sonuçları okuyun ve
+    konaklamayı onaylayın.
+
+    [Arama yapmak](/tr/search/running-a-search/) · [Rezervasyon yapmak](/tr/booking/booking-a-stay/)
+  </Card>
+
+  <Card title="Acentenizi yönetin" icon="setting">
+    Tedarikçileri bağlayın, kârınızı ve satış para biriminizi belirleyin, ekibinizi davet edin ve
+    sattıklarınızı raporlayın.
+
+    [Tedarikçiler](/tr/manage/suppliers/) · [Fiyatlandırma](/tr/manage/pricing/) · [Raporlar](/tr/manage/reports/)
+  </Card>
+
+  <Card title="Bir şey ters gittiğinde" icon="warning">
+    Cevap vermeyen bir tedarikçi, arama ile rezervasyon arasında değişen bir fiyat, sonucu henüz
+    bilinmeyen bir rezervasyon.
+
+    [Rezervasyon durumları](/tr/booking/statuses/) · [Sorun giderme](/tr/reference/troubleshooting/)
+  </Card>
+</CardGrid>
+
+## Nereden başlayacağınızdan emin değil misiniz?
+
+<LinkCard
+  title="Önce “OneRate nedir”i okuyun"
+  description="Ürünün ne yaptığı, bilinçli olarak ne yapmadığı ve fiyatların neden bu şekilde gruplandığı — beş dakika. Diğer her sayfa bunu varsayar."
+  href="/tr/what-is-onerate/"
+/>

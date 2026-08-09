@@ -1,0 +1,54 @@
+---
+title: OneRate documentation
+description: How to search, book and manage hotel bookings in the OneRate portal — for travel agency owners, admins, agents and their customers.
+template: splash
+hero:
+  tagline: All your suppliers, one screen. Search every contract you hold, compare rates you can actually defend, and book — from one portal.
+  actions:
+    - text: What OneRate is
+      link: /en/what-is-onerate/
+      icon: right-arrow
+    - text: Open the portal
+      link: https://app.onerate.travel
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Your first day" icon="rocket">
+    Sign in, find your way around the portal, and learn what your role can do.
+
+    [Signing in](/en/start/signing-in/) · [The portal](/en/start/the-portal/) · [Roles](/en/start/roles/)
+  </Card>
+
+  <Card title="Search and book" icon="magnifier">
+    The daily work: run a search across every supplier you hold a contract with, read the results,
+    and confirm a stay.
+
+    [Running a search](/en/search/running-a-search/) · [Booking a stay](/en/booking/booking-a-stay/)
+  </Card>
+
+  <Card title="Run your agency" icon="setting">
+    Connect suppliers, set your margin and selling currency, invite your team, and report on what
+    you sold.
+
+    [Suppliers](/en/manage/suppliers/) · [Pricing](/en/manage/pricing/) · [Reports](/en/manage/reports/)
+  </Card>
+
+  <Card title="When something looks wrong" icon="warning">
+    A supplier that did not answer, a price that moved between the search and the booking, a
+    booking whose outcome is not yet known.
+
+    [Booking statuses](/en/booking/statuses/) · [Troubleshooting](/en/reference/troubleshooting/)
+  </Card>
+</CardGrid>
+
+## Not sure where to start?
+
+<LinkCard
+  title="Read “What OneRate is” first"
+  description="Five minutes on what the product does, what it deliberately does not do, and why prices are grouped the way they are. Everything else assumes it."
+  href="/en/what-is-onerate/"
+/>

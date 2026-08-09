@@ -1,0 +1,27 @@
+{
+  "name": "onerate-docs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The OneRate end-user documentation served at docs.onerate.travel",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run",
+    "deploy:staging": "npm run build && wrangler versions upload",
+    "deploy:production": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/starlight": "^0.41.7",
+    "astro": "^7.2.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.7",
+    "wrangler": "^4.0.0"
+  }
+}
