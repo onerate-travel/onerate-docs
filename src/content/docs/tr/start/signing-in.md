@@ -93,5 +93,7 @@ yalnızca bir kez çalışır; kullanıldıysa veya süresi dolduysa yenisini is
 
 ## Dil değiştirmek
 
-Her ekranda bir dil seçici vardır — **EN** / **TR**. Üst bardadır, para biriminizin yanında.
+Her ekranda bir dil seçici vardır. Üst barda, para biriminizin yanındadır ve açılır bir listedir:
+English, Türkçe, Български, Magyar, Italiano, Polski ve Română. Her dil kendi adıyla yazılıdır;
+aradığınız dili kendi yazdığınız gibi arayın.
 Seçiminiz o tarayıcıda hatırlanır.

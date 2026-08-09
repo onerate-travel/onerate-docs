@@ -171,10 +171,12 @@ smoke: ## Check production: both locales serve, / redirects, and a bad path is a
 	  echo "typo now silently serves the home page. See wrangler.jsonc."; exit 1; }; \
 	echo "  ok  /en/no-such-page/ -> 404"; \
 	echo; \
-	tr_page=$$(curl -fsS $(PROD_URL)/tr/); \
-	echo "$$tr_page" | grep -q 'lang="tr"' \
-	  || { echo "FAIL: /tr/ is not being served as Turkish — check the locale fallback"; exit 1; }; \
-	echo "  ok  /tr/ is served as lang=tr"
+	for loc in tr bg hu it pl ro; do \
+	  page=$$(curl -fsS $(PROD_URL)/$$loc/); \
+	  echo "$$page" | grep -q "lang=\"$$loc\"" \
+	    || { echo "FAIL: /$$loc/ is not being served as $$loc — check the locale fallback"; exit 1; }; \
+	  echo "  ok  /$$loc/ is served as lang=$$loc"; \
+	done
 
 # ---- Keeping this honest ----------------------------------------------------------------------
 

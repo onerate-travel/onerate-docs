@@ -91,5 +91,7 @@ and works only once; if it has been used or has expired, request a new one.
 
 ## Changing language
 
-Every screen has a language switcher — **EN** / **TR**. It is in the header bar, next to your
-currency. Your choice is remembered on that browser.
+Every screen has a language switcher. It is in the header bar, next to your currency, and it is a
+drop-down list: English, Türkçe, Български, Magyar, Italiano, Polski and Română. Each language is
+named in itself, so look for the name as you would write it. Your choice is remembered on that
+browser.

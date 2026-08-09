@@ -20,7 +20,21 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = join(ROOT, 'dist');
 const DOCS = join(ROOT, 'src/content/docs');
-const LOCALES = ['en', 'tr'];
+const CONFIG = readFileSync(join(ROOT, 'astro.config.mjs'), 'utf8');
+
+/**
+ * The locales, DERIVED from `astro.config.mjs` rather than listed here.
+ *
+ * It was a literal `['en', 'tr']`, which was honest at two and became a liability at seven: adding
+ * a language would have left this file still checking the old set, so the new locale's pages could
+ * be missing entirely and every assertion below would pass. The parity test in particular is only
+ * as good as the list it iterates.
+ *
+ * Deriving it means the failure mode inverts — a language added to the config is checked from that
+ * moment, and a language REMOVED from the config stops being checked without an edit here either.
+ * The `length` guard below is what stops a changed config format from emptying the set silently.
+ */
+const LOCALES = [...CONFIG.matchAll(/^\s{8}(\w{2}): \{ label: /gm)].map((match) => match[1]);
 
 function walk(dir, ext) {
   if (!existsSync(dir)) return [];
@@ -117,7 +131,16 @@ describe('the site root', () => {
   });
 });
 
-describe('the two locales', () => {
+describe('every locale', () => {
+  it('is discovered from the config, so this suite cannot check a stale list', () => {
+    // Without this, a changed config format yields zero locales and every test below passes over
+    // an empty set — the same vacuous-green failure the `dist/` emptiness check exists for.
+    expect(LOCALES.length, `parsed no locales out of astro.config.mjs`).toBeGreaterThan(1);
+    expect(LOCALES).toContain('en');
+  });
+});
+
+describe('the locales', () => {
   // `onerate-landing/CLAUDE.md`: "A `data-en` span without its `data-tr` sibling ships a
   // half-translated page." Same rule, one level up — here the unit is a page, not a span.
   //
@@ -134,17 +157,25 @@ describe('the two locales', () => {
   });
 
   it('contain exactly the same set of pages', () => {
-    const [en, tr] = LOCALES.map(pagesOf);
-    expect({ missingInTr: en.filter((p) => !tr.includes(p)), missingInEn: tr.filter((p) => !en.includes(p)) })
-      .toEqual({ missingInTr: [], missingInEn: [] });
+    // Compared against ENGLISH, the default locale, rather than pairwise: English is what a missing
+    // page falls back to, so it is the set every other language owes a translation of. Reported per
+    // locale so one language missing one page names both, instead of "the sets differ".
+    const reference = pagesOf('en');
+    const gaps = {};
+    for (const locale of LOCALES.filter((l) => l !== 'en')) {
+      const pages = pagesOf(locale);
+      const missing = reference.filter((page) => !pages.includes(page));
+      const spare = pages.filter((page) => !reference.includes(page));
+      if (missing.length || spare.length) gaps[locale] = { missing, spare };
+    }
+    expect(gaps).toEqual({});
   });
 
-  it('are both reachable for every sidebar entry', () => {
-    // Every slug named in astro.config.mjs must exist as a real page in BOTH locales. A typo here
-    // is not a build error: Starlight resolves the slug against the default locale and the Turkish
-    // side quietly falls back.
-    const config = readFileSync(join(ROOT, 'astro.config.mjs'), 'utf8');
-    const slugs = [...config.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
+  it('are all reachable for every sidebar entry', () => {
+    // Every slug named in astro.config.mjs must exist as a real page in EVERY locale. A typo here
+    // is not a build error: Starlight resolves the slug against the default locale and the other
+    // languages quietly fall back.
+    const slugs = [...CONFIG.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
     expect(slugs.length).toBeGreaterThan(0);
 
     const missing = [];

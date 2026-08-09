@@ -16,10 +16,11 @@ Playwright booking flow. See `docs/ADR-0012-docs-site.md` in that repo.
 | Path | What it is |
 | --- | --- |
 | `src/content/docs/en/` | **the English pages** — the default locale |
-| `src/content/docs/tr/` | **the Turkish pages** — one file per English file, same name |
-| `astro.config.mjs` | locales, the sidebar (one definition serves both languages), the site URL |
+| `src/content/docs/tr/`, `bg/`, `hu/`, `it/`, `pl/`, `ro/` | **the six translations** — one file per English file, same name |
+| `src/content/i18n/bg.json` | Starlight's UI strings for the one locale it does not ship them for |
+| `astro.config.mjs` | locales, the sidebar (one definition serves all seven languages), the site URL |
 | `src/styles/onerate.css` | the brand accent, carried over from the promo page |
-| `test/links.test.js` | checks the **built** site: every internal link, every anchor, both locales complete |
+| `test/links.test.js` | checks the **built** site: every internal link, every anchor, every locale complete |
 | `wrangler.jsonc` | the assets-only Worker that serves `docs.onerate.travel` |
 | `.github/workflows/deploy.yml` | `staging` → a preview URL, `main` → production |
 

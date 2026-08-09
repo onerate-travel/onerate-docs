@@ -47,7 +47,8 @@ söyler. Bkz. [Fiyatlandırma ve kâr](/tr/manage/pricing/).
 
 ### Para birimi ve dil
 
-- **Dil** — EN veya TR, o tarayıcıda hatırlanır. Bu yalnızca bir görüntüleme tercihidir.
+- **Dil** — portalın konuştuğu yedi dilin açılır listesi (English, Türkçe, Български, Magyar,
+  Italiano, Polski, Română), o tarayıcıda hatırlanır. Bu yalnızca bir görüntüleme tercihidir.
 - **Para birimi** — bu bir görüntüleme tercihi **değildir**. Acentenizin *sattığı* para birimidir ve
   değiştirmek, ana sonuç listenizde hangi tekliflerin sıralanacağını değiştirir. Hiçbir şey
   çevrilmez. Yalnızca sahip veya yönetici değiştirebilir; diğer herkes salt okunur görür.

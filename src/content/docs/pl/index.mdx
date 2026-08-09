@@ -1,0 +1,53 @@
+---
+title: Dokumentacja OneRate
+description: Jak wyszukiwać, rezerwować i zarządzać rezerwacjami hotelowymi w portalu OneRate — dla właścicieli, administratorów i agentów biur podróży oraz ich klientów.
+template: splash
+hero:
+  tagline: Wszyscy Twoi dostawcy na jednym ekranie. Przeszukaj każdą umowę, którą masz, porównaj stawki, których da się bronić, i rezerwuj — z jednego portalu.
+  actions:
+    - text: Czym jest OneRate
+      link: /pl/what-is-onerate/
+      icon: right-arrow
+    - text: Otwórz portal
+      link: https://app.onerate.travel
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Twój pierwszy dzień" icon="rocket">
+    Zaloguj się, rozejrzyj się w portalu i sprawdź, co może Twoja rola.
+
+    [Logowanie](/pl/start/signing-in/) · [Portal](/pl/start/the-portal/) · [Role](/pl/start/roles/)
+  </Card>
+
+  <Card title="Wyszukiwanie i rezerwacja" icon="magnifier">
+    Codzienna praca: uruchom wyszukiwanie u wszystkich dostawców, z którymi masz umowę, przeczytaj
+    wyniki i potwierdź pobyt.
+
+    [Jak wyszukiwać](/pl/search/running-a-search/) · [Jak zarezerwować pobyt](/pl/booking/booking-a-stay/)
+  </Card>
+
+  <Card title="Prowadź swoją agencję" icon="setting">
+    Podłącz dostawców, ustaw marżę i walutę sprzedaży, zaproś zespół i raportuj to, co sprzedałeś.
+
+    [Dostawcy](/pl/manage/suppliers/) · [Ceny](/pl/manage/pricing/) · [Raporty](/pl/manage/reports/)
+  </Card>
+
+  <Card title="Gdy coś wygląda nie tak" icon="warning">
+    Dostawca, który nie odpowiedział, cena, która zmieniła się między wyszukiwaniem a rezerwacją,
+    rezerwacja, której wynik nie jest jeszcze znany.
+
+    [Statusy rezerwacji](/pl/booking/statuses/) · [Rozwiązywanie problemów](/pl/reference/troubleshooting/)
+  </Card>
+</CardGrid>
+
+## Nie wiesz, od czego zacząć?
+
+<LinkCard
+  title="Przeczytaj najpierw „Czym jest OneRate”"
+  description="Pięć minut o tym, co produkt robi, czego świadomie nie robi i dlaczego ceny są grupowane właśnie tak. Cała reszta to zakłada."
+  href="/pl/what-is-onerate/"
+/>

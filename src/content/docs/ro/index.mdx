@@ -1,0 +1,54 @@
+---
+title: Documentație OneRate
+description: Cum să cauți, să rezervi și să administrezi rezervări hoteliere în portalul OneRate — pentru proprietari, administratori și agenți de agenții de turism și pentru clienții lor.
+template: splash
+hero:
+  tagline: Toți furnizorii tăi, un singur ecran. Caută în fiecare contract pe care îl ai, compară tarife pe care le poți justifica și rezervă — dintr-un singur portal.
+  actions:
+    - text: Ce este OneRate
+      link: /ro/what-is-onerate/
+      icon: right-arrow
+    - text: Deschide portalul
+      link: https://app.onerate.travel
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Prima ta zi" icon="rocket">
+    Autentifică-te, orientează-te în portal și află ce poate face rolul tău.
+
+    [Autentificare](/ro/start/signing-in/) · [Portalul](/ro/start/the-portal/) · [Roluri](/ro/start/roles/)
+  </Card>
+
+  <Card title="Caută și rezervă" icon="magnifier">
+    Munca de zi cu zi: pornește o căutare la toți furnizorii cu care ai contract, citește
+    rezultatele și confirmă un sejur.
+
+    [Cum cauți](/ro/search/running-a-search/) · [Cum rezervi un sejur](/ro/booking/booking-a-stay/)
+  </Card>
+
+  <Card title="Administrează-ți agenția" icon="setting">
+    Conectează furnizorii, stabilește-ți marja și moneda de vânzare, invită-ți echipa și
+    raportează ce ai vândut.
+
+    [Furnizori](/ro/manage/suppliers/) · [Prețuri](/ro/manage/pricing/) · [Rapoarte](/ro/manage/reports/)
+  </Card>
+
+  <Card title="Când ceva pare în neregulă" icon="warning">
+    Un furnizor care nu a răspuns, un preț care s-a schimbat între căutare și rezervare, o
+    rezervare al cărei rezultat încă nu se cunoaște.
+
+    [Stările rezervării](/ro/booking/statuses/) · [Depanare](/ro/reference/troubleshooting/)
+  </Card>
+</CardGrid>
+
+## Nu știi de unde să începi?
+
+<LinkCard
+  title="Citește mai întâi „Ce este OneRate”"
+  description="Cinci minute despre ce face produsul, ce nu face în mod deliberat și de ce prețurile sunt grupate așa cum sunt. Tot restul pornește de aici."
+  href="/ro/what-is-onerate/"
+/>

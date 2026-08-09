@@ -1,0 +1,54 @@
+---
+title: OneRate dokumentáció
+description: Hogyan keress, foglalj és kezelj szállodai foglalásokat a OneRate portálon — utazási irodák tulajdonosainak, adminisztrátorainak, ügyintézőinek és ügyfeleiknek.
+template: splash
+hero:
+  tagline: Minden beszállítód egy képernyőn. Keress rá minden szerződésedre, hasonlíts össze olyan árakat, amelyeket meg is tudsz védeni, és foglalj — egyetlen portálról.
+  actions:
+    - text: Mi az a OneRate
+      link: /hu/what-is-onerate/
+      icon: right-arrow
+    - text: Portál megnyitása
+      link: https://app.onerate.travel
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Az első napod" icon="rocket">
+    Jelentkezz be, tájékozódj a portálon, és ismerd meg, mit tehet a szerepköröd.
+
+    [Bejelentkezés](/hu/start/signing-in/) · [A portál](/hu/start/the-portal/) · [Szerepkörök](/hu/start/roles/)
+  </Card>
+
+  <Card title="Keresés és foglalás" icon="magnifier">
+    A napi munka: indíts keresést minden beszállítónál, akivel szerződésed van, olvasd el a
+    találatokat, és erősíts meg egy tartózkodást.
+
+    [Keresés indítása](/hu/search/running-a-search/) · [Tartózkodás foglalása](/hu/booking/booking-a-stay/)
+  </Card>
+
+  <Card title="Az irodád működtetése" icon="setting">
+    Kösd be a beszállítókat, állítsd be az árrésedet és az eladási pénznemedet, hívd meg a
+    csapatodat, és készíts riportot arról, amit eladtál.
+
+    [Beszállítók](/hu/manage/suppliers/) · [Árazás](/hu/manage/pricing/) · [Riportok](/hu/manage/reports/)
+  </Card>
+
+  <Card title="Amikor valami nem stimmel" icon="warning">
+    Egy beszállító, amelyik nem válaszolt, egy ár, amelyik a keresés és a foglalás között
+    megmozdult, egy foglalás, amelynek a kimenetele még nem ismert.
+
+    [Foglalási állapotok](/hu/booking/statuses/) · [Hibaelhárítás](/hu/reference/troubleshooting/)
+  </Card>
+</CardGrid>
+
+## Nem tudod, hol kezdd?
+
+<LinkCard
+  title="Olvasd el először a „Mi az a OneRate” oldalt"
+  description="Öt perc arról, mit csinál a termék, mit nem csinál szándékosan, és miért így vannak csoportosítva az árak. Minden más ezt feltételezi."
+  href="/hu/what-is-onerate/"
+/>

@@ -1,0 +1,111 @@
+---
+title: Le tue prenotazioni
+description: Trovare una prenotazione, leggere la sua pagina di dettaglio e la cronologia, il dettaglio dei costi, i voucher e la cancellazione dei dati degli ospiti.
+---
+
+## L'elenco
+
+**Prenotazioni** contiene ogni prenotazione fatta dalla tua agenzia, con qualsiasi fornitore.
+
+Filtra e trova:
+
+- **Stato** — uno stato, o tutti
+- **Check-in dal / al** — un intervallo di date sul soggiorno, non su quando è stato prenotato
+- **Trova** — testo libero su nome dell'ospite, hotel e riferimento di conferma del fornitore
+
+Colonne: hotel, ospite, soggiorno, fornitore, stato, prezzo di vendita, creata. Il totale sta sopra
+l'elenco, e gli elenchi lunghi vengono paginati.
+
+Una prenotazione i cui dati ospite sono stati cancellati mostra *dati ospite cancellati* al posto
+del nome. La prenotazione in sé resta.
+
+:::note
+**Prenotazioni clienti** è una schermata separata: prenotazioni fatte dagli utenti dei tuoi clienti.
+Stesse colonne più il cliente a cui appartiene, e un filtro per quello. I clienti stessi vedono solo
+le proprie prenotazioni, sulla propria schermata.
+:::
+
+## La pagina di dettaglio
+
+Apri una prenotazione per vedere tutto quello che è stato registrato su di essa.
+
+### La prenotazione
+
+Hotel, stato, fornitore, **riferimento di conferma**, check-in, check-out, ospite principale,
+prezzo di vendita.
+
+Il riferimento di conferma è quello del fornitore — è ciò che identifica la prenotazione presso di
+lui se dovessi telefonare.
+
+### Costi e penali
+
+Questa sezione non è mostrata ai clienti.
+
+| Riga | Che cos'è |
+| --- | --- |
+| **Quotato al momento della prenotazione** | Il prezzo netto del fornitore nell'istante in cui hai confermato. |
+| **Confermato dal fornitore** | Quello con cui il fornitore è effettivamente tornato. |
+| **Penale di annullamento prevista** | Quanto costerebbe annullare adesso, secondo la policy salvata al momento della prenotazione. |
+| **Prezzo di vendita** | A quanto l'hai venduta — netto più il tuo margine. |
+
+Se i primi due differiscono, la pagina lo dice:
+
+> Il fornitore ha confermato un importo diverso da quello quotato. Hai venduto sulla base della
+> quotazione.
+
+È un evento reale su cui vale la pena agire, non un artefatto di arrotondamento. Il tuo margine su
+quella prenotazione non è quello che pensavi.
+
+### Perché questo fornitore
+
+Lo stesso registro che offre la schermata dei risultati, conservato con la prenotazione: quali
+offerte sono state considerate e che cosa ha deciso. Resta disponibile molto dopo che la sessione di
+ricerca è finita.
+
+### Cronologia
+
+Ogni stato attraversato dalla prenotazione, in ordine, con gli orari. È il primo posto dove
+guardare quando una prenotazione ha fatto qualcosa che non ti aspettavi.
+
+## Voucher
+
+**Scarica il voucher** ti dà il PDF. **Invia il voucher via email** lo spedisce.
+
+Il pulsante è sostituito da una frase quando non c'è voucher, e la frase dice perché:
+
+| Messaggio | Perché |
+| --- | --- |
+| "Questa prenotazione non è confermata, quindi non è stato emesso alcun voucher." | I voucher esistono solo per le prenotazioni confermate. |
+| "Non si sa ancora se questa prenotazione sia arrivata al fornitore…" | La prenotazione è ancora in riconciliazione. |
+| "Questa prenotazione è annullata e non è disponibile alcun voucher." | Annullata. |
+| "I dati degli ospiti di questa prenotazione sono stati cancellati e con essi anche il voucher." | Il voucher portava il nome dell'ospite, quindi è sparito con la cancellazione. |
+
+## Cancellare i dati degli ospiti
+
+Titolari e amministratori possono cancellare definitivamente i dati personali su una prenotazione —
+il nome dell'ospite e i dati del fornitore registrati su di esso — e il voucher viene cancellato con
+essi.
+
+**Non si può annullare.** La prenotazione in sé resta a registro: il suo stato, le sue date e i suoi
+importi, così i tuoi report e la tua contabilità restano intatti. Viene rimossa solo la persona.
+
+Se la finestra di conferma viene interrotta, eseguila di nuovo. La cancellazione è sicura da
+ripetere e porta a termine il lavoro.
+
+La tua agenzia ha anche un **periodo di conservazione dei dati degli ospiti** in
+[Impostazioni](/it/manage/settings/), dopo il quale questo avviene automaticamente. Cancellare a
+mano serve per una richiesta che arriva prima.
+
+## Promemoria di annullamento
+
+OneRate sorveglia le scadenze di cancellazione gratuita sulle tue prenotazioni confermate e ti
+avvisa prima che una si chiuda. L'anticipo è un'impostazione della tua agenzia — 48 ore se non l'hai
+cambiata.
+
+È la funzione che ti evita di pagare una penale su un soggiorno che l'ospite ha lasciato cadere la
+settimana scorsa.
+
+## Poi
+
+- [Annullare una prenotazione](/it/booking/cancelling/)
+- [Stati della prenotazione](/it/booking/statuses/) — compreso che cosa fare con una in verifica

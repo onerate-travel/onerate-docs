@@ -47,7 +47,9 @@ See [Pricing and margin](/en/manage/pricing/).
 
 ### Currency and language
 
-- **Language** — EN or TR, remembered on this browser. This is a display choice and nothing else.
+- **Language** — a drop-down of the seven languages the portal speaks (English, Türkçe,
+  Български, Magyar, Italiano, Polski, Română), remembered on this browser. This is a display
+  choice and nothing else.
 - **Currency** — this is **not** a display choice. It is the currency your agency *sells in*, and
   changing it changes which offers are ranked in your main results list. Nothing is converted. Only
   an owner or admin can change it; everyone else sees it read-only.
@@ -72,7 +74,8 @@ in a status that will not resolve itself. Follow it to the list; see
 
 ## Things that are true on every screen
 
-- **The language switcher is always present.** No screen is English-only.
+- **The language switcher is always present.** No screen is English-only, and every language is
+  reachable from every screen.
 - **Amounts are formatted `tr-TR`** — `1.250,00`, not `1,250.00` — and use aligned figures so a
   column of prices reads straight down.
 - **A page you cannot reach says so.** If your role does not permit a screen, it is not in your

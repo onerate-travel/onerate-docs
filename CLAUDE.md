@@ -1,7 +1,7 @@
 # onerate-docs — Agent Instructions
 
 The OneRate **end-user** documentation site, served at `docs.onerate.travel`. Astro + Starlight,
-fully bilingual. Split out of `suphero/onerate-app` — see `docs/ADR-0012-docs-site.md` there.
+in seven languages. Split out of `suphero/onerate-app` — see `docs/ADR-0012-docs-site.md` there.
 
 ## What belongs here, and what does not
 
@@ -23,10 +23,11 @@ NO CLAIM ABOUT THE PRODUCT WITHOUT READING THE PRODUCT
 
 Before writing that a screen does something, read it in `suphero/onerate-app`:
 
-- `apps/web/src/locales/en.json` and `tr.json` — **the canonical source of terminology.** Every
-  term this site uses must be the term the portal uses, in that language. `tr.json` says
+- `apps/web/src/locales/*.json` — **the canonical source of terminology**, one file per language.
+  Every term this site uses must be the term the portal uses, in that language. `tr.json` says
   "İki adımlı doğrulama"; writing "iki faktörlü kimlik doğrulama" here invents a second name for
-  one feature and the reader loses.
+  one feature and the reader loses. The same rule now applies seven times over, and the bundles are
+  the place to check — not a dictionary.
 - `apps/web/src/router.tsx` and `apps/web/src/screens/` — what exists and where it is.
 - `packages/auth/src/policy.ts` — the role/action matrix. `start/roles.md` is a rendering of this
   file; if they disagree, the file is right.
@@ -54,15 +55,29 @@ vacuously over an empty directory.
 ## Language conventions
 
 - Code, comments, commits, config, this file, `README.md`: **English**.
-- Page content: **fully bilingual, English default, Turkish second** — matching the product's own
-  rule (`onerate-app/CLAUDE.md`, "Language conventions").
-- **An English page without its Turkish counterpart ships a half-translated site**, and it does so
-  invisibly: Starlight falls back to the default locale, so the Turkish reader gets a complete
-  English page with a small notice and the build stays green. The locale-parity test is what makes
-  this a failure instead of a silent regression. Keep it.
-- Turkish is a translation of the *meaning*, not of the sentence. Match the portal's Turkish
-  copy for anything the reader will see on screen.
-- Amounts render `tr-TR` (`1.250,00`) in both languages — that is what the portal shows.
+- Page content: **seven languages, English default** — `en`, `tr`, `bg`, `hu`, `it`, `pl`, `ro`,
+  matching the product's own `LOCALES` (`packages/core/src/locales.ts` in `onerate-app`).
+- **An English page without its counterpart in every other language ships a half-translated site**,
+  and it does so invisibly: Starlight falls back to the default locale, so the reader gets a
+  complete English page with a small notice and the build stays green. The locale-parity test in
+  `test/links.test.js` is what makes this a failure instead of a silent regression. Keep it — and
+  note it derives its locale list from `astro.config.mjs`, so a language added there is checked
+  from that moment.
+- Each translation is a translation of the *meaning*, not of the sentence. Match the portal's own
+  copy in that language for anything the reader will see on screen.
+- Amounts render `tr-TR` (`1.250,00`) in every language — that is what the portal shows.
+
+### Adding a language
+
+1. Add it to `LOCALES` in `onerate-app` first — that repo is the source of the set, and its own
+   guards will name everything still missing there.
+2. Add the locale and its **endonym** label to `locales` in `astro.config.mjs`, plus a translation
+   for every `translations:` map in the sidebar.
+3. Check `node_modules/@astrojs/starlight/translations/` for a `<locale>.json`. If Starlight has
+   none — as it does not for Bulgarian — add `src/content/i18n/<locale>.json` with the full set of
+   UI strings, or the page chrome silently renders in English.
+4. Translate all 21 pages under `src/content/docs/<locale>/`. `npm run build && npm test` names any
+   that are missing.
 
 ## Three things that look wrong and are not
 
