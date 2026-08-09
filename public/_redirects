@@ -1,0 +1,13 @@
+# Cloudflare Workers static assets reads this natively (same format as Pages). Astro copies
+# everything in public/ to the root of dist/, which is where the Worker expects it.
+#
+# WHY THIS FILE EXISTS. Both locales carry a URL prefix — /en/ and /tr/ — so Starlight builds no
+# page at the root, and `docs.onerate.travel` with nothing after it was a hard 404. That is the URL
+# a person types and the one onerate-landing links to, so it was the single most-hit address on the
+# site and the only one that did not work.
+#
+# 302, NOT 301. ROADMAP D4 keeps "which language sits at the root" genuinely open, to be settled by
+# traffic rather than assumption. A 301 is cached by browsers for months with no way to reach the
+# ones holding it, so it would quietly convert a reversible decision into a permanent one — which
+# is exactly the property prefixed URLs were chosen to avoid (see astro.config.mjs).
+/    /en/    302

@@ -19,8 +19,13 @@ import starlight from '@astrojs/starlight';
  *    the project's writing convention is English-first (CLAUDE.md, "Language conventions"), and a
  *    root locale bakes that tension into the URL shape — `/nedir` next to `/tr/nedir` — where it
  *    can never be renegotiated without breaking every link anyone saved. Prefixed and symmetric,
- *    `/` redirects to `/en/` and either language can become the default later by changing one
- *    line. See ROADMAP.md.
+ *    either language can become the default later by changing one line. See ROADMAP.md D4.
+ *
+ *    The cost of that choice is that NOTHING is built at the root: Starlight emits `/en/` and
+ *    `/tr/` and no `dist/index.html`, so `docs.onerate.travel` is a hard 404 unless something
+ *    sends it onward. Nothing here does — the redirect lives in `public/_redirects`, which
+ *    Cloudflare reads natively, and is asserted by `test/links.test.js` and `make smoke`. It
+ *    shipped broken once; do not assume Starlight handles it.
  */
 export default defineConfig({
   site: 'https://docs.onerate.travel',

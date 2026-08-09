@@ -121,18 +121,36 @@ deploy-prod: require-clean require-branch-main preflight gate ## Deploy to docs.
 	@echo "Deployed. Now run 'make smoke' — the deploy log alone cannot tell you what is live."
 
 # ---- Verifying what shipped -------------------------------------------------------------------
+#
+# Two rules this target learned the hard way, on its first real run against production:
+#
+# 1. NEVER PRINT A VALUE BESIDE THE WORD "ok" WITHOUT COMPARING IT. The `/` check used to echo
+#    "ok  / -> $$root (a redirect to /en/ is expected)" and assert nothing, so it reported "ok"
+#    next to a literal 404 and the broken root shipped. A check that displays what it did not
+#    verify is read as a check, and is worse than none.
+#
+# 2. CAPTURE A BODY BEFORE GREPPING IT — never `curl … | grep -q`. Under `-o pipefail`, `grep -q`
+#    exits the moment it matches, curl takes SIGPIPE on the closed pipe, and the pipeline reports
+#    failure *because the assertion succeeded*. That is how this target claimed /tr/ was not
+#    Turkish while it was being served perfectly.
 
 .PHONY: smoke
-smoke: ## Check production: both locales serve, and a bad path is a real 404
+smoke: ## Check production: both locales serve, / redirects, and a bad path is a real 404
 	@set -euo pipefail; \
 	for path in /en/ /tr/ /en/booking/statuses/ /tr/booking/statuses/; do \
 	  code=$$(curl -s -o /dev/null -w '%{http_code}' $(PROD_URL)$$path); \
 	  [ "$$code" = "200" ] || { echo "FAIL: $$path returned $$code, expected 200"; exit 1; }; \
 	  echo "  ok  $$path"; \
 	done; \
-	code=$$(curl -s -o /dev/null -w '%{http_code}' $(PROD_URL)/en/); \
 	root=$$(curl -s -o /dev/null -w '%{http_code}' $(PROD_URL)/); \
-	echo "  ok  / -> $$root (a redirect to /en/ is expected)"; \
+	dest=$$(curl -s -o /dev/null -w '%{redirect_url}' $(PROD_URL)/); \
+	[ "$$root" = "302" ] || { \
+	  echo "FAIL: / returned $$root, expected a 302 to /en/."; \
+	  echo "Neither locale sits at the root, so without public/_redirects this is a hard 404 —"; \
+	  echo "on the one URL people type and the one onerate-landing links to."; exit 1; }; \
+	case "$$dest" in *"/en/") ;; *) \
+	  echo "FAIL: / redirects to '$$dest', expected it to end in /en/"; exit 1 ;; esac; \
+	echo "  ok  / -> 302 $$dest"; \
 	echo; \
 	echo "  A mistyped path must be a REAL 404."; \
 	echo "  This is the check onerate-landing cannot make. Its Pages project has no custom 404,"; \
@@ -146,7 +164,8 @@ smoke: ## Check production: both locales serve, and a bad path is a real 404
 	  echo "typo now silently serves the home page. See wrangler.jsonc."; exit 1; }; \
 	echo "  ok  /en/no-such-page/ -> 404"; \
 	echo; \
-	curl -fsS $(PROD_URL)/tr/ | grep -q 'lang="tr"' \
+	tr_page=$$(curl -fsS $(PROD_URL)/tr/); \
+	echo "$$tr_page" | grep -q 'lang="tr"' \
 	  || { echo "FAIL: /tr/ is not being served as Turkish — check the locale fallback"; exit 1; }; \
 	echo "  ok  /tr/ is served as lang=tr"
 

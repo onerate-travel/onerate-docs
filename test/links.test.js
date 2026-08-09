@@ -86,6 +86,37 @@ describe('the built site', () => {
   });
 });
 
+describe('the site root', () => {
+  // Neither locale sits at the root, so Starlight builds no `dist/index.html` — `/` is a real 404
+  // and stays one until something redirects it. That is not a corner case: `docs.onerate.travel`
+  // with nothing after it is what a person types, and what onerate-landing links to.
+  //
+  // It shipped broken. The smoke target printed "ok  / -> 404 (a redirect to /en/ is expected)" —
+  // it echoed the status code beside the word "ok" without ever comparing them. A check that
+  // reports the value it did not assert on is worse than no check, because it is read as one.
+  // Hence this test, which asserts.
+  const redirects = join(DIST, '_redirects');
+
+  it('ships a _redirects file', () => {
+    expect(existsSync(redirects), 'public/_redirects must be copied into dist/ by the build').toBe(true);
+  });
+
+  it('sends / to the default locale', () => {
+    const rules = readFileSync(redirects, 'utf8')
+      .split('\n')
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith('#'));
+    const root = rules.find((rule) => rule.split(/\s+/)[0] === '/');
+    expect(root, `no rule for '/' among: ${rules.join(' | ')}`).toBeDefined();
+
+    const [, destination, status] = root.split(/\s+/);
+    expect(destination).toBe('/en/');
+    // 302, not 301. ROADMAP D4 keeps changing the default locale on the table, and a 301 is cached
+    // by browsers for a long time with no way to reach the ones that cached it.
+    expect(status).toBe('302');
+  });
+});
+
 describe('the two locales', () => {
   // `onerate-landing/CLAUDE.md`: "A `data-en` span without its `data-tr` sibling ships a
   // half-translated page." Same rule, one level up — here the unit is a page, not a span.
