@@ -4,7 +4,7 @@ The OneRate **end-user** documentation — the site served at <https://docs.oner
 
 It is written for the people who use the portal: agency owners, admins, agents, and the customers
 an agency invites. It is not contributor documentation. The spec, the ADRs and the roadmap live in
-[`suphero/onerate`](https://github.com/suphero/onerate) and stay there.
+[`suphero/onerate-app`](https://github.com/suphero/onerate-app) and stay there.
 
 Split out of the product monorepo for the reason `docs/ADR-0009-landing-repo-split.md` records for
 the promo page, and on the same evidence: this is a content artifact with no place in the

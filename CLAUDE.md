@@ -1,7 +1,7 @@
 # onerate-docs — Agent Instructions
 
 The OneRate **end-user** documentation site, served at `docs.onerate.travel`. Astro + Starlight,
-fully bilingual. Split out of `suphero/onerate` — see `docs/ADR-0012-docs-site.md` there.
+fully bilingual. Split out of `suphero/onerate-app` — see `docs/ADR-0012-docs-site.md` there.
 
 ## What belongs here, and what does not
 
@@ -21,7 +21,7 @@ The dividing line: **if the reader could not act on it from the portal, it is no
 NO CLAIM ABOUT THE PRODUCT WITHOUT READING THE PRODUCT
 ```
 
-Before writing that a screen does something, read it in `suphero/onerate`:
+Before writing that a screen does something, read it in `suphero/onerate-app`:
 
 - `apps/web/src/locales/en.json` and `tr.json` — **the canonical source of terminology.** Every
   term this site uses must be the term the portal uses, in that language. `tr.json` says
@@ -55,7 +55,7 @@ vacuously over an empty directory.
 
 - Code, comments, commits, config, this file, `README.md`: **English**.
 - Page content: **fully bilingual, English default, Turkish second** — matching the product's own
-  rule (`onerate/CLAUDE.md`, "Language conventions").
+  rule (`onerate-app/CLAUDE.md`, "Language conventions").
 - **An English page without its Turkish counterpart ships a half-translated site**, and it does so
   invisibly: Starlight falls back to the default locale, so the Turkish reader gets a complete
   English page with a small notice and the build stays green. The locale-parity test is what makes

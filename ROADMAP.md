@@ -37,7 +37,7 @@ portal does not link here at all.
 
 The portal half is the one that matters: a user hits a message they do not understand *inside the
 portal*, and there is currently nothing on that screen pointing at the page that explains it. That
-is a change in `suphero/onerate` (`apps/web`), not here.
+is a change in `suphero/onerate-app` (`apps/web`), not here.
 
 **Acceptance scenarios:**
 
