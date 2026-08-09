@@ -1,7 +1,8 @@
 # onerate-docs — deploying from a laptop when CI cannot.
 #
 # WHY THIS EXISTS. The GitHub Actions workflow is the normal path and should stay it: it deploys
-# from a clean checkout of a named branch, and a laptop cannot promise that. This file is for the
+# from a clean checkout of whatever ref was dispatched, and a laptop cannot promise that. This
+# file is for the
 # day Actions itself is unavailable — as on 2026-08-04, when every job in the monorepo refused to
 # start on an account billing failure — and the choice is between shipping from here and not
 # shipping. It mirrors `suphero/onerate-app`'s Makefile, target for target, for the same reasons.
@@ -42,8 +43,13 @@ gate: ## build + test + astro check — the workflow's three steps, in its order
 
 # ---- Guards -----------------------------------------------------------------------------------
 #
-# CI deploys from a clean checkout of a named branch. A laptop can be on anything, with anything
-# uncommitted, so the two facts CI gets for free are asserted here instead.
+# CI deploys from a clean checkout of the dispatched ref. A laptop can be on anything, with
+# anything uncommitted, so the facts CI gets for free are asserted here instead.
+#
+# These are STRICTER than the workflow, deliberately. The workflow guards production's ref and
+# nothing else — it cannot see a dirty tree or an unpushed commit, because it never sees your
+# laptop. `require-branch-staging` has no counterpart there at all; it is here because deploying
+# a staging preview off an arbitrary branch is a thing you do by accident, not on purpose.
 
 .PHONY: require-clean
 require-clean:
@@ -67,8 +73,9 @@ require-branch-%:
 	  echo "Check out $* before deploying."; exit 1; }; \
 	if [ "$$branch" != "$*" ]; then \
 	  echo "refusing: on '$$branch', not '$*'."; \
-	  echo "The workflow gates each environment on its branch (deploy.yml: github.ref_name)."; \
-	  echo "Deploying staging's HEAD to production is exactly the divergence that gate prevents."; \
+	  echo "Production is dispatched from main only (deploy.yml refuses any other ref), and a"; \
+	  echo "staging publish belongs on staging. Deploying one branch's HEAD as the other is"; \
+	  echo "exactly the divergence these branches exist to keep apart."; \
 	  exit 1; fi
 	@if ! git rev-parse --verify --quiet HEAD >/dev/null; then \
 	  echo "refusing: '$*' has no commits yet."; \

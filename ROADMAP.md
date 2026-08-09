@@ -5,28 +5,35 @@ Open items only, in priority order, each with the test scenarios that close it. 
 
 ---
 
-## D1 — Owner actions before this site can go live
+## D1 — The workflow has no Cloudflare credentials — P1
 
-Not code. Nothing below can be done from this repo, and the site is not reachable until all three
-are.
+The site is live and the repository is pushed, but **this repo has no secrets at all**, so
+`.github/workflows/deploy.yml` cannot deploy. Every deploy so far has come off a laptop through
+`make deploy-prod`, which uses a personal `wrangler login` session. That works, and it means the
+ability to ship this site currently belongs to one machine.
 
-1. **Create the GitHub repository** `suphero/onerate-docs` (private) and push `main`.
-2. **Create a Cloudflare API token** scoped to `Account · Workers Scripts · Edit` on this account
-   and nothing else, and set `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` as repository
-   secrets.
+Set `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as repository secrets, with a token scoped
+to `Account · Workers Scripts · Edit` **and nothing else**.
 
-   **Do not reuse the monorepo's token.** ADR-0009 §2 rejected exactly that for the landing repo:
-   that token also carries `D1: Edit`, so a repo that publishes static HTML would gain the ability
-   to run migrations against production D1. The same argument applies here unchanged.
+**Do not reuse the app repo's token.** ADR-0009 §2 rejected exactly that for the landing repo: that
+token also carries `D1: Edit`, so a repo that publishes static HTML would gain the ability to run
+migrations against production D1. The argument applies here unchanged.
 
-   It must also not reuse the landing repo's token, which is `Pages: Edit` — the wrong product for
-   an assets-only Worker.
-3. **Add the `docs.onerate.travel` custom domain** to the `onerate-docs` Worker. `wrangler.jsonc`
-   declares the route; the hostname still has to exist in DNS on the `onerate.travel` zone.
+It must also not reuse the landing repo's token, which is `Pages: Edit` — the wrong product for an
+assets-only Worker.
 
-**Acceptance:** `curl -sS https://docs.onerate.travel/` returns 200 and the English home page;
-`curl -sS https://docs.onerate.travel/tr/` returns the Turkish one; a mistyped path returns **404**
-(not 200 — see `wrangler.jsonc`, and ADR-0009 §3 for why the distinction is load-bearing).
+**Acceptance scenarios:**
+
+- `gh workflow run deploy.yml --ref main -f environment=production` completes green, and the
+  workflow's own credentials guard does not fire.
+- `gh workflow run deploy.yml --ref staging -f environment=staging` publishes a preview URL and
+  leaves `docs.onerate.travel` on its previous version.
+- `make smoke` passes against production afterwards: both locales 200, `/` a 302 to `/en/`, a
+  mistyped path a real 404.
+
+*(Blocked in practice while GitHub Actions is refusing to start jobs on the account's billing
+failure — the same outage recorded at the top of the app repo's Makefile. The laptop path is why
+that is an inconvenience rather than a stoppage.)*
 
 ---
 

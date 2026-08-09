@@ -53,8 +53,16 @@ assertion it has.
 
 ## Deploying
 
-Push. `staging` publishes a preview URL, `main` publishes `docs.onerate.travel`. Both run the build
-and the test suite first and refuse to deploy on red.
+**Nothing deploys on a push.** The workflow has no push trigger at all — same shape as
+`suphero/onerate-app`'s `ci.yml`. Every deploy is dispatched by hand, and every dispatch runs the
+full gate before it publishes.
+
+```bash
+gh workflow run deploy.yml --ref staging -f environment=staging   # a preview URL
+gh workflow run deploy.yml --ref main    -f environment=production # docs.onerate.travel
+```
+
+Production refuses to run from any ref but `main`, loudly.
 
 ### From a laptop, when Actions cannot run
 

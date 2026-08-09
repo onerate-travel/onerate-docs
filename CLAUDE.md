@@ -87,9 +87,15 @@ new, so the choice was free.
 `not_found_handling: "404-page"`, never `"single-page-application"` — the SPA setting answers every
 mistyped URL with 200 and the home page, which is the exact failure ADR-0009 §3 documents.
 
-`staging` → preview URL, `main` → `docs.onerate.travel`. Both gated on build + test.
+**Nothing deploys on a push.** `.github/workflows/deploy.yml` has no push trigger at all, mirroring
+`suphero/onerate-app`'s ci.yml: every deploy is an explicit `workflow_dispatch` with an
+`environment`, and production refuses to run from any ref but `main`.
+`environment=staging` → preview URL, `environment=production` → `docs.onerate.travel`. Both run the
+full gate first.
 
 ## Commits
 
-Conventional Commits. Run `npm run build && npm test && npm run check` before pushing. The workflow
-runs them too and refuses to deploy on red, but finding out locally is faster.
+Conventional Commits. Run `npm run build && npm test && npm run check` before pushing.
+
+Nothing runs on a push, so a green push proves nothing — the first thing that would tell you the
+suite is red is a deploy you dispatched on purpose. Run it yourself.
