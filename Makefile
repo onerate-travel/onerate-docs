@@ -142,9 +142,9 @@ deploy-prod: require-clean require-branch-main preflight gate ## Deploy to docs.
 #    Turkish while it was being served perfectly.
 
 .PHONY: smoke
-smoke: ## Check production: both locales serve, / redirects, and a bad path is a real 404
+smoke: ## Check production: all seven locales serve, / redirects, and a bad path is a real 404
 	@set -euo pipefail; \
-	for path in /en/ /tr/ /en/booking/statuses/ /tr/booking/statuses/; do \
+	for path in /en/ /tr/ /bg/ /hu/ /it/ /pl/ /ro/ /en/booking/statuses/ /tr/booking/statuses/; do \
 	  code=$$(curl -s -o /dev/null -w '%{http_code}' $(PROD_URL)$$path); \
 	  [ "$$code" = "200" ] || { echo "FAIL: $$path returned $$code, expected 200"; exit 1; }; \
 	  echo "  ok  $$path"; \

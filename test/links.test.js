@@ -33,8 +33,13 @@ const CONFIG = readFileSync(join(ROOT, 'astro.config.mjs'), 'utf8');
  * Deriving it means the failure mode inverts — a language added to the config is checked from that
  * moment, and a language REMOVED from the config stops being checked without an edit here either.
  * The `length` guard below is what stops a changed config format from emptying the set silently.
+ *
+ * `\s+`, not a counted indent: the shape of the entry is what identifies a locale, and coupling
+ * the match to Prettier's current indent width would turn a reformat into an empty locale set.
+ * The guard would catch that — but a guard that fires on a formatting change is a guard that
+ * trains you to ignore it.
  */
-const LOCALES = [...CONFIG.matchAll(/^\s{8}(\w{2}): \{ label: /gm)].map((match) => match[1]);
+const LOCALES = [...CONFIG.matchAll(/^\s+(\w{2}): \{ label: /gm)].map((match) => match[1]);
 
 function walk(dir, ext) {
   if (!existsSync(dir)) return [];
@@ -128,6 +133,20 @@ describe('the site root', () => {
     // 302, not 301. ROADMAP D4 keeps changing the default locale on the table, and a 301 is cached
     // by browsers for a long time with no way to reach the ones that cached it.
     expect(status).toBe('302');
+  });
+
+  it('ships robots.txt pointing at the sitemap the build emits', () => {
+    // `site` in astro.config.mjs exists so Starlight builds the sitemap — but a sitemap nothing
+    // announces is a file, not a signal. robots.txt is the one place every crawler looks for it,
+    // so it must ship, and the URL it names must be the file the build actually produced: a
+    // pointer at a renamed sitemap fails nowhere here and surfaces weeks later in Search Console.
+    const robots = join(DIST, 'robots.txt');
+    expect(existsSync(robots), 'public/robots.txt must be copied into dist/ by the build').toBe(true);
+
+    const sitemap = readFileSync(robots, 'utf8').match(/^Sitemap:\s*(\S+)\s*$/m)?.[1];
+    expect(sitemap, 'robots.txt must carry a Sitemap: line').toBeDefined();
+    expect(sitemap).toBe('https://docs.onerate.travel/sitemap-index.xml');
+    expect(existsSync(join(DIST, 'sitemap-index.xml')), 'the sitemap robots.txt names must exist in dist/').toBe(true);
   });
 });
 

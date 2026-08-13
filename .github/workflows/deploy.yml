@@ -71,9 +71,11 @@ jobs:
           echo "::error::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set for the '${{ inputs.environment }}' environment. See ROADMAP.md item D1 — the token must be scoped to 'Account · Workers Scripts · Edit' and must not be the app or landing repo's."
           exit 1
 
-      - uses: actions/checkout@v4
+      # Pinned to commit SHAs, not tags: a tag is mutable, and this job holds the Cloudflare
+      # token. Same convention as onerate-egress's ci.yml, for the same reason.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
           cache: npm

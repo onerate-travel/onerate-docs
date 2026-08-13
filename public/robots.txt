@@ -1,0 +1,8 @@
+# Allow everything. The comment atop astro.config.mjs says why `site` is set at all: being
+# findable in seven languages is this site's entire point. The Sitemap line is the reason this
+# file exists — robots.txt is the one place every crawler looks for it, and without it the
+# sitemap-index.xml the build emits is published but never announced.
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.onerate.travel/sitemap-index.xml

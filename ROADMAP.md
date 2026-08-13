@@ -28,7 +28,7 @@ assets-only Worker.
   workflow's own credentials guard does not fire.
 - `gh workflow run deploy.yml --ref staging -f environment=staging` publishes a preview URL and
   leaves `docs.onerate.travel` on its previous version.
-- `make smoke` passes against production afterwards: both locales 200, `/` a 302 to `/en/`, a
+- `make smoke` passes against production afterwards: all seven locales 200, `/` a 302 to `/en/`, a
   mistyped path a real 404.
 
 *(Blocked in practice while GitHub Actions is refusing to start jobs on the account's billing
@@ -48,9 +48,10 @@ is a change in `suphero/onerate-app` (`apps/web`), not here.
 
 **Acceptance scenarios:**
 
-- The portal's header or footer carries a documentation link, in both locales, on every panel
-  screen.
-- The link resolves to the reader's own language: a portal set to `tr` opens `/tr/`, not `/en/`.
+- The portal's header or footer carries a documentation link, in all seven locales (`en`, `tr`,
+  `bg`, `hu`, `it`, `pl`, `ro`), on every panel screen.
+- The link resolves to the reader's own language, and does so for all seven: a portal set to `tr`
+  opens `/tr/`, not `/en/` — and likewise for each of the other five.
 - `onerate.travel` → `docs.onerate.travel` → `app.onerate.travel` is navigable without typing a URL.
 
 ---
@@ -69,15 +70,15 @@ Take them once the portal's UI has stopped moving, and only for screens where pr
 
 **Acceptance scenarios:**
 
-- Each screenshot exists in both locales (the portal renders in both; one English screenshot on a
-  Turkish page is a half-translated page by another route).
+- Each screenshot exists in all seven locales (the portal renders in all of them; one English
+  screenshot on a Turkish page is a half-translated page by another route).
 - Each has meaningful alt text, in the page's language.
 - A check exists that fails when a screenshot is older than the UI it depicts, or the images are
   excluded from this rule with a recorded reason.
 
 ---
 
-## D4 — Both locales are prefixed; neither is at the root
+## D4 — All seven locales are prefixed; none is at the root
 
 `docs.onerate.travel/` redirects to `/en/`. The reasoning is in the comment at the top of
 `astro.config.mjs`: English-first is the project's writing convention, the reader is a Turkish
@@ -92,4 +93,5 @@ are what make that change cheap.
 **Acceptance scenarios (when it fires):**
 
 - Every existing `/en/…` URL still resolves, by redirect if not directly. Saved links do not break.
-- The language switcher still offers both, and still lands on the same page in the other language.
+- The language switcher still offers all seven, and still lands on the same page in the chosen
+  language.
