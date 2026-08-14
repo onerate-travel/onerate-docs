@@ -54,9 +54,9 @@ assertion it has.
 
 ## Deploying
 
-**Nothing deploys on a push.** The workflow has no push trigger at all — same shape as
-`onerate-travel/onerate-app`'s `ci.yml`. Every deploy is dispatched by hand, and every dispatch runs the
-full gate before it publishes.
+**A push to `main` deploys**, after the full gate — same shape as `onerate-travel/onerate-app`'s
+`ci.yml`. A preview is dispatched by hand instead, since this repo has no `staging` branch. Either
+way the gate runs before anything publishes.
 
 ```bash
 gh workflow run deploy.yml --ref staging -f environment=staging   # a preview URL

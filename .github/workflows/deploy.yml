@@ -1,19 +1,26 @@
 name: Deploy
 
-# ENTIRELY on demand, mirroring `onerate-travel/onerate-app`'s ci.yml: there is no push or pull_request
-# trigger, so nothing runs automatically — not the gate, not a deploy. Every run is dispatched
-# explicitly.
+# A push to `main` publishes docs.onerate.travel, after the full gate. That is the only automatic
+# path: this repo has no `staging` branch and is not getting one, so staging stays a deliberate
+# rehearsal you ask for by hand. Unlike onerate-app — which does split staging and main across two
+# branches — the docs site has one live surface and a preview URL, not two environments people work
+# against in parallel.
 #
-# A dispatched run always runs the gate first, because the deploy steps come after it in the same
-# job: manual does not mean unchecked. `environment` is required, so every dispatch that passes the
-# gate also deploys — there is no gate-only dispatch; run `npm run build && npm test` locally.
+# `inputs.environment || 'production'` is how the two triggers meet, and it is written that way
+# rather than tested against `github.event_name`: on a push the `inputs` context is empty, so the
+# fallback fires; on a dispatch the input is required and always set. One short expression, no
+# event-name branch to keep in step with the trigger list.
 #
-#   gh workflow run deploy.yml --ref staging -f environment=staging
-#   gh workflow run deploy.yml --ref main    -f environment=production
+# The gate runs either way, because the deploy steps come after it in the same job: automatic does
+# not mean unchecked, exactly as manual did not. To rehearse on the preview URL, or to re-run after
+# a flake:
+#   gh workflow run deploy.yml --ref main -f environment=staging
 #
-# Or `make deploy-prod`, which runs the same gate on your laptop and adds the three guards a
-# dispatch cannot check — clean tree, right branch, branch pushed.
+# Or `make deploy-prod`, which runs the same gate on your laptop and adds the guards a trigger
+# cannot check — clean tree, right branch, branch pushed.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       environment:
@@ -28,15 +35,16 @@ on:
 permissions:
   contents: read
 
-# Two dispatches must not interleave. Keyed by environment: a preview upload has no reason to queue
+# Two runs must not interleave. Keyed by environment: a preview upload has no reason to queue
 # behind a production deploy. `cancel-in-progress: false` is the load-bearing half — cancelling a
 # deploy mid-flight is a worse state than waiting.
 #
-# No `|| github.ref` fallback on the key: this workflow has exactly one trigger, so
-# `inputs.environment` is always set, and a condition that cannot fail is read as a guard that does
-# something (onerate-app, R11.8).
+# The key used to be a bare `inputs.environment`, on the argument that one trigger made it
+# impossible to be empty (onerate-app, R11.8). There are two triggers now and a push leaves it
+# empty, so the fallback is not decoration — without it every pushed run would share one nameless
+# concurrency group with every dispatched one.
 concurrency:
-  group: deploy-${{ inputs.environment }}
+  group: deploy-${{ inputs.environment || 'production' }}
   cancel-in-progress: false
 
 jobs:
@@ -45,19 +53,19 @@ jobs:
   # commands, so they cannot collapse into one line. They can still share one gate, and sharing it
   # is the point: duplicated jobs would duplicate the gate and give the copies somewhere to drift.
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
     timeout-minutes: 15
     # A GitHub environment, so the Cloudflare token can be scoped to it rather than repo-wide and a
     # required reviewer or wait timer can be attached in repo settings WITHOUT another code change.
     # Declaring it does not itself gate anything; it creates the place a gate can hang.
-    environment: ${{ inputs.environment }}
+    environment: ${{ inputs.environment || 'production' }}
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       # First, before the checkout: a dispatch from the wrong ref should cost nothing.
       - name: Production ships from main only
-        if: inputs.environment == 'production' && github.ref != 'refs/heads/main'
+        if: (inputs.environment || 'production') == 'production' && github.ref != 'refs/heads/main'
         run: |
           echo "::error::production deploys must be dispatched from main (got ${{ github.ref }})"
           exit 1
@@ -68,7 +76,7 @@ jobs:
       - name: Cloudflare credentials must exist
         if: env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == ''
         run: |
-          echo "::error::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set for the '${{ inputs.environment }}' environment. See ROADMAP.md item D1 — the token must be scoped to 'Account · Workers Scripts · Edit' and must not be the app or landing repo's."
+          echo "::error::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set for the '${{ inputs.environment || 'production' }}' environment. See ROADMAP.md item D1 — the token must be scoped to 'Account · Workers Scripts · Edit' and must not be the app or landing repo's."
           exit 1
 
       # Pinned to commit SHAs, not tags: a tag is mutable, and this job holds the Cloudflare
@@ -103,5 +111,5 @@ jobs:
         run: npx wrangler versions upload
 
       - name: Deploy (production)
-        if: inputs.environment == 'production'
+        if: (inputs.environment || 'production') == 'production'
         run: npx wrangler deploy

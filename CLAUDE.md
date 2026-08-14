@@ -102,15 +102,19 @@ new, so the choice was free.
 `not_found_handling: "404-page"`, never `"single-page-application"` — the SPA setting answers every
 mistyped URL with 200 and the home page, which is the exact failure ADR-0009 §3 documents.
 
-**Nothing deploys on a push.** `.github/workflows/deploy.yml` has no push trigger at all, mirroring
-`onerate-travel/onerate-app`'s ci.yml: every deploy is an explicit `workflow_dispatch` with an
-`environment`, and production refuses to run from any ref but `main`.
-`environment=staging` → preview URL, `environment=production` → `docs.onerate.travel`. Both run the
-full gate first.
+**A push to `main` publishes `docs.onerate.travel`**, after the full gate. That is the only
+automatic path — this repo has no `staging` branch, so a preview is something you ask for:
+`gh workflow run deploy.yml --ref main -f environment=staging`. Both routes run the same gate first,
+and production still refuses to run from any ref but `main`.
+
+This reverses the on-demand design the repo carried until the move to a self-hosted runner. That
+design existed because CI minutes were billed and scarce; they are not metered on our own runner, so
+the reason went with the meter. See `onerate-travel/onerate-app`'s `docs/ADR-0013-automatic-deploy-triggers.md`.
 
 ## Commits
 
 Conventional Commits. Run `npm run build && npm test && npm run check` before pushing.
 
-Nothing runs on a push, so a green push proves nothing — the first thing that would tell you the
-suite is red is a deploy you dispatched on purpose. Run it yourself.
+A push to `main` runs the gate AND publishes if it passes, so a red suite now stops the deploy
+instead of being discovered by one. Run the checks locally anyway: on `main` the first thing a
+failure costs is a broken deploy attempt, and the runner is a shared box you queue behind.
