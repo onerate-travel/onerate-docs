@@ -54,9 +54,11 @@ assertion it has.
 
 ## Deploying
 
-**A push to `main` deploys**, after the full gate — same shape as `onerate-travel/onerate-app`'s
-`ci.yml`. A preview is dispatched by hand instead, since this repo has no `staging` branch. Either
-way the gate runs before anything publishes.
+**A push to `main` deploys**, after the full gate. A preview is dispatched by hand instead, since
+this repo has no `staging` branch. Either way the gate runs before anything publishes.
+
+Unlike `onerate-travel/onerate-app`, which went back to `workflow_dispatch` only — its gate is far
+heavier and a red one there blocked shipping entirely.
 
 ```bash
 gh workflow run deploy.yml --ref staging -f environment=staging   # a preview URL
