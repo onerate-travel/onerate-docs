@@ -4,7 +4,7 @@ The OneRate **end-user** documentation — the site served at <https://docs.oner
 
 It is written for the people who use the portal: agency owners, admins, agents, and the customers
 an agency invites. It is not contributor documentation. The spec, the ADRs and the roadmap live in
-[`suphero/onerate-app`](https://github.com/suphero/onerate-app) and stay there.
+[`onerate-travel/onerate-app`](https://github.com/onerate-travel/onerate-app) and stay there.
 
 Split out of the product monorepo for the reason `docs/ADR-0009-landing-repo-split.md` records for
 the promo page, and on the same evidence: this is a content artifact with no place in the
@@ -55,7 +55,7 @@ assertion it has.
 ## Deploying
 
 **Nothing deploys on a push.** The workflow has no push trigger at all — same shape as
-`suphero/onerate-app`'s `ci.yml`. Every deploy is dispatched by hand, and every dispatch runs the
+`onerate-travel/onerate-app`'s `ci.yml`. Every deploy is dispatched by hand, and every dispatch runs the
 full gate before it publishes.
 
 ```bash

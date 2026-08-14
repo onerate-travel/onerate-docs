@@ -40,7 +40,7 @@ export default defineConfig({
       defaultLocale: 'en',
       /**
        * The seven languages the product ships in, matching the portal's own `LOCALES`
-       * (suphero/onerate-app, packages/core/src/locales.ts). Every label is an ENDONYM — a Polish
+       * (onerate-travel/onerate-app, packages/core/src/locales.ts). Every label is an ENDONYM — a Polish
        * reader scans the language menu for "Polski", and would not recognise "Polish" on a page
        * otherwise in Bulgarian.
        *

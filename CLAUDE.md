@@ -1,7 +1,7 @@
 # onerate-docs — Agent Instructions
 
 The OneRate **end-user** documentation site, served at `docs.onerate.travel`. Astro + Starlight,
-in seven languages. Split out of `suphero/onerate-app` — see `docs/ADR-0012-docs-site.md` there.
+in seven languages. Split out of `onerate-travel/onerate-app` — see `docs/ADR-0012-docs-site.md` there.
 
 ## What belongs here, and what does not
 
@@ -21,7 +21,7 @@ The dividing line: **if the reader could not act on it from the portal, it is no
 NO CLAIM ABOUT THE PRODUCT WITHOUT READING THE PRODUCT
 ```
 
-Before writing that a screen does something, read it in `suphero/onerate-app`:
+Before writing that a screen does something, read it in `onerate-travel/onerate-app`:
 
 - `apps/web/src/locales/*.json` — **the canonical source of terminology**, one file per language.
   Every term this site uses must be the term the portal uses, in that language. `tr.json` says
@@ -103,7 +103,7 @@ new, so the choice was free.
 mistyped URL with 200 and the home page, which is the exact failure ADR-0009 §3 documents.
 
 **Nothing deploys on a push.** `.github/workflows/deploy.yml` has no push trigger at all, mirroring
-`suphero/onerate-app`'s ci.yml: every deploy is an explicit `workflow_dispatch` with an
+`onerate-travel/onerate-app`'s ci.yml: every deploy is an explicit `workflow_dispatch` with an
 `environment`, and production refuses to run from any ref but `main`.
 `environment=staging` → preview URL, `environment=production` → `docs.onerate.travel`. Both run the
 full gate first.
