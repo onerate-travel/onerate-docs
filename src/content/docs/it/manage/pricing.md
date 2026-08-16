@@ -5,8 +5,11 @@ description: La tua valuta di vendita, il margine applicato a ogni tariffa, come
 
 ## Valuta di vendita
 
-La tua agenzia vende in una sola valuta, impostata nella barra superiore (titolari e amministratori)
-o in [Impostazioni](/it/manage/settings/).
+La tua agenzia vende in una sola valuta, impostata da un titolare o un amministratore in
+[Impostazioni](/it/manage/settings/), sezione **Prezzi dell'agenzia**.
+
+Ogni agente può vendere anche nella propria: **I miei prezzi**, nel menu utente. Lasciandolo vuoto
+segui quella dell'agenzia.
 
 Questa **non è una preferenza di visualizzazione.** Decide:
 
@@ -24,8 +27,8 @@ Le conseguenze, che vedrai tutte nel portale:
 - Le offerte in un'altra valuta sono **prenotabili**, ed etichettate per quello che sono davvero.
 - **Non vengono ordinate** insieme alle tue offerte in valuta di vendita. "Più economico" fra due
   valute non è un fatto che OneRate possa affermare.
-- Nei [Report](/it/manage/reports/), le prenotazioni in un'altra valuta sono **escluse dai totali**,
-  e il report dice quante sono e in quali valute.
+- Nei [Report](/it/manage/reports/) ottieni **un totale per ogni valuta**, per prima quella della
+  tua agenzia. Due valute non vengono sommate, ma nessuna riga resta fuori dal report.
 
 Se la maggior parte del tuo lavoro è in una valuta, imposta quella come valuta di vendita e la
 questione si presenta di rado. Se davvero commerci in due, aspettati due serie di numeri, perché è
@@ -36,8 +39,16 @@ quello che hai.
 Il tuo margine è la differenza fra quello che ti addebita il fornitore (**netto**) e quello a cui
 vendi (**vendita**).
 
-Impostalo nella barra superiore sotto **Margine predefinito**, come percentuale — `12,5` per dodici
-e mezzo per cento. Premi **Applica**.
+Il margine dell'agenzia lo imposta un titolare o un amministratore in
+[Impostazioni](/it/manage/settings/), sezione **Prezzi dell'agenzia**, come percentuale — `12,5` per
+dodici e mezzo per cento.
+
+Ogni agente può impostare il proprio in **I miei prezzi**, nel menu utente. Un campo lasciato vuoto
+segue l'agenzia; un numero la sostituisce per i preventivi e le prenotazioni di quell'agente.
+
+Il margine è una **percentuale** sul netto. Un importo fisso per prenotazione non è qualcosa che
+OneRate possa aggiungere: dovrebbe essere espresso in una valuta, e OneRate non ne converte
+nessuna.
 
 Da quel momento, ogni prezzo nel portale — l'elenco risultati, la pagina dell'hotel, la schermata di
 riepilogo, quello che vedono i tuoi clienti — lo include.

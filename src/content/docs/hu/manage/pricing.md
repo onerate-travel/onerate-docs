@@ -5,8 +5,11 @@ description: Az eladási pénznemed, a minden árra rákerülő árrés, hogyan 
 
 ## Eladási pénznem
 
-Az irodád egyetlen pénznemben ad el, amelyet a felső sávban (tulajdonosok és adminisztrátorok) vagy
-a [Beállításokban](/hu/manage/settings/) állítasz be.
+Az irodád egyetlen pénznemben ad el, amelyet tulajdonos vagy adminisztrátor állít be a
+[Beállításokban](/hu/manage/settings/), az **Iroda árazása** részben.
+
+Minden ügyintéző a sajátjában is eladhat: **Az én árazásom** a felhasználói menüben. Ha üresen
+hagyod, az irodáét követed.
 
 Ez **nem megjelenítési beállítás.** Ez dönti el:
 
@@ -24,8 +27,8 @@ A következmények, amelyeket mind látni fogsz a portálon:
 - A más pénznemű ajánlatok **lefoglalhatók**, és pontosan azzal vannak felcímkézve, amik.
 - **Nem rangsoroljuk** őket az eladási pénznemű ajánlataid mellé. Az „olcsóbb” két pénznem között
   nem olyan tény, amelyet a OneRate kimondhatna.
-- A [Riportokban](/hu/manage/reports/) a más pénznemű foglalások **kimaradnak az összesítésekből**,
-  és a riport megmondja, hányról és mely pénznemekről van szó.
+- A [Riportokban](/hu/manage/reports/) **pénznemenként egy összesítést** kapsz, elsőként az
+  irodádét. Két pénznem nem adódik össze, de egyetlen sor sem marad ki a riportból.
 
 Ha az üzleted java egy pénznemben van, állítsd be azt eladási pénznemnek, és ez ritkán kerül elő. Ha
 tényleg kettőben kereskedsz, számíts két számsorra, mert ennyid van.
@@ -35,8 +38,15 @@ tényleg kettőben kereskedsz, számíts két számsorra, mert ennyid van.
 Az árrésed az a különbség, ami aközött van, amit a beszállító felszámít neked (**nettó**), és amiért
 eladod (**eladás**).
 
-A felső sávban, az **Alapértelmezett árrés** alatt állítod be, százalékban — `12,5` tizenkét és fél
-százalékra. Nyomd meg az **Alkalmaz** gombot.
+Az iroda árrését tulajdonos vagy adminisztrátor állítja be a [Beállításokban](/hu/manage/settings/),
+az **Iroda árazása** részben, százalékban — `12,5` tizenkét és fél százalékra.
+
+Minden ügyintéző beállíthatja a sajátját **Az én árazásom** alatt a felhasználói menüben. Az ott
+üresen hagyott mező az irodát követi; a beírt szám felülírja azt az adott ügyintéző saját ajánlataira
+és foglalásaira.
+
+Az árrés a nettó **százaléka**. Foglalásonkénti fix összeget a OneRate nem tud hozzáadni: valamelyik
+pénznemben kellene megadni, és a OneRate semmit nem vált át.
 
 Attól a pillanattól kezdve a portál minden ára — a találati lista, a szállodaoldal, az ellenőrző
 képernyő, amit az ügyfeleid látnak — tartalmazza.

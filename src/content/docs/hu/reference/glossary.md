@@ -63,8 +63,8 @@ szálloda, ellátás, visszatéríthetőség, lemondási határidő-sáv, létsz
 csoporton *belül* kerül automatikus kiválasztásra, csoportok között soha.
 [Több](/hu/what-is-onerate/).
 
-**Árrés** — amit a beszállítói nettóhoz adsz, hogy megkapd az eladási áradat. A felső sávban
-állítható. [Több](/hu/manage/pricing/).
+**Árrés** — amit a beszállítói nettóhoz adsz, hogy megkapd az eladási áradat. Százalék: az irodáé a
+Beállításokban, a sajátod **Az én árazásom** alatt. [Több](/hu/manage/pricing/).
 
 **Platform** — a OneRate saját munkatársainak szerepköre. Irodákat és beszállítói definíciókat hoz
 létre; szándékosan nem nyúlhat egyetlen iroda foglalásaihoz sem.

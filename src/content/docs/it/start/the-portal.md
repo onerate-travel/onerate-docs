@@ -38,13 +38,14 @@ fattori e le sessioni attive, e ogni ruolo ne ha uno.
 La barra in cima a ogni schermata del pannello porta le tre cose che cambiano quello che vedi
 ovunque in una volta sola.
 
-### Margine predefinito
+### I miei prezzi
 
-Il margine della tua agenzia su ogni tariffa fornitore, in percentuale. Cambialo qui, premi
-**Applica**, e da quel momento ogni prezzo mostrato dal portale lo include.
+Sotto il tuo nome nella barra: **il tuo** margine e **la tua** valuta di vendita, che ogni ruolo può
+impostare per sé. Lasciando un campo vuoto segui quelli dell'agenzia, impostati in
+[Impostazioni](/it/manage/settings/) da un titolare o un amministratore.
 
-Se non è impostato, non viene aggiunto nulla — stai vendendo al netto del fornitore. Il campo lo
-dice. Vedi [Prezzi e margine](/it/manage/pricing/).
+Se non è impostato nessuno dei due, non viene aggiunto nulla — stai vendendo al netto del fornitore.
+Il campo lo dice. Vedi [Prezzi e margine](/it/manage/pricing/).
 
 ### Valuta e lingua
 

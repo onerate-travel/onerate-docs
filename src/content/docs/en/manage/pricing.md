@@ -5,8 +5,11 @@ description: Your selling currency, the margin applied to every rate, how margin
 
 ## Selling currency
 
-Your agency sells in one currency, set in the header bar (owners and admins) or in
-[Settings](/en/manage/settings/).
+Your agency sells in one currency, set by an owner or admin in
+[Settings](/en/manage/settings/) under **Agency pricing**.
+
+Each agent may also sell in their own, under **My pricing** in the user menu. Leave that blank and
+you follow the agency's.
 
 This is **not a display preference.** It decides:
 
@@ -24,8 +27,8 @@ The consequences, all of which you will see in the portal:
 - Offers in another currency are **bookable**, and labelled with what they actually are.
 - They are **not ranked** against your selling-currency offers. "Cheaper" between two currencies is
   not a fact OneRate can state.
-- In [Reports](/en/manage/reports/), bookings in another currency are **excluded from the totals**,
-  and the report says how many and in which currencies.
+- In [Reports](/en/manage/reports/), you get **one total per currency**, your agency's first.
+  Nothing is added across two currencies, and nothing is left out of the report either.
 
 If most of your business is in one currency, set that as your selling currency and this rarely
 comes up. If you genuinely trade in two, expect two sets of numbers, because that is what you have.
@@ -35,8 +38,14 @@ comes up. If you genuinely trade in two, expect two sets of numbers, because tha
 Your margin is the difference between what the supplier charges you (**net**) and what you sell for
 (**sell**).
 
-Set it in the header bar under **Default margin**, as a percentage — `12,5` for twelve and a half
-per cent. Press **Apply**.
+An owner or admin sets the agency's in [Settings](/en/manage/settings/) under **Agency pricing**,
+as a percentage — `12,5` for twelve and a half per cent.
+
+Each agent can set their own under **My pricing** in the user menu. A blank field there follows the
+agency; a number overrides it for that agent's own quotes and bookings.
+
+Margins are a **percentage** of net. A fixed amount per booking is not something OneRate can add —
+it would have to be denominated in some currency, and it converts none.
 
 From that moment, every price in the portal — the results list, the hotel page, the review screen,
 what your customers see — includes it.
@@ -60,11 +69,12 @@ supplier it was.
 
 ## How margin is inherited
 
-Margins resolve down your organisation chain: your agency, then any customer beneath it.
+Margins resolve from the most specific level outwards: **the agent, then the customer, then the
+agency.**
 
-The rule is that **the nearest level that has a margin wins.** A customer with its own margin uses
-that one; a customer with none inherits yours. Clearing a customer's override falls back to your
-agency's value — not to zero.
+The rule is that **the nearest level that has a margin wins.** An agent with their own margin quotes
+under it; an agent with none falls back to the customer's, then to the agency's. Clearing an
+override falls back to the level above it — never to zero.
 
 This is the same inheritance the rest of your agency configuration uses, so it behaves the way you
 would expect from [Settings](/en/manage/settings/).

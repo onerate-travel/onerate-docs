@@ -41,8 +41,8 @@ What "that booking key was already used" refers to.
 checks could not establish whether the supplier took the booking. An owner or admin must check with
 the supplier and record the outcome.
 
-**Margin** — what you add to the supplier's net to get your sell price. Set in the header bar.
-[More](/en/manage/pricing/).
+**Margin** — what you add to the supplier's net to get your sell price. A percentage: the agency's
+in Settings, your own under **My pricing**. [More](/en/manage/pricing/).
 
 **Net** — what the supplier charges you. Visible to your agency, never to your customers.
 

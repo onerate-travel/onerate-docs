@@ -5,8 +5,11 @@ description: Satış para biriminiz, her fiyata uygulanan kâr, kârın müşter
 
 ## Satış para birimi
 
-Acenteniz tek bir para biriminde satar; bu, üst bardan (sahipler ve yöneticiler) ya da
-[Ayarlar](/tr/manage/settings/) sayfasından belirlenir.
+Acenteniz tek bir para biriminde satar; bunu bir sahip ya da yönetici
+[Ayarlar](/tr/manage/settings/) sayfasındaki **Acente fiyatlandırması** bölümünde belirler.
+
+Her temsilci kendi para biriminde de satabilir: kullanıcı menüsündeki **Fiyatlandırmam**. Orayı boş
+bırakırsanız acentenizinkini izlersiniz.
 
 Bu **bir görüntüleme tercihi değildir.** Şunlara karar verir:
 
@@ -24,8 +27,8 @@ Portalda göreceğiniz sonuçları:
 - Farklı para birimindeki teklifler **rezerve edilebilir** ve gerçekte ne oldukları etiketlenir.
 - Satış para birimindeki tekliflerle **sıralanmazlar**. İki para birimi arasında "daha ucuz",
   OneRate'in beyan edebileceği bir olgu değildir.
-- [Raporlar](/tr/manage/reports/)'da, farklı para birimindeki rezervasyonlar **toplamların
-  dışında bırakılır** ve rapor kaç tane olduğunu ve hangi para birimlerinde olduğunu söyler.
+- [Raporlar](/tr/manage/reports/)'da **her para birimi için ayrı bir toplam** alırsınız; önce
+  acentenizinki. İki para birimi toplanmaz, ama hiçbir satır da rapor dışında bırakılmaz.
 
 İşinizin çoğu tek para birimindeyse onu satış para biriminiz yapın; bu konu nadiren gündeme gelir.
 Gerçekten iki para biriminde ticaret yapıyorsanız iki ayrı sayı kümesi bekleyin, çünkü elinizdeki
@@ -36,8 +39,15 @@ Gerçekten iki para biriminde ticaret yapıyorsanız iki ayrı sayı kümesi bek
 Kârınız, tedarikçinin sizden aldığı tutar (**net**) ile sattığınız tutar (**satış**) arasındaki
 farktır.
 
-Üst bardaki **Varsayılan kâr** alanından yüzde olarak belirleyin — yüzde on iki buçuk için `12,5`.
-**Uygula**ya basın.
+Acentenin kârını bir sahip ya da yönetici [Ayarlar](/tr/manage/settings/) sayfasındaki **Acente
+fiyatlandırması** bölümünde yüzde olarak belirler — yüzde on iki buçuk için `12,5`.
+
+Her temsilci kendi kârını kullanıcı menüsündeki **Fiyatlandırmam** bölümünde belirleyebilir. Orada
+boş bırakılan alan acenteyi izler; girilen bir sayı, o temsilcinin kendi teklif ve rezervasyonları
+için acentenin değerini geçersiz kılar.
+
+Kâr net üzerinden **yüzdedir**. Rezervasyon başına sabit tutar OneRate'in ekleyebileceği bir şey
+değil: bir para biriminde ifade edilmesi gerekirdi ve OneRate hiçbir para birimini çevirmez.
 
 O andan itibaren portaldaki her fiyat — sonuç listesi, otel sayfası, gözden geçirme ekranı,
 müşterilerinizin gördüğü — bunu içerir.

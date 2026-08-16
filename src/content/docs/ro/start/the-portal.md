@@ -37,13 +37,14 @@ sesiunile active, iar fiecare rol are unul.
 Bara din partea de sus a fiecărui ecran din panou poartă cele trei lucruri care schimbă dintr-o
 dată ce vezi peste tot.
 
-### Marja implicită
+### Prețurile mele
 
-Marja agenției tale pe fiecare tarif de furnizor, în procente. Schimb-o aici, apasă **Aplică**, și
-din acel moment fiecare preț afișat de portal o include.
+Sub numele tău în bară: **marja ta** și **moneda ta de vânzare** — orice rol și le poate stabili. Un
+câmp lăsat gol urmează valorile agenției, stabilite în [Setări](/ro/manage/settings/) de un
+proprietar sau administrator.
 
-Dacă nu este setată, nu se adaugă nimic — vinzi la netul furnizorului. Câmpul îți spune asta. Vezi
-[Prețuri și marjă](/ro/manage/pricing/).
+Dacă niciuna nu este setată, nu se adaugă nimic — vinzi la netul furnizorului. Câmpul îți spune
+asta. Vezi [Prețuri și marjă](/ro/manage/pricing/).
 
 ### Monedă și limbă
 

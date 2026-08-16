@@ -34,8 +34,8 @@ automat *în interiorul* unui grup și niciodată între grupuri. [Mai mult](/ro
 a preluat rezervarea. OneRate reverifică până la 24 de ore. **Nu rezerva sejurul din nou cât timp
 este în această stare.**
 
-**Marjă** — ce adaugi la netul furnizorului pentru a obține prețul tău de vânzare. Se setează în bara
-de sus. [Mai mult](/ro/manage/pricing/).
+**Marjă** — ce adaugi la netul furnizorului pentru a obține prețul tău de vânzare. Un procent: cea a
+agenției în Setări, a ta la **Prețurile mele**. [Mai mult](/ro/manage/pricing/).
 
 **Masă** — ce include tariful: doar cazare, mic dejun inclus, demipensiune, pensiune completă,
 all-inclusive. Două tarife cu masă diferită **nu** sunt comparabile.

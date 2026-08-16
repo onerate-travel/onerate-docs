@@ -37,13 +37,14 @@ oturumlarınız. Her rolün bir hesabı vardır.
 
 Her panel ekranının üstündeki bar, her yeri aynı anda etkileyen üç şeyi taşır.
 
-### Varsayılan kâr
+### Fiyatlandırmam
 
-Acentenizin her tedarikçi fiyatına eklediği kâr, yüzde olarak. Buradan değiştirin, **Uygula**ya
-basın; o andan itibaren portalın gösterdiği her fiyat bunu içerir.
+Bardaki kendi adınızın altında: **sizin** kârınız ve **sizin** satış para biriminiz. Her rol
+kendisi için belirleyebilir. Bir alanı boş bırakırsanız acentenizinkini izlersiniz; onu bir sahip
+ya da yönetici [Ayarlar](/tr/manage/settings/)'da belirler.
 
-Ayarlanmamışsa hiçbir şey eklenmez — tedarikçinin net fiyatından satıyorsunuz demektir. Alan bunu
-söyler. Bkz. [Fiyatlandırma ve kâr](/tr/manage/pricing/).
+İkisi de ayarlanmamışsa hiçbir şey eklenmez — tedarikçinin net fiyatından satıyorsunuz demektir.
+Alan bunu söyler. Bkz. [Fiyatlandırma ve kâr](/tr/manage/pricing/).
 
 ### Para birimi ve dil
 

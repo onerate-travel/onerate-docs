@@ -37,8 +37,8 @@ pansiyon tipi, iade koşulu, iptal son tarihi aralığı, kapasite ve para birim
 *içinde* otomatik seçilir, gruplar arasında asla.
 [Devamı](/tr/what-is-onerate/#akılda-kalması-gereken-tek-fikir-karşılaştırılabilir-gruplar).
 
-**Kâr** — satış fiyatını elde etmek için tedarikçi netine eklediğiniz tutar. Üst bardan belirlenir.
-[Devamı](/tr/manage/pricing/).
+**Kâr** — satış fiyatını elde etmek için tedarikçi netine eklediğiniz oran. Yüzdedir: acentenin
+Ayarlar'da, sizin kendinizinki **Fiyatlandırmam**'da. [Devamı](/tr/manage/pricing/).
 
 **Kurumsal rezervasyon iletişimi** — tedarikçiye rezervasyonu yapan taraf olarak gönderilen
 acentenizin e-postası ve telefonu. Bu olmadan rezervasyon reddedilir.

@@ -31,8 +31,9 @@ diversi. [Altro](/it/what-is-onerate/).
 il fornitore abbia preso la prenotazione. OneRate ricontrolla fino a 24 ore. **Non prenotare di
 nuovo il soggiorno mentre è in questo stato.**
 
-**Margine** — quello che aggiungi al netto del fornitore per ottenere il tuo prezzo di vendita. Si
-imposta nella barra superiore. [Altro](/it/manage/pricing/).
+**Margine** — quello che aggiungi al netto del fornitore per ottenere il tuo prezzo di vendita. Una
+percentuale: quello dell'agenzia in Impostazioni, il tuo in **I miei prezzi**.
+[Altro](/it/manage/pricing/).
 
 **Modificata** — uno [stato della prenotazione](/it/booking/statuses/): il fornitore segnala che la
 prenotazione è stata cambiata. OneRate non ha un proprio percorso di modifica.

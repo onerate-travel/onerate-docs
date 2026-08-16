@@ -39,8 +39,8 @@ może wykonać się dwa razy. To do niego odnosi się „ten klucz rezerwacji zo
 **Kondycja** — bieżący widok OneRate na dostawcę: **Sprawny**, **Wraca do sprawności**,
 **Niedostępny**. To nie status umowy. [Więcej](/pl/manage/suppliers/).
 
-**Marża** — to, co dodajesz do netto dostawcy, aby uzyskać swoją cenę sprzedaży. Ustawiana w pasku
-górnym. [Więcej](/pl/manage/pricing/).
+**Marża** — to, co dodajesz do netto dostawcy, aby uzyskać swoją cenę sprzedaży. Procent: marżę
+agencji ustawia się w Ustawieniach, własną w **Moje ceny**. [Więcej](/pl/manage/pricing/).
 
 **Netto** — to, co nalicza Ci dostawca. Widoczne dla Twojej agencji, nigdy dla Twoich klientów.
 

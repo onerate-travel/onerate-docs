@@ -5,8 +5,11 @@ description: Twoja waluta sprzedaży, marża nakładana na każdą stawkę, jak 
 
 ## Waluta sprzedaży
 
-Twoja agencja sprzedaje w jednej walucie, ustawianej w pasku górnym (właściciele i administratorzy)
-albo w [Ustawieniach](/pl/manage/settings/).
+Twoja agencja sprzedaje w jednej walucie, ustawianej przez właściciela lub administratora w
+[Ustawieniach](/pl/manage/settings/), w sekcji **Ceny agencji**.
+
+Każdy agent może sprzedawać też we własnej: **Moje ceny** w menu użytkownika. Pozostawione puste
+pole oznacza walutę agencji.
 
 To **nie jest preferencja wyświetlania.** To decyduje:
 
@@ -24,8 +27,8 @@ Konsekwencje, wszystkie widoczne w portalu:
 - Oferty w innej walucie **można rezerwować** i są oznaczone tym, czym naprawdę są.
 - **Nie są zestawiane** z ofertami w Twojej walucie sprzedaży. „Taniej” pomiędzy dwiema walutami nie
   jest faktem, który OneRate mógłby stwierdzić.
-- W [Raportach](/pl/manage/reports/) rezerwacje w innej walucie są **wyłączone z sum**, a raport
-  podaje, ile ich jest i w jakich walutach.
+- W [Raportach](/pl/manage/reports/) otrzymujesz **jedną sumę na każdą walutę**, jako pierwszą tę
+  swojej agencji. Dwie waluty nie są dodawane do siebie, ale żaden wiersz nie wypada z raportu.
 
 Jeśli większość Twojego obrotu jest w jednej walucie, ustaw ją jako walutę sprzedaży, a temat rzadko
 wróci. Jeśli naprawdę handlujesz w dwóch, spodziewaj się dwóch zestawów liczb, bo tyle ich masz.
@@ -35,8 +38,14 @@ wróci. Jeśli naprawdę handlujesz w dwóch, spodziewaj się dwóch zestawów l
 Twoja marża to różnica między tym, co nalicza Ci dostawca (**netto**), a tym, za ile sprzedajesz
 (**sprzedaż**).
 
-Ustawisz ją w pasku górnym pod **Domyślną marżą**, jako procent — `12,5` dla dwunastu i pół procenta.
-Naciśnij **Zastosuj**.
+Marżę agencji ustawia właściciel lub administrator w [Ustawieniach](/pl/manage/settings/), w sekcji
+**Ceny agencji**, jako procent — `12,5` dla dwunastu i pół procenta.
+
+Każdy agent może ustawić własną w **Moje ceny** w menu użytkownika. Puste pole podąża za agencją;
+wpisana liczba zastępuje ją dla ofert i rezerwacji tego agenta.
+
+Marża jest **procentem** od netto. Stałej kwoty od rezerwacji OneRate dodać nie może: musiałaby być
+wyrażona w jakiejś walucie, a OneRate żadnej nie przelicza.
 
 Od tej chwili każda cena w portalu — lista wyników, strona hotelu, ekran podsumowania, to, co widzą
 Twoi klienci — ją zawiera.

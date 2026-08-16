@@ -37,13 +37,14 @@ sessions, and every role has one.
 The bar across the top of every panel screen carries the three things that change what you see
 everywhere at once.
 
-### Default margin
+### My pricing
 
-Your agency's margin on every supplier rate, as a percentage. Change it here, press **Apply**, and
-every price the portal shows from then on includes it.
+Under your own name in the bar: **your** margin and **your** selling currency, which every role can
+set for itself. Leave a field blank and you follow the agency's, set in
+[Settings](/en/manage/settings/) by an owner or admin.
 
-If it is unset, nothing is added — you are selling at the supplier's net price. The field says so.
-See [Pricing and margin](/en/manage/pricing/).
+If neither is set, nothing is added — you are selling at the supplier's net price. The field says
+so. See [Pricing and margin](/en/manage/pricing/).
 
 ### Currency and language
 

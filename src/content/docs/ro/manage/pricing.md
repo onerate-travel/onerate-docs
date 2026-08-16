@@ -5,8 +5,11 @@ description: Moneda ta de vânzare, marja aplicată fiecărui tarif, cum se moș
 
 ## Moneda de vânzare
 
-Agenția ta vinde într-o singură monedă, stabilită în bara de sus (proprietari și administratori) sau
-în [Setări](/ro/manage/settings/).
+Agenția ta vinde într-o singură monedă, stabilită de un proprietar sau administrator în
+[Setări](/ro/manage/settings/), la **Prețurile agenției**.
+
+Fiecare agent poate vinde și în moneda proprie: **Prețurile mele**, în meniul de utilizator. Lăsat
+gol, urmează moneda agenției.
 
 Aceasta **nu este o preferință de afișare.** Ea decide:
 
@@ -24,8 +27,8 @@ Consecințele, pe care le vei vedea toate în portal:
 - Ofertele în altă monedă **pot fi rezervate** și sunt etichetate cu ceea ce sunt de fapt.
 - **Nu sunt clasate** față de ofertele tale în moneda de vânzare. „Mai ieftin” între două monede nu
   este un fapt pe care OneRate să îl poată afirma.
-- În [Rapoarte](/ro/manage/reports/), rezervările în altă monedă sunt **excluse din totaluri**, iar
-  raportul spune câte sunt și în ce monede.
+- În [Rapoarte](/ro/manage/reports/) primești **câte un total pentru fiecare monedă**, primul fiind
+  al agenției tale. Două monede nu se adună, dar niciun rând nu rămâne în afara raportului.
 
 Dacă cea mai mare parte a activității tale este într-o singură monedă, stabilește-o ca monedă de
 vânzare și subiectul apare rar. Dacă într-adevăr lucrezi în două, așteaptă-te la două seturi de
@@ -35,8 +38,15 @@ cifre, pentru că asta ai.
 
 Marja ta este diferența dintre cât îți percepe furnizorul (**net**) și cât vinzi tu (**vânzare**).
 
-O stabilești în bara de sus la **Marjă implicită**, ca procent — `12,5` pentru doisprezece și
-jumătate la sută. Apasă **Aplică**.
+Marja agenției este stabilită de un proprietar sau administrator în [Setări](/ro/manage/settings/),
+la **Prețurile agenției**, ca procent — `12,5` pentru doisprezece și jumătate la sută.
+
+Fiecare agent își poate stabili propria marjă la **Prețurile mele**, în meniul de utilizator. Un
+câmp lăsat gol urmează agenția; o valoare introdusă o înlocuiește pentru ofertele și rezervările
+acelui agent.
+
+Marja este un **procent** din net. O sumă fixă pe rezervare nu este ceva ce OneRate poate adăuga: ar
+trebui exprimată într-o monedă, iar OneRate nu convertește niciuna.
 
 Din acel moment, fiecare preț din portal — lista de rezultate, pagina hotelului, ecranul de
 verificare, ce văd clienții tăi — o include.

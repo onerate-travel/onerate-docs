@@ -37,13 +37,14 @@ dwuskładnikowa i aktywne sesje — i ma je każda rola.
 Pasek na górze każdego ekranu panelu niesie trzy rzeczy, które naraz zmieniają to, co widzisz
 wszędzie.
 
-### Domyślna marża
+### Moje ceny
 
-Marża Twojej agencji na każdej stawce dostawcy, w procentach. Zmień ją tutaj, naciśnij
-**Zastosuj**, a od tej chwili każda cena pokazywana przez portal będzie ją zawierać.
+Pod Twoim nazwiskiem w pasku: **Twoja** marża i **Twoja** waluta sprzedaży — każda rola może ustawić
+je dla siebie. Puste pole oznacza wartość agencji, ustawianą w [Ustawieniach](/pl/manage/settings/)
+przez właściciela lub administratora.
 
-Jeśli nie jest ustawiona, nic nie jest doliczane — sprzedajesz po cenie netto dostawcy. Pole tak
-mówi. Zobacz [Ceny i marża](/pl/manage/pricing/).
+Jeśli żadna nie jest ustawiona, nic nie jest doliczane — sprzedajesz po cenie netto dostawcy. Pole
+tak mówi. Zobacz [Ceny i marża](/pl/manage/pricing/).
 
 ### Waluta i język
 

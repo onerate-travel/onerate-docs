@@ -38,12 +38,13 @@ munkameneteid — és minden szerepkörnek van ilyen.
 A panel minden képernyőjének tetején futó sáv azt a három dolgot hordozza, amely egyszerre
 változtatja meg, mit látsz mindenhol.
 
-### Alapértelmezett árrés
+### Az én árazásom
 
-Az irodád árrése minden beszállítói áron, százalékban. Itt módosítod, megnyomod az **Alkalmaz**
-gombot, és onnantól minden ár, amit a portál mutat, tartalmazza.
+A sávban a saját neved alatt: **a te** árrésed és **a te** eladási pénznemed — minden szerepkör
+beállíthatja magának. Ha üresen hagysz egy mezőt, az irodáét követed, amelyet tulajdonos vagy
+adminisztrátor állít be a [Beállításokban](/hu/manage/settings/).
 
-Ha nincs beállítva, semmit nem adunk hozzá — a beszállító nettó árán adsz el. A mező ezt ki is
+Ha egyik sincs beállítva, semmit nem adunk hozzá — a beszállító nettó árán adsz el. A mező ezt ki is
 írja. Lásd: [Árazás és árrés](/hu/manage/pricing/).
 
 ### Pénznem és nyelv
