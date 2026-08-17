@@ -125,6 +125,18 @@ konaklama sanamaz.
 
 **Voucher indir** size PDF'i verir. **Voucher'ı e-postayla gönder** onu gönderir.
 
+### Voucher'da ne yazar
+
+Voucher, misafirinizin otel resepsiyonuna verdiği belgedir; bu yüzden konaklamayı satıldığı hâliyle
+yazar: tedarikçi onay referansı, konaklayan herkes, otelin kendi adresi ve telefonu, oda, pansiyon,
+tarihler, rezervasyon anındaki iptal koşulları, otelde ödenecek tutarlar ve acentenizin kimliğiyle
+logosu.
+
+Bir satır yalnızca tedarikçi onu söylediyse görünür. Telefon numarası göndermeyen bir otel, boş bir
+satır yerine telefon satırı olmayan bir voucher üretir — boş bir "otelde ödenecek" satırı "ödenecek
+bir şey yok" diye okunur ve yanılmanın pahalı olan yolu budur. Otelde ödenecek tutarlar para birimi
+başına yazılır, asla toplanmaz: iki para biriminin toplamı kimsenin ödeyemeyeceği bir sayıdır.
+
 Voucher yoksa düğmenin yerini bir cümle alır ve o cümle nedenini söyler:
 
 | Mesaj | Neden |

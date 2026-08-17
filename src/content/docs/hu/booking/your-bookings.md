@@ -125,6 +125,19 @@ lezárt tartózkodásnak.
 
 A **Voucher letöltése** adja a PDF-et. A **Voucher küldése e-mailben** elküldi.
 
+### Mit tartalmaz
+
+A voucher az a dokumentum, amelyet a vendég a szálloda recepcióján ad át, ezért úgy írja le a
+tartózkodást, ahogyan eladták: a szállító visszaigazolási hivatkozása, minden vendég, a szálloda a
+saját címével és telefonszámával, a szoba, az ellátás, a dátumok, a foglaláskor érvényes lemondási
+feltételek, a szállodában fizetendő tételek, valamint az irodája azonosítója és logója.
+
+Egy sor csak akkor jelenik meg, ha a szállító megadta. Az a szálloda, amely nem küld telefonszámot,
+telefonsor nélküli vouchert eredményez, nem üres sort — az üres "szállodában fizetendő" azt
+jelenti, hogy "nincs mit fizetni", és ez a drágább tévedés. A recepción fizetendő összegek
+devizánként szerepelnek, és soha nem adódnak össze: két deviza összege olyan szám, amelyet senki
+nem tud kifizetni.
+
 A gomb helyére mondat lép, ha nincs voucher, és a mondat megmondja, miért:
 
 | Üzenet | Miért |

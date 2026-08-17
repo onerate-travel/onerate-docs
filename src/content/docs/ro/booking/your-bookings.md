@@ -126,6 +126,19 @@ confunda cu un sejur stabilit.
 
 **Descarcă voucherul** îți dă PDF-ul. **Trimite voucherul pe email** îl expediază.
 
+### Ce conține
+
+Voucherul este documentul pe care oaspetele îl dă la recepția hotelului, așa că descrie sejurul așa
+cum a fost vândut: referința de confirmare a furnizorului, toți oaspeții, hotelul cu adresa și
+telefonul lui, camera, masa, datele, condițiile de anulare așa cum erau la momentul rezervării,
+sumele plătibile la hotel, precum și identitatea și logoul agenției tale.
+
+Un rând apare doar dacă furnizorul l-a declarat. Un hotel care nu trimite un număr de telefon
+produce un voucher fără rândul de telefon, nu cu unul gol — un "de plată la hotel" gol se citește
+ca "nu e nimic de plată", iar aceasta este varianta mai scumpă de a greși. Sumele datorate la
+recepție sunt listate pe valută și niciodată adunate, pentru că un total între două valute este un
+număr pe care nimeni nu îl poate plăti.
+
 Butonul este înlocuit de o propoziție când nu există voucher, iar propoziția spune de ce:
 
 | Mesaj | De ce |

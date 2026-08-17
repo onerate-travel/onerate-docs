@@ -125,6 +125,19 @@ przesądzonym pobytem.
 
 **Pobierz voucher** daje Ci PDF. **Wyślij voucher e-mailem** go wysyła.
 
+### Co zawiera
+
+Voucher to dokument, który gość podaje w recepcji hotelu, więc opisuje pobyt tak, jak został
+sprzedany: numer potwierdzenia dostawcy, wszystkich gości, hotel z jego własnym adresem i
+telefonem, pokój, wyżywienie, daty, warunki anulowania obowiązujące w chwili rezerwacji, kwoty
+płatne w hotelu oraz dane i logo Twojego biura.
+
+Wiersz pojawia się tylko wtedy, gdy dostawca go podał. Hotel, który nie przesyła numeru telefonu,
+daje voucher bez wiersza z telefonem, a nie z pustym wierszem — puste "płatne w hotelu" czyta się
+jako "nie ma nic do zapłaty", a to droższy sposób na pomyłkę. Kwoty płatne w recepcji są wypisane
+osobno dla każdej waluty i nigdy nie są sumowane: suma dwóch walut to liczba, której nikt nie
+zapłaci.
+
 Gdy vouchera nie ma, przycisk zastępuje zdanie — i to zdanie mówi dlaczego:
 
 | Komunikat | Dlaczego |

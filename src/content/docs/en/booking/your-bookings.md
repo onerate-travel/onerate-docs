@@ -124,6 +124,19 @@ settled stay.
 
 **Download voucher** gives you the PDF. **Email the voucher** sends it.
 
+### What it carries
+
+The voucher is the document your guest hands to a hotel desk, so it states the stay as it was
+sold: the supplier confirmation reference, everyone staying, the hotel with its own address and
+phone, the room, the board, the dates, the cancellation terms as they stood when you booked,
+anything payable at the hotel, and your agency's identity and logo.
+
+A row appears only when the supplier stated it. A hotel that sends no phone number produces a
+voucher with no phone row rather than an empty one — a blank "Payable at hotel" reads as "there is
+nothing to pay", which is the more expensive way to be wrong. What is owed at the desk is listed
+per currency and never added together, because a total across two currencies is a number nobody
+can pay.
+
 The button is replaced by a sentence when there is no voucher, and the sentence says why:
 
 | Message | Why |

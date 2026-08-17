@@ -130,6 +130,20 @@ scambiarlo per un soggiorno definito.
 
 **Scarica il voucher** ti dà il PDF. **Invia il voucher via email** lo spedisce.
 
+### Che cosa contiene
+
+Il voucher è il documento che il tuo ospite consegna al ricevimento, quindi descrive il soggiorno
+come è stato venduto: il riferimento di conferma del fornitore, tutti gli ospiti, l'hotel con il
+proprio indirizzo e telefono, la camera, il trattamento, le date, le condizioni di cancellazione
+come erano al momento della prenotazione, quanto è dovuto in hotel e l'identità e il logo della tua
+agenzia.
+
+Una riga compare solo se il fornitore l'ha indicata. Un hotel che non invia un numero di telefono
+produce un voucher senza la riga del telefono, non con una riga vuota: un "da pagare in hotel"
+vuoto si legge come "non c'è nulla da pagare", ed è il modo più costoso di sbagliare. Quanto è
+dovuto al ricevimento è elencato per valuta e mai sommato, perché un totale fra due valute è un
+numero che nessuno può pagare.
+
 Il pulsante è sostituito da una frase quando non c'è voucher, e la frase dice perché:
 
 | Messaggio | Perché |
