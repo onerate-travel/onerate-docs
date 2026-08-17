@@ -1,6 +1,6 @@
 ---
 title: Team
-description: Invitare colleghi, scegliere il loro ruolo, gestire gli inviti in sospeso e rimuovere persone.
+description: Invitare colleghi, scegliere e cambiare il loro ruolo, le filiali, sospendere l'accesso e rimuovere persone.
 ---
 
 **Team** è il personale della tua agenzia. Titolari e amministratori.
@@ -44,9 +44,56 @@ esso e non può essere disattivata.
 
 ## Cambiare un ruolo
 
-Non esiste un editor dei ruoli. Rimuovi la persona e invitala di nuovo con il ruolo che vuoi. Le sue
-prenotazioni non sono toccate — le prenotazioni appartengono all'agenzia, non all'account che le ha
-fatte.
+Il ruolo è un menu a tendina sulla riga della persona. Lo cambiate e vale dalla sua richiesta
+successiva: non c'è nulla da salvare e non deve uscire e rientrare.
+
+Le sue prenotazioni non cambiano: una prenotazione appartiene all'agenzia, non all'account che l'ha
+creata.
+
+**Un'agenzia conserva sempre almeno un titolare attivo.** Cambiare il ruolo dell'ultimo titolare
+viene rifiutato anziché eseguito — un'agenzia senza titolare non ha più nessuno che possa nominarne
+uno.
+
+## Sospendere qualcuno
+
+**Sospendi** spegne un collega senza rimuoverlo. Ogni azione è rifiutata dalla sua richiesta
+successiva, e i suoi inviti e le sue prenotazioni restano esattamente dove sono.
+
+Per il caso in cui la rimozione non è la risposta giusta: qualcuno in ferie, qualcuno sotto verifica,
+qualcuno che ha perso il portatile. **Ripristina** lo rimette al suo posto.
+
+Il suo accesso continua a funzionare — può appartenere a un'altra agenzia, e questo non riguarda la
+vostra. Qui vede un messaggio che nomina la sospensione, non una schermata rotta.
+
+Vale la stessa regola: l'ultimo titolare attivo non può essere sospeso.
+
+## Filiali
+
+Se la vostra agenzia lavora da più di un ufficio, le **filiali** vi danno la dimensione per dirlo.
+
+Aggiungetene una per nome sotto **Filiali**. Poi, sulla riga di ciascuna persona, scegliete la filiale
+in cui lavora.
+
+A cosa serve una filiale:
+
+- **Ogni prenotazione porta il timbro della filiale che l'ha presa**, nel momento in cui è fatta. Si
+  legge dalla persona, non si sceglie su un modulo: nessuno può archiviare una prenotazione sotto un
+  ufficio in cui non lavora.
+- I report si scompongono [per filiale](/it/manage/reports/#ripartizioni).
+- Un membro può essere **limitato alla propria filiale** — la spunta accanto al suo ruolo. Vede allora
+  le prenotazioni e i colleghi della sua filiale, e nient'altro.
+- Una filiale può avere un **proprio account fornitore**: vedi [Fornitori](/it/manage/suppliers/).
+- Una filiale può portare **indirizzo, telefono e numero di licenza propri**, ed è quello che compare
+  sui voucher che emette. Un ospite che chiama alle 23:00 chiama il banco che gli ha venduto la
+  camera, non la sede.
+
+Chiudere una filiale toglie l'assegnazione alle sue persone; le loro appartenenze e le loro
+prenotazioni restano, e una prenotazione presa da una filiale che non esiste più è comunque una
+prenotazione avvenuta.
+
+Una filiale che possiede un proprio account fornitore **non può essere chiusa** finché quell'account
+non viene rimosso: è quella credenziale che annulla le sue prenotazioni passate, ed eliminarla le
+lascerebbe senza via d'uscita.
 
 ## Rimuovere qualcuno
 

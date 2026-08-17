@@ -1,6 +1,6 @@
 ---
 title: Setări
-description: Contactul corporativ pentru rezervări, identitatea și brandingul agenției, starea abonamentului, configurația agenției și furnizorul de hărți.
+description: Contactul corporativ pentru rezervări, identitatea și brandingul dvs., câmpurile agenției, setările de securitate, starea abonamentului, configurația agenției și furnizorul de hărți.
 ---
 
 Proprietari și administratori. Părăsirea acestui ecran cu modificări nesalvate te întreabă întâi.
@@ -29,6 +29,104 @@ jumătate de contact nu este un contact.
 
 Ambele sunt configurate de OneRate, nu se pot edita aici. Ca să schimbi oricare, contactează
 asistența OneRate. Ecranul o spune, în loc să îți arate un câmp care nu se va salva.
+
+## Identitatea dvs., pe documentele dvs.
+
+Tot ce urmează vă aparține și apare pe documentele pe care clienții dvs. le păstrează.
+
+### Datele agenției
+
+- **Denumire înregistrată** — societatea așa cum este înregistrată, când diferă de numele sub care
+  operați
+- **Adresă**
+- **Cod fiscal** — VKN în Turcia, CUI, NIP sau partita IVA în altă parte. Se tipărește, nu se
+  calculează cu el, așa că oricare este acceptat
+- **Licența agenției** — în Turcia numărul TÜRSAB
+
+Un câmp lăsat gol **nu tipărește niciun rând** pe voucher, nu unul gol. Un rând „Cod fiscal:" gol se
+citește ca *niciunul*, ceea ce este o afirmație diferită de *nespecificat* — și cea falsă.
+
+Acestea coboară și la clienții dvs.: o rezervare făcută de un client corporativ poartă licența
+**dvs.**, pentru că pe acel document partea licențiată este agenția dvs.
+
+### Logoul agenției
+
+**PNG sau JPEG, până la 256 KB.** Apare pe vouchere și pe pagina de autentificare de la adresa dvs.
+web.
+
+Doar aceste două formate, pentru că acestea sunt cele două pe care un voucher le poate purta. Un
+format care se vede în portal și dispare discret de pe document ar fi mai rău decât un refuz —
+nimeni nu ar afla până când un client nu întreabă.
+
+Pentru înlocuire încărcați altul; **Elimină logoul** revine la marca OneRate.
+
+### Culoarea mărcii
+
+O singură culoare, valoare hexazecimală de tipul `#0e6b5c`. Nuanțele mai închise și mai deschise se
+derivă din ea, deci nu mai e nimic de ales.
+
+O culoare **ilizibilă** este refuzată, iar mesajul o spune:
+
+> Această culoare nu este lizibilă: textul alb pe ea și ea pe fundal deschis necesită cel puțin
+> 4.5:1.
+
+Nu este pedanterie. Aceeași culoare vopsește un buton cu text alb pe el și cuvintele accentuate pe
+fundal deschis — un galben corporativ trece al doilea test și cade la primul, iar rezultatul este un
+portal ale cărui butoane propriul dvs. personal nu le poate citi.
+
+### Adresă web
+
+Adresa proprie de autentificare a agenției: `numeledvs.onerate.travel`.
+
+Litere mici, cifre și cratime, 3–40 de caractere. Unele nume sunt ale OneRate și sunt refuzate; la
+fel unul folosit deja de altă agenție — mesajul spune despre care dintre cele două este vorba.
+
+:::caution
+Schimbarea **oprește imediat vechea adresă**, inclusiv pe tot ce ați tipărit sau trimis deja pe
+e-mail. Anunțați clienții înainte de schimbare, nu după.
+:::
+
+## Câmpurile agenției
+
+Propriile dvs. câmpuri pe rezervare: **centru de cost**, **cod de proiect**, **număr de comandă** —
+ce îi trebuie contabilității ca să potrivească un sejur.
+
+Fiecare câmp are:
+
+- o **cheie**, sub care se păstrează valoarea și de care este ancorată coloana din raport. Nu poate
+  fi schimbată ulterior, pentru că fiecare valoare deja înregistrată stă sub ea
+- o **etichetă**, pe care agenții dvs. o citesc pe formular — și pe aceasta *o puteți* schimba
+- un **tip**: text, listă fixă sau dată
+- dacă este **obligatoriu** sau nu
+
+Un câmp **obligatoriu** refuză rezervarea direct, înainte ca furnizorul să fie apelat. Exact acesta
+este rostul lui: un sejur necodificat este unul pe care cineva îl caută două săptămâni mai târziu,
+iar până atunci agentul a uitat care dintre patruzeci de rezervări era.
+
+Câmpurile dvs. apar pe ecranul de verificare, pe pagina rezervării și ca **coloane în exportul
+raportului** — câte o coloană pentru fiecare câmp definit, indiferent dacă s-a scris ceva în el,
+astfel încât două exporturi ale aceleiași perioade au aceeași formă.
+
+Și clienții dvs. corporativi își pot defini propriile câmpuri; ale dvs. se aplică și rezervărilor
+lor, iar un câmp pe care l-ați făcut obligatoriu rămâne obligatoriu și pentru ei. Vedeți
+[Clienți](/ro/manage/customers/).
+
+## Setări de securitate
+
+Trei setări, și fiecare poate doar să **strângă** ceea ce OneRate cere deja.
+
+- **Cine trebuie să folosească verificarea în doi pași** — proprietarii (pragul OneRate),
+  administratorii dvs. sau oricine se autentifică. Sub prag nu se poate coborî.
+- **Durata sesiunii (ore)** — cât poate lucra o sesiune înainte de o nouă autentificare. Între 1 oră
+  și 14 zile.
+- **Adrese IP permise** — adrese IPv4 și intervale CIDR, separate prin virgulă. O cerere de oriunde
+  altundeva este refuzată, **inclusiv de la personalul dvs.**
+
+IPv6 este refuzat în loc să fie acceptat și ignorat: o listă care în tăcere nu se potrivește cu
+jumătate din internet v-ar lăsa să credeți că aveți un control pe care nu îl aveți.
+
+Se aplică și cheilor dvs. API — o cheie este tot trafic al agenției. Vedeți
+[Integrări](/ro/manage/integrations/).
 
 ## Abonament
 

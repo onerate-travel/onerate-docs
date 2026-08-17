@@ -1,6 +1,6 @@
 ---
 title: Echipă
-description: Invitarea colegilor, alegerea rolului lor, gestionarea invitațiilor în așteptare și eliminarea persoanelor.
+description: Invitarea colegilor, alegerea și schimbarea rolului lor, sucursalele, suspendarea accesului și eliminarea persoanelor.
 ---
 
 **Echipă** este personalul propriu al agenției tale. Proprietari și administratori.
@@ -45,8 +45,55 @@ Un cont de proprietar nu este un cont de conveniență. Verificarea în doi paș
 
 ## Schimbarea unui rol
 
-Nu există un editor de roluri. Elimină persoana și invit-o din nou cu rolul dorit. Rezervările ei nu
-sunt afectate — rezervările aparțin agenției, nu contului care le-a făcut.
+Rolul este o listă derulantă pe rândul persoanei. O schimbați și se aplică de la următoarea ei cerere
+— nu este nimic de salvat și nu trebuie să se deconecteze.
+
+Rezervările ei nu se schimbă: o rezervare aparține agenției, nu contului care a făcut-o.
+
+**O agenție păstrează întotdeauna cel puțin un proprietar activ.** Schimbarea rolului ultimului
+proprietar este refuzată în loc să fie efectuată — o agenție fără proprietar nu mai are pe nimeni
+care să numească unul.
+
+## Suspendarea cuiva
+
+**Suspendă** oprește un coleg fără să îl elimine. Orice acțiune este refuzată de la următoarea lui
+cerere, iar invitațiile și rezervările lui rămân exact unde sunt.
+
+Pentru cazul în care eliminarea nu se potrivește: cineva plecat în concediu, cineva aflat sub
+verificare, cineva căruia i s-a pierdut laptopul. **Restabilește** îl aduce înapoi.
+
+Autentificarea lui funcționează în continuare — poate aparține altei agenții, iar asta nu privește
+această agenție. Aici vede un mesaj care numește suspendarea, nu un ecran stricat.
+
+Se aplică aceeași regulă: ultimul proprietar activ nu poate fi suspendat.
+
+## Sucursale
+
+Dacă agenția dvs. lucrează din mai multe birouri, **sucursalele** vă dau dimensiunea prin care să
+spuneți asta.
+
+Adăugați una după nume la **Sucursale**. Apoi, pe rândul fiecărei persoane, alegeți sucursala în care
+lucrează.
+
+La ce folosește o sucursală:
+
+- **Fiecare rezervare este ștampilată cu sucursala care a preluat-o**, în momentul în care este
+  făcută. Se citește din persoană, nu se alege pe un formular — nimeni nu poate înregistra o
+  rezervare sub un birou în care nu lucrează.
+- Rapoartele se defalcă [pe sucursală](/ro/manage/reports/#defalcări).
+- Un membru poate fi **limitat la propria sucursală** — bifa de lângă rolul lui. Atunci vede doar
+  rezervările și colegii sucursalei sale.
+- O sucursală poate avea **cont propriu la furnizor**: vedeți [Furnizori](/ro/manage/suppliers/).
+- O sucursală poate purta **adresă, telefon și număr de licență proprii**, iar acestea apar pe
+  voucherele pe care le emite. Un oaspete care sună la 23:00 sună la biroul care i-a vândut camera,
+  nu la sediul central.
+
+Închiderea unei sucursale scoate atribuirea oamenilor ei; apartenențele și rezervările lor rămân, iar
+o rezervare preluată de o sucursală care nu mai există este tot o rezervare care a avut loc.
+
+O sucursală care deține cont propriu la furnizor **nu poate fi închisă** până când acel cont nu este
+eliminat — tocmai acea acreditare anulează rezervările ei trecute, iar ștergerea le-ar lăsa fără
+soluție.
 
 ## Eliminarea cuiva
 

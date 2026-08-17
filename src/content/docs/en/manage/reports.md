@@ -1,6 +1,6 @@
 ---
 title: Reports
-description: What you sold, filtered by check-in date and status, broken down by supplier and month, and exported to CSV.
+description: What you sold, filtered by check-in date and status, broken down by supplier, month, person, branch and customer, and exported to CSV.
 ---
 
 **Reports** is read-only. It is your own bookings, totalled. Available to owners, admins and
@@ -14,22 +14,50 @@ agents; not to customers.
 
 ## The table
 
-One row per booking: check-in, hotel, destination, guest, supplier, status, **net**, **sell**.
+One row per booking: check-in, hotel, destination, guest, your **file number**, the **branch**, who
+**took the booking**, supplier, status, **net**, **sell**, and the **cancellation terms** as they
+stood when it was booked.
 
-Above it: the number of bookings, **Total net** and **Total sell**. The difference between those
-two totals is your margin for the filtered set.
+Above it: the number of bookings, **Total net** and **Total sell** — one pair per currency. The
+difference between the two is your margin for that set.
 
 ## Breakdowns
+
+Two are about your inventory:
 
 - **By supplier** — bookings, net and sell per supplier. This is the number to read next to your
   [supplier preferences](/en/manage/preferences/): it tells you whether a pin or a percentage rule
   is actually delivering the volume you set it up for.
 - **By check-in month** — the same, per month of stay.
 
+Three are about your own shape:
+
+- **By person** — who sold what. Named by email address, because a name is not unique and an
+  internal id is not readable.
+- **By branch** — which office sold what.
+- **By customer** — which corporate client the volume came from.
+
+Rows that belong to nobody get their **own segment** rather than being dropped: a booking made
+before there were branches, or by an account since removed, is still a booking, and leaving it out
+would mean the per-person numbers did not add up to your total.
+
+Every segment is **per currency**, for the same reason the totals are: OneRate converts nothing, so
+a branch trading in two currencies is two segments — arithmetically correct rather than one number
+that means nothing.
+
 ## Export
 
 **Export CSV** downloads the filtered rows. Same columns as the table, so a spreadsheet total
 matches what is on screen.
+
+If you have defined [agency fields](/en/manage/settings/#agency-fields) — a cost centre, a project
+code — each one is an extra column, whether or not anything was recorded in it. A column that came
+and went depending on what happened to be booked could not be pasted into the same spreadsheet
+twice.
+
+The export deliberately carries **neither your internal note nor the remark sent to the hotel**. A
+file that leaves the product cannot be recalled, and those two are where free text about a guest
+ends up.
 
 If it fails, try again — nothing is partially written.
 
@@ -39,15 +67,13 @@ Read both before you quote a number to anyone.
 
 ### Currency
 
-> 3 booking(s) are priced in USD, GBP and are NOT included in the EUR totals above. OneRate does not
-> convert between currencies.
+You get **one total per currency**, your agency's own first, and nothing is left out.
 
-Bookings in a currency other than your selling currency are **left out of the totals** — they are
-not converted at an invented rate. They are still in the table; they are simply not summed into a
-number they do not belong in.
+Nothing is converted either: a stay you bought in USD is totalled in USD, because the rate OneRate
+would have to invent to add it to your EUR figure is not the rate your bank will give you.
 
-If this note appears on every report, your selling currency probably does not match how you
-actually trade. See [Pricing](/en/manage/pricing/).
+If you see more totals than you expected, that is your business having more currencies than you
+expected — not a filter to fix. See [Pricing](/en/manage/pricing/).
 
 ### Truncation
 

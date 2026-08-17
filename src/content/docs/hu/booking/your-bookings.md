@@ -33,7 +33,11 @@ Nyiss meg egy foglalást, hogy lásd mindazt, amit róla rögzítettünk.
 ### A foglalás
 
 Szálloda, állapot, beszállító, **visszaigazolási azonosító**, érkezés, távozás, fő vendég, eladási
-ár.
+ár, a **fiók**, amely felvette, és **ki** vette fel.
+
+Ha az irodájának vannak [irodai mezői](/hu/manage/settings/#irodai-mezők), az ezen a foglaláson
+rögzített értékek külön szakaszban jelennek meg. Azt mutatják, ami **akkor** rögzült: egy később
+definiált mező itt üres, egy azóta kivezetett pedig továbbra is azt mutatja, amivel kódolták.
 
 A visszaigazolási azonosító a beszállítóé — ez azonosítja náluk a foglalást, ha valaha telefonálnod
 kell.
@@ -65,6 +69,33 @@ ajánlatokat vettük figyelembe, és mi döntött. Jóval a keresési munkamenet
 
 Minden állapot, amelyen a foglalás átment, sorrendben, időpontokkal. Ez az első hely, ahová nézni
 kell, ha egy foglalás olyat tett, amire nem számítottál.
+
+## Opciók
+
+Az **opció** olyan foglalás, amelyet addig tart, amíg az ügyfele dönt.
+
+Valódi foglalás egy visszatéríthető áron, plusz egy dátum, amelyet Ön határozott meg. Egyetlen
+beszállító sem kínál saját opciót, amellyel a OneRate dolgozik — amit a termék hozzátesz, az az, hogy
+a határidő látható és tesznek is vele valamit, ahelyett, hogy valakinek a naptárában élne.
+
+Az opcióban tartott foglalás egy erről szóló panelt mutat, két gombbal:
+
+- **Megerősítés** — az opció közönséges foglalásként áll tovább. A szállodánál semmi nem változik;
+  mindig is valódi volt.
+- **Elengedés** — a foglalást lemondják. Ugyanazon a megerősítésen megy át, mint bármely más lemondás,
+  és ugyanazt a díjat idézi, mert egy opció elengedése *foglalás lemondása*.
+
+A határidőt az ár saját ingyenes lemondási ablaka korlátozza, egy nappal kevesebbel. Ingyenes ablak
+nélküli árat egyáltalán nem lehet tartani: a „tartás” itt azt jelentené, hogy „foglald le, a
+kötbért majd később fizeted”, ami foglalás — és ezt kell megmondani, nem a szót eladni.
+
+A lejárat előtti este e-mailt kap az, aki a foglalást felvette. Hogy mi történik, ha senki nem
+válaszol, az az iroda döntése a [Beállításokban](/hu/manage/settings/#az-iroda-konfigurációja):
+az **emlékeztetés** tovább figyelmeztet és soha nem mond le, az **elengedés** visszaadja a szobát.
+Az az iroda, amely semmit nem mondott ki, **emlékeztetést** kap, mert egy téves lemondás valódi pénz.
+
+A nyitott opció voucherje kimondja, hogy opció, így az ügyfél, aki a kezében tartja, nem nézheti
+lezárt tartózkodásnak.
 
 ## Voucherek
 

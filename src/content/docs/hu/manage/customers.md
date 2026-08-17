@@ -1,6 +1,6 @@
 ---
 title: Ügyfelek
-description: Hogyan engedd, hogy céges ügyfeleid maguknak foglaljanak a te beszállítói szerződéseiden — és pontosan mit látnak, mit nem.
+description: Hogyan engedd, hogy céges ügyfeleid maguknak foglaljanak a te beszállítói szerződéseiden, az ügyfélen belüli szerepkörök, az árcsoportok, a nyitott foglalási plafonok — és pontosan mit látnak, mit nem.
 ---
 
 Az **ügyfél** a te céges ügyfeleid egyike, a OneRate-ben úgy beállítva, hogy a saját emberei a *te*
@@ -26,6 +26,27 @@ függőben lévőknél. Újra **Másolhatod a linket**, vagy **Visszavonhatsz** 
 azonnal érvényteleníti a linket.
 
 A már elfogadott meghívó nem vonható vissza; helyette távolítsd el a személyt az ügyfélről.
+
+## Az ügyfélen belüli három szerepkör
+
+| Szerepkör | Mit lát | Mit tud még |
+| --- | --- | --- |
+| **Szervező** | A cége foglalásait | Foglalni bárkinek a cégénél |
+| **Utazó** | **Csak azokat a foglalásokat, amelyeket ő maga készített** | — |
+| **Ügyfél-adminisztrátor** | A cége foglalásait | Meghívni a saját kollégáit és kezelni a saját cége beállításait |
+
+A szervező az alapértelmezett, és ez az, ami minden ügyfél-felhasználó volt, mielőtt a másik kettő
+létezett.
+
+Az **utazó** szerepkört azoknak adja, akik csak a saját útjaikat foglalják: egy kolléga foglalása meg
+sem jelenik a listájukban, és ha linkkel nyitják meg, azt kapják, hogy nem létezik — nem azt, hogy nem
+láthatják.
+
+Az **ügyfél-adminisztrátor** szerepkört annak adja a cégnél, akinek ezt a munkát Ön helyett kellene
+végeznie: meghívja a kollégáit és beállítja a saját mezőit. Az Ön irodájából semmit nem ér el; a határ
+a cég, nem a szerepkör.
+
+Egyik sem tud lemondani, és egyik sem lát soha szállítónevet vagy az Ön nettó árát.
 
 ## Mit lát egy ügyfél-felhasználó
 
@@ -62,6 +83,40 @@ hasznos, ha az egyik ügyfél más üzleti feltételekkel dolgozik — és a leg
 amelynek van értéke.
 
 Egy ügyfél saját árrésének törlése az irodád értékére esik vissza, nem nullára.
+
+### Árcsoportok
+
+Ha ügyfélcsoportokat egyformán áraz — „A bayileri" egy kulcson, „B bayileri" egy másikon —, tegye őket
+**árcsoportba** ahelyett, hogy ismételné magát. A csoport oszlopa ezen a képernyőn van; maguk a
+csoportok az [Árazás](/hu/manage/pricing/#árcsoportok) alatt.
+
+A csoport a **között** helyezkedik el: az ügyfél saját árrése és az Ön irodájáé között. A saját
+kulccsal rendelkező ügyfél megtartja azt, a csoport többi tagja a csoportét kapja.
+
+Egy ügyfél legfeljebb egy csoportba tartozik. A csoportok közötti mozgatás ugyanaz a legördülő menü.
+
+## Nyitott foglalási plafon
+
+Korlátozhatja, mennyi lehet egy ügyfélnek egyszerre **nyitva**. Az oszlop ezen a képernyőn van: összeg
+az Ön eladási pénznemében, vagy üresen, ha nincs plafon.
+
+A **nyitott** azt jelenti: olyan foglalások, amelyeket sem le nem mondtak, sem le nem utaztak,
+összeadva azon az áron, amelyen eladja őket. Az a foglalás, amely az ügyfelet a plafon fölé vinné,
+elutasításra kerül, mielőtt a szállítóhoz érne, az ügyintézőnek pedig azt mondjuk, beszéljen Önnel.
+
+:::caution
+Ez **nem hitelkeret.** A OneRate soha nem lát fizetést, így itt semmi nem változik attól, hogy az
+ügyfél fizetett Önnek. A plafon akkor csökken, ahogy a tartózkodások lezárulnak és a foglalásokat
+lemondják — semmi mástól.
+
+Arra válaszol, hogy *„ne halmozzon ez az ügyfél olyan foglalásokat, amiket nem tud kifizetni"*. Arra
+nem, hogy *„adjon ennek az ügyfélnek 50 000 hitelt"*; a OneRate-ben semmi nem válaszol arra,
+szándékosan.
+:::
+
+**Pénznemenként** működik. Az EUR-ban megadott plafon semmit nem mond egy TRY-ban árazott foglalásról,
+mert a OneRate nem vált át pénznemek között — és egy limit a termék legrosszabb helye arra, hogy
+árfolyamot kezdjen kitalálni.
 
 ## Mielőtt bárkit meghívnál
 

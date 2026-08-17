@@ -57,6 +57,16 @@ Before anything reaches the supplier you get **Confirm this booking**, showing:
 Read the cancellation line. It is the last point at which the terms are cheap to change your mind
 about.
 
+### Your agency's own fields
+
+If your agency has defined [agency fields](/en/manage/settings/#agency-fields) — a cost centre, a
+project code, a PO number — they appear here, above the request box. A field marked with `*` is
+**required**, and the booking is refused without it before anything reaches the supplier.
+
+They are your agency's own coding of the booking: they are never sent to the hotel or the supplier,
+they appear on the booking's own page afterwards, and they become columns in your
+[report export](/en/manage/reports/#export).
+
 Press **Confirm and book**, or **Back to results**.
 
 ## When the price changes
@@ -104,6 +114,8 @@ second time is how an agency ends up paying for two rooms. See
 | "Too many booking attempts in a short time." | Rate limiting. | Wait. Retrying immediately will be refused too. |
 | "That booking key was already used for a different booking." | This booking form has already been used to book something else. | Start a new search. Nothing was double-booked — this message is the protection working. |
 | "Booking failed. Please try again." | A general failure. | Check [Bookings](/en/booking/your-bookings/) **before** retrying, to confirm nothing was created. |
+| "A required field is missing or invalid." | One of your agency's own fields is empty or does not fit its definition. | Complete the field on the review screen. Nothing was booked. |
+| "This would take the customer over their open-booking ceiling." | The customer has a [ceiling](/en/manage/customers/#open-booking-ceiling) on how much they may have open, and this booking crosses it. | Speak to the agency. The ceiling falls as stays complete and bookings are cancelled. |
 
 ## Why you cannot accidentally book twice
 

@@ -60,6 +60,17 @@ ezeket mutatja:
 
 Olvasd el a lemondási sort. Ez az utolsó pont, ahol a feltételekkel kapcsolatos meggondolás olcsó.
 
+### Az irodád saját mezői
+
+Ha az irodád definiált [irodai mezőket](/hu/manage/settings/#irodai-mezők) — költséghelyet,
+projektkódot, megrendelésszámot —, azok itt jelennek meg, a kéréseket tartalmazó doboz fölött. A `*`
+jellel jelölt mező **kötelező**, és nélküle a foglalást elutasítjuk, mielőtt bármi eljutna a
+beszállítóhoz.
+
+Ezek az iroda saját kódolásai a foglaláson: soha nem mennek el a szállodának vagy a beszállítónak,
+utána a foglalás saját oldalán jelennek meg, és oszlopokká válnak a
+[riportexportodban](/hu/manage/reports/#export).
+
 Nyomd meg a **Megerősítés és foglalás** vagy a **Vissza a találatokhoz** gombot.
 
 ## Amikor az ár megváltozik
@@ -109,6 +120,8 @@ kimenetelt — azokat is, amelyek nem oldódnak meg azonnal — a
 | „Túl sok foglalási kísérlet rövid idő alatt.” | Kérésszám-korlátozás. | Várj. Az azonnali újrapróbálkozást is elutasítjuk. |
 | „Ezt a foglalási kulcsot már felhasználtuk egy másik foglaláshoz.” | Ezzel a foglalási űrlappal már foglaltak mást. | Indíts új keresést. Semmit nem foglaltunk le kétszer — ez az üzenet a működő védelem. |
 | „A foglalás nem sikerült. Kérjük, próbáld újra.” | Általános hiba. | Az újrapróbálkozás **előtt** nézd meg a [Foglalásokat](/hu/booking/your-bookings/), hogy megbizonyosodj: semmi nem jött létre. |
+| „Egy kötelező mező hiányzik vagy érvénytelen.” | Az irodád saját mezőinek egyike üres, vagy nem felel meg a definíciójának. | Töltsd ki az ellenőrző képernyőn. Semmit nem foglaltunk le. |
+| „Ezzel az ügyfél a nyitott foglalási plafonja fölé kerülne.” | Az ügyfélnek van egy [plafonja](/hu/manage/customers/#nyitott-foglalási-plafon) arra, mennyi lehet egyszerre nyitva, és ez a foglalás átlépné. | Beszélj az irodával. A plafon csökken, ahogy a tartózkodások lezárulnak és foglalásokat lemondanak. |
 
 ## Miért nem tudsz véletlenül kétszer foglalni
 

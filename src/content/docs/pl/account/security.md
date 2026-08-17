@@ -68,6 +68,26 @@ Zrób to, gdy:
 Jeśli to Twoja jedyna sesja, ekran tak mówi, zamiast pokazywać przycisk, który wylogowałby Cię z
 ekranu, który właśnie czytasz.
 
+## Gdy sesja się kończy
+
+Sesja nie trwa wiecznie, a Państwa biuro może ją skrócić (zob.
+[ustawienia bezpieczeństwa](/pl/manage/settings/#ustawienia-bezpieczeństwa)).
+
+Gdy się kończy, portal odsyła Państwa na stronę logowania i mówi dlaczego. Po zalogowaniu wracają
+Państwo na ekran, na którym byli — nie na stronę główną.
+
+**Chyba że byli Państwo w trakcie czegoś.** Jeśli w formularzu coś jest wpisane — dane dostępowe
+dostawcy, nazwisko gościa na ekranie potwierdzenia, edytowane ustawienie — portal *nie* przenosi
+Państwa nigdzie. Pokazuje u góry pasek z przyciskiem **Zaloguj się ponownie** i zostawia wpisane
+treści na ekranie, dopóki go Państwo nie naciśniecie.
+
+Dwa komunikaty warto odróżnić:
+
+- *„Twoja sesja zakończyła się”* — proszę zalogować się ponownie i kontynuować.
+- *„Dostęp do tego biura został zawieszony”* — ponowne zalogowanie niczego nie zmieni. Ktoś w tym
+  biurze wyłączył Państwa dostęp. Jeśli pracują Państwo w innym biurze, przełącznik u góry zaprowadzi
+  Państwa tam; w przeciwnym razie proszę porozmawiać z właścicielem lub administratorem tego biura.
+
 ## Krótka rutyna bezpieczeństwa
 
 1. Włącz uwierzytelnianie dwuskładnikowe, nawet jeśli Twoja rola tego nie wymaga.

@@ -57,6 +57,16 @@ Zanim cokolwiek dotrze do dostawcy, dostajesz **Potwierdź tę rezerwację**, po
 
 Przeczytaj wiersz o anulowaniu. To ostatni moment, w którym zmiana zdania co do warunków jest tania.
 
+### Własne pola Państwa biura
+
+Jeśli Państwa biuro zdefiniowało [pola biura](/pl/manage/settings/#pola-biura) — centrum kosztów, kod
+projektu, numer zamówienia — pojawiają się tutaj, nad polem próśb. Pole oznaczone `*` jest
+**wymagane**, a bez niego rezerwacja zostaje odrzucona, zanim cokolwiek dotrze do dostawcy.
+
+To własne oznaczenie rezerwacji przez Państwa biuro: nigdy nie trafiają do hotelu ani do dostawcy,
+pojawiają się potem na stronie samej rezerwacji i stają się kolumnami w
+[eksporcie raportu](/pl/manage/reports/#eksport).
+
 Naciśnij **Potwierdź i rezerwuj** albo **Wróć do wyników**.
 
 ## Gdy cena się zmienia
@@ -104,6 +114,8 @@ automatycznie. Rezerwacja po raz drugi to sposób, w jaki agencja płaci za dwa 
 | „Zbyt wiele prób rezerwacji w krótkim czasie.” | Ograniczanie liczby prób. | Poczekaj. Natychmiastowa kolejna próba też zostanie odrzucona. |
 | „Ten klucz rezerwacji został już użyty do innej rezerwacji.” | Ten formularz rezerwacji posłużył już do zarezerwowania czegoś innego. | Rozpocznij nowe wyszukiwanie. Nic nie zostało zarezerwowane dwa razy — ten komunikat to działające zabezpieczenie. |
 | „Rezerwacja nie powiodła się. Spróbuj ponownie.” | Ogólny błąd. | Sprawdź [Rezerwacje](/pl/booking/your-bookings/) **zanim** spróbujesz ponownie, by potwierdzić, że nic nie powstało. |
+| „Brakuje wymaganego pola lub jest ono nieprawidłowe.” | Jedno z własnych pól Państwa biura jest puste albo nie pasuje do swojej definicji. | Uzupełnij je na ekranie podsumowania. Nic nie zostało zarezerwowane. |
+| „To przekroczyłoby pułap otwartych rezerwacji klienta.” | Klient ma [pułap](/pl/manage/customers/#pułap-otwartych-rezerwacji) tego, ile może mieć otwarte, a ta rezerwacja go przekracza. | Porozmawiaj z agencją. Pułap opada, gdy pobyty się kończą, a rezerwacje są anulowane. |
 
 ## Dlaczego nie da się przypadkiem zarezerwować dwa razy
 

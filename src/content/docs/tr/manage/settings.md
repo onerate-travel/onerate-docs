@@ -1,6 +1,6 @@
 ---
 title: Ayarlar
-description: Kurumsal rezervasyon iletişimi, acente kimliği ve markalama, abonelik durumu, acente yapılandırması ve harita sağlayıcısı.
+description: Kurumsal rezervasyon iletişimi, kendi kimliğiniz ve markalamanız, acente alanları, güvenlik duruşları, abonelik durumu, acente yapılandırması ve harita sağlayıcısı.
 ---
 
 Sahipler ve yöneticiler. Bu ekrandan kaydedilmemiş değişikliklerle ayrılmak önce sorar.
@@ -28,6 +28,101 @@ uyarır:
 
 İkisi de OneRate tarafından sağlanır, burada düzenlenemez. Değiştirmek için OneRate desteğiyle
 iletişime geçin. Ekran, kaydedilmeyecek bir alan göstermek yerine bunu söyler.
+
+## Kendi kimliğiniz, kendi belgelerinizde
+
+Bu bölümdeki her şey sizindir ve müşterilerinizin elinde kalan evraka basılır.
+
+### Acente kimliği
+
+- **Ticari unvan** — şirketinizin tescilli adı, ticari adınızdan farklıysa
+- **Adres**
+- **Vergi numarası** — Türkiye'de VKN, başka ülkelerde CUI, NIP ya da partita IVA. Yazdırılır,
+  hesaplamada kullanılmaz; bu yüzden hepsi kabul edilir
+- **Acente belge no** — Türkiye'de TÜRSAB belge numarası
+
+Boş bıraktığınız alan voucher'da **hiç satır olarak görünmez**, boş bir satır olarak değil. Boş bir
+"Vergi no:" satırı *yok* demektir; bu *belirtilmemiş*ten farklı bir iddiadır ve yanlış olanıdır.
+
+Bunlar müşterilerinize de iner: kurumsal müşterinizin yaptığı bir rezervasyon **sizin** belge
+numaranızı taşır, çünkü o belgede lisanslı taraf sizin acentenizdir.
+
+### Acente logosu
+
+**PNG veya JPEG, en fazla 256 KB.** Voucher'larınızda ve kendi web adresinizdeki giriş ekranında
+görünür.
+
+Yalnızca bu iki biçim, çünkü bir voucher'ın taşıyabildiği ikisi bunlar. Portalda görünüp belgeden
+sessizce kaybolan bir biçim, reddedilmekten kötüdür — kimse bir müşteri sorana kadar fark etmez.
+
+Değiştirmek için başkasını yükleyin; **Logoyu kaldır** OneRate'in markasına döner.
+
+### Marka rengi
+
+Tek renk, `#0e6b5c` gibi bir hex değeri. Üzerine gelme ve vurgu için kullanılan koyu ve açık tonlar
+bundan türetilir, seçilecek başka bir şey yoktur.
+
+**Okunamayan** bir renk reddedilir ve mesaj bunu söyler:
+
+> Bu renk okunaklı değil: üzerindeki beyaz yazı ve açık zeminde en az 4.5:1 kontrast gerekir.
+
+Bu titizlik değil. Aynı renk hem üzerinde beyaz yazı olan bir düğmeyi hem de açık zemindeki vurgulu
+kelimeleri boyar — kurumsal bir sarı ikinci testi geçer, birincisini geçemez, ve sonuç kendi
+personelinizin düğmelerini okuyamadığı bir portaldır.
+
+### Web adresi
+
+Acentenizin kendi giriş adresi: `adiniz.onerate.travel`.
+
+Küçük harf, rakam ve tire; 3–40 karakter. Bazı adlar OneRate'in kendisine aittir ve reddedilir;
+başka bir acentenin kullandığı ad da öyle — mesaj hangisi olduğunu söyler.
+
+:::caution
+Değiştirmek **eski adresi anında çalışmaz hale getirir**; bastırdığınız ya da e-postayla
+gönderdiğiniz her şey dahil. Müşterilerinize değiştirdikten sonra değil, önce haber verin.
+:::
+
+## Acente alanları
+
+Rezervasyonda kendi alanlarınız: **masraf merkezi**, **proje kodu**, **PO numarası** — muhasebenizin
+bir konaklamayı neyle eşleştirmesi gerekiyorsa.
+
+Her alanın şunları vardır:
+
+- bir **anahtar**: değerin saklandığı ve rapor kolonunun bağlandığı şey. Sonradan değiştirilemez,
+  çünkü kayıtlı her değer onun altında durur
+- bir **etiket**: acentenizin rezervasyon formunda okuduğu şey — ve bunu *değiştirebilirsiniz*
+- bir **tip**: metin, sabit liste ya da tarih
+- **zorunlu** olup olmadığı
+
+**Zorunlu** bir alan rezervasyonu doğrudan reddeder, tedarikçi çağrılmadan önce. Amacı da budur:
+kodsuz bir konaklama, iki hafta sonra birinin peşine düşeceği bir konaklamadır ve o zamana kadar
+acente kırk rezervasyondan hangisi olduğunu unutmuştur.
+
+Alanlarınız rezervasyon inceleme ekranında, rezervasyonun kendi sayfasında ve **rapor ihracatında
+kolon olarak** görünür — tanımladığınız her alan için bir kolon, içinde bir şey kayıtlı olsun ya da
+olmasın; böylece aynı dönemin iki ihracatı aynı şekle sahip olur.
+
+Kurumsal müşterileriniz de kendi alanlarını tanımlayabilir; sizinkiler onların rezervasyonlarına da
+uygulanır ve zorunlu yaptığınız bir alan onlar için de zorunlu kalır. Bkz.
+[Müşteriler](/tr/manage/customers/).
+
+## Güvenlik duruşları
+
+Üç ayar, ve her biri OneRate'in zaten istediğini yalnızca **sıkılaştırabilir**.
+
+- **İki adımlı doğrulama kimlerde zorunlu** — sahipler (OneRate'in tabanı), yöneticileriniz ya da
+  giriş yapan herkes. Tabanın altına inemezsiniz.
+- **Oturum ömrü (saat)** — bir oturumun yeniden giriş gerektirmeden ne kadar çalışabileceği.
+  1 saat ile 14 gün arası.
+- **İzinli IP adresleri** — IPv4 adresleri ve CIDR aralıkları, virgülle ayrılmış. Başka her yerden
+  gelen istek reddedilir, **kendi personeliniz dahil**.
+
+IPv6 kabul edilip yok sayılmak yerine reddedilir: internetin yarısıyla sessizce eşleşmeyen bir
+liste, sizi sahip olmadığınız bir kontrole sahip sanmanıza bırakırdı.
+
+Bunlar API anahtarlarınız için de geçerlidir — anahtar da acentenizin trafiğidir. Bkz.
+[Entegrasyonlar](/tr/manage/integrations/).
 
 ## Abonelik
 

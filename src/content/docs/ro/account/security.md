@@ -72,6 +72,26 @@ Fă-o când:
 Dacă este singura ta sesiune, ecranul o spune în loc să îți arate un buton care te-ar deconecta de
 la ecranul pe care îl citești.
 
+## Când sesiunea se încheie
+
+O sesiune nu durează la nesfârșit, iar agenția dvs. o poate scurta (vezi
+[setările de securitate](/ro/manage/settings/#setări-de-securitate)).
+
+Când se încheie, portalul vă duce înapoi la pagina de autentificare și vă spune de ce. După
+autentificare reveniți la ecranul pe care erați — nu la pagina de start.
+
+**Cu excepția cazului în care erați în mijlocul a ceva.** Dacă într-un formular este scris ceva — o
+credențială de furnizor, numele unui oaspete pe ecranul de confirmare, o setare pe care o editați —
+portalul *nu* vă mută de acolo. Afișează sus o bară cu butonul **Autentifică-te din nou** și lasă pe
+ecran ce ați scris până îl apăsați.
+
+Două mesaje merită deosebite:
+
+- *„Sesiunea ta s-a încheiat”* — autentificați-vă din nou și continuați.
+- *„Accesul dvs. la această agenție este suspendat”* — reautentificarea nu schimbă nimic. Cineva din
+  acea agenție v-a oprit accesul. Dacă lucrați în altă agenție, selectorul de sus vă duce acolo;
+  altfel, vorbiți cu proprietarul sau administratorul acelei agenții.
+
 ## O rutină scurtă de securitate
 
 1. Activează autentificarea în doi factori chiar dacă rolul tău nu o cere.

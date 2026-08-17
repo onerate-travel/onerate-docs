@@ -60,6 +60,17 @@ mostra:
 Leggi la riga della cancellazione. È l'ultimo punto in cui cambiare idea sulle condizioni costa
 poco.
 
+### I campi della vostra agenzia
+
+Se la vostra agenzia ha definito [campi dell'agenzia](/it/manage/settings/#campi-dellagenzia) — un
+centro di costo, un codice progetto, un numero d'ordine — compaiono qui, sopra il riquadro delle
+richieste. Un campo contrassegnato con `*` è **obbligatorio**, e senza di esso la prenotazione viene
+rifiutata prima che qualsiasi cosa raggiunga il fornitore.
+
+Sono la codifica della prenotazione secondo la vostra agenzia: non vengono mai inviati all'hotel o al
+fornitore, compaiono poi sulla pagina della prenotazione stessa e diventano colonne
+nell'[esportazione dei report](/it/manage/reports/#esportazione).
+
 Premi **Conferma e prenota**, oppure **Torna ai risultati**.
 
 ## Quando il prezzo cambia
@@ -110,6 +121,8 @@ pagare due camere. Vedi [Stati della prenotazione](/it/booking/statuses/).
 | "Troppi tentativi di prenotazione in poco tempo." | Limitazione delle richieste. | Aspetta. Riprovare subito verrà rifiutato allo stesso modo. |
 | "Quella chiave di prenotazione è già stata usata per un'altra prenotazione." | Questo modulo di prenotazione è già stato usato per prenotare altro. | Avvia una nuova ricerca. Nulla è stato prenotato due volte — questo messaggio è la protezione che funziona. |
 | "Prenotazione non riuscita. Riprova." | Un errore generico. | Controlla [Prenotazioni](/it/booking/your-bookings/) **prima** di riprovare, per confermare che non sia stato creato nulla. |
+| "Un campo obbligatorio manca o non è valido." | Uno dei campi della vostra agenzia è vuoto o non rispetta la sua definizione. | Completatelo nella schermata di riepilogo. Nulla è stato prenotato. |
+| "Questa prenotazione porterebbe il cliente oltre il suo tetto di prenotazioni aperte." | Il cliente ha un [tetto](/it/manage/customers/#tetto-delle-prenotazioni-aperte) su quanto può tenere aperto, e questa prenotazione lo supera. | Parlate con l'agenzia. Il tetto scende man mano che i soggiorni si concludono e le prenotazioni vengono annullate. |
 
 ## Perché non puoi prenotare due volte per sbaglio
 

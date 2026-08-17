@@ -1,6 +1,6 @@
 ---
 title: Zespół
-description: Zapraszanie współpracowników, wybór ich roli, zarządzanie oczekującymi zaproszeniami i usuwanie osób.
+description: Zapraszanie współpracowników, wybór i zmiana ich roli, oddziały, zawieszanie dostępu i usuwanie osób.
 ---
 
 **Zespół** to własny personel Twojej agencji. Właściciele i administratorzy.
@@ -44,8 +44,54 @@ obowiązkowa i nie da się jej wyłączyć.
 
 ## Zmiana roli
 
-Nie ma edytora ról. Usuń osobę i zaproś ją ponownie z rolą, której chcesz. Jej rezerwacje pozostają
-nienaruszone — rezerwacje należą do agencji, a nie do konta, które je złożyło.
+Rola to lista rozwijana w wierszu danej osoby. Zmieniają ją Państwo i obowiązuje od jej następnego
+żądania — nie ma czego zapisywać ani z czego się wylogowywać.
+
+Jej rezerwacje pozostają bez zmian: rezerwacja należy do biura, nie do konta, które ją utworzyło.
+
+**Biuro zawsze zachowuje co najmniej jednego aktywnego właściciela.** Zmiana roli ostatniego
+właściciela zostaje odrzucona, a nie wykonana — w biurze bez właściciela nie ma już nikogo, kto
+mógłby go powołać.
+
+## Zawieszanie dostępu
+
+**Zawieś** wyłącza współpracownika, nie usuwając go. Każde działanie jest odrzucane od jego
+następnego żądania, a zaproszenia i rezerwacje zostają dokładnie tam, gdzie są.
+
+Na przypadek, do którego usunięcie nie pasuje: ktoś na urlopie, ktoś objęty postępowaniem, ktoś, kto
+zgubił laptopa. **Przywróć** cofa zawieszenie.
+
+Logowanie nadal działa — może należeć do innego biura, a to nie jest sprawa tego biura. Tutaj widzi
+komunikat nazywający zawieszenie, a nie zepsuty ekran.
+
+Obowiązuje ta sama zasada: ostatniego aktywnego właściciela nie można zawiesić.
+
+## Oddziały
+
+Jeśli Państwa biuro pracuje z więcej niż jednego lokalu, **oddziały** dają wymiar, by to powiedzieć.
+
+Proszę dodać oddział po nazwie w sekcji **Oddziały**. Następnie w wierszu każdej osoby wybrać
+oddział, w którym pracuje.
+
+Do czego służy oddział:
+
+- **Każda rezerwacja jest stemplowana oddziałem, który ją przyjął**, w chwili jej złożenia. Odczytuje
+  się go z osoby, nie wybiera na formularzu — nikt nie zapisze rezerwacji pod biurem, w którym nie
+  pracuje.
+- Raporty rozbijają się [według oddziału](/pl/manage/reports/#rozbicia).
+- Członka można **ograniczyć do własnego oddziału** — to pole obok jego roli. Widzi wtedy rezerwacje
+  i współpracowników wyłącznie swojego oddziału.
+- Oddział może mieć **własne konto u dostawcy**: zobacz [Dostawcy](/pl/manage/suppliers/).
+- Oddział może nieść **własny adres, telefon i numer licencji**, i to one pojawiają się na
+  voucherach, które wystawia. Gość dzwoniący o 23:00 dzwoni do biurka, które sprzedało mu pokój, a
+  nie do centrali.
+
+Zamknięcie oddziału zdejmuje przypisanie jego ludziom; ich członkostwa i rezerwacje pozostają, a
+rezerwacja przyjęta przez oddział, który już nie istnieje, wciąż jest rezerwacją, która się odbyła.
+
+Oddziału, który ma własne konto u dostawcy, **nie można zamknąć**, dopóki to konto nie zostanie
+usunięte — to właśnie ten dostęp anuluje jego dawne rezerwacje, a skasowanie go zostawiłoby je bez
+wyjścia.
 
 ## Usuwanie osoby
 

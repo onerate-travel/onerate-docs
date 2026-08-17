@@ -32,7 +32,12 @@ Bir rezervasyonu açtığınızda hakkında kaydedilen her şeyi görürsünüz.
 
 ### Rezervasyon
 
-Otel, durum, tedarikçi, **onay referansı**, giriş, çıkış, ana misafir, satış fiyatı.
+Otel, durum, tedarikçi, **onay referansı**, giriş, çıkış, ana misafir, satış fiyatı, rezervasyonu
+alan **şube** ve **kişi**.
+
+Acentenizin [acente alanları](/tr/manage/settings/#acente-alanları) varsa, bu rezervasyona kaydedilen
+değerler kendi bölümlerinde görünür. Bunlar **o andaki** hâlleriyle kayıtlıdır: sonradan tanımlanmış
+bir alan burada boştur, kaldırılmış bir alan ise kodlandığı değeri göstermeye devam eder.
 
 Onay referansı tedarikçinin kendi referansıdır — onları aramanız gerekirse rezervasyonu onlar için
 tanımlayan şeydir.
@@ -64,6 +69,33 @@ değerlendirildi ve kararı ne belirledi. Arama oturumu çoktan bittikten sonra 
 
 Rezervasyonun geçtiği her durum, sırayla ve saatleriyle. Bir rezervasyon beklemediğiniz bir şey
 yaptığında bakılacak ilk yer burasıdır.
+
+## Opsiyonlar
+
+**Opsiyon**, müşteriniz karar verirken tuttuğunuz bir rezervasyondur.
+
+İadeli bir fiyat üzerinde gerçek bir rezervasyondur, artı sizin karar verdiğiniz bir tarih. OneRate'in
+çalıştığı hiçbir tedarikçi kendi opsiyonunu sunmaz — ürünün eklediği şey, sürenin birinin ajandasında
+yaşamak yerine görünür olması ve üzerine hareket edilmesidir.
+
+Opsiyonda tutulan bir rezervasyon bunu söyleyen bir panel gösterir, iki düğmeyle:
+
+- **Kesinleştir** — opsiyon sıradan bir rezervasyon olarak kalır. Otelde hiçbir şey değişmez; zaten
+  gerçekti.
+- **Opsiyondan vazgeç** — rezervasyon iptal edilir. Diğer her iptalle aynı onaydan geçer ve aynı
+  ücreti gösterir, çünkü bir opsiyondan vazgeçmek *rezervasyonu iptal etmektir*.
+
+Süre, fiyatın kendi ücretsiz iptal penceresiyle sınırlıdır, bir gün eksiğiyle. Ücretsiz penceresi
+olmayan bir fiyat hiç tutulamaz: "tutmak" burada "rezerve et ve cezayı sonra öde" demek olurdu, ki bu
+bir rezervasyondur — ve size bu kelimenin satılması yerine bunun söylenmesi gerekir.
+
+Süre dolmadan bir önceki gece, rezervasyonu alan kişiye bir e-posta gider. Kimse yanıt vermezse ne
+olacağı acentenizin seçimidir, [Ayarlar](/tr/manage/settings/#acente-yapılandırması) içinde:
+**hatırlat** uyarmaya devam eder ve asla iptal etmez, **bırak** odayı geri verir. Hiçbir şey
+belirtmemiş bir acente **hatırlat**ı alır, çünkü yanlış bir iptal gerçek paradır.
+
+Açık bir opsiyonun voucher'ı bunu yazar, böylece elinde onu tutan bir müşteri onu kesinleşmiş bir
+konaklama sanamaz.
 
 ## Voucher'lar
 

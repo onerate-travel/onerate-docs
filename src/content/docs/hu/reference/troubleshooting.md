@@ -20,7 +20,10 @@ beszállító felvette. Ne foglald le újra ugyanazt a tartózkodást — foglal
 | „Túl sok próbálkozás.” | Kérésszám-korlátozás. | Várj egy percet. |
 | „Ez a fiók jelenleg nem tud bejelentkezni.” | Felfüggesztett fiók vagy inaktív előfizetés. | Kérdezd az irodád adminisztrátorát. |
 | „Nem értük el a OneRate-et.” | A te hálózatod. | Ellenőrizd a kapcsolatot. **Nem** jelentkeztél be; semmi nem változott. |
-| „A munkameneted lejárt.” | A munkamenet nyitott lap mellett járt le. | Jelentkezz be újra. A képernyőn lévő mentetlen munka elvész. |
+| „A munkameneted lejárt.” | A munkamenet nyitott lap mellett járt le. | Visszakerülsz a belépéshez, és belépés után oda térsz vissza, ahol abbahagytad. Ha egy űrlapba be volt gépelve valami, a portál megvár ahelyett, hogy elnavigálna — nyomd meg a **Bejelentkezés újra** gombot, amikor készen állsz. |
+| „Az ehhez az irodához való hozzáférése fel van függesztve.” | Az adott irodában valaki kikapcsolta a hozzáférésedet. | Az újbóli belépés semmit nem változtat. Használd az irodaváltót, ha máshol is dolgozol; ha nem, kérdezd annak az irodának a tulajdonosát vagy adminisztrátorát. |
+| „Ez az iroda újbóli bejelentkezést kér.” | Az irodád rövidebb munkamenet-élettartamot állított be. | Jelentkezz be újra. A fiókoddal nincs semmi baj. |
+| „Erről a hálózatról nem engedélyezett a hozzáférés.” | Az irodád korlátozza, mely IP-címek csatlakozhatnak. | Csatlakozz az irodai hálózatról, vagy kérj meg egy tulajdonost, hogy vegye fel a tiédet a Beállításokban. |
 | „Ez a meghívó link érvénytelen vagy lejárt.” | Lejárt, visszavonták, vagy már felhasználták. | Kérj újat — a küldő újraküldheti a Csapat képernyőről. |
 | „Ez a meghívó ehhez az e-mail címhez van kötve.” | Valaki másként vagy bejelentkezve. | Jelentkezz ki, majd regisztrálj a meghívott címmel. |
 
@@ -65,6 +68,8 @@ Sorrendben:
 | „Ezt a foglalási kulcsot már felhasználtuk egy másik foglaláshoz.” | A duplafoglalás elleni védelem működik. | Indíts új keresést. Semmit nem foglaltunk le kétszer. |
 | „Túl sok foglalási kísérlet rövid idő alatt.” | Kérésszám-korlátozás. | Várj. A mostani újrapróbálkozást is elutasítjuk. |
 | „A foglalás nem sikerült. Kérjük, próbáld újra.” | Általános hiba. | **Előbb nézd meg a [Foglalásokat](/hu/booking/your-bookings/)**, hogy semmi nem jött-e létre, és csak utána próbáld újra. |
+| „Egy kötelező mező hiányzik vagy érvénytelen.” | Az irodád saját [mezőinek](/hu/manage/settings/#irodai-mezők) egyike üres, vagy egy érték nem felel meg a definíciójának. | Töltsd ki az ellenőrző képernyőn. Semmit nem foglaltunk le, és semmi nem ment el a beszállítóhoz. |
+| „Ezzel az ügyfél a nyitott foglalási plafonja fölé kerülne.” | Az ügyfélnek van [nyitott foglalási plafonja](/hu/manage/customers/#nyitott-foglalási-plafon), és ez a foglalás átlépné. | Beszélj az irodával. Ez nem hitelkeret — akkor csökken, amikor a tartózkodások lezárulnak és foglalásokat lemondanak, soha nem fizetéskor. |
 
 ## Foglalások és lemondás
 
@@ -77,6 +82,22 @@ Sorrendben:
 | „A vendégadatokat nem sikerült törölni.” | A törlés lehet, hogy félig megtörtént. | Futtasd újra — biztonságosan ismételhető. |
 | „Becslés — ez a beszállító nem ad meg időzónát…” | A határidő a legkorábbi lehetséges időpont. | Tekintsd az utolsó biztonságos pillanatnak. Előtte mondj le, soha ne pontosan rajta. |
 | „Nem megerősített — ezt a foglalást azelőtt rögzítettük…” | Régi foglalás. | Egyeztess a beszállítóval, mielőtt a határidőre építesz. |
+
+## Opciók
+
+| Üzenet | Jelentés | Ezt tedd |
+| --- | --- | --- |
+| „Ez a foglalás nem nyitott opció.” | Valaki már válaszolt rá, vagy sosem volt opció. | Töltsd újra a foglalást. A panel megmutatja, mi most. |
+| Az opciópanel hiányzik egy visszatéríthető foglalásnál | Opciódátum nélkül foglalták. | Az opciót a foglaláskor állítják be; utólag nem adható hozzá. |
+
+## Integrációk
+
+| Üzenet | Jelentés | Ezt tedd |
+| --- | --- | --- |
+| `401` a `/api/v1/…` felől | A kulcs hibás, vagy visszavonták. | A kettő szándékosan ugyanúgy válaszol. Hozz létre új kulcsot a Beállításokban. |
+| `429` a `/api/v1/…` felől | Az adott kulcs kérési kerete elfogyott. | Várd ki a `retry-after` másodperceket. Minden kulcsnak saját kerete van, így a másik integrációt nem érinti. |
+| „Ezt a címet elutasítottuk: csak https, és belső címek nem.” | Egy webhook végpont, amely sima http-re vagy magánhálózatra mutat. | Használj nyilvános `https` címet. |
+| Egy webhook végpont, amelynek **utolsó kézbesítése** hibát mutat | A fogadód elutasította, vagy nem válaszolt. | Javítsd a fogadót, majd használd a **Szünetel** és **Folytat** gombot, ha közben le akarod állítani az újrapróbálkozásokat. |
 
 ## Beszállítók és beállítások
 

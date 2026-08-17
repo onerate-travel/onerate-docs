@@ -1,6 +1,6 @@
 ---
 title: Müşteriler
-description: Kurumsal müşterilerinizin sizin tedarikçi kontratlarınız üzerinden kendileri rezervasyon yapması — ve tam olarak neyi görüp neyi göremedikleri.
+description: Kurumsal müşterilerinizin sizin tedarikçi kontratlarınız üzerinden kendileri rezervasyon yapması, bir müşterinin içindeki roller, fiyat grupları, açık rezervasyon tavanları — ve tam olarak neyi görüp neyi göremedikleri.
 ---
 
 **Müşteri**, kurumsal müşterilerinizden biridir; OneRate'te kendi çalışanlarının *sizin* tedarikçi
@@ -26,6 +26,25 @@ adımı ortadan kaldırır — kontratlarınız, tedarikçileriniz ve net fiyatl
 bağlantıyı anında çalışmaz hale getirir.
 
 Zaten kabul edilmiş bir davet iptal edilemez; bunun yerine kişiyi müşteriden çıkarın.
+
+## Bir müşterinin içindeki üç rol
+
+| Rol | Gördüğü | Ayrıca yapabildiği |
+| --- | --- | --- |
+| **Organizatör** | Şirketinin rezervasyonları | Şirketindeki herkes için rezervasyon yapmak |
+| **Yolcu** | **Yalnızca kendi yaptığı rezervasyonlar** | — |
+| **Müşteri yöneticisi** | Şirketinin rezervasyonları | Kendi meslektaşlarını davet etmek, kendi şirketinin ayarlarını yönetmek |
+
+Varsayılan organizatördür; bu roller var olmadan önce her müşteri kullanıcısı zaten oydu.
+
+**Yolcu** rolünü yalnızca kendi seyahatlerini yapan kişilere verin: bir meslektaşının rezervasyonu
+listesinde hiç görünmez, bağlantısıyla açtığında da "göremezsiniz" değil "yok" cevabını alır.
+
+**Müşteri yöneticisi** rolünü o şirkette bu işi sizin yerinize yapması gereken kişiye verin — kendi
+meslektaşlarını davet eder, kendi alanlarını tanımlar. Sizin acentenizden hiçbir şeye erişmez; sınır
+şirkettir, rol değil.
+
+Üçünün de iptal yetkisi yoktur ve üçü de tedarikçi adını ya da net fiyatınızı asla görmez.
 
 ## Bir müşteri kullanıcısı ne görür
 
@@ -61,6 +80,39 @@ yapılandırmanız varsayılan olarak onlara akar. Bir müşteri kendi kârını
 farklı ticari koşullardaysa işe yarar — ve değeri olan en yakın seviye kazanır.
 
 Bir müşterinin kendi kârını temizlemek sıfıra değil, acentenizinkine geri döner.
+
+### Fiyat grupları
+
+Müşteri gruplarını aynı fiyatlandırıyorsanız — "A bayileri" bir oranda, "B bayileri" başka bir
+oranda — kendinizi tekrarlamak yerine onları bir **fiyat grubuna** koyun. Grup kolonu bu ekrandadır;
+grupların kendisi [Fiyatlama](/tr/manage/pricing/#fiyat-grupları) altındadır.
+
+Grup, müşterinin kendi kâr oranı ile acentenizinki **arasında** durur: kendi oranı olan müşteri onu
+korur, gruptaki herkes grubunkini alır.
+
+Bir müşteri en fazla bir gruba aittir. Gruplar arasında taşımak aynı açılır listedir.
+
+## Açık rezervasyon tavanı
+
+Bir müşterinin aynı anda ne kadar **açık** rezervasyonu olabileceğine tavan koyabilirsiniz. Kolon bu
+ekrandadır: satış para biriminizde bir tutar, ya da tavan yoksa boş.
+
+**Açık**, iptal edilmemiş ve konaklaması geçmemiş rezervasyonlar demektir; sattığınız fiyattan
+toplanır. Müşteriyi tavanın üstüne çıkaracak bir rezervasyon tedarikçiye ulaşmadan reddedilir ve
+acenteye sizinle görüşmesi söylenir.
+
+:::caution
+Bu **kredi limiti değildir.** OneRate ödemeyi hiç görmez, dolayısıyla müşteri size ödeme yapınca
+burada hiçbir şey değişmez. Tavan, konaklamalar tamamlandıkça ve rezervasyonlar iptal oldukça düşer
+— başka hiçbir şeyle.
+
+*"Bu müşteri ödeyemeyeceği kadar rezervasyon yapmasın"* sorusunu cevaplar. *"Bu müşteriye 50.000
+kredi ver"* sorusunu cevaplamaz; OneRate'te hiçbir şey cevaplamaz, tasarım gereği.
+:::
+
+**Para birimi başına** çalışır. EUR olarak konmuş bir tavan, TRY fiyatlanan bir rezervasyon hakkında
+hiçbir şey söylemez — çünkü OneRate para birimleri arasında çevirmez, ve bir limit, üründe kur
+uydurmaya başlanacak en kötü yerdir.
 
 ## Kimseyi davet etmeden önce
 

@@ -21,7 +21,10 @@ tariffa diversa se l'ospite ha bisogno di una camera adesso.
 | "Troppi tentativi." | Limitazione delle richieste. | Aspetta un minuto. |
 | "Questo account al momento non può accedere." | Account sospeso, o abbonamento non attivo. | Chiedi all'amministratore della tua agenzia. |
 | "Non siamo riusciti a raggiungere OneRate." | La tua rete. | Controlla la connessione. **Non** hai effettuato l'accesso; nulla è cambiato. |
-| "La tua sessione è terminata." | La sessione è scaduta con la scheda aperta. | Accedi di nuovo. Il lavoro non salvato su quella schermata è perso. |
+| "La tua sessione è terminata." | La sessione è scaduta con la scheda aperta. | Torni alla pagina di accesso e, dopo il login, al punto in cui eri. Se in un modulo c'era qualcosa di digitato, il portale aspetta invece di portarti via — premi **Accedi di nuovo** quando sei pronto. |
+| "Il vostro accesso a questa agenzia è sospeso." | Qualcuno in quell'agenzia ha disattivato il tuo accesso. | Accedere di nuovo non cambia nulla. Usa il selettore di agenzia se lavori altrove; altrimenti chiedi al titolare o all'amministratore di quell'agenzia. |
+| "Questa agenzia richiede un nuovo accesso." | La tua agenzia ha impostato una sessione più breve. | Accedi di nuovo. Il tuo account non ha nulla che non va. |
+| "L'accesso da questa rete non è consentito." | La tua agenzia limita quali indirizzi IP possono connettersi. | Collegati dalla rete dell'ufficio, o chiedi a un titolare di aggiungere il tuo in Impostazioni. |
 | "Questo link di invito non è valido o è scaduto." | Scaduto, revocato o già usato. | Chiedine uno nuovo — chi te l'ha mandato può rinviarlo da Team. |
 | "Questo invito è legato a questo indirizzo email." | Hai fatto l'accesso come qualcun altro. | Esci, poi registrati con l'indirizzo invitato. |
 
@@ -67,6 +70,8 @@ Nell'ordine:
 | "Quella chiave di prenotazione è già stata usata per un'altra prenotazione." | La protezione contro la doppia prenotazione che funziona. | Avvia una nuova ricerca. Nulla è stato prenotato due volte. |
 | "Troppi tentativi di prenotazione in poco tempo." | Limitazione delle richieste. | Aspetta. Riprovare adesso viene rifiutato allo stesso modo. |
 | "Prenotazione non riuscita. Riprova." | Un errore generico. | **Controlla prima [Prenotazioni](/it/booking/your-bookings/)** per confermare che non sia stato creato nulla, poi riprova. |
+| "Un campo obbligatorio manca o non è valido." | Uno dei [campi](/it/manage/settings/#campi-dellagenzia) della vostra agenzia è vuoto, o un valore non rispetta la sua definizione. | Completalo nella schermata di riepilogo. Nulla è stato prenotato e nulla è stato inviato al fornitore. |
+| "Questa prenotazione porterebbe il cliente oltre il suo tetto di prenotazioni aperte." | Il cliente ha un [tetto delle prenotazioni aperte](/it/manage/customers/#tetto-delle-prenotazioni-aperte) e questa prenotazione lo supera. | Parlate con l'agenzia. Non è un fido — scende quando i soggiorni si concludono e le prenotazioni vengono annullate, mai al pagamento. |
 
 ## Prenotazioni e annullamento
 
@@ -79,6 +84,22 @@ Nell'ordine:
 | "Impossibile cancellare i dati degli ospiti." | La cancellazione può essere parziale. | Eseguila di nuovo — è sicura da ripetere. |
 | "Stima: questo fornitore non indica un fuso orario…" | La scadenza è il primo momento in cui potrebbe cadere. | Trattala come l'ultimo momento sicuro. Annulla prima, mai in corrispondenza. |
 | "Non confermata: questa prenotazione è stata registrata prima…" | Una prenotazione vecchia. | Verifica con il fornitore prima di fidarti della scadenza. |
+
+## Opzioni
+
+| Messaggio | Significato | Che cosa fare |
+| --- | --- | --- |
+| "Questa prenotazione non è un'opzione aperta." | Qualcuno ha già risposto, oppure non è mai stata un'opzione. | Ricarica la prenotazione. Il pannello mostra che cos'è adesso. |
+| Il pannello dell'opzione manca su una prenotazione rimborsabile | È stata prenotata senza una data di opzione. | L'opzione si imposta al momento della prenotazione; non si può aggiungere dopo. |
+
+## Integrazioni
+
+| Messaggio | Significato | Che cosa fare |
+| --- | --- | --- |
+| `401` da `/api/v1/…` | La chiave è sbagliata, oppure è stata revocata. | I due casi rispondono allo stesso modo, di proposito. Crea una nuova chiave in Impostazioni. |
+| `429` da `/api/v1/…` | Il budget di richieste di quella chiave è esaurito. | Aspetta i secondi di `retry-after`. Ogni chiave ha il proprio budget, quindi un'altra integrazione non è toccata. |
+| "Quell'indirizzo è stato rifiutato: solo https, e nessun indirizzo interno." | Un endpoint webhook che punta a http semplice o a una rete privata. | Usa un indirizzo `https` pubblico. |
+| Un endpoint webhook con un errore nell'**ultima consegna** | Il vostro ricevitore ha rifiutato o non ha risposto. | Sistemate il ricevitore, poi usate **Sospendi** e **Riprendi** se nel frattempo volete fermare i tentativi. |
 
 ## Fornitori e impostazioni
 

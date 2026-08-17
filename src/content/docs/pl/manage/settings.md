@@ -1,6 +1,6 @@
 ---
 title: Ustawienia
-description: Firmowy kontakt do rezerwacji, tożsamość i marka agencji, status subskrypcji, konfiguracja agencji oraz dostawca map.
+description: Firmowy kontakt do rezerwacji, Państwa własna tożsamość i marka, pola biura, ustawienia bezpieczeństwa, status subskrypcji, konfiguracja agencji oraz dostawca map.
 ---
 
 Właściciele i administratorzy. Opuszczenie tego ekranu z niezapisanymi zmianami najpierw pyta.
@@ -28,6 +28,103 @@ to nie kontakt.
 
 Obie ustawia OneRate; tutaj nie da się ich edytować. Aby zmienić którąkolwiek, skontaktuj się ze
 wsparciem OneRate. Ekran tak mówi, zamiast pokazywać pole, które i tak się nie zapisze.
+
+## Państwa własna tożsamość na Państwa dokumentach
+
+Wszystko w tej sekcji należy do Państwa i pojawia się na dokumentach, które zachowują Państwa
+klienci.
+
+### Dane biura
+
+- **Nazwa rejestrowa** — firma tak, jak jest zarejestrowana, jeśli różni się od nazwy handlowej
+- **Adres**
+- **NIP** — VKN w Turcji, CUI, NIP lub partita IVA gdzie indziej. Jest drukowany, nigdy nie służy do
+  obliczeń, więc każdy z nich jest przyjmowany
+- **Numer licencji biura** — w Turcji numer TÜRSAB
+
+Pozostawione puste pole **nie drukuje żadnego wiersza** na voucherze — nie pustego. Pusty wiersz
+„NIP:" czyta się jako *brak*, co jest innym twierdzeniem niż *nie podano* — i tym fałszywym.
+
+Dane te spływają do Państwa klientów: rezerwacja złożona przez klienta korporacyjnego niesie
+**Państwa** licencję, bo na tym dokumencie stroną licencjonowaną jest Państwa biuro.
+
+### Logo biura
+
+**PNG lub JPEG, do 256 KB.** Pojawia się na voucherach i na stronie logowania pod Państwa własnym
+adresem.
+
+Tylko te dwa formaty, ponieważ tyle może unieść voucher. Format, który wyświetla się w portalu i po
+cichu znika z dokumentu, byłby gorszy niż odmowa — nikt by się nie zorientował, dopóki klient nie
+zapyta.
+
+Aby zmienić, proszę wgrać inne; **Usuń logo** przywraca znak OneRate.
+
+### Kolor marki
+
+Jeden kolor, wartość szesnastkowa w rodzaju `#0e6b5c`. Ciemniejsze i jaśniejsze odcienie są z niego
+wyliczane, więc nie ma nic więcej do wyboru.
+
+Kolor **nieczytelny** zostaje odrzucony, a komunikat to mówi:
+
+> Ten kolor jest nieczytelny: biały tekst na nim oraz on na jasnym tle wymagają co najmniej 4.5:1.
+
+To nie jest przesada. Ten sam kolor maluje przycisk z białym tekstem i wyróżnione słowa na jasnym
+tle — firmowa żółć przechodzi drugi test i oblewa pierwszy, a wynikiem jest portal, którego
+przycisków Państwa własny personel nie potrafi odczytać.
+
+### Adres internetowy
+
+Własny adres logowania biura: `panstwanazwa.onerate.travel`.
+
+Małe litery, cyfry i myślniki, 3–40 znaków. Niektóre nazwy należą do OneRate i są odrzucane; tak
+samo nazwa, którą ma już inne biuro — komunikat mówi, o którą z dwóch chodzi.
+
+:::caution
+Zmiana **natychmiast wyłącza stary adres**, także na wszystkim, co już wydrukowano lub wysłano
+mailem. Proszę uprzedzić klientów przed zmianą, nie po niej.
+:::
+
+## Pola biura
+
+Państwa własne pola przy rezerwacji: **centrum kosztów**, **kod projektu**, **numer zamówienia** —
+cokolwiek księgowość potrzebuje, by rozliczyć pobyt.
+
+Każde pole ma:
+
+- **klucz**, pod którym przechowywana jest wartość i do którego przypięta jest kolumna raportu. Nie
+  można go później zmienić, bo każda już zapisana wartość stoi pod nim
+- **etykietę**, którą agenci czytają na formularzu — i tę *można* zmienić
+- **typ**: tekst, stała lista albo data
+- to, czy jest **wymagane**
+
+Pole **wymagane** odrzuca rezerwację wprost, zanim dostawca zostanie wywołany. O to właśnie chodzi:
+pobyt bez kodu to pobyt, za którym ktoś biega dwa tygodnie później, a wtedy agent nie pamięta już,
+która to była z czterdziestu rezerwacji.
+
+Państwa pola pojawiają się na ekranie podsumowania, na stronie rezerwacji oraz jako **kolumny w
+eksporcie raportu** — po jednej kolumnie na każde zdefiniowane pole, niezależnie od tego, czy coś w
+nim zapisano, dzięki czemu dwa eksporty tego samego okresu mają ten sam kształt.
+
+Klienci korporacyjni również mogą zdefiniować własne; Państwa pola obowiązują także w ich
+rezerwacjach, a pole oznaczone jako wymagane pozostaje wymagane i dla nich. Zobacz
+[Klienci](/pl/manage/customers/).
+
+## Ustawienia bezpieczeństwa
+
+Trzy ustawienia i każde z nich może jedynie **zaostrzyć** to, czego OneRate już wymaga.
+
+- **Kto musi używać weryfikacji dwuetapowej** — właściciele (próg OneRate), Państwa administratorzy
+  albo wszyscy logujący się. Poniżej progu zejść nie można.
+- **Czas trwania sesji (godziny)** — jak długo zalogowana sesja może działać bez ponownego
+  logowania. Od 1 godziny do 14 dni.
+- **Dozwolone adresy IP** — adresy IPv4 i zakresy CIDR, oddzielone przecinkami. Żądanie skądkolwiek
+  indziej jest odrzucane, **także od Państwa własnego personelu**.
+
+IPv6 jest odrzucany, zamiast być przyjmowanym i ignorowanym: lista, która po cichu nie pasuje do
+połowy internetu, pozostawiłaby Państwa w przekonaniu, że mają kontrolę, której nie mają.
+
+Obowiązują także dla kluczy API — klucz to również ruch Państwa biura. Zobacz
+[Integracje](/pl/manage/integrations/).
 
 ## Subskrypcja
 

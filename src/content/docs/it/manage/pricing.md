@@ -1,6 +1,6 @@
 ---
 title: Prezzi e margine
-description: La tua valuta di vendita, il margine applicato a ogni tariffa, come i margini vengono ereditati dai clienti e perché nulla viene mai convertito.
+description: La vostra valuta di vendita, il margine applicato a ogni tariffa, le fasce di prezzo per gruppi di clienti, come i margini vengono ereditati e perché nulla viene mai convertito.
 ---
 
 ## Valuta di vendita
@@ -73,17 +73,38 @@ entrambi.
 I tuoi **clienti** vedono solo il prezzo di vendita. Non vedono mai il netto fornitore, e non vedono
 mai di quale fornitore si trattasse.
 
+## Fasce di prezzo
+
+Se vendete a una rete di sub-agenzie, le prezzate a gruppi, non una alla volta. La **fascia** è quel
+gruppo: un nome e una percentuale.
+
+1. **Impostazioni → Fasce di prezzo.** Aggiungete una fascia e datele un nome — "A bayileri",
+   "B bayileri".
+2. Impostate il suo **margine**, in percentuale, sulla riga della fascia.
+3. Metteteci i clienti dalla schermata [Clienti](/it/manage/customers/).
+
+Cambiare la percentuale di una fascia la cambia per tutti quelli che vi appartengono, ed è esattamente
+il punto: quaranta sub-agenzie alle stesse condizioni devono essere un numero solo, non quaranta copie
+che con il tempo divergono.
+
+Un cliente appartiene ad **al massimo una fascia**. Due renderebbero ambigua la domanda "a quanto
+vendiamo a questo cliente?" proprio nel momento in cui qualcuno la pone.
+
+**Una fascia non si può eliminare finché ci sono clienti dentro.** Spostateli prima. Eliminarla con i
+clienti dentro li riporterebbe in silenzio alla percentuale predefinita della vostra agenzia — un
+cambio di prezzo che nessuno ha chiesto, scoperto su una fattura.
+
 ## Come si eredita il margine
 
-I margini si risolvono lungo la catena della tua organizzazione: la tua agenzia, poi ogni cliente
-sotto di essa.
+I margini si risolvono dal livello più specifico verso l'esterno: **l'agente, poi il cliente, poi la
+fascia del cliente, poi l'agenzia.**
 
-La regola è che **vince il livello più vicino che ha un margine.** Un cliente con un proprio margine
-usa quello; un cliente che non ne ha eredita il tuo. Azzerare l'override di un cliente ricade sul
-valore della tua agenzia — non su zero.
+La regola è che **vince il livello più vicino che ha un margine.** Un agente con il proprio margine
+quota con quello; uno senza ricade su quello del cliente, poi su quello della sua fascia, poi su
+quello dell'agenzia. Cancellare un override ricade sul livello superiore — mai a zero.
 
-È la stessa ereditarietà che usa il resto della configurazione della tua agenzia, quindi si comporta
-come ti aspetteresti dalle [Impostazioni](/it/manage/settings/).
+La posizione della fascia è deliberata: la fascia è ciò che dite su un *gruppo*, quindi tutto ciò che
+avete detto su un singolo cliente la batte, e lei batte il vostro valore generale.
 
 ## Controlli di buon senso da fare
 

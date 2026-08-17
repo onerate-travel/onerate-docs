@@ -59,6 +59,17 @@ nume inventat. Asta contează la hotelurile care înregistrează fiecare oaspete
 Citește linia despre anulare. Este ultimul moment în care schimbarea de idee asupra condițiilor
 costă ieftin.
 
+### Câmpurile proprii ale agenției tale
+
+Dacă agenția ta a definit [câmpuri ale agenției](/ro/manage/settings/#câmpurile-agenției) — un centru
+de cost, un cod de proiect, un număr de comandă — ele apar aici, deasupra casetei de solicitări. Un
+câmp marcat cu `*` este **obligatoriu**, iar fără el rezervarea este refuzată înainte ca ceva să
+ajungă la furnizor.
+
+Ele sunt codificarea proprie a rezervării de către agenția ta: nu sunt trimise niciodată hotelului
+sau furnizorului, apar apoi pe pagina rezervării și devin coloane în
+[exportul rapoartelor tale](/ro/manage/reports/#export).
+
 Apasă **Confirmă și rezervă** sau **Înapoi la rezultate**.
 
 ## Când prețul se schimbă
@@ -106,6 +117,8 @@ două camere. Vezi [Stările rezervării](/ro/booking/statuses/).
 | „Prea multe încercări de rezervare într-un timp scurt.” | Limitare a numărului de cereri. | Așteaptă. O reîncercare imediată va fi refuzată la fel. |
 | „Acea cheie de rezervare a fost deja folosită pentru o altă rezervare.” | Acest formular de rezervare a fost deja folosit pentru altceva. | Începe o căutare nouă. Nimic nu a fost rezervat de două ori — acest mesaj este protecția care funcționează. |
 | „Rezervarea a eșuat. Te rugăm să încerci din nou.” | O eroare generală. | Verifică [Rezervări](/ro/booking/your-bookings/) **înainte** să reîncerci, ca să confirmi că nu s-a creat nimic. |
+| „Un câmp obligatoriu lipsește sau este invalid.” | Unul dintre câmpurile proprii ale agenției tale este gol sau nu se potrivește cu definiția sa. | Completează-l pe ecranul de verificare. Nu s-a rezervat nimic. |
+| „Aceasta ar duce clientul peste plafonul rezervărilor deschise.” | Clientul are un [plafon](/ro/manage/customers/#plafonul-rezervărilor-deschise) pentru cât poate ține deschis, iar această rezervare îl depășește. | Vorbește cu agenția. Plafonul scade pe măsură ce sejururile se încheie și rezervările sunt anulate. |
 
 ## De ce nu poți rezerva din greșeală de două ori
 

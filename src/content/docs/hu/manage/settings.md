@@ -1,6 +1,6 @@
 ---
 title: Beállítások
-description: A céges foglalási kapcsolattartó, az iroda azonosítója és márkázása, az előfizetés állapota, az iroda konfigurációja és a térképszolgáltató.
+description: A céges foglalási kapcsolattartó, a saját azonosítód és márkázásod, az irodai mezők, a biztonsági beállítások, az előfizetés állapota, az iroda konfigurációja és a térképszolgáltató.
 ---
 
 Tulajdonosok és adminisztrátorok. Ha mentetlen módosításokkal hagynád el ezt a képernyőt, előbb
@@ -30,6 +30,101 @@ egy fél kapcsolattartó nem kapcsolattartó.
 Mindkettőt a OneRate állítja be, itt nem szerkeszthetők. Bármelyik módosításához fordulj a OneRate
 ügyfélszolgálatához. A képernyő ezt ki is írja, ahelyett hogy olyan mezőt mutatna, amely nem
 mentődik el.
+
+## A saját azonosítója, a saját dokumentumain
+
+Ebben a szakaszban minden az Öné, és rákerül arra a papírra, amelyet az ügyfelei megőriznek.
+
+### Az iroda adatai
+
+- **Cégnév** — a bejegyzett cégnév, ha eltér attól, amelyen kereskedik
+- **Cím**
+- **Adószám** — Törökországban VKN, máshol CUI, NIP vagy partita IVA. Csak nyomtatásra kerül, nem
+  számolunk vele, ezért mindegyik elfogadott
+- **Irodai engedélyszám** — Törökországban a TÜRSAB-szám
+
+Az üresen hagyott mező **egyáltalán nem** kerül a voucherre — nem üres sorként. Az üres „Adószám:"
+sor azt jelenti, hogy *nincs*, ami más állítás, mint hogy *nincs megadva*, és a kettő közül a hamis.
+
+Ezek az ügyfeleire is öröklődnek: a vállalati ügyfele által készített foglalás az **Ön** engedélyét
+viseli, mert azon a dokumentumon az Ön irodája az engedélyes fél.
+
+### Az iroda logója
+
+**PNG vagy JPEG, legfeljebb 256 KB.** A vouchereken és a saját webcímén lévő belépőoldalon jelenik
+meg.
+
+Csak ez a két formátum, mert ezt a kettőt tudja a voucher hordozni. Egy formátum, amely a portálon
+megjelenik, a dokumentumról viszont csendben eltűnik, rosszabb az elutasításnál — senki nem venné
+észre, amíg egy ügyfél rá nem kérdez.
+
+Cseréhez töltsön fel másikat; a **Logó eltávolítása** visszaáll a OneRate jelére.
+
+### Márkaszín
+
+Egyetlen szín, hexadecimális értékként, például `#0e6b5c`. A sötétebb és világosabb árnyalatok
+ebből származnak, így nincs más választanivaló.
+
+Az **olvashatatlan** szín elutasításra kerül, és az üzenet ezt meg is mondja:
+
+> Ez a szín nem olvasható: a rajta lévő fehér szöveghez és a világos háttéren legalább 4.5:1 kell.
+
+Ez nem szőrszálhasogatás. Ugyanaz a szín fest gombot fehér szöveggel és kiemelt szavakat világos
+háttéren — egy céges sárga a második próbán átmegy, az elsőn nem, az eredmény pedig olyan portál,
+amelynek gombjait a saját munkatársai nem tudják elolvasni.
+
+### Webcím
+
+Az iroda saját belépési címe: `azonneve.onerate.travel`.
+
+Kisbetűk, számok és kötőjelek, 3–40 karakter. Néhány név a OneRate sajátja, azokat elutasítjuk; és
+elutasítjuk azt is, amelyet már egy másik iroda használ — az üzenet megmondja, melyikről van szó.
+
+:::caution
+A módosítás **azonnal működésképtelenné teszi a régi címet**, azon is, amit már kinyomtatott vagy
+e-mailben elküldött. A változás előtt szóljon az ügyfeleinek, ne utána.
+:::
+
+## Irodai mezők
+
+Saját mezői a foglaláson: **költséghely**, **projektkód**, **megrendelésszám** — amire a pénzügynek
+szüksége van, hogy egy tartózkodást beazonosítson.
+
+Minden mezőnek van:
+
+- **kulcsa**, amely alatt az érték tárolódik, és amelyhez a riport oszlopa kötődik. Később nem
+  módosítható, mert minden rögzített érték ez alatt áll
+- **címkéje**, amelyet az ügyintézői a foglalási űrlapon olvasnak — és ezt *lehet* módosítani
+- **típusa**: szöveg, rögzített lista vagy dátum
+- **kötelező** volta
+
+A **kötelező** mező egyenesen elutasítja a foglalást, még mielőtt a szállító hívásra kerülne. Éppen
+ez a lényege: a kódolatlan tartózkodás olyan, amelyet valaki két héttel később keres, és addigra az
+ügyintéző elfelejtette, melyik volt a negyven közül.
+
+A mezői megjelennek az ellenőrző képernyőn, a foglalás saját oldalán, és **oszlopként a riport
+exportjában** — minden meghatározott mezőhöz egy oszlop, akkor is, ha nem került bele semmi, így
+ugyanannak az időszaknak két exportja azonos alakú.
+
+Vállalati ügyfelei is meghatározhatnak sajátokat; az Ön mezői az ő foglalásaikra is érvényesek, és a
+kötelezővé tett mező náluk is kötelező marad. Lásd: [Ügyfelek](/hu/manage/customers/).
+
+## Biztonsági beállítások
+
+Három beállítás, és mindegyik csak **szigoríthat** azon, amit a OneRate már megkövetel.
+
+- **Kinek kötelező a kétlépcsős azonosítás** — a tulajdonosoknak (a OneRate alapszintje), az Ön
+  adminisztrátorainak, vagy mindenkinek, aki belép. Az alapszint alá nem mehet.
+- **Munkamenet élettartama (óra)** — meddig működhet egy belépett munkamenet újbóli belépés nélkül.
+  1 óra és 14 nap között.
+- **Engedélyezett IP-címek** — IPv4-címek és CIDR-tartományok, vesszővel elválasztva. A máshonnan
+  érkező kérés elutasításra kerül, **a saját munkatársaié is**.
+
+Az IPv6 elutasításra kerül ahelyett, hogy elfogadnánk és figyelmen kívül hagynánk: egy lista, amely
+az internet felével csendben nem egyezik, abban a hitben hagyná, hogy van egy védelme, ami nincs.
+
+Ezek az API-kulcsaira is vonatkoznak — a kulcs is az iroda forgalma. Lásd:
+[Integrációk](/hu/manage/integrations/).
 
 ## Előfizetés
 

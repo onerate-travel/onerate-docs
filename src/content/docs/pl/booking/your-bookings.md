@@ -32,7 +32,11 @@ Otwórz rezerwację, aby zobaczyć wszystko, co o niej zapisano.
 ### Rezerwacja
 
 Hotel, status, dostawca, **numer potwierdzenia**, zameldowanie, wymeldowanie, gość główny, cena
-sprzedaży.
+sprzedaży, **oddział**, który ją przyjął, i **kto** ją przyjął.
+
+Jeśli Państwa biuro ma [pola biura](/pl/manage/settings/#pola-biura), wartości zapisane przy tej
+rezerwacji pojawiają się we własnej sekcji. Są takie, jakie były **wtedy**: pole zdefiniowane
+później jest tu puste, a wycofane wciąż pokazuje, czym rezerwację oznaczono.
 
 Numer potwierdzenia należy do dostawcy — to on identyfikuje u niego rezerwację, gdybyś musiał
 zadzwonić.
@@ -64,6 +68,34 @@ rozważono i co przesądziło. Pozostaje dostępny długo po zakończeniu sesji 
 
 Każdy stan, przez który przeszła rezerwacja, po kolei, z godzinami. To pierwsze miejsce, w które
 warto zajrzeć, gdy rezerwacja zrobiła coś, czego się nie spodziewałeś.
+
+## Opcje
+
+**Opcja** to rezerwacja, którą trzymają Państwo, gdy klient się zastanawia.
+
+To prawdziwa rezerwacja na stawce zwrotnej plus data, którą Państwo wyznaczyli. Żaden dostawca, z
+którym pracuje OneRate, nie oferuje własnej blokady — produkt dodaje to, że termin jest widoczny i
+obsługiwany, zamiast żyć w czyimś kalendarzu.
+
+Rezerwacja utrzymywana jako opcja pokazuje panel, który to mówi, z dwoma przyciskami:
+
+- **Potwierdź** — opcja zostaje zwykłą rezerwacją. W hotelu nic się nie zmienia; zawsze była
+  prawdziwa.
+- **Zwolnij** — rezerwacja zostaje anulowana. Przechodzi przez to samo potwierdzenie co każde inne
+  anulowanie i podaje tę samą opłatę, bo zwolnienie opcji *jest* anulowaniem rezerwacji.
+
+Termin jest ograniczony własnym oknem bezpłatnego anulowania stawki, pomniejszonym o dzień. Stawki
+bez bezpłatnego okna nie da się utrzymać wcale: „utrzymanie” znaczyłoby „zarezerwuj i zapłać karę
+później”, a to jest rezerwacja — i należy to powiedzieć, a nie sprzedać samo słowo.
+
+Wieczorem przed upływem terminu osoba, która przyjęła rezerwację, dostaje e-mail. Co się stanie, gdy
+nikt nie odpowie, jest wyborem Państwa biura, w
+[Ustawieniach](/pl/manage/settings/#konfiguracja-agencji): **przypomnienie** ostrzega dalej i nigdy
+nie anuluje, **zwolnienie** oddaje pokój. Biuro, które nic nie zadeklarowało, dostaje
+**przypomnienie**, bo błędne anulowanie to prawdziwe pieniądze.
+
+Voucher otwartej opcji mówi, że nią jest, więc klient trzymający go w ręku nie pomyli go z
+przesądzonym pobytem.
 
 ## Vouchery
 

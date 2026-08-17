@@ -20,7 +20,10 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Prea multe încercări.” | Limitare a numărului de cereri. | Așteaptă un minut. |
 | „Acest cont nu se poate autentifica momentan.” | Cont suspendat sau abonament inactiv. | Întreabă administratorul agenției tale. |
 | „Nu am putut contacta OneRate.” | Rețeaua ta. | Verifică-ți conexiunea. **Nu** ai fost autentificat; nimic nu s-a schimbat. |
-| „Sesiunea ta s-a încheiat.” | Sesiunea a expirat cu fila deschisă. | Autentifică-te din nou. Lucrul nesalvat de pe acel ecran se pierde. |
+| „Sesiunea ta s-a încheiat.” | Sesiunea a expirat cu fila deschisă. | Revii la autentificare și, după autentificare, acolo unde ai rămas. Dacă într-un formular era scris ceva, portalul așteaptă în loc să te mute — apasă **Autentifică-te din nou** când ești gata. |
+| „Accesul dvs. la această agenție este suspendat.” | Cineva din acea agenție ți-a oprit accesul. | Reautentificarea nu schimbă nimic. Folosește selectorul de agenții dacă lucrezi în altă parte; altfel, întreabă proprietarul sau administratorul acelei agenții. |
+| „Această agenție cere o nouă autentificare.” | Agenția ta a stabilit o durată mai scurtă a sesiunii. | Autentifică-te din nou. Contul tău este în regulă. |
+| „Accesul din această rețea nu este permis.” | Agenția ta limitează ce adrese IP se pot conecta. | Conectează-te din rețeaua biroului sau roagă un proprietar să o adauge pe a ta în Setări. |
 | „Acest link de invitație este invalid sau expirat.” | Expirat, revocat sau deja folosit. | Cere unul nou — expeditorul îl poate retrimite din Echipă. |
 | „Această invitație este legată de această adresă de email.” | Ești autentificat ca altcineva. | Deconectează-te, apoi înregistrează-te cu adresa invitată. |
 
@@ -66,6 +69,8 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Acea cheie de rezervare a fost deja folosită pentru o altă rezervare.” | Protecția împotriva dublei rezervări, funcționând. | Începe o căutare nouă. Nimic nu a fost rezervat de două ori. |
 | „Prea multe încercări de rezervare într-un timp scurt.” | Limitare a cererilor. | Așteaptă. O reîncercare acum este refuzată la fel. |
 | „Rezervarea a eșuat. Te rugăm să încerci din nou.” | O eroare generală. | **Verifică întâi [Rezervări](/ro/booking/your-bookings/)** ca să confirmi că nu s-a creat nimic, apoi reîncearcă. |
+| „Un câmp obligatoriu lipsește sau este invalid.” | Unul dintre [câmpurile](/ro/manage/settings/#câmpurile-agenției) proprii ale agenției tale este gol, sau o valoare nu se potrivește cu definiția sa. | Completează-l pe ecranul de verificare. Nu s-a rezervat nimic și nimic nu a fost trimis furnizorului. |
+| „Aceasta ar duce clientul peste plafonul rezervărilor deschise.” | Clientul are un [plafon al rezervărilor deschise](/ro/manage/customers/#plafonul-rezervărilor-deschise), iar această rezervare îl depășește. | Vorbește cu agenția. Nu este o limită de credit — scade pe măsură ce sejururile se încheie și rezervările sunt anulate, niciodată la plată. |
 
 ## Rezervări și anulare
 
@@ -78,6 +83,22 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Datele oaspeților nu au putut fi șterse.” | Ștergerea poate fi parțială. | Rulează din nou — se poate repeta în siguranță. |
 | „Estimare — acest furnizor nu indică un fus orar…” | Termenul este cel mai devreme moment la care ar putea cădea. | Tratează-l ca pe ultimul moment sigur. Anulează înainte, niciodată exact la el. |
 | „Neconfirmat — această rezervare a fost înregistrată înainte…” | O rezervare veche. | Verifică la furnizor înainte să te bazezi pe termen. |
+
+## Opțiuni
+
+| Mesaj | Sens | Ce faci |
+| --- | --- | --- |
+| „Această rezervare nu este o opțiune deschisă.” | Cineva a răspuns deja, sau nu a fost niciodată opțiune. | Reîncarcă rezervarea. Panoul arată ce este acum. |
+| Panoul de opțiune lipsește la o rezervare rambursabilă | A fost rezervată fără o dată de opțiune. | Opțiunea se stabilește la rezervare; nu poate fi adăugată ulterior. |
+
+## Integrări
+
+| Mesaj | Sens | Ce faci |
+| --- | --- | --- |
+| `401` de la `/api/v1/…` | Cheia este greșită sau a fost revocată. | Cele două răspund la fel, intenționat. Creează o cheie nouă în Setări. |
+| `429` de la `/api/v1/…` | Bugetul de cereri al acelei chei s-a epuizat. | Așteaptă secundele din `retry-after`. Fiecare cheie are bugetul ei, deci altă integrare nu este afectată. |
+| „Acea adresă a fost refuzată: doar https și fără adrese interne.” | Un punct webhook care indică spre http simplu sau spre o rețea privată. | Folosește o adresă `https` publică. |
+| Un punct webhook care arată o eroare la **ultima livrare** | Receptorul dvs. a refuzat sau nu a răspuns. | Reparați receptorul, apoi folosiți **Pauză** și **Reia** dacă vreți să opriți reîncercările între timp. |
 
 ## Furnizori și setări
 

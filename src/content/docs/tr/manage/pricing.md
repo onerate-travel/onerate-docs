@@ -1,6 +1,6 @@
 ---
 title: Fiyatlandırma ve kâr
-description: Satış para biriminiz, her fiyata uygulanan kâr, kârın müşterilere nasıl aktarıldığı ve neden hiçbir şeyin çevrilmediği.
+description: Satış para biriminiz, her fiyata uygulanan kâr, müşteri grupları için fiyat grupları, kârın nasıl aktarıldığı ve neden hiçbir şeyin çevrilmediği.
 ---
 
 ## Satış para birimi
@@ -72,16 +72,36 @@ ikisini de toplar.
 **Müşterileriniz** yalnızca satış fiyatını görür. Tedarikçi netini asla görmezler ve hangi tedarikçi
 olduğunu asla görmezler.
 
+## Fiyat grupları
+
+Bir alt acente ağına satıyorsanız onları tek tek değil, gruplar hâlinde fiyatlarsınız. **Grup** o
+gruptur: bir ad ve bir oran.
+
+1. **Ayarlar → Fiyat grupları.** Grup ekleyin ve ad verin — "A bayileri", "B bayileri".
+2. Grubun kendi satırında **kâr oranını** yüzde olarak belirleyin.
+3. Müşterileri [Müşteriler](/tr/manage/customers/) ekranından gruba koyun.
+
+Bir grubun oranını değiştirmek gruptaki herkes için değiştirir; bütün mesele de budur: aynı şartlardaki
+kırk alt acente kırk kopya değil, tek bir sayı olmalıdır — kopyalar zamanla birbirinden ayrılır.
+
+Bir müşteri **en fazla bir gruba** aittir. İki grup, "bu müşteriye kaça satıyoruz?" sorusunu tam
+sorulduğu anda belirsiz yapardı.
+
+**İçinde müşteri varken bir grup silinemez.** Önce onları çıkarın. Müşteriler içindeyken silmek,
+hepsini sessizce acentenizin varsayılan oranına düşürürdü — kimsenin istemediği, faturada fark edilen
+bir fiyat değişikliği.
+
 ## Kâr nasıl aktarılır
 
-Kârlar organizasyon zinciriniz boyunca aşağı doğru çözülür: acenteniz, sonra altındaki müşteri.
+Kâr oranları en özel seviyeden dışarı doğru çözülür: **acente kullanıcısı, sonra müşteri, sonra
+müşterinin grubu, sonra acente.**
 
-Kural şudur: **kârı olan en yakın seviye kazanır.** Kendi kârı olan bir müşteri onu kullanır; kârı
-olmayan bir müşteri sizinkini devralır. Bir müşterinin geçersiz kılmasını temizlemek, sıfıra değil,
-acentenizin değerine geri döner.
+Kural şu: **değeri olan en yakın seviye kazanır.** Kendi oranı olan bir kullanıcı onunla fiyat verir;
+olmayan müşterininkine, sonra müşterinin grubununkine, sonra acentenizinkine düşer. Bir override'ı
+temizlemek sıfıra değil, bir üstteki seviyeye döner.
 
-Bu, acente yapılandırmanızın geri kalanının kullandığı aktarımın aynısıdır; yani
-[Ayarlar](/tr/manage/settings/) sayfasından beklediğiniz gibi davranır.
+Grubun yeri bilinçlidir: grup, bir *küme* hakkında söylediğiniz şeydir — dolayısıyla tek bir müşteri
+hakkında söylediğiniz her şey onu yener, o da genel varsayılanınızı yener.
 
 ## Yapmaya değer kontroller
 

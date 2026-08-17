@@ -1,6 +1,6 @@
 ---
 title: Csapat
-description: Kollégák meghívása, a szerepkörük kiválasztása, a függő meghívók kezelése és emberek eltávolítása.
+description: Kollégák meghívása, a szerepkörük kiválasztása és megváltoztatása, fiókok, hozzáférés felfüggesztése és emberek eltávolítása.
 ---
 
 A **Csapat** az irodád saját munkatársai. Tulajdonosok és adminisztrátorok.
@@ -43,9 +43,54 @@ A tulajdonosi fiók nem kényelmi fiók. A kétlépcsős azonosítás rajta köt
 
 ## Szerepkör megváltoztatása
 
-Nincs szerepkör-szerkesztő. Távolítsd el a személyt, és hívd meg újra a kívánt szerepkörrel. A
-foglalásait ez nem érinti — a foglalások az irodához tartoznak, nem ahhoz a fiókhoz, amely leadta
-őket.
+A szerepkör egy legördülő menü az illető sorában. Megváltoztatja, és a következő kérésétől érvényes —
+nincs mit menteni, és nem kell kilépnie.
+
+A foglalásai nem változnak: a foglalás az irodáé, nem azé a fióké, amelyik létrehozta.
+
+**Egy irodának mindig marad legalább egy aktív tulajdonosa.** Az utolsó tulajdonos szerepkörének
+megváltoztatása elutasításra kerül ahelyett, hogy végrehajtanánk — a tulajdonos nélküli irodában
+senki nem maradna, aki újat nevezhetne ki.
+
+## Hozzáférés felfüggesztése
+
+A **Felfüggesztés** kikapcsolja a kollégát anélkül, hogy eltávolítaná. Minden művelet elutasításra
+kerül a következő kérésétől, a meghívói és foglalásai pedig pontosan ott maradnak, ahol vannak.
+
+Arra az esetre, amelyre az eltávolítás nem illik: valaki szabadságon van, valakit vizsgálnak, valaki
+laptopja eltűnt. A **Visszaállítás** visszahozza.
+
+A belépése továbbra is működik — tartozhat másik irodához is, és az ehhez az irodához nem tartozik.
+Amit itt lát, az a felfüggesztést megnevező üzenet, nem egy elromlott képernyő.
+
+Ugyanaz a szabály él: az utolsó aktív tulajdonost nem lehet felfüggeszteni.
+
+## Fiókok
+
+Ha az irodája több irodahelyiségből dolgozik, a **fiókok** adják meg a dimenziót, hogy ezt ki lehessen
+mondani.
+
+A **Fiókok** alatt vegyen fel egyet név szerint. Aztán minden személy sorában válassza ki, melyik
+fiókban dolgozik.
+
+Mire jó egy fiók:
+
+- **Minden foglalásra rákerül a fiók, amelyik felvette**, a létrehozás pillanatában. Az emberből
+  olvassuk ki, nem űrlapon választják — így senki nem könyvelhet foglalást olyan iroda alá, ahol nem
+  dolgozik.
+- A riportok [fiók szerint](/hu/manage/reports/#bontások) is bontanak.
+- Egy tag **saját fiókjára korlátozható** — ez a jelölőnégyzet a szerepköre mellett. Ekkor csak a
+  saját fiókja foglalásait és kollégáit látja.
+- Egy fiók tarthat **saját szállítói fiókot**: lásd [Szállítók](/hu/manage/suppliers/).
+- Egy fiók hordozhat **saját címet, telefonszámot és engedélyszámot**, és ezek jelennek meg az általa
+  kiadott vouchereken. A 23:00-kor telefonáló vendég azt a pultot hívja, amelyik eladta neki a szobát,
+  nem a központot.
+
+Egy fiók bezárása feloldja az emberei hozzárendelését; a tagságuk és a foglalásaik megmaradnak, és
+egy már nem létező fiók által felvett foglalás attól még megtörtént foglalás.
+
+Az a fiók, amely saját szállítói fiókot tart, **nem zárható be**, amíg azt el nem távolítják — éppen
+az a hozzáférés mondja le a korábbi foglalásait, és a törlése magukra hagyná őket.
 
 ## Valakit eltávolítani
 

@@ -1,6 +1,6 @@
 ---
 title: Prețuri și marjă
-description: Moneda ta de vânzare, marja aplicată fiecărui tarif, cum se moștenesc marjele către clienți și de ce nimic nu se convertește vreodată.
+description: Moneda ta de vânzare, marja aplicată fiecărui tarif, grupele de preț pentru grupuri de clienți, cum se moștenesc marjele și de ce nimic nu se convertește vreodată.
 ---
 
 ## Moneda de vânzare
@@ -70,16 +70,37 @@ amândouă.
 **Clienții** tăi văd doar prețul de vânzare. Nu văd niciodată netul furnizorului și nu văd niciodată
 despre ce furnizor a fost vorba.
 
+## Grupe de preț
+
+Dacă vindeți către o rețea de subagenții, le tarifați pe grupe, nu una câte una. **Grupa** este exact
+asta: un nume și o cotă.
+
+1. **Setări → Grupe de preț.** Adăugați o grupă și dați-i un nume — „A bayileri", „B bayileri".
+2. Stabiliți-i **marja**, în procente, pe rândul propriu al grupei.
+3. Puneți clienți în ea din ecranul [Clienți](/ro/manage/customers/).
+
+Schimbarea cotei unei grupe o schimbă pentru toți cei din ea, și exact acesta este rostul: patruzeci
+de subagenții în aceleași condiții trebuie să fie un singur număr, nu patruzeci de copii ale lui care
+se depărtează în timp.
+
+Un client aparține **cel mult unei grupe**. Două ar face întrebarea „cu cât îi vindem acestui client?"
+ambiguă exact în momentul în care cineva o pune.
+
+**O grupă nu poate fi ștearsă cât timp are clienți în ea.** Mutați-i mai întâi. Ștergerea ei cu
+clienți înăuntru i-ar trece în tăcere pe toți pe cota implicită a agenției — o schimbare de preț pe
+care nu a cerut-o nimeni și care se descoperă pe o factură.
+
 ## Cum se moștenește marja
 
-Marjele se rezolvă în josul lanțului organizației tale: agenția ta, apoi orice client aflat sub ea.
+Marjele se rezolvă de la nivelul cel mai specific spre exterior: **agentul, apoi clientul, apoi grupa
+de preț a clientului, apoi agenția.**
 
-Regula este că **nivelul cel mai apropiat care are o marjă câștigă.** Un client cu marja lui o
-folosește pe aceea; un client fără niciuna o moștenește pe a ta. Ștergerea suprascrierii unui client
-revine la valoarea agenției tale — nu la zero.
+Regula este că **câștigă cel mai apropiat nivel care are o marjă.** Un agent cu marja proprie cotează
+după ea; unul fără cade pe cea a clientului, apoi pe cea a grupei lui, apoi pe cea a agenției.
+Ștergerea unei suprascrieri cade pe nivelul de deasupra — niciodată la zero.
 
-Este aceeași moștenire pe care o folosește restul configurației agenției tale, deci se comportă așa
-cum te-ai aștepta din [Setări](/ro/manage/settings/).
+Locul grupei este deliberat: grupa este ceea ce spuneți despre un *grup*, deci orice ați spus despre
+un client anume o învinge, iar ea învinge valoarea dvs. generală.
 
 ## Verificări de bun-simț care merită făcute
 

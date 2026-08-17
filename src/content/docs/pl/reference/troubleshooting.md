@@ -20,7 +20,10 @@ pokoju teraz. [Pełne wyjaśnienie](/pl/booking/statuses/).
 | „Zbyt wiele prób.” | Ograniczanie liczby prób. | Odczekaj minutę. |
 | „To konto nie może się teraz zalogować.” | Zawieszone konto albo nieaktywna subskrypcja. | Zapytaj administratora swojej agencji. |
 | „Nie udało się połączyć z OneRate.” | Twoja sieć. | Sprawdź połączenie. **Nie** zostałeś zalogowany; nic się nie zmieniło. |
-| „Twoja sesja zakończyła się.” | Sesja wygasła przy otwartej karcie. | Zaloguj się ponownie. Niezapisana praca na tym ekranie przepada. |
+| „Twoja sesja zakończyła się.” | Sesja wygasła przy otwartej karcie. | Wracasz do logowania, a po zalogowaniu w to samo miejsce. Jeśli w formularzu coś było wpisane, portal czeka, zamiast Cię przenosić — naciśnij **Zaloguj się ponownie**, gdy będziesz gotów. |
+| „Dostęp do tego biura został zawieszony.” | Ktoś w tym biurze wyłączył Twój dostęp. | Ponowne zalogowanie niczego nie zmieni. Użyj przełącznika biur, jeśli pracujesz gdzie indziej; w przeciwnym razie zapytaj właściciela lub administratora tego biura. |
+| „To biuro wymaga ponownego zalogowania.” | Twoje biuro ustawiło krótszy czas trwania sesji. | Zaloguj się ponownie. Z Twoim kontem wszystko jest w porządku. |
+| „Dostęp z tej sieci jest niedozwolony.” | Twoje biuro ogranicza, które adresy IP mogą się łączyć. | Połącz się z sieci biurowej albo poproś właściciela o dodanie Twojego adresu w Ustawieniach. |
 | „Ten link z zaproszeniem jest nieprawidłowy lub wygasł.” | Wygasł, cofnięty albo już użyty. | Poproś o nowy — nadawca może wysłać go ponownie z Zespołu. |
 | „To zaproszenie jest powiązane z tym adresem e-mail.” | Jesteś zalogowany jako ktoś inny. | Wyloguj się, potem zarejestruj zaproszonym adresem. |
 
@@ -65,6 +68,8 @@ Po kolei:
 | „Ten klucz rezerwacji został już użyty do innej rezerwacji.” | Działające zabezpieczenie przed podwójną rezerwacją. | Rozpocznij nowe wyszukiwanie. Nic nie zostało zarezerwowane dwa razy. |
 | „Zbyt wiele prób rezerwacji w krótkim czasie.” | Ograniczanie liczby prób. | Poczekaj. Ponowienie teraz też zostanie odrzucone. |
 | „Rezerwacja nie powiodła się. Spróbuj ponownie.” | Ogólny błąd. | **Najpierw sprawdź [Rezerwacje](/pl/booking/your-bookings/)**, aby potwierdzić, że nic nie powstało, a potem ponów. |
+| „Brakuje wymaganego pola lub jest ono nieprawidłowe.” | Jedno z własnych [pól](/pl/manage/settings/#pola-biura) Państwa biura jest puste albo wartość nie pasuje do definicji. | Uzupełnij je na ekranie podsumowania. Nic nie zostało zarezerwowane i nic nie poszło do dostawcy. |
+| „To przekroczyłoby pułap otwartych rezerwacji klienta.” | Klient ma [pułap otwartych rezerwacji](/pl/manage/customers/#pułap-otwartych-rezerwacji), a ta rezerwacja go przekracza. | Porozmawiaj z agencją. To nie jest limit kredytowy — opada, gdy pobyty się kończą i rezerwacje są anulowane, nigdy przy płatności. |
 
 ## Rezerwacje i anulowanie
 
@@ -77,6 +82,22 @@ Po kolei:
 | „Nie udało się usunąć danych gości.” | Usuwanie mogło wykonać się częściowo. | Uruchom je ponownie — można je bezpiecznie powtórzyć. |
 | „Szacunek — ten dostawca nie podaje strefy czasowej…” | Termin to najwcześniejszy moment, w którym może upłynąć. | Traktuj go jako ostatnią bezpieczną chwilę. Anuluj przed nim, nigdy dokładnie w nim. |
 | „Niepotwierdzone — ta rezerwacja została zapisana, zanim…” | Stara rezerwacja. | Sprawdź u dostawcy, zanim oprzesz się na terminie. |
+
+## Opcje
+
+| Komunikat | Znaczenie | Zrób to |
+| --- | --- | --- |
+| „Ta rezerwacja nie jest otwartą opcją.” | Ktoś już na nią odpowiedział albo nigdy nie była opcją. | Przeładuj rezerwację. Panel pokaże, czym jest teraz. |
+| Brak panelu opcji przy rezerwacji zwrotnej | Zarezerwowano ją bez daty opcji. | Opcję ustawia się przy rezerwacji; nie da się jej dodać później. |
+
+## Integracje
+
+| Komunikat | Znaczenie | Zrób to |
+| --- | --- | --- |
+| `401` z `/api/v1/…` | Klucz jest błędny albo został unieważniony. | Oba przypadki odpowiadają tak samo, i to celowo. Utwórz nowy klucz w Ustawieniach. |
+| `429` z `/api/v1/…` | Limit zapytań tego klucza został wyczerpany. | Odczekaj sekundy z `retry-after`. Każdy klucz ma własny limit, więc inna integracja nie ucierpi. |
+| „Ten adres został odrzucony: tylko https i żadnych adresów wewnętrznych.” | Punkt webhooka wskazujący na zwykły http albo sieć prywatną. | Użyj publicznego adresu `https`. |
+| Punkt webhooka z błędem przy **ostatniej dostawie** | Państwa odbiornik odmówił albo nie odpowiedział. | Naprawcie odbiornik, a jeśli w międzyczasie chcecie wstrzymać ponowienia, użyjcie **Wstrzymaj** i **Wznów**. |
 
 ## Dostawcy i ustawienia
 

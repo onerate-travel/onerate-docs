@@ -32,7 +32,12 @@ Deschide o rezervare ca să vezi tot ce s-a înregistrat despre ea.
 ### Rezervarea
 
 Hotel, stare, furnizor, **referință de confirmare**, check-in, check-out, oaspete principal, preț de
-vânzare.
+vânzare, **sucursala** care a preluat-o și **cine** a preluat-o.
+
+Dacă agenția dvs. are [câmpuri ale agenției](/ro/manage/settings/#câmpurile-agenției), valorile
+înregistrate pe această rezervare apar într-o secțiune proprie. Sunt cele înregistrate **atunci**: un
+câmp definit ulterior este gol aici, iar unul retras între timp arată în continuare cu ce a fost
+codificată.
 
 Referința de confirmare este a furnizorului — este ceea ce identifică rezervarea la el, dacă vreodată
 trebuie să suni.
@@ -65,6 +70,34 @@ oferte au fost analizate și ce a decis. Rămâne disponibilă mult după ce ses
 
 Fiecare stare prin care a trecut rezervarea, în ordine, cu ore. Este primul loc unde te uiți când o
 rezervare a făcut ceva la care nu te așteptai.
+
+## Opțiuni
+
+O **opțiune** este o rezervare pe care o țineți cât timp clientul dvs. se hotărăște.
+
+Este o rezervare reală pe un tarif rambursabil, plus o dată pe care ați stabilit-o dvs. Niciun
+furnizor cu care lucrează OneRate nu oferă o rezervare temporară proprie — ceea ce adaugă produsul
+este că termenul este vizibil și se acționează asupra lui, în loc să trăiască în agenda cuiva.
+
+O rezervare ținută ca opțiune afișează un panou care spune asta, cu două butoane:
+
+- **Confirmă** — opțiunea rămâne o rezervare obișnuită. La hotel nu se schimbă nimic; a fost
+  întotdeauna reală.
+- **Eliberează** — rezervarea este anulată. Trece prin aceeași confirmare ca orice altă anulare și
+  citează aceeași penalizare, pentru că eliberarea unei opțiuni *este* anularea unei rezervări.
+
+Termenul este limitat de propria fereastră de anulare gratuită a tarifului, minus o zi. Un tarif fără
+fereastră gratuită nu poate fi ținut deloc: „a ține” ar însemna „rezervă și plătește penalizarea mai
+târziu”, ceea ce este o rezervare — și acest lucru trebuie spus, nu vândut ca vorbă.
+
+În seara dinaintea expirării, cine a preluat rezervarea primește un e-mail. Ce se întâmplă dacă nu
+răspunde nimeni este alegerea agenției dvs., în
+[Setări](/ro/manage/settings/#configurația-agenției): **amintirea** continuă să avertizeze și nu
+anulează niciodată, **eliberarea** dă camera înapoi. O agenție care nu a declarat nimic primește
+**amintire**, pentru că o anulare greșită înseamnă bani adevărați.
+
+Voucherul unei opțiuni deschise spune că este una, așa că un client care îl are în mână nu îl poate
+confunda cu un sejur stabilit.
 
 ## Vouchere
 

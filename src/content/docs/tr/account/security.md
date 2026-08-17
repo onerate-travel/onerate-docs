@@ -69,6 +69,26 @@ Mevcut oturumunuz **Bu cihaz** olarak işaretlidir.
 
 Tek oturumunuzsa ekran, sizi okuduğunuz ekrandan çıkaracak bir düğme göstermek yerine bunu söyler.
 
+## Oturumunuz sona erdiğinde
+
+Bir oturum sonsuza kadar sürmez ve acenteniz süresini kısaltabilir (bkz.
+[güvenlik duruşları](/tr/manage/settings/#güvenlik-duruşları)).
+
+Sona erdiğinde portal sizi giriş ekranına geri götürür ve nedenini söyler. Giriş yaptığınızda ana
+sayfaya değil, **kaldığınız ekrana** dönersiniz.
+
+**Bir şeyin ortasında değilseniz.** Bir formda yazılmış bir şey varsa — bir tedarikçi kimlik
+bilgisi, rezervasyon onayındaki bir misafir adı, düzenlemekte olduğunuz bir ayar — portal sizi
+sayfadan *çıkarmaz*. Üstte **Tekrar giriş yap** düğmesiyle bir şerit gösterir ve siz basana kadar
+yazdıklarınızı ekranda bırakır.
+
+Birbirinden ayırmaya değer iki mesaj:
+
+- *"Oturumunuz sona erdi"* — tekrar giriş yapın ve devam edin.
+- *"Bu acentedeki erişiminiz askıya alınmış"* — tekrar giriş yapmak bir şeyi değiştirmez. O
+  acenteden biri erişiminizi kapatmış. Başka bir acentede çalışıyorsanız üstteki acente
+  değiştirici sizi oraya götürür; değilse o acentenin sahibi ya da yöneticisiyle konuşun.
+
 ## Kısa bir güvenlik rutini
 
 1. Rolünüz zorunlu tutmasa bile iki adımlı doğrulamayı açın.

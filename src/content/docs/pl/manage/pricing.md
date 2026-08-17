@@ -1,6 +1,6 @@
 ---
 title: Ceny i marża
-description: Twoja waluta sprzedaży, marża nakładana na każdą stawkę, jak marże dziedziczą klienci i dlaczego nic nigdy nie jest przeliczane.
+description: Państwa waluta sprzedaży, marża nakładana na każdą stawkę, grupy cenowe dla grup klientów, jak dziedziczone są marże i dlaczego nic nigdy nie jest przeliczane.
 ---
 
 ## Waluta sprzedaży
@@ -69,16 +69,37 @@ Twoi agenci i właściciele zawsze widzą na rezerwacji obie liczby: **Wycenione
 Twoi **klienci** widzą wyłącznie cenę sprzedaży. Nigdy nie widzą netto dostawcy i nigdy nie widzą,
 który to był dostawca.
 
+## Grupy cenowe
+
+Jeśli sprzedają Państwo sieci subagencji, wyceniają ją grupami, nie pojedynczo. **Grupa** to właśnie
+to: nazwa i stawka.
+
+1. **Ustawienia → Grupy cenowe.** Proszę dodać grupę i nadać jej nazwę — „A bayileri", „B bayileri".
+2. Ustawić jej **marżę** w procentach, we własnym wierszu grupy.
+3. Dodać do niej klientów z ekranu [Klienci](/pl/manage/customers/).
+
+Zmiana stawki grupy zmienia ją dla wszystkich w grupie i o to właśnie chodzi: czterdzieści subagencji
+na tych samych warunkach powinno być jedną liczbą, a nie czterdziestoma jej kopiami, które się z
+czasem rozjeżdżają.
+
+Klient należy **najwyżej do jednej grupy**. Dwie uczyniłyby pytanie „po ile sprzedajemy temu
+klientowi?" niejednoznacznym dokładnie w chwili, gdy ktoś je zadaje.
+
+**Grupy nie można usunąć, dopóki są w niej osoby.** Proszę najpierw je przenieść. Usunięcie jej z
+klientami w środku po cichu przestawiłoby ich wszystkich na domyślną stawkę biura — zmiana ceny, o
+którą nikt nie prosił, odkrywana na fakturze.
+
 ## Jak dziedziczy się marża
 
-Marże rozwiązują się w dół łańcucha Twojej organizacji: Twoja agencja, potem każdy klient pod nią.
+Marże rozwiązują się od poziomu najbardziej szczegółowego na zewnątrz: **agent, potem klient, potem
+grupa cenowa klienta, potem biuro.**
 
-Reguła brzmi: **wygrywa najbliższy poziom, który ma marżę.** Klient z własną marżą używa swojej;
-klient bez marży dziedziczy Twoją. Wyczyszczenie nadpisania u klienta wraca do wartości Twojej
-agencji — a nie do zera.
+Zasada brzmi: **wygrywa najbliższy poziom, który ma marżę.** Agent z własną marżą wycenia według niej;
+agent bez niej spada na marżę klienta, potem jego grupy, potem biura. Wyczyszczenie nadpisania cofa do
+poziomu wyżej — nigdy do zera.
 
-To to samo dziedziczenie, którego używa reszta konfiguracji Twojej agencji, więc zachowuje się tak,
-jak byś się spodziewał po [Ustawieniach](/pl/manage/settings/).
+Miejsce grupy jest celowe: grupa to stwierdzenie o *zbiorze*, więc wszystko, co powiedziano o
+pojedynczym kliencie, ją bije, a ona bije Państwa ogólną stawkę domyślną.
 
 ## Sprawdziany warte zrobienia
 

@@ -1,6 +1,6 @@
 ---
 title: Raporty
-description: Co sprzedałeś, filtrowane po dacie zameldowania i statusie, w rozbiciu na dostawców i miesiące, z eksportem do CSV.
+description: Co Państwo sprzedali, filtrowane po dacie zameldowania i statusie, w rozbiciu na dostawców, miesiące, osoby, oddziały i klientów, z eksportem do CSV.
 ---
 
 **Raporty** są tylko do odczytu. To Twoje własne rezerwacje, zsumowane. Dostępne dla właścicieli,
@@ -14,18 +14,36 @@ administratorów i agentów; nie dla klientów.
 
 ## Tabela
 
-Jeden wiersz na rezerwację: zameldowanie, hotel, kierunek, gość, dostawca, status, **netto**,
-**sprzedaż**.
+Jeden wiersz na rezerwację: zameldowanie, hotel, cel, gość, Państwa **numer teczki**, **oddział**, kto
+**przyjął rezerwację**, dostawca, status, **netto**, **sprzedaż** oraz **warunki anulowania** w
+brzmieniu z chwili rezerwacji.
 
-Nad nią: liczba rezerwacji, **Netto łącznie** i **Sprzedaż łącznie**. Różnica między tymi dwiema
-sumami to Twoja marża dla przefiltrowanego zbioru.
+Powyżej: liczba rezerwacji, **Razem netto** i **Razem sprzedaż** — jedna para na walutę. Różnica
+między nimi to Państwa marża dla przefiltrowanego zbioru.
 
 ## Rozbicia
 
-- **Wg dostawcy** — rezerwacje, netto i sprzedaż na dostawcę. To liczba, którą czyta się obok Twoich
+Dwa dotyczą Państwa oferty:
+
+- **Według dostawcy** — rezerwacje, netto i sprzedaż na dostawcę. To liczba, którą warto czytać obok
   [preferencji dostawców](/pl/manage/preferences/): mówi, czy przypięcie albo reguła procentowa
-  faktycznie dowożą wolumen, dla którego je założyłeś.
-- **Wg miesiąca zameldowania** — to samo, na miesiąc pobytu.
+  rzeczywiście dowozi wolumen, dla którego ją Państwo ustawili.
+- **Według miesiąca zameldowania** — to samo, według miesiąca pobytu.
+
+Trzy dotyczą Państwa własnego kształtu:
+
+- **Według osoby** — kto co sprzedał. Nazwane adresem e-mail, bo imię nie jest unikalne, a wewnętrzny
+  identyfikator nie jest czytelny.
+- **Według oddziału** — które biuro co sprzedało.
+- **Według klienta** — od którego klienta korporacyjnego pochodzi wolumen.
+
+Wiersze, które do nikogo nie należą, dostają **własny segment**, zamiast zostać pominięte: rezerwacja
+sprzed istnienia oddziałów albo złożona przez usunięte już konto wciąż jest rezerwacją, a pominięcie
+jej sprawiłoby, że liczby na osobę nie sumują się do Państwa całości.
+
+Każdy segment jest **na walutę**, z tego samego powodu co sumy: OneRate niczego nie przelicza, więc
+oddział handlujący w dwóch walutach to dwa segmenty — arytmetycznie poprawnie, zamiast jednej liczby,
+która nic nie znaczy.
 
 ## Eksport
 

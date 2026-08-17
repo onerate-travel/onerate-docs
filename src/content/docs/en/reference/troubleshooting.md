@@ -20,7 +20,10 @@ a room now. [Full explanation](/en/booking/statuses/#reconciling).
 | "Too many attempts." | Rate limiting. | Wait a minute. |
 | "This account cannot sign in at the moment." | Suspended account, or an inactive subscription. | Ask your agency administrator. |
 | "We could not reach OneRate." | Your network. | Check your connection. You were **not** signed in; nothing changed. |
-| "Your session has ended." | The session expired with the tab open. | Sign in again. Unsaved work on that screen is lost. |
+| "Your session has ended." | The session expired with the tab open. | You are taken back to sign-in and returned to where you were. If a form had something typed in it, the portal waits for you instead of navigating — press **Sign in again** when ready. |
+| "Your access to this agency is suspended." | Somebody at that agency switched your access off. | Signing in changes nothing. Use the agency switcher if you work elsewhere; otherwise ask that agency's owner or admin. |
+| "This agency requires signing in again." | Your agency has set a shorter session lifetime. | Sign in again. Nothing is wrong with your account. |
+| "Access from this network is not allowed." | Your agency restricts which IP addresses may connect. | Connect from the office network, or ask an owner to add yours in Settings. |
 | "This invitation link is invalid or expired." | Expired, revoked, or already used. | Ask for a new one — the sender can resend from Team. |
 | "This invitation is tied to this email address." | You are signed in as somebody else. | Sign out, then sign up with the invited address. |
 
@@ -65,6 +68,8 @@ In order:
 | "That booking key was already used for a different booking." | The double-booking protection working. | Start a new search. Nothing was double-booked. |
 | "Too many booking attempts in a short time." | Rate limiting. | Wait. Retrying now is refused too. |
 | "Booking failed. Please try again." | A general failure. | **Check [Bookings](/en/booking/your-bookings/) first** to confirm nothing was created, then retry. |
+| "A required field is missing or invalid." | One of your agency's own [fields](/en/manage/settings/#agency-fields) is empty, or a value does not fit its definition. | Complete it on the review screen. Nothing was booked and nothing was sent to the supplier. |
+| "This would take the customer over their open-booking ceiling." | The customer has an [open-booking ceiling](/en/manage/customers/#open-booking-ceiling) and this booking crosses it. | Speak to the agency. It is not a credit limit — it falls as stays complete and bookings are cancelled, never on payment. |
 
 ## Bookings and cancellation
 
@@ -77,6 +82,22 @@ In order:
 | "Guest data could not be erased." | Erasure may be part-done. | Run it again — it is safe to repeat. |
 | "Estimate — this supplier states no time zone…" | The deadline is the earliest it could fall. | Treat it as the last safe moment. Cancel before it, never at it. |
 | "Unconfirmed — this booking was recorded before we stored whether the deadline is the supplier's own or an estimate." | An old booking. | Check with the supplier before relying on the deadline. |
+
+## Options
+
+| Message | Meaning | Do this |
+| --- | --- | --- |
+| "This booking is not an open option." | Somebody already answered it, or it was never an option. | Reload the booking. The panel shows what it is now. |
+| The option panel is missing on a refundable booking | It was booked without an option date. | An option is set when the booking is made; it cannot be added afterwards. |
+
+## Integrations
+
+| Message | Meaning | Do this |
+| --- | --- | --- |
+| `401` from `/api/v1/…` | The key is wrong, or it was revoked. | The two answer alike on purpose. Create a new key in Settings. |
+| `429` from `/api/v1/…` | That key's request allowance is spent. | Wait for the `retry-after` seconds. Each key has its own allowance, so another integration is unaffected. |
+| "That address was refused: https only, and no internal addresses." | A webhook endpoint pointing at plain http or a private network. | Use a public `https` address. |
+| A webhook endpoint showing a **last delivery** error | Your receiver refused or did not answer. | Fix the receiver, then **Pause** and **Resume** if you want to stop retries meanwhile. |
 
 ## Suppliers and settings
 

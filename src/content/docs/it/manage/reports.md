@@ -1,6 +1,6 @@
 ---
 title: Report
-description: Che cosa hai venduto, filtrato per data di check-in e stato, ripartito per fornitore e per mese, ed esportato in CSV.
+description: Che cosa avete venduto, filtrato per data di check-in e stato, ripartito per fornitore, mese, persona, filiale e cliente, ed esportato in CSV.
 ---
 
 **Report** è in sola lettura. Sono le tue prenotazioni, totalizzate. Disponibile a titolari,
@@ -14,18 +14,36 @@ amministratori e agenti; non ai clienti.
 
 ## La tabella
 
-Una riga per prenotazione: check-in, hotel, destinazione, ospite, fornitore, stato, **netto**,
-**vendita**.
+Una riga per prenotazione: check-in, hotel, destinazione, ospite, il vostro **numero di pratica**, la
+**filiale**, chi **ha preso la prenotazione**, fornitore, stato, **netto**, **vendita** e le
+**condizioni di cancellazione** come erano al momento della prenotazione.
 
-Sopra: il numero di prenotazioni, **Netto totale** e **Vendita totale**. La differenza fra questi due
-totali è il tuo margine sull'insieme filtrato.
+Sopra: il numero di prenotazioni, **Totale netto** e **Totale vendita** — una coppia per valuta. La
+differenza fra i due è il vostro margine sull'insieme filtrato.
 
 ## Ripartizioni
 
+Due riguardano il vostro inventario:
+
 - **Per fornitore** — prenotazioni, netto e vendita per fornitore. È il numero da leggere accanto
-  alle tue [preferenze fornitori](/it/manage/preferences/): ti dice se un fornitore fissato o una
-  regola percentuale stiano davvero portando il volume per cui li hai impostati.
+  alle vostre [preferenze fornitore](/it/manage/preferences/): vi dice se un blocco o una regola
+  percentuale sta davvero portando il volume per cui l'avete impostata.
 - **Per mese di check-in** — lo stesso, per mese di soggiorno.
+
+Tre riguardano la vostra forma:
+
+- **Per persona** — chi ha venduto cosa. Identificata dall'indirizzo email, perché un nome non è
+  univoco e un identificativo interno non è leggibile.
+- **Per filiale** — quale ufficio ha venduto cosa.
+- **Per cliente** — da quale cliente aziendale è arrivato il volume.
+
+Le righe che non appartengono a nessuno ottengono un **segmento proprio** invece di essere scartate:
+una prenotazione anteriore all'esistenza delle filiali, o fatta da un account poi rimosso, resta una
+prenotazione, e lasciarla fuori significherebbe che i numeri per persona non tornano con il totale.
+
+Ogni segmento è **per valuta**, per lo stesso motivo dei totali: OneRate non converte nulla, quindi
+una filiale che opera in due valute è due segmenti — aritmeticamente corretto, invece di un unico
+numero che non significa niente.
 
 ## Esportazione
 

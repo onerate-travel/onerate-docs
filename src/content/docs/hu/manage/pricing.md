@@ -1,6 +1,6 @@
 ---
 title: Árazás és árrés
-description: Az eladási pénznemed, a minden árra rákerülő árrés, hogyan öröklődnek az árrések az ügyfelekhez, és miért nem váltunk át soha semmit.
+description: Az eladási pénznemed, a minden árra rákerülő árrés, az ügyfélcsoportokra szóló árcsoportok, hogyan öröklődnek az árrések, és miért nem váltunk át soha semmit.
 ---
 
 ## Eladási pénznem
@@ -71,16 +71,37 @@ ajánlott ár**, **A beszállító által visszaigazolva** és az **Eladási ár
 Az **ügyfeleid** csak az eladási árat látják. Soha nem látják a beszállítói nettót, és soha nem
 látják, melyik beszállítóról volt szó.
 
+## Árcsoportok
+
+Ha alirodák hálózatának értékesít, csoportonként áraz, nem egyesével. A **csoport** pontosan ez: egy
+név és egy kulcs.
+
+1. **Beállítások → Árcsoportok.** Vegyen fel egy csoportot és adjon neki nevet — „A bayileri",
+   „B bayileri".
+2. Állítsa be az **árrését** százalékban, a csoport saját során.
+3. Tegyen bele ügyfeleket az [Ügyfelek](/hu/manage/customers/) képernyőről.
+
+Egy csoport kulcsának módosítása mindenkire vonatkozik a csoportban, és éppen ez a lényeg: negyven
+aliroda azonos feltételekkel egyetlen szám legyen, ne annak negyven, egymástól elcsúszó másolata.
+
+Egy ügyfél **legfeljebb egy csoportba** tartozik. Kettő kétértelművé tenné a „mennyiért adjuk ennek az
+ügyfélnek?" kérdést pontosan abban a pillanatban, amikor felteszik.
+
+**A csoport nem törölhető, amíg emberek vannak benne.** Előbb helyezze át őket. A törlése ügyfelekkel
+együtt csendben az iroda alapértelmezett kulcsára állítaná át mindannyiukat — árváltozás, amit senki
+nem kért, és amit egy számlán vesznek észre.
+
 ## Hogyan öröklődik az árrés
 
-Az árrések a szervezeti láncod mentén oldódnak fel: az irodád, majd bármely alatta lévő ügyfél.
+Az árrések a legszűkebb szinttől kifelé oldódnak fel: **az ügyintéző, majd az ügyfél, majd az ügyfél
+árcsoportja, majd az iroda.**
 
-A szabály az, hogy **a legközelebbi szint nyer, amelyiknek van árrése.** A saját árréssel rendelkező
-ügyfél azt használja; az árrés nélküli a tiédet örökli. Egy ügyfél felülírásának törlése az irodád
-értékére esik vissza — nem nullára.
+A szabály: **a legközelebbi szint nyer, amelyiknek van árrése.** A saját árréssel dolgozó ügyintéző az
+alapján ajánl; akinek nincs, az ügyfélére esik vissza, aztán a csoportjára, aztán az irodáéra. Egy
+felülírás törlése a fölötte lévő szintre esik vissza — soha nem nullára.
 
-Ez ugyanaz az öröklés, amelyet az irodád konfigurációjának többi része is használ, tehát úgy
-viselkedik, ahogy a [Beállításoktól](/hu/manage/settings/) várnád.
+A csoport helye szándékos: a csoport egy *halmazról* tett kijelentés, ezért bármi, amit egyetlen
+ügyfélről mondott, legyőzi, ő pedig legyőzi az általános alapértelmezést.
 
 ## Érdemes ellenőrzések
 

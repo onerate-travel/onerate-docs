@@ -31,7 +31,12 @@ Open a booking to see everything recorded about it.
 
 ### The booking
 
-Hotel, status, supplier, **confirmation reference**, check-in, check-out, lead guest, sell price.
+Hotel, status, supplier, **confirmation reference**, check-in, check-out, lead guest, sell price,
+the **branch** that took it and **who** took it.
+
+If your agency has [agency fields](/en/manage/settings/#agency-fields), the values recorded on this
+booking appear in their own section. They are what was recorded **at the time**: a field defined
+afterwards is blank here, and one since retired still shows what it was coded with.
 
 The confirmation reference is the supplier's own — it is what identifies the booking to them if you
 ever need to call.
@@ -63,6 +68,33 @@ what decided it. It stays available long after the search session is gone.
 
 Every state the booking passed through, in order, with times. This is the first place to look when
 a booking did something you did not expect.
+
+## Options
+
+An **option** is a booking you are holding while your customer decides.
+
+It is a real reservation on a refundable rate, plus a date you have decided by. No supplier OneRate
+works with offers a hold of its own — what the product adds is that the deadline is visible and
+acted on, instead of living in somebody's diary.
+
+A booking held as an option shows a panel saying so, with two buttons:
+
+- **Confirm** — the option stands as an ordinary booking. Nothing changes at the hotel; it was
+  always real.
+- **Release** — the booking is cancelled. It goes through the same confirmation as any other
+  cancellation, and quotes the same fee, because releasing an option *is* cancelling a booking.
+
+The deadline is capped by the rate's own free-cancellation window, less a day. A rate with no free
+window cannot be held at all: "hold" would mean "book it and pay the penalty later", which is a
+booking, and you should be told that rather than sold the word.
+
+The night before it runs out, whoever took the booking gets an email. What happens if nobody answers
+is your agency's choice, in [Settings](/en/manage/settings/#agency-configuration): **remind** keeps
+warning and never cancels, **release** gives the room back. An agency that has stated nothing gets
+**remind**, because a wrong cancellation is real money.
+
+The voucher of an open option says it is one, so a customer holding it cannot mistake it for a
+settled stay.
 
 ## Vouchers
 

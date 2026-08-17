@@ -73,6 +73,26 @@ Fallo quando:
 Se è la tua unica sessione, la schermata lo dice invece di mostrarti un pulsante che ti
 disconnetterebbe dalla schermata che stai leggendo.
 
+## Quando la sessione termina
+
+Una sessione non dura per sempre, e la vostra agenzia può accorciarla (vedi le
+[impostazioni di sicurezza](/it/manage/settings/#impostazioni-di-sicurezza)).
+
+Quando termina, il portale vi riporta alla pagina di accesso e dice perché. Dopo il login tornate
+alla schermata in cui eravate — non alla home.
+
+**A meno che non foste nel mezzo di qualcosa.** Se in un modulo c'è qualcosa di digitato — una
+credenziale fornitore, il nome di un ospite in fase di conferma, un'impostazione che stavate
+modificando — il portale *non* vi porta via. Mostra una barra in alto con il pulsante **Accedi di
+nuovo** e lascia sullo schermo quanto avete scritto finché non lo premete.
+
+Due messaggi da distinguere:
+
+- *«La vostra sessione è terminata»* — accedete di nuovo e proseguite.
+- *«Il vostro accesso a questa agenzia è sospeso»* — accedere di nuovo non cambia nulla. Qualcuno in
+  quell'agenzia ha disattivato il vostro accesso. Se lavorate in un'altra agenzia, il selettore in
+  alto vi porta lì; altrimenti parlate con il titolare o l'amministratore di quell'agenzia.
+
 ## Una breve routine di sicurezza
 
 1. Attiva l'autenticazione a due fattori anche se il tuo ruolo non la richiede.

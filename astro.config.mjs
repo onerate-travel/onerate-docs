@@ -103,6 +103,7 @@ export default defineConfig({
             { slug: 'manage/customers' },
             { slug: 'manage/team' },
             { slug: 'manage/settings' },
+            { slug: 'manage/integrations' },
             { slug: 'manage/reports' },
           ],
         },

@@ -58,6 +58,17 @@ Tedarikçiye hiçbir şey ulaşmadan önce **Bu rezervasyonu onaylayın** ekran�
 
 İptal satırını okuyun. Koşullar hakkında fikir değiştirmenin ucuz olduğu son noktadır.
 
+### Acentenizin kendi alanları
+
+Acenteniz [acente alanları](/tr/manage/settings/#acente-alanları) tanımlamışsa — bir masraf merkezi,
+bir proje kodu, bir sipariş numarası — burada, istek kutusunun üstünde görünürler. `*` ile
+işaretlenmiş bir alan **zorunludur** ve o alan olmadan rezervasyon, tedarikçiye hiçbir şey ulaşmadan
+reddedilir.
+
+Bunlar rezervasyonun sizin acentenizce kodlanmasıdır: otele ya da tedarikçiye asla gönderilmezler,
+sonrasında rezervasyonun kendi sayfasında görünürler ve
+[rapor dışa aktarımınızda](/tr/manage/reports/#dışa-aktarım) birer sütun olurlar.
+
 **Onayla ve rezerve et** ya da **Sonuçlara dön**a basın.
 
 ## Fiyat değiştiğinde
@@ -105,6 +116,8 @@ yoludur. Bkz. [Mutabakat](/tr/booking/statuses/#mutabakat).
 | "Kısa sürede çok fazla rezervasyon denemesi." | Hız sınırlama. | Bekleyin. Hemen tekrar denemek de reddedilir. |
 | "Bu rezervasyon anahtarı zaten başka bir rezervasyon için kullanıldı." | Bu form zaten başka bir şey rezerve etmek için kullanıldı. | Yeni bir arama başlatın. Çift rezervasyon olmadı — bu mesaj korumanın çalıştığını gösteriyor. |
 | "Rezervasyon başarısız. Lütfen tekrar deneyin." | Genel bir hata. | Tekrar denemeden **önce** hiçbir şeyin oluşmadığını doğrulamak için [Rezervasyonlar](/tr/booking/your-bookings/)'a bakın. |
+| "Zorunlu bir alan eksik ya da geçersiz." | Acentenizin kendi alanlarından biri boş ya da tanımına uymuyor. | Alanı gözden geçirme ekranında doldurun. Hiçbir şey rezerve edilmedi. |
+| "Bu, müşteriyi açık rezervasyon tavanının üzerine çıkarır." | Müşterinin ne kadarını açık tutabileceğine dair bir [tavanı](/tr/manage/customers/#açık-rezervasyon-tavanı) var ve bu rezervasyon onu aşıyor. | Acenteyle konuşun. Tavan, konaklamalar tamamlandıkça ve rezervasyonlar iptal edildikçe düşer. |
 
 ## Neden yanlışlıkla iki kez rezervasyon yapamazsınız
 

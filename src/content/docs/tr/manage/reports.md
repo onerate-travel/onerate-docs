@@ -1,6 +1,6 @@
 ---
 title: Raporlar
-description: Ne sattığınız — giriş tarihine ve duruma göre filtrelenmiş, tedarikçiye ve aya göre dökülmüş, CSV olarak dışa aktarılmış.
+description: Ne sattığınız — giriş tarihine ve duruma göre filtrelenmiş, tedarikçiye, aya, kişiye, şubeye ve müşteriye göre dökülmüş, CSV olarak dışa aktarılmış.
 ---
 
 **Raporlar** salt okunurdur. Kendi rezervasyonlarınızın toplamıdır. Sahiplere, yöneticilere ve satış
@@ -14,18 +14,36 @@ temsilcilerine açıktır; müşterilere değil.
 
 ## Tablo
 
-Rezervasyon başına bir satır: giriş, otel, destinasyon, misafir, tedarikçi, durum, **net**,
-**satış**.
+Rezervasyon başına bir satır: giriş tarihi, otel, varış, misafir, **dosya numaranız**, **şube**,
+rezervasyonu **alan kişi**, tedarikçi, durum, **net**, **satış**, ve rezervasyon anındaki hâliyle
+**iptal koşulu**.
 
-Üstünde: rezervasyon sayısı, **Toplam net** ve **Toplam satış**. Bu iki toplam arasındaki fark,
-filtrelenen küme için kârınızdır.
+Üstünde: rezervasyon sayısı, **Toplam net** ve **Toplam satış** — para birimi başına bir çift. İkisi
+arasındaki fark, o küme için kârınızdır.
 
 ## Dökümler
 
-- **Tedarikçiye göre** — tedarikçi başına rezervasyon, net ve satış. Bu,
-  [tedarikçi tercihlerinizin](/tr/manage/preferences/) yanında okunacak sayıdır: bir sabitleme ya
-  da yüzde kuralının kurduğunuz hacmi gerçekten getirip getirmediğini söyler.
-- **Giriş ayına göre** — aynısı, konaklama ayına göre.
+İkisi envanteriniz hakkında:
+
+- **Tedarikçiye göre** — tedarikçi başına rezervasyon, net ve satış.
+  [Tedarikçi tercihlerinizin](/tr/manage/preferences/) yanına konacak sayı budur: bir sabitlemenin ya
+  da yüzde kuralının gerçekten kurduğunuz hacmi getirip getirmediğini söyler.
+- **Giriş ayına göre** — aynısı, konaklama ayı başına.
+
+Üçü kendi şekliniz hakkında:
+
+- **Kişiye göre** — kim ne sattı. E-posta adresiyle adlandırılır; ad benzersiz değildir, iç kimlik ise
+  okunmaz.
+- **Şubeye göre** — hangi ofis ne sattı.
+- **Müşteriye göre** — hacim hangi kurumsal müşteriden geldi.
+
+Kimseye ait olmayan satırlar düşürülmez, **kendi segmentlerini** alır: şubeler var olmadan önce
+yapılmış ya da sonradan silinmiş bir hesabın yaptığı rezervasyon yine bir rezervasyondur ve dışarıda
+bırakılsaydı kişi bazlı sayılar toplamınızı tutmazdı.
+
+Her segment **para birimi başınadır**, toplamlarla aynı sebeple: OneRate hiçbir şey çevirmez, yani iki
+para biriminde çalışan bir şube iki segmenttir — aritmetik olarak doğru, hiçbir şey ifade etmeyen tek
+bir sayı değil.
 
 ## Dışa aktarım
 

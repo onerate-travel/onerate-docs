@@ -1,6 +1,6 @@
 ---
 title: Riportok
-description: Amit eladtál, érkezési dátum és állapot szerint szűrve, beszállítóra és hónapra bontva, CSV-be exportálva.
+description: Amit eladtál, érkezési dátum és állapot szerint szűrve, beszállítóra, hónapra, személyre, fiókra és ügyfélre bontva, CSV-be exportálva.
 ---
 
 A **Riportok** csak olvasható. A saját foglalásaid, összesítve. Tulajdonosoknak, adminisztrátoroknak
@@ -14,18 +14,36 @@ A **Riportok** csak olvasható. A saját foglalásaid, összesítve. Tulajdonoso
 
 ## A táblázat
 
-Foglalásonként egy sor: érkezés, szálloda, úti cél, vendég, beszállító, állapot, **nettó**,
-**eladás**.
+Foglalásonként egy sor: érkezés, szálloda, célállomás, vendég, az Ön **iktatószáma**, a **fiók**, ki
+**vette fel a foglalást**, szállító, státusz, **nettó**, **eladási ár**, és a **lemondási feltételek**
+úgy, ahogyan a foglalás pillanatában álltak.
 
-Fölötte: a foglalások száma, a **Nettó összesen** és az **Eladás összesen**. A két összeg különbsége
-a szűrt halmazon elért árrésed.
+Fölötte: a foglalások száma, **Összes nettó** és **Összes eladás** — pénznemenként egy pár. A kettő
+különbsége az adott halmazon elért árrése.
 
 ## Bontások
 
-- **Beszállító szerint** — foglalások, nettó és eladás beszállítónként. Ezt a számot érdemes a
-  [beszállítói preferenciáid](/hu/manage/preferences/) mellett olvasni: megmondja, hogy egy rögzítés
-  vagy egy százalékos szabály tényleg hozza-e azt a volument, amiért beállítottad.
+Kettő a készletéről szól:
+
+- **Szállító szerint** — foglalás, nettó és eladás szállítónként. Ezt a számot érdemes a
+  [szállítói preferenciái](/hu/manage/preferences/) mellé olvasni: megmondja, hogy egy rögzítés vagy
+  egy százalékos szabály valóban hozza-e azt a forgalmat, amiért beállította.
 - **Érkezési hónap szerint** — ugyanez, a tartózkodás hónapja szerint.
+
+Három a saját alakjáról:
+
+- **Személy szerint** — ki mit adott el. E-mail cím alapján megnevezve, mert a név nem egyedi, a belső
+  azonosító pedig nem olvasható.
+- **Fiók szerint** — melyik iroda mit adott el.
+- **Ügyfél szerint** — melyik vállalati ügyféltől jött a forgalom.
+
+Azok a sorok, amelyek senkihez nem tartoznak, **saját szegmenst** kapnak, nem pedig kimaradnak: egy
+foglalás, amely még a fiókok előttről való, vagy amelyet egy azóta törölt fiók készített, attól még
+foglalás, és kihagyva a személyenkénti számok nem adnák ki az összesent.
+
+Minden szegmens **pénznemenként** áll, ugyanazon okból, amiért az összegek is: a OneRate semmit nem
+vált át, így egy két pénznemben kereskedő fiók két szegmens — számtanilag helyesen, nem pedig egyetlen
+szám, amely semmit nem jelent.
 
 ## Export
 

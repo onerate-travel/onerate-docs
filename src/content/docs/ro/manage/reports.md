@@ -1,6 +1,6 @@
 ---
 title: Rapoarte
-description: Ce ai vândut, filtrat după data de check-in și stare, defalcat pe furnizor și pe lună, și exportat în CSV.
+description: Ce ai vândut, filtrat după data de check-in și stare, defalcat pe furnizor, lună, persoană, sucursală și client, și exportat în CSV.
 ---
 
 **Rapoarte** este doar pentru citire. Sunt propriile tale rezervări, totalizate. Disponibil
@@ -14,17 +14,36 @@ proprietarilor, administratorilor și agenților; nu și clienților.
 
 ## Tabelul
 
-Un rând pe rezervare: check-in, hotel, destinație, oaspete, furnizor, stare, **net**, **vânzare**.
+Un rând per rezervare: check-in, hotel, destinație, oaspete, **numărul dvs. de dosar**,
+**sucursala**, cine **a preluat rezervarea**, furnizor, status, **net**, **vânzare** și **condițiile
+de anulare** așa cum erau în momentul rezervării.
 
-Deasupra: numărul de rezervări, **Net total** și **Vânzare totală**. Diferența dintre aceste două
-totaluri este marja ta pe setul filtrat.
+Deasupra: numărul de rezervări, **Total net** și **Total vânzare** — câte o pereche pentru fiecare
+monedă. Diferența dintre cele două este marja dvs. pentru setul filtrat.
 
 ## Defalcări
 
-- **Pe furnizor** — rezervări, net și vânzare pe furnizor. Este cifra de citit alături de
-  [preferințele tale de furnizori](/ro/manage/preferences/): îți spune dacă o fixare sau o regulă
-  procentuală chiar aduce volumul pentru care ai stabilit-o.
-- **Pe luna de check-in** — același lucru, pe lună de sejur.
+Două privesc inventarul dvs.:
+
+- **Pe furnizor** — rezervări, net și vânzare pe furnizor. Acesta este numărul de citit alături de
+  [preferințele dvs. de furnizori](/ro/manage/preferences/): vă spune dacă o fixare sau o regulă
+  procentuală chiar aduce volumul pentru care ați configurat-o.
+- **Pe luna de check-in** — același lucru, pe luna sejurului.
+
+Trei privesc forma dvs. proprie:
+
+- **Pe persoană** — cine ce a vândut. Denumit prin adresa de e-mail, pentru că un nume nu este unic,
+  iar un identificator intern nu este lizibil.
+- **Pe sucursală** — ce birou ce a vândut.
+- **Pe client** — de la ce client corporativ a venit volumul.
+
+Rândurile care nu aparțin nimănui primesc **segment propriu**, în loc să fie eliminate: o rezervare de
+dinainte să existe sucursale, sau făcută de un cont șters între timp, este tot o rezervare, iar
+excluderea ei ar face ca numerele pe persoană să nu se adune la totalul dvs.
+
+Fiecare segment este **pe monedă**, din același motiv ca totalurile: OneRate nu convertește nimic,
+deci o sucursală care lucrează în două monede este două segmente — corect aritmetic, în loc de un
+singur număr care nu înseamnă nimic.
 
 ## Export
 

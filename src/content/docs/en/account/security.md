@@ -71,6 +71,26 @@ Do it when:
 If it is your only session, the screen says so rather than showing you a button that would sign you
 out of the screen you are reading.
 
+## When your session ends
+
+A session does not last forever, and your agency can make it shorter (see
+[security postures](/en/manage/settings/#security-postures)).
+
+When it ends, the portal takes you back to the sign-in page and says why. Signing in returns you to
+the screen you were on — not to the home page.
+
+**Unless you were in the middle of something.** If a form has something typed into it — a supplier
+credential, a guest's name on a booking review, a setting you were editing — the portal does *not*
+navigate away. It shows a bar at the top with a **Sign in again** button, and leaves what you typed
+on screen until you press it.
+
+Two messages are worth telling apart:
+
+- *"Your session ended"* — sign in again and carry on.
+- *"Your access to this agency is suspended"* — signing in changes nothing. Somebody at that agency
+  switched your access off. If you work in another agency, the switcher at the top takes you there;
+  otherwise, speak to that agency's owner or admin.
+
 ## A short security routine
 
 1. Turn on two-factor authentication even if your role does not require it.

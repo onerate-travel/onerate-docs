@@ -70,6 +70,27 @@ Tedd meg, ha:
 Ha ez az egyetlen munkameneted, a képernyő ezt közli, ahelyett hogy olyan gombot mutatna, amely
 kiléptetne abból a képernyőből, amelyet éppen olvasol.
 
+## Amikor a munkamenete lejár
+
+Egy munkamenet nem tart örökké, és az irodája rövidebbre is állíthatja (lásd a
+[biztonsági beállításokat](/hu/manage/settings/#biztonsági-beállítások)).
+
+Amikor lejár, a portál visszaviszi a belépési oldalra, és megmondja, miért. Belépés után arra a
+képernyőre tér vissza, ahol volt — nem a kezdőlapra.
+
+**Kivéve, ha éppen valaminek a közepén tartott.** Ha egy űrlapba be van gépelve valami — egy
+szállítói belépési adat, egy vendég neve a foglalás áttekintésén, egy éppen szerkesztett beállítás —,
+a portál *nem* navigál el. Felül egy sávot mutat **Bejelentkezés újra** gombbal, és a képernyőn
+hagyja, amit begépelt, amíg meg nem nyomja.
+
+Két üzenetet érdemes megkülönböztetni:
+
+- *„A munkamenete lejárt”* — lépjen be újra, és folytassa.
+- *„Az ehhez az irodához való hozzáférése fel van függesztve”* — az újbóli belépés semmit nem
+  változtat. Az adott irodában valaki kikapcsolta a hozzáférését. Ha másik irodában is dolgozik, a
+  fenti irodaváltó odaviszi; ha nem, beszéljen annak az irodának a tulajdonosával vagy
+  adminisztrátorával.
+
 ## Rövid biztonsági rutin
 
 1. Kapcsold be a kétfaktoros hitelesítést akkor is, ha a szerepköröd nem követeli meg.

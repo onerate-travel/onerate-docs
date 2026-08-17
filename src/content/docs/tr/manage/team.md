@@ -1,6 +1,6 @@
 ---
 title: Ekip
-description: Meslektaşları davet etmek, rollerini seçmek, bekleyen davetleri yönetmek ve kişileri çıkarmak.
+description: Meslektaşları davet etmek, rollerini seçmek ve değiştirmek, şubeler, erişimi askıya almak ve kişileri çıkarmak.
 ---
 
 **Ekip**, acentenizin kendi personelidir. Sahipler ve yöneticiler.
@@ -44,8 +44,49 @@ Sahip hesabı bir kolaylık hesabı değildir. İki adımlı doğrulama onda zor
 
 ## Rol değiştirmek
 
-Rol düzenleyici yoktur. Kişiyi çıkarın ve istediğiniz rolle tekrar davet edin. Rezervasyonları
-etkilenmez — rezervasyonlar onu yapan hesaba değil, acenteye aittir.
+Rol, kişinin satırındaki bir açılır listedir. Değiştirin, bir sonraki isteğinde geçerli olur —
+kaydedilecek bir şey yok, çıkış yapılacak bir şey yok.
+
+Rezervasyonları etkilenmez: bir rezervasyon onu yapan hesaba değil, acenteye aittir.
+
+**Bir acentede her zaman en az bir aktif sahip kalır.** Son sahibin rolünü değiştirmek yapılmaz,
+reddedilir — sahibi olmayan bir acentede yenisini atayabilecek kimse kalmaz.
+
+## Birini askıya almak
+
+**Askıya al**, bir meslektaşı çıkarmadan kapatır. Bir sonraki isteğinden itibaren her işlem
+reddedilir; davetleri ve rezervasyonları olduğu yerde kalır.
+
+Çıkarmanın uymadığı durum için: izne ayrılan biri, hakkında inceleme yürüyen biri, dizüstü
+bilgisayarı kaybolan biri. **Geri al** onu geri getirir.
+
+Girişi çalışmaya devam eder — başka bir acenteye de üye olabilir, ve bu bu acenteyi ilgilendirmez.
+Burada gördüğü şey bozuk bir ekran değil, askıya alındığını söyleyen bir mesajdır.
+
+Yukarıdaki kural burada da geçerli: son aktif sahip askıya alınamaz.
+
+## Şubeler
+
+Acenteniz birden fazla ofisten çalışıyorsa **şubeler** bunu söyleyecek boyutu verir.
+
+**Şubeler** altında ada göre ekleyin. Sonra her kişinin satırında çalıştığı şubeyi seçin.
+
+Bir şube ne işe yarar:
+
+- **Her rezervasyon, onu alan şubeyle damgalanır**, yapıldığı anda. Formdan seçilmez, kişiden
+  okunur; kimse çalışmadığı bir ofisin altına rezervasyon yazamaz.
+- Raporlar [şubeye göre](/tr/manage/reports/#dökümler) kırılır.
+- Bir üye **kendi şubesiyle sınırlanabilir** — rolünün yanındaki işaret. O zaman yalnızca kendi
+  şubesinin rezervasyonlarını ve meslektaşlarını görür.
+- Bir şube **kendi tedarikçi hesabını** tutabilir: bkz. [Tedarikçiler](/tr/manage/suppliers/).
+- Bir şube **kendi adresini, telefonunu ve belge numarasını** taşıyabilir; düzenlediği voucher'larda
+  görünen bunlardır. Gece 23:00'te arayan misafir, merkezi değil odayı satan masayı arar.
+
+Bir şubeyi kapatmak kişilerinin atamasını kaldırır; üyelikleri ve rezervasyonları kalır, ve artık
+var olmayan bir şubenin aldığı rezervasyon yine de olmuş bir rezervasyondur.
+
+Kendi tedarikçi hesabını tutan bir şube, o hesap kaldırılmadan **kapatılamaz** — geçmiş
+rezervasyonlarını iptal eden şey o kimlik bilgisidir, silmek onları ortada bırakırdı.
 
 ## Birini çıkarmak
 

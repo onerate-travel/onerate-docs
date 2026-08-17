@@ -1,6 +1,6 @@
 ---
 title: Team
-description: Inviting colleagues, choosing their role, managing pending invitations and removing people.
+description: Inviting colleagues, choosing and changing their role, branches, suspending access, and removing people.
 ---
 
 **Team** is your agency's own staff. Owners and admins.
@@ -10,8 +10,8 @@ description: Inviting colleagues, choosing their role, managing pending invitati
 1. **Team → Invite a colleague.**
 2. Enter their **email address**. The invitation is tied to it — they must sign up with that exact
    address.
-3. Choose their **role**: Agency owner, Admin or Agent. See
-   [Roles and permissions](/en/start/roles/) for what each may do.
+3. Choose their **role**: Admin or Agent. See [Roles and permissions](/en/start/roles/) for what
+   each may do. (An agency has one owner and it is provisioned, not invited.)
 4. **Create invitation.**
 5. Copy the **invitation link** and send it to them.
 
@@ -44,8 +44,51 @@ be turned off.
 
 ## Changing a role
 
-There is no role editor. Remove the person and invite them again with the role you want. Their
-bookings are unaffected — bookings belong to the agency, not to the account that made them.
+The role is a dropdown on the person's row. Change it and it applies to their next request — there
+is nothing to save and nothing to sign out of.
+
+Their bookings are unaffected: a booking belongs to the agency, not to the account that made it.
+
+**An agency always keeps at least one active owner.** Changing the last owner's role is refused
+rather than performed, because an agency with no owner has nobody left who could appoint one.
+
+## Suspending someone
+
+**Suspend** switches a colleague off without removing them. Every action is refused from their next
+request, and their invitations and bookings stay exactly where they are.
+
+Use it for the case removal does not fit: somebody on leave, somebody under investigation, somebody
+whose laptop is missing. **Restore** puts them back.
+
+Their sign-in still works — they may belong to another agency, and that is none of this agency's
+business. What they see here is a message naming the suspension rather than a broken screen.
+
+The same rule as above applies: the last active owner cannot be suspended.
+
+## Branches
+
+If your agency works out of more than one office, **branches** give you the dimension to say so.
+
+Add one by name under **Branches**. Then, on each person's row, choose the branch they work at.
+
+What a branch is for:
+
+- **Every booking is stamped with the branch that took it**, at the moment it is made. It is read
+  from the person, not chosen on a form, so nobody can file a booking under an office they do not
+  work at.
+- Reports break down [by branch](/en/manage/reports/#breakdowns).
+- A member can be **limited to their own branch** — the tick beside their role. They then see their
+  branch's bookings and their branch's colleagues, and nothing else.
+- A branch can hold its **own supplier account**: see [Suppliers](/en/manage/suppliers/).
+- A branch can carry its **own address, phone and licence number**, which is what appears on the
+  vouchers it issues. A guest ringing at 23:00 rings the desk that sold them the room, not head
+  office.
+
+Closing a branch unassigns its people; their memberships and their bookings survive, and a booking
+taken by a branch that no longer exists is still a booking that happened.
+
+A branch that holds its own supplier account **cannot be closed** until that account is removed —
+the credential is what cancels its past bookings, and deleting it would strand them.
 
 ## Removing someone
 

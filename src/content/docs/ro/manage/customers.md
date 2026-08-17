@@ -1,6 +1,6 @@
 ---
 title: Clienți
-description: Cum îi lași pe clienții tăi corporativi să rezerve singuri pe contractele tale cu furnizorii — și exact ce pot și ce nu pot vedea.
+description: Cum îi lași pe clienții tăi corporativi să rezerve singuri pe contractele tale cu furnizorii, rolurile din interiorul unui client, grupele de preț, plafoanele rezervărilor deschise — și exact ce pot și ce nu pot vedea.
 ---
 
 Un **client** este unul dintre clienții tăi corporativi, configurat în OneRate astfel încât oamenii
@@ -25,6 +25,28 @@ cei în așteptare. Poți **Copia linkul** din nou sau **Revoca** o invitație �
 imediat funcționarea linkului.
 
 O invitație deja acceptată nu poate fi revocată; elimină în schimb persoana din client.
+
+## Cele trei roluri din interiorul unui client
+
+| Rol | Vede | Mai poate |
+| --- | --- | --- |
+| **Organizator** | Rezervările companiei sale | Să rezerve pentru oricine din compania sa |
+| **Călător** | **Doar rezervările făcute de el însuși** | — |
+| **Administrator client** | Rezervările companiei sale | Să își invite colegii și să administreze setările propriei companii |
+
+Organizatorul este implicit și este ceea ce a fost fiecare utilizator client înainte ca celelalte două
+să existe.
+
+Dați rolul de **călător** persoanelor care își rezervă doar propriile călătorii: rezervarea unui coleg
+nu apare deloc în lista lor, iar deschisă din link li se spune că nu există, nu că nu au voie să o
+vadă.
+
+Dați rolul de **administrator client** persoanei din acea companie care ar trebui să facă această
+muncă în locul dvs. — să își invite colegii și să își definească propriile câmpuri. Nu ajunge la nimic
+din agenția dvs.; granița este compania, nu rolul.
+
+Niciunul dintre cele trei nu poate anula și niciunul nu vede vreodată numele unui furnizor sau prețul
+dvs. net.
 
 ## Ce vede un utilizator client
 
@@ -60,6 +82,39 @@ configurația agenției tale curg implicit către ei. Un client poate avea propr
 client are alte condiții comerciale — și câștigă nivelul cel mai apropiat care are o valoare.
 
 Ștergerea marjei proprii a unui client revine la cea a agenției tale, nu la zero.
+
+### Grupe de preț
+
+Dacă tarifați grupuri de clienți la fel — „A bayileri" la o cotă, „B bayileri" la alta — puneți-i
+într-o **grupă de preț** în loc să vă repetați. Coloana grupei este pe acest ecran; grupele în sine
+sunt la [Prețuri](/ro/manage/pricing/#grupe-de-preț).
+
+Grupa se așază **între** marja proprie a clientului și cea a agenției dvs.: un client cu propria cotă
+o păstrează, iar toți ceilalți din grupă primesc cota grupei.
+
+Un client aparține cel mult unei grupe. Mutarea între grupe este aceeași listă derulantă.
+
+## Plafonul rezervărilor deschise
+
+Puteți limita cât poate avea un client **deschis** la un moment dat. Coloana este pe acest ecran: o
+sumă în moneda dvs. de vânzare sau gol, dacă nu există plafon.
+
+**Deschis** înseamnă rezervări care nu sunt nici anulate, nici deja consumate, adunate la prețul la
+care le vindeți. O rezervare care ar duce clientul peste plafon este refuzată înainte să ajungă la
+furnizor, iar agentului i se spune să discute cu dvs.
+
+:::caution
+Acesta **nu este o linie de credit.** OneRate nu vede niciodată o plată, deci nimic de aici nu se
+schimbă când clientul vă plătește. Plafonul scade pe măsură ce sejururile se încheie și rezervările se
+anulează — și cu nimic altceva.
+
+Răspunde la *„opriți acest client să adune rezervări pe care nu le poate plăti"*. Nu răspunde la
+*„acordați acestui client 50.000 credit"*; nimic din OneRate nu răspunde la asta, prin proiectare.
+:::
+
+Funcționează **pe fiecare monedă**. Un plafon stabilit în EUR nu spune nimic despre o rezervare
+prețuită în TRY, pentru că OneRate nu convertește între monede — iar o limită este cel mai prost loc
+din produs în care să începi să inventezi un curs.
 
 ## Înainte să inviți pe cineva
 

@@ -32,7 +32,12 @@ Apri una prenotazione per vedere tutto quello che è stato registrato su di essa
 ### La prenotazione
 
 Hotel, stato, fornitore, **riferimento di conferma**, check-in, check-out, ospite principale,
-prezzo di vendita.
+prezzo di vendita, la **filiale** che l'ha presa e **chi** l'ha presa.
+
+Se la vostra agenzia ha [campi dell'agenzia](/it/manage/settings/#campi-dellagenzia), i valori
+registrati su questa prenotazione compaiono in una sezione propria. Sono quelli registrati **in quel
+momento**: un campo definito in seguito qui è vuoto, e uno nel frattempo ritirato mostra ancora con
+cosa era stata codificata.
 
 Il riferimento di conferma è quello del fornitore — è ciò che identifica la prenotazione presso di
 lui se dovessi telefonare.
@@ -66,6 +71,35 @@ ricerca è finita.
 
 Ogni stato attraversato dalla prenotazione, in ordine, con gli orari. È il primo posto dove
 guardare quando una prenotazione ha fatto qualcosa che non ti aspettavi.
+
+## Opzioni
+
+Un'**opzione** è una prenotazione che tenete mentre il vostro cliente decide.
+
+È una prenotazione reale su una tariffa rimborsabile, più una data che avete deciso voi. Nessun
+fornitore con cui OneRate lavora offre un blocco proprio — ciò che il prodotto aggiunge è che la
+scadenza è visibile e viene gestita, invece di vivere nell'agenda di qualcuno.
+
+Una prenotazione tenuta in opzione mostra un pannello che lo dichiara, con due pulsanti:
+
+- **Conferma** — l'opzione resta come prenotazione ordinaria. All'hotel non cambia nulla; era già
+  reale.
+- **Rilascia** — la prenotazione viene annullata. Passa dalla stessa conferma di qualsiasi altro
+  annullamento e cita la stessa penale, perché rilasciare un'opzione *è* annullare una prenotazione.
+
+La scadenza è limitata dalla finestra di cancellazione gratuita della tariffa stessa, meno un giorno.
+Una tariffa senza finestra gratuita non può essere tenuta affatto: «tenere» significherebbe
+«prenotare e pagare la penale dopo», che è una prenotazione — e questo va detto, non venduto come
+parola.
+
+La sera prima della scadenza, chi ha preso la prenotazione riceve un'email. Cosa succede se nessuno
+risponde è una scelta della vostra agenzia, in
+[Impostazioni](/it/manage/settings/#configurazione-dellagenzia): **promemoria** continua ad avvisare
+e non annulla mai, **rilascio** restituisce la camera. Un'agenzia che non ha dichiarato nulla ottiene
+**promemoria**, perché un annullamento sbagliato è denaro vero.
+
+Il voucher di un'opzione aperta dichiara che lo è, così un cliente che lo ha in mano non può
+scambiarlo per un soggiorno definito.
 
 ## Voucher
 

@@ -21,7 +21,10 @@ farklı bir otel ya da farklı bir fiyat rezerve edin.
 | "Çok fazla deneme." | Hız sınırlama. | Bir dakika bekleyin. |
 | "Bu hesap şu anda giriş yapamıyor." | Askıya alınmış hesap ya da aktif olmayan abonelik. | Acente yöneticinize başvurun. |
 | "OneRate'e ulaşamadık." | Sizin ağınız. | Bağlantınızı kontrol edin. Giriş **yapılmadı**; hiçbir şey değişmedi. |
-| "Oturumunuz sona erdi." | Sekme açıkken oturumun süresi doldu. | Tekrar giriş yapın. O ekrandaki kaydedilmemiş çalışma kaybolur. |
+| "Oturumunuz sona erdi." | Sekme açıkken oturumun süresi doldu. | Giriş ekranına dönersiniz ve giriş yapınca kaldığınız yere geri gelirsiniz. Bir formda yazılmış bir şey varsa portal sizi götürmez, bekler — hazır olduğunuzda **Tekrar giriş yap**a basın. |
+| "Bu acentedeki erişiminiz askıya alınmış." | O acenteden biri erişiminizi kapatmış. | Tekrar giriş yapmak bir şeyi değiştirmez. Başka bir yerde çalışıyorsanız acente değiştiriciyi kullanın; değilse o acentenin sahibi ya da yöneticisine sorun. |
+| "Bu acente yeniden giriş yapmanızı gerektiriyor." | Acenteniz daha kısa bir oturum ömrü belirlemiş. | Tekrar giriş yapın. Hesabınızda bir sorun yok. |
+| "Bu ağdan erişime izin verilmiyor." | Acenteniz hangi IP adreslerinin bağlanabileceğini sınırlıyor. | Ofis ağından bağlanın ya da bir sahipten kendinizinkini Ayarlar'a eklemesini isteyin. |
 | "Bu davet bağlantısı geçersiz veya süresi dolmuş." | Süresi dolmuş, iptal edilmiş ya da kullanılmış. | Yenisini isteyin — gönderen kişi Ekip'ten tekrar gönderebilir. |
 | "Bu davet bu e-posta adresine bağlı." | Başka biri olarak giriş yapmışsınız. | Çıkış yapın, davet edilen adresle kayıt olun. |
 
@@ -67,6 +70,8 @@ Sırayla:
 | "Bu rezervasyon anahtarı zaten başka bir rezervasyon için kullanıldı." | Çift rezervasyon koruması çalışıyor. | Yeni bir arama başlatın. Çift rezervasyon olmadı. |
 | "Kısa sürede çok fazla rezervasyon denemesi." | Hız sınırlama. | Bekleyin. Şimdi tekrar denemek de reddedilir. |
 | "Rezervasyon başarısız. Lütfen tekrar deneyin." | Genel bir hata. | **Önce [Rezervasyonlar](/tr/booking/your-bookings/)'a bakıp** hiçbir şeyin oluşmadığını doğrulayın, sonra tekrar deneyin. |
+| "Zorunlu bir alan eksik ya da geçersiz." | Acentenizin kendi [alanlarından](/tr/manage/settings/#acente-alanları) biri boş ya da bir değer tanımına uymuyor. | Gözden geçirme ekranında tamamlayın. Hiçbir şey rezerve edilmedi ve tedarikçiye hiçbir şey gitmedi. |
+| "Bu, müşteriyi açık rezervasyon tavanının üzerine çıkarır." | Müşterinin bir [açık rezervasyon tavanı](/tr/manage/customers/#açık-rezervasyon-tavanı) var ve bu rezervasyon onu aşıyor. | Acenteyle konuşun. Bu bir kredi limiti değildir — ödemeyle değil, konaklamalar tamamlandıkça ve rezervasyonlar iptal edildikçe düşer. |
 
 ## Rezervasyonlar ve iptal
 
@@ -79,6 +84,22 @@ Sırayla:
 | "Misafir verisi silinemedi." | Silme yarım kalmış olabilir. | Tekrar çalıştırın — tekrarlamak güvenlidir. |
 | "Tahmini — bu tedarikçi saat dilimi belirtmiyor…" | Son tarih, düşebileceği en erken andır. | Son güvenli an olarak kabul edin. Son tarihte değil, ondan önce iptal edin. |
 | "Doğrulanmadı — bu rezervasyon, son tarihin tedarikçiye mi ait yoksa tahmin mi olduğunu saklamaya başlamadan önce kaydedildi." | Eski bir rezervasyon. | Güvenmeden önce tedarikçiye danışın. |
+
+## Opsiyonlar
+
+| Mesaj | Anlamı | Ne yapmalı |
+| --- | --- | --- |
+| "Bu rezervasyon açık bir opsiyon değil." | Birisi zaten yanıtlamış ya da hiç opsiyon olmamış. | Rezervasyonu yeniden yükleyin. Panel şimdi ne olduğunu gösterir. |
+| İadeli bir rezervasyonda opsiyon paneli yok | Opsiyon tarihi olmadan rezerve edilmiş. | Opsiyon rezervasyon yapılırken belirlenir; sonradan eklenemez. |
+
+## Entegrasyonlar
+
+| Mesaj | Anlamı | Ne yapmalı |
+| --- | --- | --- |
+| `/api/v1/…`'den `401` | Anahtar yanlış ya da iptal edilmiş. | İkisi bilinçli olarak aynı yanıtı verir. Ayarlar'da yeni bir anahtar oluşturun. |
+| `/api/v1/…`'den `429` | O anahtarın istek kotası tükenmiş. | `retry-after` saniye kadar bekleyin. Her anahtarın kendi kotası vardır, diğer entegrasyon etkilenmez. |
+| "Bu adres reddedildi: yalnızca https ve iç adresler olmaz." | Düz http'ye ya da özel bir ağa işaret eden bir webhook uç noktası. | Herkese açık bir `https` adresi kullanın. |
+| **Son teslimat**ında hata gösteren bir webhook uç noktası | Alıcınız reddetti ya da yanıt vermedi. | Alıcıyı düzeltin; bu arada tekrar denemeleri durdurmak isterseniz **Duraklat** ve **Devam ettir**i kullanın. |
 
 ## Tedarikçiler ve ayarlar
 
