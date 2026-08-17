@@ -85,6 +85,15 @@ Sırayla:
 | "Tahmini — bu tedarikçi saat dilimi belirtmiyor…" | Son tarih, düşebileceği en erken andır. | Son güvenli an olarak kabul edin. Son tarihte değil, ondan önce iptal edin. |
 | "Doğrulanmadı — bu rezervasyon, son tarihin tedarikçiye mi ait yoksa tahmin mi olduğunu saklamaya başlamadan önce kaydedildi." | Eski bir rezervasyon. | Güvenmeden önce tedarikçiye danışın. |
 
+## Onay
+
+| Mesaj | Anlamı | Ne yapmalı |
+| --- | --- | --- |
+| "Bu rezervasyon tek başınıza onaylayabileceğinizin üzerinde…" | Acenteniz tek başınıza taahhüt edebileceğinize bir tavan koymuş ve bu rezervasyon onu aşıyor. | Yanlış bir şey yok ve tedarikçiye hiçbir şey gönderilmedi. Onaylayabilecek kişilere e-posta gitti; rezervasyon [Rezervasyonlar](/tr/booking/your-bookings/#onay) içinde bekliyor. |
+| "Bu rezervasyon onay beklemiyor." | Birisi çoktan cevaplamış ya da hiç beklemeye alınmamış. | Rezervasyonu yeniden yükleyin. Sayfası şimdi ne olduğunu gösterir. |
+| "Bu rezervasyon yeniden oluşturulamıyor." | Beklemedeki rezervasyonda, yapılabilmesi için gereken bir şey eksik. | Yeni bir arama başlatın. Hiçbir şey rezerve edilmedi. |
+| "Teklifin süresi doldu" diyerek başarısız olan beklemedeki bir rezervasyon | Fiyatın süresi dolmadan kimse cevaplamamış. | Yeniden arayın. Bu noktadan sonra onaylamak eski fiyatı geri getirmez. |
+
 ## Opsiyonlar
 
 | Mesaj | Anlamı | Ne yapmalı |

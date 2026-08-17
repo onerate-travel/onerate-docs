@@ -27,6 +27,7 @@ your role does not have.
 | Set their own margin | ✅ | ✅ | ✅ |
 | View reports | ✅ | ✅ | ✅ |
 | Cancel a booking | ✅ | ✅ | — |
+| Approve a booking somebody could not commit alone | ✅ | ✅ | — |
 | Resolve a booking in manual review | ✅ | ✅ | — |
 | Erase guest data from a booking | ✅ | ✅ | — |
 | Manage supplier credentials | ✅ | ✅ | — |
@@ -40,7 +41,12 @@ This surprises people, so it is worth stating plainly: **cancellation fees are r
 agent can create a booking, because that is the job; cancelling one can cost the agency a fee under
 a contract the agent did not sign. So cancellation sits with the owner and the admin.
 
-The same reasoning puts two other actions there:
+The same reasoning puts three other actions there:
+
+- **Approving a booking** somebody was told they could not commit alone is committing the agency's
+  money under a contract the agent did not sign — the same money, by the same reasoning, one step
+  earlier. What each colleague may commit alone is set on
+  [Team](/en/manage/team/#what-each-colleague-may-commit-alone).
 
 - **Resolving a booking in manual review** is a permanent statement that a booking does or does not
   exist at the supplier. It is not a day-to-day task, and getting it wrong is not recoverable.

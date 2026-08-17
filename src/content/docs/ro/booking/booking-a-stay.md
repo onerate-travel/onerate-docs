@@ -120,6 +120,17 @@ două camere. Vezi [Stările rezervării](/ro/booking/statuses/).
 | „Un câmp obligatoriu lipsește sau este invalid.” | Unul dintre câmpurile proprii ale agenției tale este gol sau nu se potrivește cu definiția sa. | Completează-l pe ecranul de verificare. Nu s-a rezervat nimic. |
 | „Aceasta ar duce clientul peste plafonul rezervărilor deschise.” | Clientul are un [plafon](/ro/manage/customers/#plafonul-rezervărilor-deschise) pentru cât poate ține deschis, iar această rezervare îl depășește. | Vorbește cu agenția. Plafonul scade pe măsură ce sejururile se încheie și rezervările sunt anulate. |
 
+## Când rezervarea are nevoie de aprobare
+
+Dacă agenția ta a stabilit un plafon pentru ce poți angaja
+[singur](/ro/manage/team/#ce-poate-angaja-singur-fiecare-coleg), o rezervare peste el nu se face —
+este **reținută**. Ecranul o spune, la furnizor nu ajunge nimic, iar cei care o pot aproba primesc un
+e-mail.
+
+Nu ai ce corecta: nu este un refuz, iar oferta nu s-a pierdut. Urmărește rezervarea în
+[Rezervări](/ro/booking/your-bookings/#aprobare) — apare ca **Așteaptă aprobare** până răspunde
+cineva și eșuează singură dacă tariful expiră între timp.
+
 ## De ce nu poți rezerva din greșeală de două ori
 
 Fiecare încercare de rezervare poartă o cheie generată când ai deschis formularul. Dacă aceeași

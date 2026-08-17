@@ -1,6 +1,6 @@
 ---
 title: Le tue prenotazioni
-description: Trovare una prenotazione, leggere la sua pagina di dettaglio e la cronologia, il dettaglio dei costi, i voucher e la cancellazione dei dati degli ospiti.
+description: Trovare una prenotazione, che cosa registra la pagina di dettaglio, approvazione, opzioni, voucher, promemoria di annullamento e cancellazione dei dati degli ospiti.
 ---
 
 ## L'elenco
@@ -71,6 +71,31 @@ ricerca è finita.
 
 Ogni stato attraversato dalla prenotazione, in ordine, con gli orari. È il primo posto dove
 guardare quando una prenotazione ha fatto qualcosa che non ti aspettavi.
+
+## Approvazione
+
+La vostra agenzia può fissare un tetto a quanto ogni collega può impegnare
+[da solo](/it/manage/team/#che-cosa-può-impegnare-da-solo-ogni-collega). Una prenotazione sopra quel
+tetto viene **trattenuta**: compare nel vostro elenco come **In attesa di approvazione**, e al
+fornitore non è stato inviato nulla — nessuna camera occupata, nessuna tariffa bloccata, e niente da
+annullare perché ancora non esiste niente.
+
+La pagina della prenotazione lo dice a chiunque possa vederla. Se potete approvare prenotazioni,
+porta anche due pulsanti:
+
+- **Approva e prenota** — la prenotazione viene fatta *adesso*, alla tariffa di quel momento. Passa
+  dai controlli ordinari, quindi se il prezzo si è mosso durante l'attesa ricevete la domanda sul
+  prezzo cambiato invece di una prenotazione silenziosa al nuovo importo.
+- **Rifiuta** — la richiesta si chiude. La vostra nota finisce sulla cronologia della prenotazione,
+  dove la legge il collega che l'aveva chiesta.
+
+Quando la prenotazione viene fatta, chi può approvarla riceve un'email: l'importo, l'hotel e chi ha
+chiesto — abbastanza per rispondere senza aprire il portale.
+
+**Un'offerta non aspetta per sempre.** Se nessuno risponde prima che la tariffa scada, la prenotazione
+fallisce da sola e la sua cronologia dice che l'offerta è scaduta, non che qualcuno l'ha rifiutata.
+Approvare dopo quel momento non resuscita la tariffa — il fornitore viene interrogato di nuovo, e
+risponde di nuovo.
 
 ## Opzioni
 

@@ -1,6 +1,6 @@
 ---
 title: Rezervările tale
-description: Găsirea unei rezervări, citirea paginii sale de detalii și a cronologiei, defalcarea costurilor, voucherele și ștergerea datelor oaspeților.
+description: Găsirea unei rezervări, ce înregistrează pagina de detalii, aprobare, opțiuni, vouchere, amintiri de anulare și ștergerea datelor oaspeților.
 ---
 
 ## Lista
@@ -70,6 +70,29 @@ oferte au fost analizate și ce a decis. Rămâne disponibilă mult după ce ses
 
 Fiecare stare prin care a trecut rezervarea, în ordine, cu ore. Este primul loc unde te uiți când o
 rezervare a făcut ceva la care nu te așteptai.
+
+## Aprobare
+
+Agenția dvs. poate stabili un plafon pentru ce poate angaja fiecare coleg
+[singur](/ro/manage/team/#ce-poate-angaja-singur-fiecare-coleg). O rezervare peste acel plafon este
+**reținută**: apare în listă ca **Așteaptă aprobare**, iar furnizorului nu i s-a trimis nimic — nicio
+cameră ocupată, niciun tarif blocat și nimic de anulat, pentru că încă nu există nimic.
+
+Pagina rezervării spune asta oricui o poate vedea. Dacă puteți aproba rezervări, poartă și două
+butoane:
+
+- **Aprobă și rezervă** — rezervarea se face *acum*, la tariful din acel moment. Trece prin
+  verificările obișnuite, deci dacă prețul s-a mișcat cât a așteptat, primiți întrebarea despre prețul
+  schimbat, nu o rezervare tăcută la noua sumă.
+- **Refuză** — cererea se încheie. Nota dvs. ajunge în cronologia rezervării, unde o citește colegul
+  care a cerut-o.
+
+Când rezervarea se face, cei care o pot aproba primesc un e-mail: suma, hotelul și cine a cerut —
+suficient pentru a răspunde fără să deschidă portalul.
+
+**O ofertă nu așteaptă la nesfârșit.** Dacă nu răspunde nimeni înainte să expire tariful, rezervarea
+eșuează singură, iar cronologia ei spune că oferta a expirat, nu că cineva a refuzat. Aprobarea după
+acel moment nu învie tariful — furnizorul este întrebat din nou și răspunde din nou.
 
 ## Opțiuni
 

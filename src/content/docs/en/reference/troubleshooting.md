@@ -83,6 +83,15 @@ In order:
 | "Estimate — this supplier states no time zone…" | The deadline is the earliest it could fall. | Treat it as the last safe moment. Cancel before it, never at it. |
 | "Unconfirmed — this booking was recorded before we stored whether the deadline is the supplier's own or an estimate." | An old booking. | Check with the supplier before relying on the deadline. |
 
+## Approval
+
+| Message | Meaning | Do this |
+| --- | --- | --- |
+| "This booking is over what you may approve on your own…" | Your agency has set a ceiling on what you may commit alone, and this booking crosses it. | Nothing is wrong and nothing was sent to the supplier. The people who may approve it have been emailed; the booking waits in [Bookings](/en/booking/your-bookings/#approval). |
+| "This booking is not awaiting approval." | Somebody already answered it, or it was never held. | Reload the booking. Its page shows what it is now. |
+| "This booking cannot be rebuilt." | The held booking is missing something it would have to be made with. | Start a new search. Nothing was booked. |
+| A held booking that failed with "the offer expired" | Nobody answered before the rate ran out. | Search again. Approving after that point cannot bring the old rate back. |
+
 ## Options
 
 | Message | Meaning | Do this |

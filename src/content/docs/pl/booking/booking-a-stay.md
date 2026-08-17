@@ -117,6 +117,17 @@ automatycznie. Rezerwacja po raz drugi to sposób, w jaki agencja płaci za dwa 
 | „Brakuje wymaganego pola lub jest ono nieprawidłowe.” | Jedno z własnych pól Państwa biura jest puste albo nie pasuje do swojej definicji. | Uzupełnij je na ekranie podsumowania. Nic nie zostało zarezerwowane. |
 | „To przekroczyłoby pułap otwartych rezerwacji klienta.” | Klient ma [pułap](/pl/manage/customers/#pułap-otwartych-rezerwacji) tego, ile może mieć otwarte, a ta rezerwacja go przekracza. | Porozmawiaj z agencją. Pułap opada, gdy pobyty się kończą, a rezerwacje są anulowane. |
 
+## Gdy rezerwacja wymaga zatwierdzenia
+
+Jeśli Państwa biuro ustaliło pułap tego, co mogą Państwo zobowiązać
+[samodzielnie](/pl/manage/team/#co-każdy-współpracownik-może-zobowiązać-samodzielnie), rezerwacja
+powyżej niego nie powstaje — zostaje **wstrzymana**. Ekran to mówi, do dostawcy nic nie dociera, a
+osoby mogące ją zatwierdzić dostają e-mail.
+
+Nie ma czego poprawiać: to nie odmowa, a oferta nie przepadła. Proszę śledzić rezerwację w
+[Rezerwacjach](/pl/booking/your-bookings/#zatwierdzenie) — widnieje jako **Czeka na zatwierdzenie**,
+dopóki ktoś nie odpowie, i upada sama, jeśli stawka wcześniej wygaśnie.
+
 ## Dlaczego nie da się przypadkiem zarezerwować dwa razy
 
 Każda próba rezerwacji niesie klucz wygenerowany w chwili otwarcia formularza. Jeśli ten sam klucz

@@ -1,6 +1,6 @@
 ---
 title: Echipă
-description: Invitarea colegilor, alegerea și schimbarea rolului lor, sucursalele, suspendarea accesului și eliminarea persoanelor.
+description: Invitarea colegilor, alegerea și schimbarea rolului lor, sucursalele, ce poate angaja singur fiecare coleg, suspendarea accesului și eliminarea persoanelor.
 ---
 
 **Echipă** este personalul propriu al agenției tale. Proprietari și administratori.
@@ -94,6 +94,28 @@ o rezervare preluată de o sucursală care nu mai există este tot o rezervare c
 O sucursală care deține cont propriu la furnizor **nu poate fi închisă** până când acel cont nu este
 eliminat — tocmai acea acreditare anulează rezervările ei trecute, iar ștergerea le-ar lăsa fără
 soluție.
+
+## Ce poate angaja singur fiecare coleg
+
+Lângă rolul fiecărei persoane stă un **plafon de aprobare**: maximul pe care îl poate angaja fără să
+întrebe.
+
+O rezervare peste el este **reținută**. Furnizorului nu i se trimite nimic — nicio cameră, niciun
+tarif, nicio condiție de anulare — iar proprietarii și administratorii agenției dvs. primesc un
+e-mail cu suma și cu cine a cerut-o. Ei o aprobă sau o refuză din pagina rezervării. Vezi
+[Rezervări](/ro/booking/your-bookings/#aprobare).
+
+Este un plafon pentru ce poate angaja O persoană **singură**, nu pentru ce poate angaja agenția dvs.
+Prin asta se deosebește de
+[plafonul rezervărilor deschise](/ro/manage/customers/#plafonul-rezervărilor-deschise) al unui
+client, care refuză rezervarea de-a dreptul.
+
+Câmpul lăsat gol înseamnă niciun plafon — situația tuturor până stabiliți unul. Câmpul cere întâi
+[moneda de vânzare](/ro/manage/pricing/) a agenției: un plafon într-o monedă în care nu vindeți nu ar
+spune nimic despre banii pe care îi încasați cu adevărat, așa că OneRate refuză să o ghicească.
+
+Proprietarii și administratorii pot aproba oricând. Un agent niciodată — același raționament care îi
+ia anularea, vezi [Roluri](/ro/start/roles/#de-ce-un-agent-nu-poate-anula).
 
 ## Eliminarea cuiva
 

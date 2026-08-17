@@ -85,6 +85,15 @@ Nell'ordine:
 | "Stima: questo fornitore non indica un fuso orario…" | La scadenza è il primo momento in cui potrebbe cadere. | Trattala come l'ultimo momento sicuro. Annulla prima, mai in corrispondenza. |
 | "Non confermata: questa prenotazione è stata registrata prima…" | Una prenotazione vecchia. | Verifica con il fornitore prima di fidarti della scadenza. |
 
+## Approvazione
+
+| Messaggio | Significato | Che cosa fare |
+| --- | --- | --- |
+| "Questa prenotazione supera quanto potete approvare da soli…" | La vostra agenzia ha fissato un tetto a quanto potete impegnare da soli, e questa prenotazione lo supera. | Non c'è nulla di sbagliato e al fornitore non è stato inviato nulla. Chi può approvarla ha ricevuto un'email; la prenotazione attende in [Prenotazioni](/it/booking/your-bookings/#approvazione). |
+| "Questa prenotazione non è in attesa di approvazione." | Qualcuno ha già risposto, oppure non è mai stata trattenuta. | Ricaricate la prenotazione. La sua pagina mostra che cos'è adesso. |
+| "Questa prenotazione non può essere ricostruita." | Alla prenotazione trattenuta manca qualcosa con cui dovrebbe essere fatta. | Avviate una nuova ricerca. Nulla è stato prenotato. |
+| Una prenotazione trattenuta fallita con «l'offerta è scaduta» | Nessuno ha risposto prima che la tariffa scadesse. | Cercate di nuovo. Approvare dopo quel momento non riporta la vecchia tariffa. |
+
 ## Opzioni
 
 | Messaggio | Significato | Che cosa fare |

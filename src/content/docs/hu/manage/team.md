@@ -1,6 +1,6 @@
 ---
 title: Csapat
-description: Kollégák meghívása, a szerepkörük kiválasztása és megváltoztatása, fiókok, hozzáférés felfüggesztése és emberek eltávolítása.
+description: Kollégák meghívása, a szerepkörük kiválasztása és megváltoztatása, fiókok, mit vállalhat egy kolléga egyedül, hozzáférés felfüggesztése és emberek eltávolítása.
 ---
 
 A **Csapat** az irodád saját munkatársai. Tulajdonosok és adminisztrátorok.
@@ -91,6 +91,29 @@ egy már nem létező fiók által felvett foglalás attól még megtörtént fo
 
 Az a fiók, amely saját szállítói fiókot tart, **nem zárható be**, amíg azt el nem távolítják — éppen
 az a hozzáférés mondja le a korábbi foglalásait, és a törlése magukra hagyná őket.
+
+## Mit vállalhat egy kolléga egyedül
+
+Minden ember szerepköre mellett ott áll egy **jóváhagyási plafon**: a legtöbb, amit kérdés nélkül
+vállalhat.
+
+Az e fölötti foglalás **várakozik**. A beszállítóhoz semmi nem megy el — se szoba, se ár, se
+lemondási feltétel —, az iroda tulajdonosai és adminisztrátorai pedig e-mailt kapnak az összeggel és
+azzal, hogy ki kérte. Ők a foglalás saját oldaláról hagyják jóvá vagy utasítják el. Lásd:
+[Foglalások](/hu/booking/your-bookings/#jóváhagyás).
+
+Ez arra vonatkozik, amit EGY ember **egyedül** vállalhat, nem arra, amit az iroda vállalhat. Ebben
+különbözik az ügyfél [nyitott foglalási plafonjától](/hu/manage/customers/#nyitott-foglalási-plafon),
+amely a foglalást egyenesen elutasítja.
+
+Az üres mező azt jelenti: nincs plafon — ez a helyzet mindenkinél, amíg nem állít be egyet. A mező
+előbb az iroda [eladási pénznemét](/hu/manage/pricing/) kéri: egy olyan pénznemben megadott plafon,
+amelyben nem adnak el, semmit nem mond arról a pénzről, amit valóban bevesznek, ezért a OneRate nem
+tippel.
+
+A tulajdonosok és az adminisztrátorok mindig jóváhagyhatnak. Az ügyintéző soha — ugyanaz az érvelés,
+amely a lemondást is elveszi tőle: lásd
+[Szerepkörök](/hu/start/roles/#miért-nem-mondhat-le-egy-ügyintéző).
 
 ## Valakit eltávolítani
 

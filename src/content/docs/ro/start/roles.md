@@ -27,6 +27,7 @@ nu o are.
 | Își stabilește propria marjă | ✅ | ✅ | ✅ |
 | Vede rapoartele | ✅ | ✅ | ✅ |
 | Anulează o rezervare | ✅ | ✅ | — |
+| Aprobă o rezervare pe care cineva nu o poate angaja singur | ✅ | ✅ | — |
 | Închide o rezervare aflată în verificare manuală | ✅ | ✅ | — |
 | Șterge datele oaspeților dintr-o rezervare | ✅ | ✅ | — |
 | Administrează datele de acces ale furnizorilor | ✅ | ✅ | — |
@@ -41,8 +42,12 @@ adevărați.** Un agent poate crea o rezervare, pentru că asta e treaba lui; an
 costa agenția o penalizare prevăzută într-un contract pe care agentul nu l-a semnat. Așa că
 anularea stă la proprietar și la administrator.
 
-Același raționament pune acolo alte două acțiuni:
+Același raționament pune acolo alte trei acțiuni:
 
+- **Aprobarea unei rezervări** despre care cuiva i s-a spus că nu o poate angaja singur înseamnă
+  angajarea banilor agenției într-un contract pe care agentul nu l-a semnat — aceiași bani, același
+  raționament, cu un pas mai devreme. Cât poate angaja singur fiecare se stabilește în
+  [Echipă](/ro/manage/team/#ce-poate-angaja-singur-fiecare-coleg).
 - **Închiderea unei rezervări aflate în verificare manuală** este o declarație permanentă că o
   rezervare există sau nu există la furnizor. Nu este o sarcină de zi cu zi, iar dacă greșești nu
   se poate repara.

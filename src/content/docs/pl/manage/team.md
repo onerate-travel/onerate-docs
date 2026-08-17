@@ -1,6 +1,6 @@
 ---
 title: Zespół
-description: Zapraszanie współpracowników, wybór i zmiana ich roli, oddziały, zawieszanie dostępu i usuwanie osób.
+description: Zapraszanie współpracowników, wybór i zmiana ich roli, oddziały, co każdy może zobowiązać samodzielnie, zawieszanie dostępu i usuwanie osób.
 ---
 
 **Zespół** to własny personel Twojej agencji. Właściciele i administratorzy.
@@ -92,6 +92,28 @@ rezerwacja przyjęta przez oddział, który już nie istnieje, wciąż jest reze
 Oddziału, który ma własne konto u dostawcy, **nie można zamknąć**, dopóki to konto nie zostanie
 usunięte — to właśnie ten dostęp anuluje jego dawne rezerwacje, a skasowanie go zostawiłoby je bez
 wyjścia.
+
+## Co każdy współpracownik może zobowiązać samodzielnie
+
+Obok roli każdej osoby stoi **pułap zatwierdzania**: najwięcej, ile może zobowiązać bez pytania.
+
+Rezerwacja powyżej niego zostaje **wstrzymana**. Do dostawcy nie idzie nic — żadnego pokoju, żadnej
+stawki, żadnych warunków anulowania — a właściciele i administratorzy Państwa biura dostają e-mail z
+kwotą i informacją, kto prosił. Zatwierdzają ją albo odmawiają ze strony samej rezerwacji. Zob.
+[Rezerwacje](/pl/booking/your-bookings/#zatwierdzenie).
+
+To pułap tego, co JEDNA osoba może zobowiązać **samodzielnie**, a nie tego, co może zobowiązać
+Państwa biuro. Tym różni się od
+[pułapu otwartych rezerwacji](/pl/manage/customers/#pułap-otwartych-rezerwacji) klienta, który
+odrzuca rezerwację wprost.
+
+Puste pole znaczy: bez pułapu — i tak jest u wszystkich, dopóki Państwo go nie ustalą. Pole wymaga
+najpierw [waluty sprzedaży](/pl/manage/pricing/) biura: pułap w walucie, w której Państwo nie
+sprzedają, nie mówiłby nic o pieniądzach, które faktycznie Państwo biorą, więc OneRate odmawia
+zgadywania.
+
+Właściciele i administratorzy mogą zatwierdzać zawsze. Agent nigdy — to samo rozumowanie, które
+odbiera mu anulowanie, zob. [Role](/pl/start/roles/#dlaczego-agent-nie-może-anulować).
 
 ## Usuwanie osoby
 

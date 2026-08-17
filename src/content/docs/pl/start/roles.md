@@ -27,6 +27,7 @@ Twoja rola nie ma.
 | Ustawić własną marżę | ✅ | ✅ | ✅ |
 | Przeglądać raporty | ✅ | ✅ | ✅ |
 | Anulować rezerwację | ✅ | ✅ | — |
+| Zatwierdzić rezerwację, której ktoś nie może zobowiązać samodzielnie | ✅ | ✅ | — |
 | Zamknąć rezerwację w weryfikacji ręcznej | ✅ | ✅ | — |
 | Usunąć dane gości z rezerwacji | ✅ | ✅ | — |
 | Zarządzać danymi dostępowymi dostawców | ✅ | ✅ | — |
@@ -41,8 +42,12 @@ może utworzyć rezerwację, bo na tym polega jego praca; anulowanie jej może k
 wynikającą z umowy, której agent nie podpisywał. Dlatego anulowanie należy do właściciela i
 administratora.
 
-To samo rozumowanie umieszcza tam dwa inne działania:
+To samo rozumowanie umieszcza tam trzy inne działania:
 
+- **Zatwierdzenie rezerwacji**, o której komuś powiedziano, że nie może jej zobowiązać samodzielnie,
+  jest zobowiązaniem pieniędzy agencji na podstawie umowy, której agent nie podpisywał — te same
+  pieniądze, to samo rozumowanie, o krok wcześniej. Ile każdy może zobowiązać samodzielnie, ustala się
+  w [Zespole](/pl/manage/team/#co-każdy-współpracownik-może-zobowiązać-samodzielnie).
 - **Zamknięcie rezerwacji w weryfikacji ręcznej** to trwałe oświadczenie, że rezerwacja istnieje
   albo nie istnieje u dostawcy. To nie jest codzienne zadanie, a pomyłki nie da się cofnąć.
 - **Usunięcia danych gości** nie można cofnąć.

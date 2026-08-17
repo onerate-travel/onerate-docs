@@ -117,6 +117,17 @@ second time is how an agency ends up paying for two rooms. See
 | "A required field is missing or invalid." | One of your agency's own fields is empty or does not fit its definition. | Complete the field on the review screen. Nothing was booked. |
 | "This would take the customer over their open-booking ceiling." | The customer has a [ceiling](/en/manage/customers/#open-booking-ceiling) on how much they may have open, and this booking crosses it. | Speak to the agency. The ceiling falls as stays complete and bookings are cancelled. |
 
+## When the booking needs approval
+
+If your agency has set a ceiling on what you may commit
+[alone](/en/manage/team/#what-each-colleague-may-commit-alone), a booking above it is not made — it
+is **held**. The screen says so, nothing reaches the supplier, and the people who may approve it are
+emailed.
+
+You have nothing to correct: this is not a refusal, and the offer is not lost. Watch the booking in
+[Bookings](/en/booking/your-bookings/#approval) — it shows as **Awaiting approval** until somebody
+answers, and it fails on its own if the rate expires first.
+
 ## Why you cannot accidentally book twice
 
 Every booking attempt carries a key generated when you opened the form. If the same key arrives

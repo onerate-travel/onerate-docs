@@ -1,6 +1,6 @@
 ---
 title: Rezervasyonlarınız
-description: Bir rezervasyonu bulmak, detay sayfasını ve zaman çizelgesini okumak, maliyet dökümü, voucher'lar ve misafir verisini silmek.
+description: Bir rezervasyonu bulmak, detay sayfasının kaydettikleri, onay, opsiyonlar, voucher'lar, iptal hatırlatmaları ve misafir verisini silmek.
 ---
 
 ## Liste
@@ -69,6 +69,30 @@ değerlendirildi ve kararı ne belirledi. Arama oturumu çoktan bittikten sonra 
 
 Rezervasyonun geçtiği her durum, sırayla ve saatleriyle. Bir rezervasyon beklemediğiniz bir şey
 yaptığında bakılacak ilk yer burasıdır.
+
+## Onay
+
+Acenteniz her meslektaşın [tek başına](/tr/manage/team/#her-meslektaş-tek-başına-neyi-taahhüt-edebilir)
+taahhüt edebileceğine bir tavan koyabilir. Bu tavanın üzerindeki bir rezervasyon **beklemeye alınır**:
+listenizde **Onay bekliyor** olarak görünür ve tedarikçiye hiçbir şey gönderilmemiştir — oda
+tutulmamış, fiyat sabitlenmemiş, iptal edilecek bir şey de yoktur, çünkü henüz hiçbir şey yoktur.
+
+Rezervasyonun sayfası bunu görebilen herkese söyler. Rezervasyonları onaylayabiliyorsanız iki düğme
+de taşır:
+
+- **Onayla ve rezerve et** — rezervasyon *şimdi*, o andaki fiyatla yapılır. Olağan kontrollerden
+  geçer; yani beklerken fiyat değiştiyse yeni tutarla sessizce rezerve edilmek yerine fiyat değişikliği
+  sorusunu alırsınız.
+- **Reddet** — talep sona erer. Notunuz rezervasyonun zaman çizelgesine düşer; isteyen meslektaşınız
+  orada okur.
+
+Rezervasyon yapıldığında onay yetkisi olanlara e-posta gider: tutar, otel ve kimin istediği — portalı
+açmadan cevap vermeye yetecek kadarı.
+
+**Bir teklif sonsuza kadar beklemez.** Fiyatın süresi dolmadan kimse cevap vermezse rezervasyon
+kendiliğinden başarısız olur ve zaman çizelgesi birinin reddettiğini değil, teklifin süresinin
+dolduğunu yazar. Ondan sonra onaylamak eski fiyatı geri getirmez — tedarikçiye yeniden sorulur ve o
+yeniden cevap verir.
 
 ## Opsiyonlar
 

@@ -27,6 +27,7 @@ amit nem látsz felsorolva alább, azt a szerepköröd nem teheti meg.
 | A saját árrése beállítása | ✅ | ✅ | ✅ |
 | Riportok megtekintése | ✅ | ✅ | ✅ |
 | Foglalás lemondása | ✅ | ✅ | — |
+| Olyan foglalás jóváhagyása, amelyet valaki egyedül nem vállalhat | ✅ | ✅ | — |
 | Kézi ellenőrzés alatti foglalás lezárása | ✅ | ✅ | — |
 | Vendégadatok törlése egy foglalásból | ✅ | ✅ | — |
 | Beszállítói hozzáférési adatok kezelése | ✅ | ✅ | — |
@@ -41,8 +42,12 @@ létrehozhat foglalást, mert az a dolga; egy foglalás lemondása viszont olyan
 díjba kerülhet az irodának, amelyet nem az ügyintéző írt alá. Ezért a lemondás a tulajdonosnál és
 az adminisztrátornál van.
 
-Ugyanez a gondolatmenet tesz oda még két műveletet:
+Ugyanez a gondolatmenet tesz oda még három műveletet:
 
+- **Egy olyan foglalás jóváhagyása**, amelyről valakinek azt mondták, hogy egyedül nem vállalhatja, az
+  iroda pénzének elkötelezése egy olyan szerződés alapján, amelyet nem az ügyintéző írt alá — ugyanaz
+  a pénz, ugyanaz az érvelés, egy lépéssel korábban. Hogy ki mit vállalhat egyedül, a
+  [Csapat](/hu/manage/team/#mit-vállalhat-egy-kolléga-egyedül) képernyőn állítható be.
 - **Egy kézi ellenőrzés alatti foglalás lezárása** végleges kijelentés arról, hogy a foglalás
   létezik-e a beszállítónál. Nem napi feladat, és ha elrontod, nem javítható.
 - **A vendégadatok törlése** nem vonható vissza.

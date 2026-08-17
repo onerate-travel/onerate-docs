@@ -123,6 +123,16 @@ kimenetelt — azokat is, amelyek nem oldódnak meg azonnal — a
 | „Egy kötelező mező hiányzik vagy érvénytelen.” | Az irodád saját mezőinek egyike üres, vagy nem felel meg a definíciójának. | Töltsd ki az ellenőrző képernyőn. Semmit nem foglaltunk le. |
 | „Ezzel az ügyfél a nyitott foglalási plafonja fölé kerülne.” | Az ügyfélnek van egy [plafonja](/hu/manage/customers/#nyitott-foglalási-plafon) arra, mennyi lehet egyszerre nyitva, és ez a foglalás átlépné. | Beszélj az irodával. A plafon csökken, ahogy a tartózkodások lezárulnak és foglalásokat lemondanak. |
 
+## Amikor a foglaláshoz jóváhagyás kell
+
+Ha az irodád plafont szabott annak, amit [egyedül](/hu/manage/team/#mit-vállalhat-egy-kolléga-egyedül)
+vállalhatsz, az e fölötti foglalás nem jön létre — **várakozik**. A képernyő ezt kimondja, a
+beszállítóhoz semmi nem jut el, és azok, akik jóváhagyhatják, e-mailt kapnak.
+
+Nincs mit javítanod: ez nem elutasítás, és az ajánlat sem veszett el. Kövesd a foglalást a
+[Foglalások](/hu/booking/your-bookings/#jóváhagyás) között — **Jóváhagyásra vár** állapotban áll, amíg
+valaki nem válaszol, és magától meghiúsul, ha az ár előbb lejár.
+
 ## Miért nem tudsz véletlenül kétszer foglalni
 
 Minden foglalási kísérlet magával visz egy kulcsot, amely az űrlap megnyitásakor keletkezett. Ha

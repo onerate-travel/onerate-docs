@@ -119,6 +119,16 @@ yoludur. Bkz. [Mutabakat](/tr/booking/statuses/#mutabakat).
 | "Zorunlu bir alan eksik ya da geçersiz." | Acentenizin kendi alanlarından biri boş ya da tanımına uymuyor. | Alanı gözden geçirme ekranında doldurun. Hiçbir şey rezerve edilmedi. |
 | "Bu, müşteriyi açık rezervasyon tavanının üzerine çıkarır." | Müşterinin ne kadarını açık tutabileceğine dair bir [tavanı](/tr/manage/customers/#açık-rezervasyon-tavanı) var ve bu rezervasyon onu aşıyor. | Acenteyle konuşun. Tavan, konaklamalar tamamlandıkça ve rezervasyonlar iptal edildikçe düşer. |
 
+## Rezervasyon onay gerektirdiğinde
+
+Acenteniz [tek başınıza](/tr/manage/team/#her-meslektaş-tek-başına-neyi-taahhüt-edebilir) taahhüt
+edebileceğinize bir tavan koyduysa, üzerindeki bir rezervasyon yapılmaz — **beklemeye alınır**. Ekran
+bunu söyler, tedarikçiye hiçbir şey ulaşmaz ve onaylayabilecek kişilere e-posta gider.
+
+Düzeltmeniz gereken bir şey yok: bu bir ret değildir ve teklif kaybolmamıştır.
+[Rezervasyonlar](/tr/booking/your-bookings/#onay) sayfasından izleyin — biri cevaplayana kadar **Onay
+bekliyor** görünür, fiyatın süresi önce dolarsa kendiliğinden başarısız olur.
+
 ## Neden yanlışlıkla iki kez rezervasyon yapamazsınız
 
 Her rezervasyon denemesi, formu açtığınızda üretilen bir anahtar taşır. Aynı anahtar iki kez

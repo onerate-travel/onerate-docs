@@ -84,6 +84,15 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Estimare — acest furnizor nu indică un fus orar…” | Termenul este cel mai devreme moment la care ar putea cădea. | Tratează-l ca pe ultimul moment sigur. Anulează înainte, niciodată exact la el. |
 | „Neconfirmat — această rezervare a fost înregistrată înainte…” | O rezervare veche. | Verifică la furnizor înainte să te bazezi pe termen. |
 
+## Aprobare
+
+| Mesaj | Sens | Ce faci |
+| --- | --- | --- |
+| „Această rezervare depășește ceea ce puteți aproba singur…” | Agenția ta a stabilit un plafon pentru ce poți angaja singur, iar această rezervare îl depășește. | Nu e nimic greșit și furnizorului nu i s-a trimis nimic. Cei care o pot aproba au primit un e-mail; rezervarea așteaptă în [Rezervări](/ro/booking/your-bookings/#aprobare). |
+| „Această rezervare nu așteaptă aprobare.” | Cineva a răspuns deja sau nu a fost niciodată reținută. | Reîncarcă rezervarea. Pagina ei arată ce este acum. |
+| „Această rezervare nu poate fi reconstruită.” | Rezervării reținute îi lipsește ceva cu care ar trebui făcută. | Începe o căutare nouă. Nu s-a rezervat nimic. |
+| O rezervare reținută eșuată cu „oferta a expirat” | Nu a răspuns nimeni înainte să expire tariful. | Caută din nou. Aprobarea după acel moment nu aduce înapoi vechiul tarif. |
+
 ## Opțiuni
 
 | Mesaj | Sens | Ce faci |

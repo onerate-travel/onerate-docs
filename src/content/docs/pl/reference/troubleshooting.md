@@ -83,6 +83,15 @@ Po kolei:
 | „Szacunek — ten dostawca nie podaje strefy czasowej…” | Termin to najwcześniejszy moment, w którym może upłynąć. | Traktuj go jako ostatnią bezpieczną chwilę. Anuluj przed nim, nigdy dokładnie w nim. |
 | „Niepotwierdzone — ta rezerwacja została zapisana, zanim…” | Stara rezerwacja. | Sprawdź u dostawcy, zanim oprzesz się na terminie. |
 
+## Zatwierdzenie
+
+| Komunikat | Znaczenie | Zrób to |
+| --- | --- | --- |
+| „Ta rezerwacja przekracza to, co mogą Państwo zatwierdzić samodzielnie…” | Państwa biuro ustaliło pułap tego, co mogą Państwo zobowiązać samodzielnie, a ta rezerwacja go przekracza. | Nic nie jest nie tak i do dostawcy nic nie zostało wysłane. Osoby mogące ją zatwierdzić dostały e-mail; rezerwacja czeka w [Rezerwacjach](/pl/booking/your-bookings/#zatwierdzenie). |
+| „Ta rezerwacja nie czeka na zatwierdzenie.” | Ktoś już odpowiedział albo nigdy nie była wstrzymana. | Przeładuj rezerwację. Jej strona pokaże, czym jest teraz. |
+| „Tej rezerwacji nie da się odtworzyć.” | Wstrzymanej rezerwacji brakuje czegoś, czym miałaby zostać złożona. | Rozpocznij nowe wyszukiwanie. Nic nie zostało zarezerwowane. |
+| Wstrzymana rezerwacja, która upadła z komunikatem „oferta wygasła” | Nikt nie odpowiedział, zanim stawka wygasła. | Wyszukaj ponownie. Zatwierdzenie po tym momencie nie przywróci starej stawki. |
+
 ## Opcje
 
 | Komunikat | Znaczenie | Zrób to |

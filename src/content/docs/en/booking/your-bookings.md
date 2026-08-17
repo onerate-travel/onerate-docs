@@ -1,6 +1,6 @@
 ---
 title: Your bookings
-description: Finding a booking, reading its detail page and timeline, the cost breakdown, vouchers, and erasing guest data.
+description: Finding a booking, what its detail page records, approval, options, vouchers, cancellation reminders and erasing guest data.
 ---
 
 ## The list
@@ -68,6 +68,30 @@ what decided it. It stays available long after the search session is gone.
 
 Every state the booking passed through, in order, with times. This is the first place to look when
 a booking did something you did not expect.
+
+## Approval
+
+Your agency can set a ceiling on what each colleague may commit
+[alone](/en/manage/team/#what-each-colleague-may-commit-alone). A booking above that ceiling is
+**held**: it appears in your list as **Awaiting approval**, and nothing has been sent to the
+supplier — no room is taken, no rate is held, and nothing can be cancelled because nothing exists
+yet.
+
+The booking's page says so, to everyone who can see it. If you may approve bookings, it also carries
+two buttons:
+
+- **Approve and book** — the booking is made *now*, at whatever the rate is at that moment. It goes
+  through the ordinary checks, so if the price moved while the booking was waiting you get the
+  price-changed question rather than a silent booking at the new number.
+- **Refuse** — the request ends. Your note goes onto the booking's timeline, where the colleague who
+  asked will read it.
+
+Whoever holds the booking's approval is emailed when it is made: the amount, the hotel and who asked,
+which is enough to answer without opening the portal.
+
+**An offer does not wait for ever.** If nobody answers before the rate expires, the booking fails on
+its own and its timeline says the offer lapsed rather than that somebody refused it. Approving after
+that point does not resurrect the rate — the supplier is asked afresh, and answers afresh.
 
 ## Options
 

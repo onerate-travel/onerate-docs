@@ -1,6 +1,6 @@
 ---
 title: A foglalásaid
-description: Foglalás megtalálása, a részletező oldal és az idővonal olvasása, a költségek bontása, a voucherek és a vendégadatok törlése.
+description: Foglalás megtalálása, mit rögzít a részletező oldal, jóváhagyás, opciók, voucherek, lemondási emlékeztetők és vendégadatok törlése.
 ---
 
 ## A lista
@@ -69,6 +69,30 @@ ajánlatokat vettük figyelembe, és mi döntött. Jóval a keresési munkamenet
 
 Minden állapot, amelyen a foglalás átment, sorrendben, időpontokkal. Ez az első hely, ahová nézni
 kell, ha egy foglalás olyat tett, amire nem számítottál.
+
+## Jóváhagyás
+
+Az irodája plafont szabhat annak, amit egy kolléga
+[egyedül](/hu/manage/team/#mit-vállalhat-egy-kolléga-egyedül) vállalhat. Az e fölötti foglalás
+**várakozik**: a listában **Jóváhagyásra vár** néven jelenik meg, és a beszállítóhoz semmi nem ment
+el — nincs lefoglalt szoba, nincs rögzített ár, és nincs mit lemondani, mert még semmi nem létezik.
+
+A foglalás oldala ezt mindenkinek kimondja, aki látja. Ha Ön jóváhagyhat foglalásokat, két gombot is
+kap:
+
+- **Jóváhagyás és foglalás** — a foglalás *most* jön létre, az akkori áron. Az szokásos ellenőrzéseken
+  megy át, tehát ha az ár közben elmozdult, az ármódosulás kérdését kapja, nem pedig egy csendes
+  foglalást az új összegen.
+- **Elutasítás** — a kérés lezárul. A megjegyzése a foglalás idővonalára kerül, ahol az a kolléga
+  olvassa, aki kérte.
+
+Amikor a foglalás elkészül, e-mailt kapnak azok, akik jóváhagyhatják: az összeg, a szálloda és hogy ki
+kérte — ennyi elég a válaszhoz a portál megnyitása nélkül.
+
+**Egy ajánlat nem vár örökké.** Ha senki nem válaszol, mielőtt az ár lejár, a foglalás magától
+meghiúsul, és az idővonala azt mondja, hogy az ajánlat járt le, nem azt, hogy valaki elutasította. Az
+ezután adott jóváhagyás nem támasztja fel a régi árat — a beszállítót újra megkérdezzük, és újra
+válaszol.
 
 ## Opciók
 

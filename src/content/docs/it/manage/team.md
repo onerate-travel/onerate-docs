@@ -1,6 +1,6 @@
 ---
 title: Team
-description: Invitare colleghi, scegliere e cambiare il loro ruolo, le filiali, sospendere l'accesso e rimuovere persone.
+description: Invitare colleghi, scegliere e cambiare il loro ruolo, le filiali, che cosa può impegnare da solo ogni collega, sospendere l'accesso e rimuovere persone.
 ---
 
 **Team** è il personale della tua agenzia. Titolari e amministratori.
@@ -94,6 +94,29 @@ prenotazione avvenuta.
 Una filiale che possiede un proprio account fornitore **non può essere chiusa** finché quell'account
 non viene rimosso: è quella credenziale che annulla le sue prenotazioni passate, ed eliminarla le
 lascerebbe senza via d'uscita.
+
+## Che cosa può impegnare da solo ogni collega
+
+Accanto al ruolo di ciascuno c'è un **tetto di approvazione**: il massimo che può impegnare senza
+chiedere.
+
+Una prenotazione superiore viene **trattenuta**. Al fornitore non arriva nulla — nessuna camera,
+nessuna tariffa, nessuna condizione di cancellazione — e i titolari e gli amministratori della vostra
+agenzia ricevono un'email con l'importo e con chi ha chiesto. Approvano o rifiutano dalla pagina
+della prenotazione stessa. Vedi [Prenotazioni](/it/booking/your-bookings/#approvazione).
+
+È un tetto su quanto UNA persona può impegnare **da sola**, non su quanto può impegnare la vostra
+agenzia. È qui che differisce dal
+[tetto delle prenotazioni aperte](/it/manage/customers/#tetto-delle-prenotazioni-aperte) di un
+cliente, che rifiuta la prenotazione senz'altro.
+
+Lasciare il campo vuoto significa nessun tetto — che è la condizione di tutti finché non ne indicate
+uno. Il campo chiede prima la [valuta di vendita](/it/manage/pricing/) dell'agenzia: un tetto in una
+valuta in cui non vendete non direbbe nulla sul denaro che incassate davvero, quindi OneRate rifiuta
+di indovinarla.
+
+Titolari e amministratori possono sempre approvare. Un agente mai — lo stesso ragionamento che gli
+toglie l'annullamento, in [Ruoli](/it/start/roles/#perché-un-agente-non-può-annullare).
 
 ## Rimuovere qualcuno
 

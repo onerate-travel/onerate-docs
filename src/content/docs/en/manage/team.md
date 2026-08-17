@@ -1,6 +1,6 @@
 ---
 title: Team
-description: Inviting colleagues, choosing and changing their role, branches, suspending access, and removing people.
+description: Inviting colleagues, choosing and changing their role, branches, what each colleague may commit alone, suspending access, and removing people.
 ---
 
 **Team** is your agency's own staff. Owners and admins.
@@ -89,6 +89,27 @@ taken by a branch that no longer exists is still a booking that happened.
 
 A branch that holds its own supplier account **cannot be closed** until that account is removed —
 the credential is what cancels its past bookings, and deleting it would strand them.
+
+## What each colleague may commit alone
+
+Beside each person's role is an **approval ceiling**: the most they may commit without being asked.
+
+A booking above it is **held**. Nothing is sent to the supplier — no room, no rate, no cancellation
+terms — and the owners and administrators of your agency get an email naming the amount and who
+asked. They approve it or refuse it from the booking's own page. See
+[Bookings](/en/booking/your-bookings/#approval).
+
+It is a ceiling on what one person may commit **alone**, not on what your agency may commit. That is
+the difference between this and a customer's
+[open-booking ceiling](/en/manage/customers/#open-booking-ceiling), which refuses the booking
+outright.
+
+Leaving the field empty means no ceiling — which is what everybody has until you state one. The
+field needs your agency's [selling currency](/en/manage/pricing/) first: a ceiling in a currency you
+do not sell in would say nothing about the money you actually take, so OneRate refuses to guess one.
+
+Owners and administrators may always approve. An agent never can — the same reasoning that withholds
+cancelling from them, in [Roles](/en/start/roles/#why-an-agent-cannot-cancel).
 
 ## Removing someone
 

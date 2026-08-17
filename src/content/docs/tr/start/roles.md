@@ -27,6 +27,7 @@ listelenmemiş bir yetki, rolünüzde yok demektir.
 | Kendi kârını belirlemek | ✅ | ✅ | ✅ |
 | Raporları görmek | ✅ | ✅ | ✅ |
 | Rezervasyon iptal etmek | ✅ | ✅ | — |
+| Birinin tek başına taahhüt edemediği bir rezervasyonu onaylamak | ✅ | ✅ | — |
 | Manuel incelemedeki rezervasyonu sonuçlandırmak | ✅ | ✅ | — |
 | Rezervasyondaki misafir verisini silmek | ✅ | ✅ | — |
 | Tedarikçi kimlik bilgilerini yönetmek | ✅ | ✅ | — |
@@ -41,8 +42,12 @@ danışman rezervasyon oluşturabilir, çünkü iş budur; ama bir rezervasyonu 
 danışmanın imzalamadığı bir kontrat altında ücrete mal olabilir. Bu yüzden iptal, sahip ve
 yöneticidedir.
 
-Aynı gerekçe iki yetkiyi daha oraya koyar:
+Aynı gerekçe üç yetkiyi daha oraya koyar:
 
+- **Tek başına taahhüt edemeyeceği söylenmiş bir rezervasyonu onaylamak**, acentenin parasını
+  danışmanın imzalamadığı bir kontrat altında taahhüt etmektir — aynı para, aynı gerekçe, bir adım
+  önce. Her meslektaşın tek başına neyi taahhüt edebileceği
+  [Ekip](/tr/manage/team/#her-meslektaş-tek-başına-neyi-taahhüt-edebilir) ekranında belirlenir.
 - **Manuel incelemedeki bir rezervasyonu sonuçlandırmak**, tedarikçide bir rezervasyonun var olduğu
   ya da olmadığı yönünde kalıcı bir beyandır. Günlük bir iş değildir ve yanlış yapıldığında geri
   alınamaz.

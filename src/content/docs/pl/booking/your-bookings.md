@@ -1,6 +1,6 @@
 ---
 title: Twoje rezerwacje
-description: Znajdowanie rezerwacji, czytanie jej strony szczegółów i historii zdarzeń, rozbicie kosztów, vouchery oraz usuwanie danych gości.
+description: Znalezienie rezerwacji, co zapisuje strona szczegółów, zatwierdzanie, opcje, vouchery, przypomnienia o anulowaniu i usuwanie danych gości.
 ---
 
 ## Lista
@@ -68,6 +68,30 @@ rozważono i co przesądziło. Pozostaje dostępny długo po zakończeniu sesji 
 
 Każdy stan, przez który przeszła rezerwacja, po kolei, z godzinami. To pierwsze miejsce, w które
 warto zajrzeć, gdy rezerwacja zrobiła coś, czego się nie spodziewałeś.
+
+## Zatwierdzenie
+
+Państwa biuro może ustalić pułap tego, co każdy współpracownik może zobowiązać
+[samodzielnie](/pl/manage/team/#co-każdy-współpracownik-może-zobowiązać-samodzielnie). Rezerwacja
+powyżej tego pułapu zostaje **wstrzymana**: na liście widnieje jako **Czeka na zatwierdzenie**, a do
+dostawcy nic nie zostało wysłane — żaden pokój nie jest zajęty, żadna stawka nie jest zablokowana i
+nie ma czego anulować, bo jeszcze nic nie istnieje.
+
+Strona rezerwacji mówi to każdemu, kto ją widzi. Jeśli mogą Państwo zatwierdzać rezerwacje, nosi też
+dwa przyciski:
+
+- **Zatwierdź i rezerwuj** — rezerwacja powstaje *teraz*, po stawce z tej chwili. Przechodzi zwykłe
+  kontrole, więc jeśli cena ruszyła w czasie oczekiwania, dostają Państwo pytanie o zmienioną cenę, a
+  nie cichą rezerwację po nowej kwocie.
+- **Odmów** — wniosek się kończy. Notatka trafia do historii zdarzeń rezerwacji, gdzie przeczyta ją
+  współpracownik, który prosił.
+
+Gdy rezerwacja powstaje, osoby mogące ją zatwierdzić dostają e-mail: kwota, hotel i kto prosił — tyle,
+by odpowiedzieć bez otwierania portalu.
+
+**Oferta nie czeka wiecznie.** Jeśli nikt nie odpowie, zanim stawka wygaśnie, rezerwacja upada sama, a
+jej historia mówi, że oferta wygasła, a nie że ktoś odmówił. Zatwierdzenie po tym momencie nie
+przywraca starej stawki — dostawca jest pytany od nowa i od nowa odpowiada.
 
 ## Opcje
 

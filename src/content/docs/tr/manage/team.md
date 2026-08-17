@@ -1,6 +1,6 @@
 ---
 title: Ekip
-description: Meslektaşları davet etmek, rollerini seçmek ve değiştirmek, şubeler, erişimi askıya almak ve kişileri çıkarmak.
+description: Meslektaşları davet etmek, rollerini seçmek ve değiştirmek, şubeler, her meslektaşın tek başına neyi taahhüt edebileceği, erişimi askıya almak ve kişileri çıkarmak.
 ---
 
 **Ekip**, acentenizin kendi personelidir. Sahipler ve yöneticiler.
@@ -87,6 +87,28 @@ var olmayan bir şubenin aldığı rezervasyon yine de olmuş bir rezervasyondur
 
 Kendi tedarikçi hesabını tutan bir şube, o hesap kaldırılmadan **kapatılamaz** — geçmiş
 rezervasyonlarını iptal eden şey o kimlik bilgisidir, silmek onları ortada bırakırdı.
+
+## Her meslektaş tek başına neyi taahhüt edebilir
+
+Her kişinin rolünün yanında bir **onay tavanı** vardır: sorulmadan taahhüt edebileceği en yüksek
+tutar.
+
+Üzerindeki bir rezervasyon **beklemeye alınır**. Tedarikçiye hiçbir şey gönderilmez — oda yok, fiyat
+yok, iptal koşulu yok — ve acentenizin sahipleri ile yöneticilerine tutarı ve kimin istediğini
+söyleyen bir e-posta gider. Onlar rezervasyonun kendi sayfasından onaylar ya da reddeder. Bkz.
+[Rezervasyonlar](/tr/booking/your-bookings/#onay).
+
+Bu, bir kişinin **tek başına** taahhüt edebileceğine dair bir tavandır; acentenizin taahhüt
+edebileceğine dair değil. Rezervasyonu doğrudan reddeden müşteri
+[açık rezervasyon tavanından](/tr/manage/customers/#açık-rezervasyon-tavanı) farkı budur.
+
+Alanı boş bırakmak "tavan yok" demektir — siz bir tane belirleyene kadar herkesin durumu budur. Alan
+önce acentenizin [satış para birimini](/tr/manage/pricing/) ister: satmadığınız bir para birimindeki
+tavan, gerçekten aldığınız para hakkında hiçbir şey söylemez, bu yüzden OneRate tahmin etmeyi
+reddeder.
+
+Sahipler ve yöneticiler her zaman onaylayabilir. Bir danışman asla — iptali onlardan esirgeyen aynı
+gerekçe, bkz. [Roller](/tr/start/roles/#danışman-neden-iptal-edemiyor).
 
 ## Birini çıkarmak
 

@@ -27,6 +27,7 @@ vedi elencata qui sotto, il tuo ruolo non ce l'ha.
 | Impostare il proprio margine | ✅ | ✅ | ✅ |
 | Vedere i report | ✅ | ✅ | ✅ |
 | Annullare una prenotazione | ✅ | ✅ | — |
+| Approvare una prenotazione che qualcuno non può impegnare da solo | ✅ | ✅ | — |
 | Chiudere una prenotazione in verifica manuale | ✅ | ✅ | — |
 | Cancellare i dati degli ospiti da una prenotazione | ✅ | ✅ | — |
 | Gestire le credenziali dei fornitori | ✅ | ✅ | — |
@@ -41,8 +42,12 @@ vero.** Un agente può creare una prenotazione, perché è il suo lavoro; annull
 all'agenzia una penale prevista da un contratto che l'agente non ha firmato. Perciò l'annullamento
 sta al titolare e all'amministratore.
 
-Lo stesso ragionamento mette lì altre due azioni:
+Lo stesso ragionamento mette lì altre tre azioni:
 
+- **Approvare una prenotazione** che qualcuno si è sentito dire di non poter impegnare da solo
+  significa impegnare il denaro dell'agenzia sotto un contratto che l'agente non ha firmato — lo
+  stesso denaro, per lo stesso ragionamento, un passo prima. Quanto ciascuno può impegnare da solo si
+  imposta in [Team](/it/manage/team/#che-cosa-può-impegnare-da-solo-ogni-collega).
 - **Chiudere una prenotazione in verifica manuale** è una dichiarazione permanente che una
   prenotazione esiste o non esiste presso il fornitore. Non è un compito quotidiano, e sbagliarlo
   non è recuperabile.

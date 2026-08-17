@@ -124,6 +124,17 @@ pagare due camere. Vedi [Stati della prenotazione](/it/booking/statuses/).
 | "Un campo obbligatorio manca o non è valido." | Uno dei campi della vostra agenzia è vuoto o non rispetta la sua definizione. | Completatelo nella schermata di riepilogo. Nulla è stato prenotato. |
 | "Questa prenotazione porterebbe il cliente oltre il suo tetto di prenotazioni aperte." | Il cliente ha un [tetto](/it/manage/customers/#tetto-delle-prenotazioni-aperte) su quanto può tenere aperto, e questa prenotazione lo supera. | Parlate con l'agenzia. Il tetto scende man mano che i soggiorni si concludono e le prenotazioni vengono annullate. |
 
+## Quando la prenotazione ha bisogno di un'approvazione
+
+Se la vostra agenzia ha fissato un tetto a quanto potete impegnare
+[da soli](/it/manage/team/#che-cosa-può-impegnare-da-solo-ogni-collega), una prenotazione superiore
+non viene fatta — viene **trattenuta**. La schermata lo dice, al fornitore non arriva nulla, e chi
+può approvarla riceve un'email.
+
+Non c'è nulla da correggere: non è un rifiuto e l'offerta non è persa. Seguite la prenotazione in
+[Prenotazioni](/it/booking/your-bookings/#approvazione) — resta **In attesa di approvazione** finché
+qualcuno non risponde, e fallisce da sola se la tariffa scade prima.
+
 ## Perché non puoi prenotare due volte per sbaglio
 
 Ogni tentativo di prenotazione porta con sé una chiave generata quando hai aperto il modulo. Se la

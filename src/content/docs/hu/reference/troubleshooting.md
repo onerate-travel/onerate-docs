@@ -83,6 +83,15 @@ Sorrendben:
 | „Becslés — ez a beszállító nem ad meg időzónát…” | A határidő a legkorábbi lehetséges időpont. | Tekintsd az utolsó biztonságos pillanatnak. Előtte mondj le, soha ne pontosan rajta. |
 | „Nem megerősített — ezt a foglalást azelőtt rögzítettük…” | Régi foglalás. | Egyeztess a beszállítóval, mielőtt a határidőre építesz. |
 
+## Jóváhagyás
+
+| Üzenet | Jelentés | Ezt tedd |
+| --- | --- | --- |
+| „Ez a foglalás meghaladja, amit egyedül jóváhagyhat…” | Az irodád plafont szabott annak, amit egyedül vállalhatsz, és ez a foglalás átlépi. | Semmi nincs elrontva, és a beszállítóhoz semmi nem ment el. Akik jóváhagyhatják, e-mailt kaptak; a foglalás a [Foglalások](/hu/booking/your-bookings/#jóváhagyás) között várakozik. |
+| „Ez a foglalás nem vár jóváhagyásra.” | Valaki már válaszolt rá, vagy sosem volt visszatartva. | Töltsd újra a foglalást. Az oldala megmutatja, mi most. |
+| „Ezt a foglalást nem lehet újraépíteni.” | A visszatartott foglalásból hiányzik valami, amivel meg kellene születnie. | Indíts új keresést. Semmit nem foglaltunk le. |
+| Egy visszatartott foglalás, amely „az ajánlat lejárt” hibával hiúsult meg | Senki nem válaszolt, mielőtt az ár lejárt volna. | Keress újra. Az azutáni jóváhagyás nem hozza vissza a régi árat. |
+
 ## Opciók
 
 | Üzenet | Jelentés | Ezt tedd |
