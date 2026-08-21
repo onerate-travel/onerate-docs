@@ -83,10 +83,12 @@ jobs:
       # token. Same convention as onerate-egress's ci.yml, for the same reason.
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
+      # No `cache: npm` — see onerate-landing's deploy.yml. On a persistent self-hosted runner the
+      # cache is already local, and the directory is the machine owner's own: 26 GB, 34,031 files,
+      # against a 10 GB per-repository quota.
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
-          cache: npm
 
       - name: Install dependencies
         run: npm ci
