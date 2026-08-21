@@ -53,7 +53,7 @@ jobs:
   # commands, so they cannot collapse into one line. They can still share one gate, and sharing it
   # is the point: duplicated jobs would duplicate the gate and give the copies somewhere to drift.
   deploy:
-    runs-on: [self-hosted, linux, x64]
+    runs-on: self-hosted
     timeout-minutes: 15
     # A GitHub environment, so the Cloudflare token can be scoped to it rather than repo-wide and a
     # required reviewer or wait timer can be attached in repo settings WITHOUT another code change.
