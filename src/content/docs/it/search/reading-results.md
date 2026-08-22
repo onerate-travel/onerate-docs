@@ -74,9 +74,9 @@ più alto**, oppure **Nome dell'hotel A–Z**.
 
 **Elenco** e **Mappa** mostrano gli stessi risultati.
 
-La mappa disegna su OpenStreetMap per impostazione predefinita. Se la tua agenzia ha una propria
-chiave Google Maps configurata in [Impostazioni](/it/manage/settings/), disegna invece su Google —
-e se Google non è raggiungibile, torna a OpenStreetMap e te lo dice.
+La mappa disegna su **Google Maps**, con la chiave di OneRate — niente da configurare, niente a tuo
+carico. La tua agenzia può passare a OpenStreetMap in [Impostazioni](/it/manage/settings/). Se per
+un po' OneRate non può disegnare Google, la mappa torna a OpenStreetMap e te lo dice.
 
 Gli hotel **senza posizione registrata** non possono essere collocati. La mappa dice quanti ne
 mancano, così non scambi la mappa per l'intero insieme dei risultati. I segnaposto che si

@@ -74,9 +74,9 @@ Sortare: **Recomandate** (clasarea implicită), **Preț crescător**, **Preț de
 
 **Lista** și **Harta** arată aceleași rezultate.
 
-Harta desenează implicit pe OpenStreetMap. Dacă agenția ta are propria cheie Google Maps
-configurată în [Setări](/ro/manage/settings/), desenează pe Google — iar dacă Google nu poate fi
-contactat, revine la OpenStreetMap și îți spune că a făcut-o.
+Harta desenează pe **Google Maps**, cu cheia OneRate — nimic de configurat, nimic facturat ție.
+Agenția ta poate trece la OpenStreetMap în [Setări](/ro/manage/settings/). Dacă OneRate nu poate
+desena Google o vreme, harta revine la OpenStreetMap și îți spune că a făcut-o.
 
 Hotelurile **fără locație înregistrată** nu pot fi plasate. Harta spune câte lipsesc, ca să nu
 confunzi harta cu întregul set de rezultate. Pinurile care se suprapun se grupează; mărește pentru

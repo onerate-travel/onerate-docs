@@ -148,23 +148,15 @@ schimbi.
 
 ## Hartă
 
-Rezultatele căutării pot fi desenate pe o hartă. Implicit aceasta este **OpenStreetMap**, care nu te
-costă nimic și nu are nevoie de configurare.
+Rezultatele căutării pot fi desenate pe o hartă. Implicit aceasta este **Google Maps**, desenată cu
+cheia OneRate: nimic de configurat și nimic facturat agenției tale.
 
-Dacă agenția ta are propria **cheie API Google Maps**, poți folosi harta Google. Dalele sunt
-facturate în contul tău Google, pe contractul tău — OneRate nu aplică nicio limită proprie, așa că
-setează cote și alerte de buget pe cheie în consola Google Cloud.
+**Furnizorul hărții** permite agenției tale să aleagă în schimb **OpenStreetMap**. Alegerea se aplică
+fiecărui agent din agenție și portalurilor clienților tăi.
 
-Ca să o folosești:
-
-1. Introdu cheia. Este verificată la Google înainte de a fi salvată, criptată în repaus și niciodată
-   trimisă către browserul tău.
-2. Dacă Google o refuză, nu este salvată — verifică dacă **Map Tiles API** este activat pentru acea
-   cheie.
-3. Comută între **OpenStreetMap** și **Google Maps** oricând; **Elimină cheia** ca să revii definitiv.
-
-Dacă mai târziu Google refuză o cheie care funcționa, portalul revine la OpenStreetMap și îți spune,
-în loc să îți arate o hartă goală.
+**Hartă afișată** arată harta în vigoare. Dacă spune **OpenStreetMap (temporar)**, ai ales Google și
+OneRate nu o poate desena acum — portalul rămâne pe OpenStreetMap până când va putea. Nu ai nimic de
+reparat; alegerea ta este păstrată.
 
 ## Configurația agenției
 

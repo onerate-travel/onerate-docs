@@ -144,23 +144,15 @@ değiştirir ve **hiçbir şey çevrilmez**. Değiştirmeden önce
 
 ## Harita
 
-Arama sonuçları harita üzerinde çizilebilir. Varsayılan olarak bu **OpenStreetMap**'tir; size
-hiçbir maliyeti yoktur ve yapılandırma gerektirmez.
+Arama sonuçları harita üzerinde çizilebilir. Varsayılan olarak bu, OneRate'in kendi anahtarıyla
+çizilen **Google Maps**'tir: ayarlanacak bir şey yok, acentenize faturalanan bir şey yok.
 
-Acentenizin kendi **Google Maps API anahtarı** varsa Google haritasını kullanabilirsiniz. Karolar
-kendi Google hesabınıza, kendi kontratınız üzerinden faturalandırılır — OneRate kendi bir sınır
-uygulamaz, bu yüzden anahtar üzerinde Google Cloud konsolundan kota ve bütçe uyarıları tanımlayın.
+**Harita sağlayıcısı** ile acenteniz bunun yerine **OpenStreetMap**'i seçebilir. Seçim acentenizdeki
+her ajan ve müşterilerinizin portalları için geçerlidir.
 
-Kullanmak için:
-
-1. Anahtarı girin. Saklanmadan önce Google'a karşı doğrulanır, beklerken şifrelenir ve tarayıcınıza
-   asla gönderilmez.
-2. Google reddederse kaydedilmez — o anahtar için **Map Tiles API**'nin etkin olduğunu kontrol edin.
-3. **OpenStreetMap** ile **Google Maps** arasında istediğiniz zaman geçiş yapın; tamamen dönmek için
-   **Anahtarı kaldır**ı kullanın.
-
-Google daha önce çalışan bir anahtarı sonradan reddederse portal boş bir harita göstermek yerine
-OpenStreetMap'e döner ve bunu size söyler.
+**Şu an çizilen** yürürlükteki haritayı gösterir. **OpenStreetMap (geçici)** yazıyorsa Google'ı
+seçmişsinizdir ve OneRate şu an çizemiyordur — çizebilene kadar portal OpenStreetMap üzerinde kalır.
+Düzeltmeniz gereken bir şey yoktur; seçiminiz korunur.
 
 ## Acente yapılandırması
 

@@ -73,9 +73,9 @@ Sortowanie: **Polecane** (kolejność domyślna), **Cena od najniższej**, **Cen
 
 **Lista** i **Mapa** pokazują te same wyniki.
 
-Mapa domyślnie rysuje na OpenStreetMap. Jeśli Twoja agencja ma własny klucz Google Maps
-skonfigurowany w [Ustawieniach](/pl/manage/settings/), rysuje na Google — a jeśli Google jest
-nieosiągalne, wraca do OpenStreetMap i mówi Ci o tym.
+Mapa rysuje na **Google Maps** z użyciem klucza OneRate — nic do skonfigurowania, nic nie jest Ci
+fakturowane. Twoja agencja może przełączyć się na OpenStreetMap w [Ustawieniach](/pl/manage/settings/).
+Jeśli OneRate przez jakiś czas nie może narysować Google, mapa wraca do OpenStreetMap i mówi Ci o tym.
 
 Hoteli **bez zapisanej lokalizacji** nie da się umieścić. Mapa mówi, ilu brakuje, żebyś nie wziął
 mapy za komplet wyników. Nakładające się pinezki łączą się w grupy; przybliż, aby je rozdzielić.

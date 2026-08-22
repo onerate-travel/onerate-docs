@@ -39,7 +39,7 @@ farklı bir otel ya da farklı bir fiyat rezerve edin.
 | "Arama formu değişti. Bu fiyatlar hâlâ yukarıdaki kriterler için…" | Sonuçlar eski kriterlere ait. | Tekrar arayın. Fiyatlar tarayıcıda asla yeniden hesaplanmaz. |
 | "Kısmi sonuçlar — X yanıt vermeyi bıraktı…" | Bir tedarikçi eksik yanıtladı. | Bazı oteller eksik. Önemliyse tekrar arayın. |
 | "Bu arama için otel bulunamadı." | Müsaitlik yok — **tedarikçi durum satırını kontrol edin**. | Bir tedarikçi **Başarısız** gösteriyorsa bu eksiksiz bir cevap değildir. Tekrar deneyin. |
-| "Harita sağlayıcısına ulaşılamadı, bu harita OpenStreetMap üzerine çizildi." | Google Maps anahtarınıza ya da Google'a ulaşılamadı. | Genelde geçicidir. Sürerse [Ayarlar](/tr/manage/settings/#harita)'daki anahtarı kontrol edin. |
+| "Harita sağlayıcısına ulaşılamadı, bu harita OpenStreetMap üzerine çizildi." | OneRate'in Google haritası bu arama için kullanılamadı. | Genelde geçicidir; sizin tarafınızda yapılacak bir şey yok. Harita seçiminiz [Ayarlar](/tr/manage/settings/#harita)'dadır. |
 
 ### "Müsaitlik yok diyor ama olduğunu biliyorum"
 
@@ -121,7 +121,6 @@ Sırayla:
 | "Ayarlanmadı — bir tedarikçinin etkinleştirilebilmesi için gerekli" | Yalnızca acentenizin bilebileceği bir değer eksik. | Mesajın işaret ettiği yerde ayarlayın. OneRate onu uydurmaz. |
 | "saklanan bir ayar bilinmiyor veya geçersiz" | Yapılandırmanız okunamıyor ve **hiçbir varsayılan yerine konmadı**. | OneRate desteğiyle iletişime geçin. |
 | "E-posta ve telefon birlikte doldurulmalı veya birlikte temizlenmeli." | Yarım bir iletişim bilgisi, iletişim bilgisi değildir. | İkisini de doldurun ya da ikisini de temizleyin. |
-| "Google bu anahtarı reddetti" | Anahtar yanlış ya da **Map Tiles API** etkin değil. | Google Cloud konsolundan düzeltip tekrar girin. |
 
 ## Raporlar
 

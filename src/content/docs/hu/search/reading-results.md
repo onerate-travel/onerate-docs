@@ -74,9 +74,10 @@ neve A–Z**.
 
 A **Lista** és a **Térkép** ugyanazokat a találatokat mutatja.
 
-A térkép alapértelmezés szerint OpenStreetMap alapon rajzol. Ha az irodádnak saját Google Maps
-kulcsa van beállítva a [Beállításokban](/hu/manage/settings/), akkor Google-lel rajzol — és ha a
-Google nem érhető el, visszavált OpenStreetMapre, és ezt közli is.
+A térkép a **Google Maps**-en rajzol, a OneRate saját kulcsával — nincs mit beállítani, és neked
+semmit sem számláznak. Az irodád a [Beállításokban](/hu/manage/settings/) átválthat OpenStreetMapre.
+Ha a OneRate egy ideig nem tudja a Google-t megjeleníteni, a térkép visszavált OpenStreetMapre, és
+ezt közli is.
 
 A **rögzített hely nélküli** szállodákat nem lehet elhelyezni. A térkép megmondja, hány hiányzik,
 hogy ne keverd össze a térképet a teljes találati halmazzal. Az egymást fedő tűk csoportosulnak;

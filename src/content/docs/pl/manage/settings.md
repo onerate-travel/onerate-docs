@@ -145,24 +145,15 @@ nie jest przeliczane**. Przeczytaj [Ceny i marża](/pl/manage/pricing/), zanim j
 
 ## Mapa
 
-Wyniki wyszukiwania można rysować na mapie. Domyślnie jest to **OpenStreetMap**, która nic Cię nie
-kosztuje i nie wymaga konfiguracji.
+Wyniki wyszukiwania można rysować na mapie. Domyślnie jest to **Google Maps**, rysowana z użyciem
+klucza OneRate: nic do skonfigurowania i nic nie jest fakturowane Twojej agencji.
 
-Jeśli Twoja agencja ma własny **klucz API Google Maps**, możesz użyć mapy Google. Kafelki są
-rozliczane na Twoim koncie Google, na Twojej umowie — OneRate nie nakłada własnego limitu, więc ustaw
-limity i alerty budżetowe dla klucza w konsoli Google Cloud.
+**Dostawca mapy** pozwala agencji wybrać zamiast tego **OpenStreetMap**. Wybór dotyczy każdego agenta
+w agencji oraz portali Twoich klientów.
 
-Aby jej użyć:
-
-1. Wpisz klucz. Jest sprawdzany w Google przed zapisaniem, szyfrowany w spoczynku i nigdy nie trafia
-   do Twojej przeglądarki.
-2. Jeśli Google go odrzuci, nie zostaje zapisany — sprawdź, czy dla tego klucza włączono **Map Tiles
-   API**.
-3. Przełączaj się między **OpenStreetMap** a **Google Maps** w dowolnej chwili; **Usuń klucz**, aby
-   wrócić na stałe.
-
-Jeśli Google później odrzuci klucz, który wcześniej działał, portal wraca do OpenStreetMap i mówi Ci
-o tym, zamiast pokazywać pustą mapę.
+**Obecnie rysowana** wskazuje obowiązującą mapę. Jeśli widnieje tam **OpenStreetMap (tymczasowo)**,
+wybrano Google, a OneRate nie może jej teraz narysować — do tego czasu portal korzysta z
+OpenStreetMap. Nie ma nic do naprawienia; Twój wybór jest zachowany.
 
 ## Konfiguracja agencji
 

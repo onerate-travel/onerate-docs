@@ -38,7 +38,7 @@ pokoju teraz. [Pełne wyjaśnienie](/pl/booking/statuses/).
 | „Formularz wyszukiwania się zmienił. Te ceny wciąż dotyczą kryteriów powyżej…” | Wyniki należą do starych kryteriów. | Wyszukaj ponownie. Ceny nigdy nie są przeliczane w przeglądarce. |
 | „Wyniki częściowe — X przestał odpowiadać…” | Dostawca odpowiedział niekompletnie. | Części hoteli brakuje. Wyszukaj ponownie, jeśli to ważne. |
 | „Nie znaleziono hoteli dla tego wyszukiwania.” | Nic nie jest dostępne — **przeczytaj wiersz statusu dostawców**. | Jeśli dostawca pokazuje **Nieudane**, to nie jest pełna odpowiedź. Spróbuj ponownie. |
-| „Nie udało się połączyć z dostawcą map…” | Twój klucz Google Maps albo samo Google było nieosiągalne. | Zwykle przejściowe. Jeśli się utrzymuje, sprawdź klucz w [Ustawieniach](/pl/manage/settings/). |
+| „Nie udało się połączyć z dostawcą map…” | Mapa Google OneRate była niedostępna dla tego wyszukiwania. | Zwykle przejściowe; po Twojej stronie nie ma nic do zrobienia. Twój wybór mapy jest w [Ustawieniach](/pl/manage/settings/). |
 
 ### „Pisze, że nie ma nic wolnego, a wiem, że jest”
 
@@ -119,7 +119,6 @@ Po kolei:
 | „Nieustawione — wymagane, zanim będzie można włączyć dostawcę” | Brakuje wartości, którą zna wyłącznie Twoja agencja. | Ustaw ją tam, gdzie wskazuje komunikat. OneRate jej nie wymyśli. |
 | „zapisane ustawienie jest nieznane lub nieprawidłowe” | Twojej konfiguracji nie da się odczytać i **nie podstawiono żadnej wartości domyślnej**. | Skontaktuj się ze wsparciem OneRate. |
 | „E-mail i telefon wypełnia się razem albo czyści razem.” | Pół kontaktu to nie kontakt. | Wypełnij oba albo wyczyść oba. |
-| „Google odrzucił ten klucz” | Klucz jest błędny albo nie włączono dla niego **Map Tiles API**. | Napraw to w konsoli Google Cloud i wprowadź go ponownie. |
 
 ## Raporty
 

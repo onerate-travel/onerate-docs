@@ -70,9 +70,9 @@ Sorting: **Recommended** (the default ranking), **Price low to high**, **Price h
 
 **List** and **Map** show the same results.
 
-The map draws on OpenStreetMap by default. If your agency has its own Google Maps key configured
-in [Settings](/en/manage/settings/), it draws on Google instead — and if Google cannot be reached,
-it falls back to OpenStreetMap and tells you it did.
+The map draws on **Google Maps**, on OneRate's own key — nothing to configure, nothing billed to
+you. Your agency can switch it to OpenStreetMap in [Settings](/en/manage/settings/). If OneRate
+cannot draw Google for a while, the map falls back to OpenStreetMap and tells you it did.
 
 Hotels with **no recorded location** cannot be placed. The map says how many are missing so you do
 not mistake the map for the whole result set. Pins that overlap cluster; zoom in to separate them.

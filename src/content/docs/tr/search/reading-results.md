@@ -74,9 +74,9 @@ düşüğe** ya da **Otel adı (A–Z)**.
 
 **Liste** ve **Harita** aynı sonuçları gösterir.
 
-Harita varsayılan olarak OpenStreetMap üzerine çizilir. Acentenizin [Ayarlar](/tr/manage/settings/)
-sayfasında yapılandırılmış kendi Google Maps anahtarı varsa Google üzerine çizilir — ve Google'a
-ulaşılamazsa OpenStreetMap'e döner ve bunu size söyler.
+Harita, OneRate'in kendi anahtarıyla **Google Maps** üzerine çizilir — ayarlanacak bir şey yok, size
+faturalanan bir şey yok. Acenteniz [Ayarlar](/tr/manage/settings/) sayfasından OpenStreetMap'e
+geçebilir. OneRate bir süre Google'ı çizemezse harita OpenStreetMap'e döner ve bunu size söyler.
 
 **Konumu kayıtlı olmayan** oteller haritaya yerleştirilemez. Harita kaç tanesinin eksik olduğunu
 söyler, böylece haritayı tüm sonuç kümesi sanmazsınız. Üst üste gelen işaretler kümelenir;

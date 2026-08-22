@@ -39,7 +39,7 @@ tariffa diversa se l'ospite ha bisogno di una camera adesso.
 | "Il modulo di ricerca è cambiato. Questi prezzi valgono ancora per i criteri qui sopra…" | I risultati appartengono ai vecchi criteri. | Cerca di nuovo. I prezzi non vengono mai ricalcolati nel browser. |
 | "Risultati parziali — X ha smesso di rispondere…" | Un fornitore ha risposto in modo incompleto. | Alcuni hotel mancano. Cerca di nuovo se è importante. |
 | "Nessun hotel trovato per questa ricerca." | Nulla disponibile — **leggi la riga di stato dei fornitori**. | Se un fornitore mostra **Non riuscito**, questa non è una risposta completa. Riprova. |
-| "Non è stato possibile raggiungere il fornitore della mappa…" | La tua chiave Google Maps o Google stesso non era raggiungibile. | Di solito è passeggero. Se persiste, controlla la chiave in [Impostazioni](/it/manage/settings/). |
+| "Non è stato possibile raggiungere il fornitore della mappa…" | La mappa Google di OneRate non era disponibile per questa ricerca. | Di solito è passeggero; nulla da fare da parte tua. La tua scelta della mappa è in [Impostazioni](/it/manage/settings/). |
 
 ### "Dice che non c'è disponibilità, ma io so che c'è"
 

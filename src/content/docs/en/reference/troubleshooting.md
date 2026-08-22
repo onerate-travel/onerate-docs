@@ -38,7 +38,7 @@ a room now. [Full explanation](/en/booking/statuses/#reconciling).
 | "The search form has changed. These prices are still for the criteria above…" | The results belong to the old criteria. | Search again. Prices are never recalculated in the browser. |
 | "Partial results — X stopped responding…" | A supplier answered incompletely. | Some hotels are missing. Search again if it matters. |
 | "No hotels found for this search." | Nothing available — **check the supplier status line**. | If a supplier shows **Failed**, this is not a complete answer. Try again. |
-| "The map provider could not be reached, so this map is drawn on OpenStreetMap." | Your Google Maps key or Google itself was unreachable. | Usually transient. If it persists, check the key in [Settings](/en/manage/settings/#map). |
+| "The map provider could not be reached, so this map is drawn on OpenStreetMap." | OneRate's Google map was unavailable for this search. | Usually transient; nothing to do on your side. Your map choice is in [Settings](/en/manage/settings/#map). |
 
 ### "It says there is nothing available, but I know there is"
 
@@ -119,7 +119,6 @@ In order:
 | "Not set — required before a supplier can be enabled" | A value only your agency can know is missing. | Set it where the message points. OneRate will not invent it. |
 | "a stored setting is unknown or invalid" | Your configuration cannot be read, and **no default was substituted**. | Contact OneRate support. |
 | "Email and phone must be filled in together, or cleared together." | Half a contact is not a contact. | Fill both, or clear both. |
-| "Google refused this key" | The key is wrong or the **Map Tiles API** is not enabled for it. | Fix it in the Google Cloud console and enter it again. |
 
 ## Reports
 

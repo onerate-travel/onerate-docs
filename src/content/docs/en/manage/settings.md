@@ -143,23 +143,15 @@ converted**. Read [Pricing and margin](/en/manage/pricing/) before changing it.
 
 ## Map
 
-Search results can be drawn on a map. By default that is **OpenStreetMap**, which costs you nothing
-and needs no configuration.
+Search results can be drawn on a map. By default that is **Google Maps**, drawn on OneRate's own
+key: there is nothing to configure and nothing billed to your agency.
 
-If your agency has its own **Google Maps API key**, you can use Google's map instead. The tiles are
-billed to your own Google account, on your own contract — OneRate applies no limit of its own, so
-set quotas and budget alerts on the key in the Google Cloud console.
+**Map provider** lets your agency choose **OpenStreetMap** instead. The choice applies to every agent
+in your agency and to your customers' portals.
 
-To use it:
-
-1. Enter the key. It is checked against Google before it is stored, encrypted at rest, and never
-   sent to your browser.
-2. If Google refuses it, it is not saved — check that the **Map Tiles API** is enabled for that key.
-3. Switch between **OpenStreetMap** and **Google Maps** at any time; **Remove the key** to go back
-   for good.
-
-If Google later refuses a key that used to work, the portal falls back to OpenStreetMap and tells
-you, rather than showing an empty map.
+**Currently drawing** names the map in force. If it says **OpenStreetMap (temporary)**, you chose
+Google and OneRate cannot draw it right now — the portal stays on OpenStreetMap until it can. There
+is nothing for you to fix; your choice is kept.
 
 ## Agency configuration
 

@@ -152,23 +152,15 @@ cambiarla.
 ## Mappa
 
 I risultati di ricerca possono essere disegnati su una mappa. Per impostazione predefinita è
-**OpenStreetMap**, che non ti costa nulla e non richiede configurazione.
+**Google Maps**, disegnata con la chiave di OneRate: niente da configurare e niente a carico della tua
+agenzia.
 
-Se la tua agenzia ha una propria **chiave API di Google Maps**, puoi usare la mappa di Google. Le
-tile vengono fatturate sul tuo account Google, sul tuo contratto — OneRate non applica alcun limite
-proprio, quindi imposta quote e avvisi di budget sulla chiave nella console Google Cloud.
+**Fornitore della mappa** permette alla tua agenzia di scegliere invece **OpenStreetMap**. La scelta
+vale per ogni agente della tua agenzia e per i portali dei tuoi clienti.
 
-Per usarla:
-
-1. Inserisci la chiave. Viene verificata con Google prima di essere salvata, è cifrata a riposo e
-   non viene mai inviata al tuo browser.
-2. Se Google la rifiuta, non viene salvata — verifica che l'**API Map Tiles** sia abilitata per
-   quella chiave.
-3. Passa fra **OpenStreetMap** e **Google Maps** quando vuoi; **Rimuovi la chiave** per tornare
-   indietro definitivamente.
-
-Se in seguito Google rifiuta una chiave che funzionava, il portale torna a OpenStreetMap e te lo
-dice, invece di mostrarti una mappa vuota.
+**Attualmente in uso** indica la mappa in vigore. Se dice **OpenStreetMap (temporaneo)**, hai scelto
+Google e OneRate al momento non può disegnarla: il portale resta su OpenStreetMap finché non sarà
+possibile. Non c'è nulla da sistemare; la tua scelta è conservata.
 
 ## Configurazione dell'agenzia
 

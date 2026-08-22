@@ -38,7 +38,7 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Formularul de căutare s-a schimbat. Aceste prețuri sunt în continuare pentru criteriile de mai sus…” | Rezultatele aparțin vechilor criterii. | Caută din nou. Prețurile nu se recalculează niciodată în browser. |
 | „Rezultate parțiale — X a încetat să răspundă…” | Un furnizor a răspuns incomplet. | Unele hoteluri lipsesc. Caută din nou dacă contează. |
 | „Niciun hotel găsit pentru această căutare.” | Nimic disponibil — **citește linia de stare a furnizorilor**. | Dacă un furnizor apare **Eșuat**, acesta nu este un răspuns complet. Încearcă din nou. |
-| „Furnizorul de hărți nu a putut fi contactat…” | Cheia ta Google Maps sau Google însuși nu era accesibil. | De obicei este trecător. Dacă persistă, verifică cheia în [Setări](/ro/manage/settings/). |
+| „Furnizorul de hărți nu a putut fi contactat…” | Harta Google a OneRate nu a fost disponibilă pentru această căutare. | De obicei este trecător; nimic de făcut din partea ta. Alegerea hărții este în [Setări](/ro/manage/settings/). |
 
 ### „Spune că nu există disponibilitate, dar știu că există”
 
@@ -120,7 +120,6 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Nesetat — necesar înainte ca un furnizor să poată fi activat” | Lipsește o valoare pe care doar agenția ta o poate ști. | Setează-o unde indică mesajul. OneRate nu o va inventa. |
 | „o setare salvată este necunoscută sau invalidă” | Configurația ta nu poate fi citită și **nu a fost pusă în loc nicio valoare implicită**. | Contactează asistența OneRate. |
 | „Emailul și telefonul trebuie completate împreună sau golite împreună.” | Jumătate de contact nu este un contact. | Completează-le pe amândouă sau golește-le pe amândouă. |
-| „Google a respins această cheie” | Cheia este greșită sau **Map Tiles API** nu este activat pentru ea. | Repar-o în consola Google Cloud și introdu-o din nou. |
 
 ## Rapoarte
 

@@ -146,23 +146,15 @@ mielőtt módosítod.
 
 ## Térkép
 
-A találatok térképen is megjeleníthetők. Alapértelmezés szerint ez az **OpenStreetMap**, amely semmibe
-nem kerül, és nem igényel beállítást.
+A találatok térképen is megjeleníthetők. Alapértelmezés szerint ez a **Google Maps**, a OneRate saját
+kulcsával rajzolva: nincs mit beállítani, és az irodádnak semmit sem számláznak.
 
-Ha az irodádnak van saját **Google Maps API-kulcsa**, használhatod a Google térképét. A csempéket a
-saját Google-fiókodra, a saját szerződéseden számlázzák — a OneRate nem alkalmaz saját korlátot, ezért
-állíts be kvótákat és költségriasztásokat a kulcsra a Google Cloud konzolban.
+A **Térképszolgáltató** beállítással az irodád helyette az **OpenStreetMap**-et választhatja. A
+választás az iroda minden ügyintézőjére és az ügyfeleid portáljaira is érvényes.
 
-A használatához:
-
-1. Add meg a kulcsot. Mentés előtt ellenőrizzük a Google-nél, titkosítva tároljuk, és soha nem küldjük
-   el a böngésződnek.
-2. Ha a Google elutasítja, nem mentjük el — ellenőrizd, hogy a **Map Tiles API** engedélyezve van-e rá.
-3. Bármikor válthatsz az **OpenStreetMap** és a **Google Maps** között; a **Kulcs eltávolítása**
-   véglegesen visszaállít.
-
-Ha a Google később elutasít egy korábban működő kulcsot, a portál visszavált OpenStreetMapre, és ezt
-közli is, ahelyett hogy üres térképet mutatna.
+A **Jelenleg használt** a ténylegesen használt térképet mutatja. Ha **OpenStreetMap (ideiglenesen)**
+áll ott, a Google-t választottad, de a OneRate most nem tudja megjeleníteni — amíg lehetséges nem
+lesz, a portál OpenStreetMapen marad. Nincs mit javítanod; a választásod megmarad.
 
 ## Az iroda konfigurációja
 

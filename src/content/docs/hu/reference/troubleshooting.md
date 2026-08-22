@@ -38,7 +38,7 @@ beszállító felvette. Ne foglald le újra ugyanazt a tartózkodást — foglal
 | „A keresési űrlap megváltozott. Ezek az árak még a fenti feltételekre vonatkoznak…” | A találatok a régi feltételekhez tartoznak. | Keress újra. Az árakat soha nem számoljuk újra a böngészőben. |
 | „Részleges találatok — X abbahagyta a válaszolást…” | Egy beszállító hiányosan válaszolt. | Néhány szálloda hiányzik. Keress újra, ha számít. |
 | „Erre a keresésre nem találtunk szállodát.” | Nincs elérhető — **olvasd el a beszállítói állapotsort**. | Ha egy beszállító **Sikertelen**, ez nem teljes válasz. Próbáld újra. |
-| „A térképszolgáltató nem volt elérhető…” | A Google Maps kulcsod vagy maga a Google nem volt elérhető. | Általában átmeneti. Ha tartós, ellenőrizd a kulcsot a [Beállításokban](/hu/manage/settings/). |
+| „A térképszolgáltató nem volt elérhető…” | A OneRate Google-térképe ehhez a kereséshez nem volt elérhető. | Általában átmeneti; a te oldaladon nincs teendő. A térképválasztásod a [Beállításokban](/hu/manage/settings/) van. |
 
 ### „Azt írja, nincs szabad hely, pedig tudom, hogy van”
 
@@ -119,7 +119,6 @@ Sorrendben:
 | „Nincs beállítva — szükséges ahhoz, hogy egy beszállítót engedélyezni lehessen” | Hiányzik egy érték, amelyet csak az irodád tudhat. | Állítsd be ott, ahová az üzenet mutat. A OneRate nem fogja kitalálni. |
 | „egy tárolt beállítás ismeretlen vagy érvénytelen” | A konfigurációdat nem lehet elolvasni, és **semmilyen alapértelmezést nem helyettesítettünk be**. | Fordulj a OneRate ügyfélszolgálatához. |
 | „Az e-mailt és a telefonszámot együtt kell kitölteni, vagy együtt törölni.” | Egy fél kapcsolattartó nem kapcsolattartó. | Töltsd ki mindkettőt, vagy töröld mindkettőt. |
-| „A Google elutasította ezt a kulcsot” | A kulcs hibás, vagy nincs rá engedélyezve a **Map Tiles API**. | Javítsd a Google Cloud konzolban, és add meg újra. |
 
 ## Riportok
 
