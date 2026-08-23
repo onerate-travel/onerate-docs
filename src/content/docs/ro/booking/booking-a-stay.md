@@ -23,6 +23,10 @@ Doar un proprietar sau un administrator îl poate adăuga, și se face o singur�
 Deschide un hotel din rezultate. Pagina recotează sejurul la furnizor în acel moment și listează
 fiecare opțiune de tarif — masă, rambursabilitate, termen de anulare, total.
 
+Dacă ai ales un tarif pe cardul de rezultate, pagina se deschide **pe acel tarif**. Reevaluarea este
+un apel nou către furnizor, așa că tariful poate să nu mai existe; pagina o spune și afișează cel
+mai ieftin, în loc să pună altă cameră sub condițiile pe care le-ai ales.
+
 Dacă tariful este cotat într-o monedă diferită de moneda ta de vânzare, pagina o spune:
 
 > Cotat în USD, nu în moneda ta de vânzare EUR. Acest tarif poate fi rezervat, dar OneRate nu
@@ -45,7 +49,10 @@ nume inventat. Asta contează la hotelurile care înregistrează fiecare oaspete
 
 ## Ecranul de verificare
 
-Înainte ca ceva să ajungă la furnizor primești **Confirmă această rezervare**, care arată:
+Înainte ca ceva să ajungă la furnizor apare **Confirmă această rezervare**. Se deschide peste pagină
+ca un dialog, cu focusul pe titlul lui, și rămâne acolo până răspunzi: orice ar produce încercarea —
+o confirmare, un refuz, un preț care s-a schimbat — este afișat **înăuntrul lui**, lângă datele la
+care se referă și fără să pierzi numele tastate.
 
 | | |
 | --- | --- |

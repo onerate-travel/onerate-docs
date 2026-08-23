@@ -18,6 +18,9 @@ description: Invitarea colegilor, alegerea și schimbarea rolului lor, sucursale
 Portalul îți dă un link în loc să presupună că livrarea prin email a funcționat. Trimite-l așa cum
 ajungi de obicei la acea persoană.
 
+Lista se sortează după coleg, după rol sau după data intrării — apasă antetul unei coloane.
+Sortarea este doar a ta și durează cât ecranul.
+
 ## Invitații în așteptare
 
 Toți cei care au fost invitați și nu s-au alăturat încă, cu data la care expiră invitația.
@@ -116,6 +119,9 @@ spune nimic despre banii pe care îi încasați cu adevărat, așa că OneRate r
 
 Proprietarii și administratorii pot aproba oricând. Un agent niciodată — același raționament care îi
 ia anularea, vezi [Roluri](/ro/start/roles/#de-ce-un-agent-nu-poate-anula).
+
+Dacă ce scrii nu este o sumă, câmpul o spune și nu salvează nimic, lăsând ce ai scris acolo unde
+poți corecta.
 
 ## Eliminarea cuiva
 

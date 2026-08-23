@@ -24,6 +24,10 @@ Solo un titolare o un amministratore può aggiungerlo, e va fatto una volta sola
 Apri un hotel dai risultati. La pagina riquota il soggiorno presso il fornitore in quel momento ed
 elenca ogni opzione tariffaria — trattamento, rimborsabilità, scadenza di cancellazione, totale.
 
+Se hai scelto una tariffa sulla scheda dei risultati, la pagina si apre **su quella tariffa**. Il
+ricalcolo è una nuova chiamata al fornitore, quindi può non esserci più; la pagina lo dice e mostra
+la più economica, invece di mettere un'altra camera sotto le condizioni che hai scelto.
+
 Se la tariffa è quotata in una valuta diversa dalla tua valuta di vendita, la pagina lo dice:
 
 > Quotato in USD, non nella tua valuta di vendita EUR. Questa tariffa è prenotabile, ma OneRate non
@@ -45,8 +49,10 @@ un nome inventato. Questo conta negli hotel che registrano ogni ospite per nome.
 
 ## La schermata di riepilogo
 
-Prima che qualsiasi cosa raggiunga il fornitore ottieni **Conferma questa prenotazione**, che
-mostra:
+Prima che qualcosa raggiunga il fornitore compare **Conferma questa prenotazione**. Si apre sopra la
+pagina come finestra di dialogo, con il fuoco sul suo titolo, e ci resta finché non rispondi:
+qualunque cosa produca il tentativo — una conferma, un rifiuto, un prezzo che si è mosso — viene
+mostrata **al suo interno**, accanto ai dati a cui si riferisce e senza perdere i nomi digitati.
 
 | | |
 | --- | --- |

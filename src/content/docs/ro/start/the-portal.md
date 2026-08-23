@@ -65,6 +65,12 @@ Numele tău, o legătură către [Contul meu](/ro/account/security/) și **Decon
 Dacă aparții mai multor agenții — sau ești utilizator de platformă cu acces la mai multe — aici
 apare un comutator. El schimbă ale cui date te uiți. Verifică-l înainte să rezervi.
 
+### Luminos sau întunecat
+
+Lângă selectorul de limbă se află **Aspect**: **Ca sistemul**, **Luminos** sau **Întunecat**. Este
+reținut pe acest dispozitiv și se aplică fiecărui ecran. Lăsat pe *Ca sistemul* — implicit —
+portalul urmează setarea calculatorului tău.
+
 ## Notificări
 
 O tavă în colț poartă mesaje de scurtă durată: o rezervare confirmată, o setare salvată, o acțiune

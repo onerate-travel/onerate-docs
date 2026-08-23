@@ -72,6 +72,9 @@ Fă-o când:
 Dacă este singura ta sesiune, ecranul o spune în loc să îți arate un buton care te-ar deconecta de
 la ecranul pe care îl citești.
 
+Deconectarea unui dispozitiv întreabă mai întâi. Nu se poate anula: cine îl folosește este
+deconectat imediat și trebuie să se autentifice din nou.
+
 ## Când sesiunea se încheie
 
 O sesiune nu durează la nesfârșit, iar agenția dvs. o poate scurta (vezi

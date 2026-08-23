@@ -64,6 +64,10 @@ amelyektől a használata függ — például a kéréskereted. A portál megnev
 odavisz, ahol beállítható. Lásd: [Beállítások](/hu/manage/settings/).
 :::
 
+Egy szállító **kikapcsolása** előbb rákérdez: az árai attól a pillanattól nem jelennek meg egyetlen
+keresésben sem, és ennek egyetlen jele egy rövidebb találati lista. A visszakapcsolás nem kérdez —
+az a helyreállítás.
+
 ## Működés
 
 A **Működés** oszlop a OneRate élő képe az adott beszállítóról, nem szerződéses állapot:

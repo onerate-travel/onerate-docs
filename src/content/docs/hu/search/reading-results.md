@@ -13,9 +13,21 @@ Szállodánként egy kártya. Rajta:
 - Hogy az az ár **Ingyenes lemondás** vagy **Nem visszatéríthető**, és — ha a beszállító megadja —
   az a dátum, amikor az ingyenes lemondási ablak bezárul.
 - A csillagbesorolás, ahol a szállodának van.
-- **N lehetőség**, ha a szállodának több összehasonlítható csoportja van a megjelenítettnél.
+- A szállodában, nem a beszállítónak fizetendő összegek — *a szállodában fizetendő* címkével, annak
+  az árnak a feltételei mellett, amelyhez tartoznak.
 
-A szállodában, nem a beszállítónak fizetendő összegeket *a szállodában fizetendő* címkével jelöljük.
+## Ár választása a kártyán
+
+A szálloda neve alatt ott van minden ár, amit árul: a szoba, a feltételei, ki adja el és mennyibe
+kerül. Az első kettő a kártyán van; a **Még N ár mutatása** nyitja a többit.
+
+Ha kiválasztasz egyet, az a kártyára kerül — az ára, a feltételei, a lemondási határideje —, és a
+**Foglalás** a szálloda oldalát **a kiválasztott árral** nyitja meg. Ha két ár csak a beszállítóban
+tér el, a választás ahhoz a beszállítóhoz címzi a foglalást.
+
+Az újraárazás új hívás a beszállító felé, így az ár el is tűnhet, mire az oldal megnyílik. Ezt
+kimondja, és helyette a legolcsóbbat mutatja — nem tesz csendben más szobát az általad választott
+feltételek alá.
 
 ## Miért az egyik ajánlat, és nem a másik
 
@@ -57,8 +69,12 @@ A szűrők arra vonatkoznak, ami már a képernyőn van; nem indítják újra a 
 - **Csillagbesorolás**, az *és afölött* lehetőséggel
 - **Szálloda neve**
 
+Minden választás mellett ott a szám, ahány szálloda maradna: még azelőtt látod, mibe kerül egy
+szűkebb szűrő, hogy alkalmaznád. A névmező megmondja, hány szállodára illik a beírt szöveg.
+
 A darabszám a szűrés közben frissül — *„48 szállodából 12”* — a **Szűrők törlése** pedig
-visszaállítja. Ha egy szűrő kiüríti a listát, a portál megmondja, hány találatot talált valójában a
+visszaállítja. A **Szűrők törlése** mindig ott van, kiszürkítve, amikor nincs mit törölni — így az
+oszlop nem mozdul el az egérmutatód alatt abban a pillanatban, amikor használod. Ha egy szűrő kiüríti a listát, a portál megmondja, hány találatot talált valójában a
 keresés, hogy lásd: a szűrő volt az, nem a keresés.
 
 :::note

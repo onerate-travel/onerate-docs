@@ -70,6 +70,9 @@ Tedd meg, ha:
 Ha ez az egyetlen munkameneted, a képernyő ezt közli, ahelyett hogy olyan gombot mutatna, amely
 kiléptetne abból a képernyőből, amelyet éppen olvasol.
 
+Egy eszköz kijelentkeztetése előbb rákérdez. Nem vonható vissza: aki használja, azonnal
+kijelentkezik, és újra be kell jelentkeznie.
+
 ## Amikor a munkamenete lejár
 
 Egy munkamenet nem tart örökké, és az irodája rövidebbre is állíthatja (lásd a

@@ -18,6 +18,9 @@ A **Csapat** az irodád saját munkatársai. Tulajdonosok és adminisztrátorok.
 A portál linket ad, ahelyett hogy feltételezné: az e-mail kézbesítés működött. Küldd el úgy, ahogy
 azt a személyt általában eléred.
 
+A névsor kolléga, szerepkör vagy csatlakozási dátum szerint rendezhető — kattints az oszlop
+fejlécére. A rendezés csak a tiéd, és addig tart, amíg a képernyő nyitva van.
+
 ## Függő meghívók
 
 Mindenki, akit meghívtak és még nem csatlakozott, a meghívó lejáratának dátumával.
@@ -114,6 +117,9 @@ tippel.
 A tulajdonosok és az adminisztrátorok mindig jóváhagyhatnak. Az ügyintéző soha — ugyanaz az érvelés,
 amely a lemondást is elveszi tőle: lásd
 [Szerepkörök](/hu/start/roles/#miért-nem-mondhat-le-egy-ügyintéző).
+
+Ha amit beírsz, nem összeg, a mező ezt kimondja és nem ment semmit — a beírtat ott hagyja, ahol
+javítani tudod.
 
 ## Valakit eltávolítani
 

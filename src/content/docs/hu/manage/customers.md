@@ -129,6 +129,10 @@ kapja, hogy a foglalás nem elérhető, és felhív téged:
 2. **Olyan árrés, amelyet nem bánsz, ha látnak.** Ők az eladási árat látják. Ha az árrésed nincs
    beállítva, a beszállítód nettó árát nézik.
 
+Meghívni valakit abban a panelben lehet, amely egy ügyfél kiválasztásakor nyílik meg, a benne már
+szereplő emberek mellett — nem az ügyfél sorában. Ha a nyitott foglalási plafonba írt érték nem
+összeg, a mező ezt kimondja és nem ment semmit.
+
 ## Hozzáférés visszavonása
 
 A **Visszavonás** megöl egy függő meghívót. Egy már csatlakozott személy eltávolításához vedd ki az

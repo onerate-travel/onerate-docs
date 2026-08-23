@@ -13,9 +13,21 @@ Una scheda per hotel. Su di essa:
 - Se quella tariffa è a **Cancellazione gratuita** oppure **Non rimborsabile** e — quando il
   fornitore lo indica — la data in cui si chiude la finestra di cancellazione gratuita.
 - Le stelle, dove l'hotel ne ha.
-- **N opzioni** se l'hotel ha più gruppi confrontabili oltre a quello mostrato.
+- Gli importi da pagare in hotel anziché al fornitore, etichettati *da pagare in hotel*, accanto
+  alle condizioni della tariffa a cui appartengono.
 
-Gli importi da pagare in hotel anziché al fornitore sono etichettati *da pagare in hotel*.
+## Scegliere una tariffa sulla scheda
+
+Sotto il nome dell'hotel ci sono tutte le tariffe che vende: la camera, le sue condizioni, chi la
+vende e quanto costa. Le prime due sono sulla scheda; **Mostra altre N tariffe** apre il resto.
+
+Sceglierne una la porta sulla scheda — il suo prezzo, le sue condizioni, la sua scadenza di
+cancellazione — e **Prenota** apre la pagina dell'hotel **sulla tariffa che hai scelto**. Se due
+tariffe differiscono solo per fornitore, sceglierne una indirizza la prenotazione a quel fornitore.
+
+Il ricalcolo è una nuova chiamata al fornitore, quindi una tariffa può non esserci più quando la
+pagina si apre. In quel caso lo dice e mostra la più economica, invece di mettere in silenzio
+un'altra camera sotto le condizioni che hai scelto.
 
 ## Perché un'offerta e non un'altra
 
@@ -57,8 +69,12 @@ I filtri si applicano a quello che è già sullo schermo; non rilanciano la rice
 - **Categoria stelle**, con *e oltre*
 - **Nome dell'hotel**
 
+Ogni scelta porta accanto a sé il numero di hotel che ti lascerebbe, così vedi quanto costa un
+filtro più stretto prima di applicarlo. Il campo del nome dice a quanti hotel corrisponde il testo.
+
 Il conteggio si aggiorna man mano che filtri — *"12 di 48 hotel"* — e **Azzera i filtri** lo
-riporta indietro. Se un filtro svuota l'elenco, il portale dice quanti risultati la ricerca aveva
+riporta indietro. **Azzera i filtri** è sempre lì, disattivato quando non c'è nulla da azzerare,
+così la colonna non si sposta sotto il puntatore proprio quando la usi. Se un filtro svuota l'elenco, il portale dice quanti risultati la ricerca aveva
 effettivamente trovato, così vedi che è stato il filtro e non la ricerca.
 
 :::note

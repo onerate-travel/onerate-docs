@@ -63,6 +63,10 @@ niego — na przykład Twojego przydziału zapytań. Portal nazywa brakującą w
 gdzie się ją ustawia. Zobacz [Ustawienia](/pl/manage/settings/).
 :::
 
+**Wyłączenie** dostawcy najpierw pyta: jego stawki przestają pojawiać się w każdym wyszukiwaniu od
+tej chwili, a jedynym znakiem jest krótsza lista wyników. Ponowne włączenie nie pyta — to jest
+naprawa.
+
 ## Kondycja
 
 Kolumna **Kondycja** to bieżący widok OneRate na danego dostawcę, a nie status umowy:

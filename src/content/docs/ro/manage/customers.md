@@ -127,6 +127,10 @@ pur și simplu că rezervarea nu este disponibilă și te va suna:
 2. **O marjă cu care ești de acord să o vadă.** Ei văd prețul de vânzare. Dacă marja ta nu este
    setată, se uită la prețul net al furnizorului tău.
 
+Invitarea cuiva se face în panoul care se deschide când selectezi un client, lângă persoanele deja
+prezente — nu în rândul clientului. Dacă ce scrii în plafonul de rezervare deschisă nu este o sumă,
+câmpul o spune și nu salvează nimic.
+
 ## Retragerea accesului
 
 **Revocă** anulează o invitație în așteptare. Ca să elimini pe cineva care s-a alăturat deja,

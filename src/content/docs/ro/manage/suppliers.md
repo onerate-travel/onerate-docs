@@ -64,6 +64,10 @@ furnizor — de exemplu alocarea ta de cereri. Portalul numește valoarea lipsă
 setează. Vezi [Setări](/ro/manage/settings/).
 :::
 
+**Dezactivarea** unui furnizor întreabă mai întâi: tarifele lui nu mai apar în nicio căutare din
+acel moment, iar singurul semn este o listă de rezultate mai scurtă. Reactivarea nu întreabă — ea
+este remediul.
+
 ## Sănătate
 
 Coloana **Sănătate** este vederea în timp real pe care OneRate o are asupra acelui furnizor, nu o

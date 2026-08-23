@@ -64,6 +64,12 @@ Birden fazla acenteye bağlıysanız — ya da birkaçına erişimi olan bir pla
 burada bir seçici çıkar. Kimin verisine baktığınızı değiştirir. Rezervasyon yapmadan önce kontrol
 edin.
 
+### Açık ya da koyu
+
+Dil seçicisinin yanında **Görünüm** vardır: **Sistemi izle**, **Açık** ya da **Koyu**. Bu cihazda
+hatırlanır ve her ekrana uygulanır. *Sistemi izle* (varsayılan) bırakılırsa portal bilgisayarınızın
+ayarını izler.
+
 ## Bildirimler
 
 Köşedeki tepsi kısa ömürlü mesajları taşır: onaylanan bir rezervasyon, kaydedilen bir ayar,

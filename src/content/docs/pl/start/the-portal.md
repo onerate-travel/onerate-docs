@@ -65,6 +65,12 @@ Twoje imię i nazwisko, link do [Mojego konta](/pl/account/security/) oraz **Wyl
 Jeśli należysz do więcej niż jednej agencji — albo jesteś użytkownikiem platformy z dostępem do
 kilku — pojawia się tu przełącznik. Zmienia, czyje dane oglądasz. Sprawdź go, zanim zarezerwujesz.
 
+### Jasny albo ciemny
+
+Obok przełącznika języka jest **Wygląd**: **Zgodnie z systemem**, **Jasny** albo **Ciemny**. Jest
+zapamiętywany na tym urządzeniu i dotyczy każdego ekranu. Pozostawiony na *Zgodnie z systemem* —
+domyślnie — portal podąża za ustawieniem Twojego komputera.
+
 ## Powiadomienia
 
 Zasobnik w rogu niesie krótkotrwałe komunikaty: potwierdzona rezerwacja, zapisane ustawienie,

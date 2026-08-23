@@ -69,6 +69,9 @@ Mevcut oturumunuz **Bu cihaz** olarak işaretlidir.
 
 Tek oturumunuzsa ekran, sizi okuduğunuz ekrandan çıkaracak bir düğme göstermek yerine bunu söyler.
 
+Bir cihazın oturumunu kapatmak önce size sorar. Geri alınamaz: cihazı kullanan kişi anında çıkış
+yapar ve yeniden giriş yapmak zorunda kalır.
+
 ## Oturumunuz sona erdiğinde
 
 Bir oturum sonsuza kadar sürmez ve acenteniz süresini kısaltabilir (bkz.

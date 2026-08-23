@@ -64,6 +64,12 @@ Your name, a link to [My account](/en/account/security/), and **Sign out**.
 If you belong to more than one agency — or you are a platform user with access to several — a
 switcher appears here. It changes whose data you are looking at. Check it before you book.
 
+### Light or dark
+
+Beside the language switch is **Appearance**: **Match my system**, **Light** or **Dark**. It is
+remembered on this device and applies to every screen. Left on *Match my system* — the default —
+the portal follows whatever your computer is set to.
+
 ## Notifications
 
 A tray in the corner carries short-lived messages: a booking confirmed, a setting saved, an action

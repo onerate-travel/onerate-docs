@@ -66,6 +66,12 @@ Il tuo nome, un collegamento a [Il mio account](/it/account/security/) e **Esci*
 Se appartieni a più di un'agenzia — o sei un utente di piattaforma con accesso a diverse — qui
 compare un selettore. Cambia i dati che stai guardando. Controllalo prima di prenotare.
 
+### Chiaro o scuro
+
+Accanto al selettore della lingua c'è **Aspetto**: **Come il sistema**, **Chiaro** o **Scuro**. Viene
+ricordato su questo dispositivo e vale per ogni schermata. Lasciato su *Come il sistema* — il
+valore predefinito — il portale segue l'impostazione del tuo computer.
+
 ## Notifiche
 
 Un vassoio nell'angolo porta messaggi di breve durata: una prenotazione confermata, un'impostazione

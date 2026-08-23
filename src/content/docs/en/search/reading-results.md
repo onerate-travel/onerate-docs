@@ -13,9 +13,21 @@ One card per hotel. On it:
 - Whether that rate is **Free cancellation** or **Non-refundable**, and — when the supplier states
   it — the date the free-cancellation window closes.
 - The star rating, where the hotel has one.
-- **N options** if the hotel has more comparable groups than the one shown.
+- Amounts payable at the hotel rather than to the supplier, labelled *payable at the hotel*, beside
+  the terms of the rate they belong to.
 
-Amounts payable at the hotel rather than to the supplier are labelled *payable at the hotel*.
+## Choosing a rate on the card
+
+Under the hotel's name is every rate it is selling: the room, its terms, who is selling it and what
+it costs. The first two are on the card; **Show N more rates** opens the rest.
+
+Choosing one moves it onto the card — its price, its terms, its cancellation deadline — and
+**Book** then opens the hotel's page **on the rate you chose**. If two rates differ only by
+supplier, choosing one addresses the booking to that supplier.
+
+A re-price is a fresh call to the supplier, so a rate can be gone by the time the page opens. It
+says so and shows the cheapest instead, rather than quietly putting a different room under the
+terms you picked.
 
 ## Why one offer and not another
 
@@ -54,9 +66,13 @@ Filters apply to what is already on screen; they do not re-run the search.
 - **Star rating**, with *and up*
 - **Hotel name**
 
-The count updates as you filter — *"12 of 48 hotels"* — and **Clear filters** puts it back. If a
-filter empties the list, the portal says how many results the search actually found, so you can see
-it was the filter and not the search.
+Every choice carries the number of hotels it would leave you with, so you can see what a narrower
+filter costs before you apply it. The name box says how many its text matches.
+
+The count updates as you filter — *"12 of 48 hotels"* — and **Clear filters** puts it back.
+**Clear filters** is always there, greyed out when there is nothing to clear, so the column does
+not move under your pointer the moment you use it. If a filter empties the list, the portal says
+how many results the search actually found, so you can see it was the filter and not the search.
 
 :::note
 Hotels with **no star rating** are excluded by *any* star choice, and the screen says how many. An

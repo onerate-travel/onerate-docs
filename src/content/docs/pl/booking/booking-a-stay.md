@@ -23,6 +23,10 @@ Dodać go może tylko właściciel lub administrator i robi się to raz.
 Otwórz hotel z wyników. Strona wycenia pobyt u dostawcy na nowo w tej chwili i wypisuje każdą opcję
 stawki — wyżywienie, zwrotność, termin anulowania, sumę.
 
+Jeśli wybrałeś stawkę na karcie wyników, strona otworzy się **na tej stawce**. Przeliczenie to nowe
+zapytanie do dostawcy, więc stawki może już nie być; strona to mówi i pokazuje najtańszą, zamiast
+podstawiać inny pokój pod wybrane przez Ciebie warunki.
+
 Jeśli stawka jest w walucie innej niż Twoja waluta sprzedaży, strona to powie:
 
 > Wycenione w USD, a nie w Twojej walucie sprzedaży EUR. Tę stawkę można zarezerwować, ale OneRate
@@ -44,7 +48,10 @@ zmyślonego nazwiska. Ma to znaczenie w hotelach, które meldują każdego gośc
 
 ## Ekran podsumowania
 
-Zanim cokolwiek dotrze do dostawcy, dostajesz **Potwierdź tę rezerwację**, pokazujący:
+Zanim cokolwiek dotrze do dostawcy, pojawia się **Potwierdź tę rezerwację**. Otwiera się nad stroną
+jako okno dialogowe, z fokusem na nagłówku, i pozostaje tam, dopóki nie odpowiesz: cokolwiek
+przyniesie próba — potwierdzenie, odmowę, zmienioną cenę — pokazuje się **w jego wnętrzu**, obok
+danych, których dotyczy, i bez utraty wpisanych nazwisk.
 
 | | |
 | --- | --- |

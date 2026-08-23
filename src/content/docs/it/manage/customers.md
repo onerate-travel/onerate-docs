@@ -127,6 +127,10 @@ semplicemente dire che la prenotazione non è disponibile e ti telefonerà:
 2. **Un margine che ti va bene che vedano.** Loro vedono il prezzo di vendita. Se il tuo margine non
    è impostato, stanno guardando il prezzo netto del tuo fornitore.
 
+Invitare qualcuno avviene nel pannello che si apre quando selezioni un cliente, accanto alle
+persone già presenti — non nella riga del cliente. Se quello che scrivi nel tetto di prenotazione
+aperta non è un importo, il campo lo dice e non salva nulla.
+
 ## Revocare l'accesso
 
 **Revoca** annulla un invito in sospeso. Per rimuovere qualcuno che è già entrato, toglilo

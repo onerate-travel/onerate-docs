@@ -18,6 +18,9 @@ description: Inviting colleagues, choosing and changing their role, branches, wh
 The portal gives you a link rather than assuming email delivery worked. Send it however you
 normally reach that person.
 
+The roster sorts by colleague, by role or by joining date — press a column heading. Sorting is
+yours alone and lasts as long as the screen.
+
 ## Pending invitations
 
 Everyone who has been invited and has not yet joined, with the date the invitation expires.
@@ -110,6 +113,9 @@ do not sell in would say nothing about the money you actually take, so OneRate r
 
 Owners and administrators may always approve. An agent never can — the same reasoning that withholds
 cancelling from them, in [Roles](/en/start/roles/#why-an-agent-cannot-cancel).
+
+If what you type is not an amount, the field says so and saves nothing, keeping what you typed
+where you can correct it.
 
 ## Removing someone
 

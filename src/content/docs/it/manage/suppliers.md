@@ -65,6 +65,10 @@ l'uso di quel fornitore — per esempio la tua quota di richieste. Il portale no
 e rimanda a dove si imposta. Vedi [Impostazioni](/it/manage/settings/).
 :::
 
+**Disattivare** un fornitore te lo chiede prima: le sue tariffe smettono di comparire in ogni
+ricerca da quel momento, e l'unico segnale è un elenco di risultati più corto. Riattivarlo non
+chiede — è il rimedio.
+
 ## Salute
 
 La colonna **Salute** è la vista in tempo reale che OneRate ha di quel fornitore, non uno stato

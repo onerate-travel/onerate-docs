@@ -5,6 +5,10 @@ description: Contactul corporativ pentru rezervări, identitatea și brandingul 
 
 Proprietari și administratori. Părăsirea acestui ecran cu modificări nesalvate te întreabă întâi.
 
+Setările sunt patru secțiuni, alese din coloana din stânga: **Identitate și marcă**, **Prețuri**,
+**Integrări** și **Contact**. Cea în care te afli face parte din adresă, așa că un link către o
+setare se deschide chiar pe acea setare, nu în capul paginii.
+
 ## Contact corporativ pentru rezervări
 
 **Setarea de făcut înaintea oricărei alteia.** Ambele câmpuri sunt obligatorii:
@@ -154,9 +158,13 @@ cheia OneRate: nimic de configurat și nimic facturat agenției tale.
 **Furnizorul hărții** permite agenției tale să aleagă în schimb **OpenStreetMap**. Alegerea se aplică
 fiecărui agent din agenție și portalurilor clienților tăi.
 
-**Hartă afișată** arată harta în vigoare. Dacă spune **OpenStreetMap (temporar)**, ai ales Google și
-OneRate nu o poate desena acum — portalul rămâne pe OpenStreetMap până când va putea. Nu ai nimic de
-reparat; alegerea ta este păstrată.
+**Furnizorul de hărți** îi permite agenției tale să aleagă între **Google Maps** și
+**OpenStreetMap**. Alegerea se aplică fiecărui agent din agenția ta și portalurilor clienților tăi
+și intră în vigoare în clipa în care o faci — este singurul card de pe ecran fără Salvare, și o
+spune.
+
+Dacă ai ales Google, iar OneRate nu o poate desena acum, cardul îți spune: portalul rămâne pe
+OpenStreetMap până când va putea. Nu ai nimic de reparat; alegerea ta este păstrată.
 
 ## Configurația agenției
 

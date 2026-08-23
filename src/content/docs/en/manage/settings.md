@@ -5,6 +5,10 @@ description: The corporate booking contact, your own identity and branding, agen
 
 Owners and admins. Leaving this screen with unsaved changes asks you first.
 
+Settings is four sections, chosen from the column on the left: **Identity & brand**, **Pricing**,
+**Integrations** and **Contact**. Which one you are on is part of the address, so a link to a
+setting opens on that setting rather than at the top of the page.
+
 ## Corporate booking contact
 
 **The one setting to do before anything else.** Both fields are required:
@@ -149,9 +153,12 @@ key: there is nothing to configure and nothing billed to your agency.
 **Map provider** lets your agency choose **OpenStreetMap** instead. The choice applies to every agent
 in your agency and to your customers' portals.
 
-**Currently drawing** names the map in force. If it says **OpenStreetMap (temporary)**, you chose
-Google and OneRate cannot draw it right now — the portal stays on OpenStreetMap until it can. There
-is nothing for you to fix; your choice is kept.
+**Map provider** lets your agency choose between **Google Maps** and **OpenStreetMap**. The choice
+applies to every agent in your agency and to your customers' portals, and it takes effect the
+moment you make it — this is the one card on the screen with no Save, and it says so.
+
+If you chose Google and OneRate cannot draw it right now, the card tells you: the portal stays on
+OpenStreetMap until it can. There is nothing for you to fix, and your choice is kept.
 
 ## Agency configuration
 

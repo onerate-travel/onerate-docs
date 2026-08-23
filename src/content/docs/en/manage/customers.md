@@ -125,6 +125,10 @@ booking is unavailable and will call you:
 2. **A margin you are happy for them to see.** They see the sell price. If your margin is unset,
    they are looking at your supplier's net price.
 
+Inviting someone happens in the panel that opens when you select a customer, beside the people
+already in it — not in the customer's row. If what you type into the open-booking ceiling is not an
+amount, the field says so and saves nothing.
+
 ## Removing access
 
 **Revoke** kills a pending invitation. To remove someone who has already joined, remove them from

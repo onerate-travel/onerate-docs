@@ -23,6 +23,10 @@ Yalnızca bir sahip veya yönetici ekleyebilir ve bir kez yapılması yeterlidir
 Sonuçlardan bir oteli açın. Sayfa konaklamayı o anda tedarikçiye karşı yeniden fiyatlandırır ve
 her fiyat seçeneğini listeler — pansiyon, iade koşulu, iptal son tarihi, toplam.
 
+Sonuç kartında bir oran seçtiyseniz sayfa **o oranla** açılır. Yeniden fiyatlama tedarikçiye taze
+bir çağrıdır, dolayısıyla oran o ana kadar gitmiş olabilir; sayfa bunu söyler ve yerine en ucuzu
+gösterir — seçtiğiniz koşulların altına başka bir oda koymak yerine.
+
 Fiyat satış para biriminiz dışında bir para birimindeyse sayfa bunu söyler:
 
 > USD cinsinden fiyatlandı, satış para biriminiz EUR değil. Bu fiyat rezerve edilebilir, ancak
@@ -45,7 +49,10 @@ isim verilmez. Bu, her misafiri isimle giriş yaptıran otellerde önemlidir.
 
 ## Gözden geçirme ekranı
 
-Tedarikçiye hiçbir şey ulaşmadan önce **Bu rezervasyonu onaylayın** ekranını görürsünüz:
+Tedarikçiye hiçbir şey ulaşmadan önce **Bu rezervasyonu onaylayın** ekranı gelir. Sayfanın üzerinde
+bir diyalog olarak açılır, odak başlığındadır ve siz cevaplayana kadar orada kalır: denemenin ne
+ürettiği — onay, ret ya da değişen bir fiyat — **onun içinde**, ait olduğu bilgilerin yanında ve
+yazdığınız isimleri kaybetmeden gösterilir.
 
 | | |
 | --- | --- |

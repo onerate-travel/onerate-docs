@@ -68,6 +68,9 @@ Zrób to, gdy:
 Jeśli to Twoja jedyna sesja, ekran tak mówi, zamiast pokazywać przycisk, który wylogowałby Cię z
 ekranu, który właśnie czytasz.
 
+Wylogowanie urządzenia najpierw pyta. Tego nie można cofnąć: osoba, która go używa, zostanie
+wylogowana natychmiast i będzie musiała zalogować się ponownie.
+
 ## Gdy sesja się kończy
 
 Sesja nie trwa wiecznie, a Państwa biuro może ją skrócić (zob.

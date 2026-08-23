@@ -5,6 +5,10 @@ description: Il contatto aziendale per le prenotazioni, la vostra identità e il
 
 Titolari e amministratori. Lasciare questa schermata con modifiche non salvate te lo chiede prima.
 
+Le impostazioni sono quattro sezioni, scelte dalla colonna a sinistra: **Identità e marchio**,
+**Prezzi**, **Integrazioni** e **Contatti**. Quella su cui ti trovi fa parte dell'indirizzo, così un
+link a un'impostazione si apre su quella impostazione e non in cima alla pagina.
+
 ## Contatto aziendale per le prenotazioni
 
 **L'impostazione da fare prima di ogni altra cosa.** Entrambi i campi sono obbligatori:
@@ -158,9 +162,14 @@ agenzia.
 **Fornitore della mappa** permette alla tua agenzia di scegliere invece **OpenStreetMap**. La scelta
 vale per ogni agente della tua agenzia e per i portali dei tuoi clienti.
 
-**Attualmente in uso** indica la mappa in vigore. Se dice **OpenStreetMap (temporaneo)**, hai scelto
-Google e OneRate al momento non può disegnarla: il portale resta su OpenStreetMap finché non sarà
-possibile. Non c'è nulla da sistemare; la tua scelta è conservata.
+**Fornitore della mappa** consente alla tua agenzia di scegliere tra **Google Maps** e
+**OpenStreetMap**. La scelta vale per ogni agente della tua agenzia e per i portali dei tuoi
+clienti, ed ha effetto nel momento in cui la fai — è l'unica scheda della schermata senza Salva, e
+lo dice.
+
+Se hai scelto Google e OneRate non riesce a disegnarlo in questo momento, la scheda te lo dice: il
+portale resta su OpenStreetMap finché non ci riesce. Non c'è nulla da sistemare e la tua scelta
+viene mantenuta.
 
 ## Configurazione dell'agenzia
 

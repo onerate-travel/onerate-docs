@@ -125,6 +125,10 @@ Dwie rzeczy trzeba mieć wcześniej, bo klient, który się o którąś z nich p
 2. **Marża, którą jesteś gotów im pokazać.** Widzą cenę sprzedaży. Jeśli Twoja marża jest
    nieustawiona, patrzą na cenę netto Twojego dostawcy.
 
+Zaproszenie kogoś odbywa się w panelu, który otwiera się po wybraniu klienta, obok osób już w nim
+obecnych — nie w wierszu klienta. Jeśli to, co wpiszesz w limit otwartych rezerwacji, nie jest
+kwotą, pole to powie i nic nie zapisze.
+
 ## Odbieranie dostępu
 
 **Cofnij** unieważnia oczekujące zaproszenie. Aby usunąć kogoś, kto już dołączył, wypisz go z listy

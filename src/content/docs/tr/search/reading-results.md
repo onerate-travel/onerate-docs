@@ -13,9 +13,21 @@ Her otel için bir kart. Üzerinde:
 - O fiyatın **Ücretsiz iptal** mi **İade edilemez** mi olduğu ve — tedarikçi belirtiyorsa —
   ücretsiz iptal penceresinin kapandığı tarih.
 - Otelin varsa yıldız derecesi.
-- Otelde gösterilenin dışında karşılaştırılabilir grup varsa **N seçenek**.
+- Tedarikçiye değil otelde ödenecek tutarlar, *otelde ödenecek* etiketiyle, ait oldukları oranın
+  koşullarının yanında.
 
-Tedarikçiye değil otelde ödenecek tutarlar *otelde ödenecek* olarak etiketlenir.
+## Kartta oran seçmek
+
+Otelin adının altında sattığı her oran vardır: oda, koşulları, kimin sattığı ve fiyatı. İlk ikisi
+kartta durur; **N oran daha göster** kalanını açar.
+
+Birini seçmek onu kartın üstüne taşır — fiyatını, koşullarını, iptal süresini — ve **Rezerve et**
+otelin sayfasını **seçtiğiniz oranla** açar. İki oran yalnızca tedarikçiyle ayrılıyorsa, birini
+seçmek rezervasyonu o tedarikçiye yönlendirir.
+
+Yeniden fiyatlama tedarikçiye taze bir çağrıdır, dolayısıyla sayfa açıldığında oran gitmiş olabilir.
+Bunu söyler ve yerine en ucuzu gösterir — seçtiğiniz koşulların altına sessizce başka bir oda
+koymak yerine.
 
 ## Neden bir teklif, diğeri değil
 
@@ -57,8 +69,13 @@ Filtreler zaten ekranda olana uygulanır; aramayı yeniden çalıştırmazlar.
 - **Yıldız derecesi**, *ve üzeri* seçeneğiyle
 - **Otel adı**
 
+Her seçenek, uygulandığında kaç otel bırakacağını yanında taşır: daha dar bir filtrenin size neye
+mal olacağını uygulamadan önce görürsünüz. İsim kutusu, yazdığınız metnin kaç otelle eşleştiğini
+söyler.
+
 Sayaç filtreledikçe güncellenir — *"48 otelden 12'si"* — ve **Filtreleri temizle** eski haline
-döndürür. Bir filtre listeyi boşaltırsa portal aramanın gerçekte kaç sonuç bulduğunu söyler, böylece
+döndürür. **Filtreleri temizle** her zaman yerindedir, temizlenecek bir şey yokken soluk görünür —
+böylece kullandığınız anda sütun imlecinizin altında kaymaz. Bir filtre listeyi boşaltırsa portal aramanın gerçekte kaç sonuç bulduğunu söyler, böylece
 sorunun filtrede olduğunu, aramada olmadığını görürsünüz.
 
 :::note

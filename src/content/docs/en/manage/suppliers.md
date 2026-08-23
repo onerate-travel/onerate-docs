@@ -63,6 +63,10 @@ for example your request allowance. The portal names the missing value and links
 set. See [Settings](/en/manage/settings/).
 :::
 
+Turning a supplier **off** asks you first: its rates stop appearing in every search from that
+moment, and a shorter result list is the only sign of it. Turning one back on does not ask — that
+is the recovery.
+
 ## Health
 
 The **Health** column is OneRate's live view of that supplier, not a contract status:

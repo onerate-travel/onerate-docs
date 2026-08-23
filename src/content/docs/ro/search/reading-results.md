@@ -13,9 +13,21 @@ Un card pentru fiecare hotel. Pe el:
 - Dacă acel tarif este cu **Anulare gratuită** sau **Nerambursabil** și — atunci când furnizorul o
   precizează — data la care se închide fereastra de anulare gratuită.
 - Clasificarea în stele, acolo unde hotelul are una.
-- **N opțiuni** dacă hotelul are mai multe grupuri comparabile decât cel afișat.
+- Sumele plătibile la hotel, nu către furnizor — marcate *de plată la hotel*, lângă condițiile
+  tarifului de care aparțin.
 
-Sumele plătibile la hotel, nu către furnizor, sunt marcate *de plată la hotel*.
+## Alegerea unui tarif pe card
+
+Sub numele hotelului sunt toate tarifele pe care le vinde: camera, condițiile ei, cine o vinde și
+cât costă. Primele două sunt pe card; **Arată încă N tarife** deschide restul.
+
+Alegerea unuia îl mută pe card — prețul, condițiile și termenul lui de anulare — iar **Rezervă**
+deschide pagina hotelului **pe tariful ales**. Dacă două tarife diferă doar prin furnizor, alegerea
+adresează rezervarea acelui furnizor.
+
+Reevaluarea este un apel nou către furnizor, așa că un tarif poate să nu mai existe când se deschide
+pagina. Atunci o spune și afișează cel mai ieftin, în loc să pună în tăcere altă cameră sub
+condițiile pe care le-ai ales.
 
 ## De ce o ofertă și nu alta
 
@@ -57,8 +69,12 @@ Filtrele se aplică la ce este deja pe ecran; nu repornesc căutarea.
 - **Clasificare stele**, cu *și peste*
 - **Numele hotelului**
 
+Fiecare opțiune poartă alături numărul de hoteluri care ți-ar rămâne, așa că vezi cât te costă un
+filtru mai strâns înainte să îl aplici. Câmpul de nume spune câtor hoteluri le corespunde textul.
+
 Numărul se actualizează pe măsură ce filtrezi — *„12 din 48 hoteluri”* — iar **Șterge filtrele** îl
-readuce. Dacă un filtru golește lista, portalul spune câte rezultate a găsit de fapt căutarea, ca
+readuce. **Șterge filtrele** este mereu acolo, estompat când nu ai ce șterge, ca să nu ți se mute
+coloana sub cursor exact când o folosești. Dacă un filtru golește lista, portalul spune câte rezultate a găsit de fapt căutarea, ca
 să vezi că a fost filtrul, nu căutarea.
 
 :::note

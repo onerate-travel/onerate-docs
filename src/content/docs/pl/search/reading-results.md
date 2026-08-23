@@ -12,9 +12,21 @@ Jedna karta na hotel. Na niej:
 - Czy ta stawka jest z **Bezpłatnym anulowaniem**, czy **Bezzwrotna** — a gdy dostawca to podaje —
   data zamknięcia okna bezpłatnego anulowania.
 - Kategoria gwiazdek, jeśli hotel ją ma.
-- **N opcji**, jeśli hotel ma więcej grup porównywalnych niż ta pokazana.
+- Kwoty płatne w hotelu, a nie dostawcy — oznaczone jako *płatne w hotelu*, obok warunków stawki,
+  do której należą.
 
-Kwoty płatne w hotelu, a nie dostawcy, są oznaczone jako *płatne w hotelu*.
+## Wybór stawki na karcie
+
+Pod nazwą hotelu są wszystkie stawki, które sprzedaje: pokój, jego warunki, kto go sprzedaje i ile
+kosztuje. Pierwsze dwie są na karcie; **Pokaż jeszcze N stawek** otwiera resztę.
+
+Wybranie jednej przenosi ją na kartę — jej cenę, warunki i termin anulowania — a **Rezerwuj**
+otwiera stronę hotelu **na wybranej stawce**. Jeśli dwie stawki różnią się tylko dostawcą, wybór
+kieruje rezerwację do tego dostawcy.
+
+Przeliczenie to nowe zapytanie do dostawcy, więc stawki może już nie być, gdy strona się otworzy.
+Wtedy portal to mówi i pokazuje najtańszą — zamiast po cichu podstawiać inny pokój pod wybrane
+przez Ciebie warunki.
 
 ## Dlaczego ta oferta, a nie inna
 
@@ -56,8 +68,12 @@ Filtry działają na tym, co już jest na ekranie; nie uruchamiają wyszukiwania
 - **Kategoria gwiazdek**, z opcją *i wyżej*
 - **Nazwa hotelu**
 
+Każdy wybór ma obok siebie liczbę hoteli, które by zostały — widzisz, ile kosztuje węższy filtr,
+zanim go zastosujesz. Pole nazwy mówi, do ilu hoteli pasuje wpisany tekst.
+
 Licznik aktualizuje się w trakcie filtrowania — *„12 z 48 hoteli”* — a **Wyczyść filtry** przywraca
-stan wyjściowy. Jeśli filtr opróżni listę, portal poda, ile wyników faktycznie znalazło
+stan wyjściowy. **Wyczyść filtry** jest zawsze na miejscu, wyszarzone, gdy nie ma czego czyścić —
+dzięki czemu kolumna nie przesuwa się pod kursorem dokładnie wtedy, gdy jej używasz. Jeśli filtr opróżni listę, portal poda, ile wyników faktycznie znalazło
 wyszukiwanie, żebyś widział, że to filtr, a nie wyszukiwanie.
 
 :::note

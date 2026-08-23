@@ -66,6 +66,12 @@ A neved, egy hivatkozás [A fiókom](/hu/account/security/) oldalra, és a **Kij
 Ha egynél több irodához tartozol — vagy platformfelhasználó vagy több irodához való hozzáféréssel —
 itt megjelenik egy váltó. Azt változtatja meg, kinek az adatait nézed. Ellenőrizd, mielőtt foglalsz.
 
+### Világos vagy sötét
+
+A nyelvváltó mellett van a **Megjelenés**: **Rendszer szerint**, **Világos** vagy **Sötét**. Ezen az
+eszközön megjegyzi, és minden képernyőre vonatkozik. *Rendszer szerint* hagyva — ez az
+alapértelmezés — a portál a géped beállítását követi.
+
 ## Értesítések
 
 A sarokban lévő tálca rövid életű üzeneteket hordoz: visszaigazolt foglalás, mentett beállítás,

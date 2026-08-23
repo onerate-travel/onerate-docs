@@ -71,6 +71,9 @@ Do it when:
 If it is your only session, the screen says so rather than showing you a button that would sign you
 out of the screen you are reading.
 
+Signing a device out asks you first. It cannot be undone: whoever is using it is signed out at
+once and has to sign in again.
+
 ## When your session ends
 
 A session does not last forever, and your agency can make it shorter (see

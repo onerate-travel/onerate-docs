@@ -24,6 +24,10 @@ Nyiss meg egy szállodát a találatokból. Az oldal abban a pillanatban újraá
 beszállítónál, és felsorol minden árlehetőséget — ellátás, visszatéríthetőség, lemondási határidő,
 végösszeg.
 
+Ha a találati kártyán kiválasztottál egy árat, az oldal **azzal** nyílik meg. Az újraárazás új hívás
+a beszállító felé, így addigra el is tűnhet; az oldal ezt kimondja, és helyette a legolcsóbbat
+mutatja — nem tesz más szobát az általad választott feltételek alá.
+
 Ha az ár nem a te eladási pénznemedben van, az oldal ezt közli:
 
 > USD-ben árazva, nem a te eladási pénznemedben (EUR). Ez az ár lefoglalható, de a OneRate nem vált
@@ -46,8 +50,10 @@ nevet. Ez azoknál a szállodáknál számít, amelyek minden vendéget név sze
 
 ## Az ellenőrző képernyő
 
-Mielőtt bármi eljutna a beszállítóhoz, megkapod az **Erősítsd meg ezt a foglalást** képernyőt, amely
-ezeket mutatja:
+Mielőtt bármi eljutna a beszállítóhoz, megjelenik a **Foglalás megerősítése**. Az oldal fölött nyílik
+meg párbeszédablakként, a fókusz a címén van, és ott is marad, amíg nem válaszolsz: bármit is
+eredményez a kísérlet — megerősítést, elutasítást, megváltozott árat —, **azon belül** jelenik meg,
+azok mellett az adatok mellett, amelyekről szól, és a beírt nevek elvesztése nélkül.
 
 | | |
 | --- | --- |

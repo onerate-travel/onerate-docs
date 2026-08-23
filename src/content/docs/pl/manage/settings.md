@@ -5,6 +5,10 @@ description: Firmowy kontakt do rezerwacji, Państwa własna tożsamość i mark
 
 Właściciele i administratorzy. Opuszczenie tego ekranu z niezapisanymi zmianami najpierw pyta.
 
+Ustawienia to cztery sekcje, wybierane z kolumny po lewej: **Tożsamość i marka**, **Ceny**,
+**Integracje** i **Kontakt**. To, w której jesteś, jest częścią adresu, więc link do ustawienia
+otwiera się na tym ustawieniu, a nie na górze strony.
+
 ## Firmowy kontakt do rezerwacji
 
 **Ustawienie do zrobienia przed wszystkim innym.** Oba pola są wymagane:
@@ -151,9 +155,12 @@ klucza OneRate: nic do skonfigurowania i nic nie jest fakturowane Twojej agencji
 **Dostawca mapy** pozwala agencji wybrać zamiast tego **OpenStreetMap**. Wybór dotyczy każdego agenta
 w agencji oraz portali Twoich klientów.
 
-**Obecnie rysowana** wskazuje obowiązującą mapę. Jeśli widnieje tam **OpenStreetMap (tymczasowo)**,
-wybrano Google, a OneRate nie może jej teraz narysować — do tego czasu portal korzysta z
-OpenStreetMap. Nie ma nic do naprawienia; Twój wybór jest zachowany.
+**Dostawca mapy** pozwala Twojej agencji wybrać między **Mapami Google** a **OpenStreetMap**. Wybór
+dotyczy każdego agenta w agencji i portali Twoich klientów, a działa od chwili, w której go
+dokonasz — to jedyna karta na tym ekranie bez przycisku Zapisz, i mówi o tym wprost.
+
+Jeśli wybrano Google, a OneRate nie może jej teraz narysować, karta Ci to powie: portal korzysta z
+OpenStreetMap, dopóki nie będzie mógł. Nie ma nic do naprawienia; Twój wybór jest zachowany.
 
 ## Konfiguracja agencji
 

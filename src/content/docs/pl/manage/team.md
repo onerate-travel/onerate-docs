@@ -18,6 +18,9 @@ description: Zapraszanie współpracowników, wybór i zmiana ich roli, oddział
 Portal daje Ci link, zamiast zakładać, że dostarczenie e-maila się udało. Wyślij go tak, jak zwykle
 docierasz do tej osoby.
 
+Lista sortuje się po współpracowniku, roli albo dacie dołączenia — naciśnij nagłówek kolumny.
+Sortowanie jest tylko Twoje i trwa tak długo, jak ekran.
+
 ## Oczekujące zaproszenia
 
 Wszyscy, którzy zostali zaproszeni i jeszcze nie dołączyli, wraz z datą wygaśnięcia zaproszenia.
@@ -114,6 +117,9 @@ zgadywania.
 
 Właściciele i administratorzy mogą zatwierdzać zawsze. Agent nigdy — to samo rozumowanie, które
 odbiera mu anulowanie, zob. [Role](/pl/start/roles/#dlaczego-agent-nie-może-anulować).
+
+Jeśli to, co wpiszesz, nie jest kwotą, pole to powie i nic nie zapisze, zostawiając wpisany tekst
+tam, gdzie możesz go poprawić.
 
 ## Usuwanie osoby
 

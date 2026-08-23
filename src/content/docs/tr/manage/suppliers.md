@@ -63,6 +63,9 @@ etkinleştirilemez. Portal eksik değeri adıyla söyler ve ayarlandığı yere 
 [Ayarlar](/tr/manage/settings/).
 :::
 
+Bir tedarikçiyi **kapatmak** önce size sorar: oranları o andan itibaren hiçbir aramada görünmez ve
+bunun tek işareti daha kısa bir sonuç listesidir. Geri açmak sormaz — kurtarma odur.
+
 ## Sağlık
 
 **Sağlık** sütunu OneRate'in o tedarikçiye dair canlı görüşüdür, bir kontrat durumu değil:

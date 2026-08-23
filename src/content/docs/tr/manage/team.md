@@ -18,6 +18,9 @@ description: Meslektaşları davet etmek, rollerini seçmek ve değiştirmek, ş
 Portal, e-posta teslimatının çalıştığını varsaymak yerine size bir bağlantı verir. O kişiye normalde
 nasıl ulaşıyorsanız öyle gönderin.
 
+Liste meslektaşa, role ya da katılma tarihine göre sıralanır — sütun başlığına basın. Sıralama
+yalnızca sizindir ve ekran açık kaldığı sürece geçerlidir.
+
 ## Bekleyen davetler
 
 Davet edilmiş ve henüz katılmamış herkes, davetin süresinin dolacağı tarihle birlikte.
@@ -109,6 +112,9 @@ reddeder.
 
 Sahipler ve yöneticiler her zaman onaylayabilir. Bir danışman asla — iptali onlardan esirgeyen aynı
 gerekçe, bkz. [Roller](/tr/start/roles/#danışman-neden-iptal-edemiyor).
+
+Yazdığınız şey bir tutar değilse alan bunu söyler ve hiçbir şey kaydetmez; yazdığınızı
+düzeltebileceğiniz yerde bırakır.
 
 ## Birini çıkarmak
 

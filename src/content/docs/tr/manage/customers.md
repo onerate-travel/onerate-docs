@@ -125,6 +125,10 @@ rezervasyonun kullanılamadığı söylenir ve o da sizi arar:
 2. **Görmelerinden memnun olacağınız bir kâr.** Satış fiyatını görürler. Kârınız ayarlanmamışsa
    tedarikçinizin net fiyatına bakıyorlar demektir.
 
+Birini davet etmek, bir müşteriyi seçtiğinizde açılan panelde, içindeki kişilerin yanında olur —
+müşterinin satırında değil. Açık rezervasyon tavanına yazdığınız şey bir tutar değilse alan bunu
+söyler ve hiçbir şey kaydetmez.
+
 ## Erişimi kaldırmak
 
 **İptal**, bekleyen bir daveti sonlandırır. Zaten katılmış birini çıkarmak için müşterinin kişiler

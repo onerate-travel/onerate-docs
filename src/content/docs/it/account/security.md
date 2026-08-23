@@ -73,6 +73,9 @@ Fallo quando:
 Se è la tua unica sessione, la schermata lo dice invece di mostrarti un pulsante che ti
 disconnetterebbe dalla schermata che stai leggendo.
 
+Disconnettere un dispositivo te lo chiede prima. Non è reversibile: chi lo sta usando viene
+disconnesso subito e dovrà accedere di nuovo.
+
 ## Quando la sessione termina
 
 Una sessione non dura per sempre, e la vostra agenzia può accorciarla (vedi le

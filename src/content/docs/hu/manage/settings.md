@@ -6,6 +6,10 @@ description: A céges foglalási kapcsolattartó, a saját azonosítód és már
 Tulajdonosok és adminisztrátorok. Ha mentetlen módosításokkal hagynád el ezt a képernyőt, előbb
 rákérdezünk.
 
+A Beállítások négy szakasz, a bal oldali oszlopból választva: **Identitás és márka**, **Árazás**,
+**Integrációk** és **Kapcsolat**. Az, hogy melyiken vagy, a cím része, így egy beállításra mutató
+hivatkozás azon a beállításon nyílik meg, nem az oldal tetején.
+
 ## Céges foglalási kapcsolattartó
 
 **Ez az a beállítás, amelyet minden más előtt el kell végezni.** Mindkét mező kötelező:
@@ -152,9 +156,13 @@ kulcsával rajzolva: nincs mit beállítani, és az irodádnak semmit sem száml
 A **Térképszolgáltató** beállítással az irodád helyette az **OpenStreetMap**-et választhatja. A
 választás az iroda minden ügyintézőjére és az ügyfeleid portáljaira is érvényes.
 
-A **Jelenleg használt** a ténylegesen használt térképet mutatja. Ha **OpenStreetMap (ideiglenesen)**
-áll ott, a Google-t választottad, de a OneRate most nem tudja megjeleníteni — amíg lehetséges nem
-lesz, a portál OpenStreetMapen marad. Nincs mit javítanod; a választásod megmarad.
+A **Térkép szolgáltató** lehetővé teszi, hogy az irodád a **Google Térkép** és az **OpenStreetMap**
+között válasszon. A választás minden ügynökre és az ügyfeleid portáljaira is vonatkozik, és abban a
+pillanatban lép életbe, amikor megteszed — ez az egyetlen kártya a képernyőn Mentés nélkül, és ezt
+ki is mondja.
+
+Ha a Google-t választottad, és a OneRate most nem tudja megjeleníteni, a kártya megmondja: a portál
+addig az OpenStreetMapen marad. Nincs mit javítanod; a választásod megmarad.
 
 ## Az iroda konfigurációja
 

@@ -5,6 +5,10 @@ description: Kurumsal rezervasyon iletişimi, kendi kimliğiniz ve markalamanız
 
 Sahipler ve yöneticiler. Bu ekrandan kaydedilmemiş değişikliklerle ayrılmak önce sorar.
 
+Ayarlar dört bölümdür, soldaki sütundan seçilir: **Kimlik ve marka**, **Fiyatlama**,
+**Entegrasyonlar** ve **İletişim**. Hangisinde olduğunuz adresin parçasıdır, dolayısıyla bir ayara
+verilen bağlantı sayfanın başında değil o ayarda açılır.
+
 ## Kurumsal rezervasyon iletişimi
 
 **Her şeyden önce yapılacak ayar budur.** İki alan da zorunludur:
@@ -150,9 +154,12 @@ Arama sonuçları harita üzerinde çizilebilir. Varsayılan olarak bu, OneRate'
 **Harita sağlayıcısı** ile acenteniz bunun yerine **OpenStreetMap**'i seçebilir. Seçim acentenizdeki
 her ajan ve müşterilerinizin portalları için geçerlidir.
 
-**Şu an çizilen** yürürlükteki haritayı gösterir. **OpenStreetMap (geçici)** yazıyorsa Google'ı
-seçmişsinizdir ve OneRate şu an çizemiyordur — çizebilene kadar portal OpenStreetMap üzerinde kalır.
-Düzeltmeniz gereken bir şey yoktur; seçiminiz korunur.
+**Harita sağlayıcısı**, acentenizin **Google Haritalar** ile **OpenStreetMap** arasında seçim
+yapmasını sağlar. Seçim acentenizdeki her acenteye ve müşterilerinizin portallarına uygulanır ve
+yaptığınız anda yürürlüğe girer — bu, ekranda Kaydet'i olmayan tek karttır ve bunu söyler.
+
+Google'ı seçtiyseniz ve OneRate şu an onu çizemiyorsa kart bunu söyler: portal çizebilene kadar
+OpenStreetMap'te kalır. Düzeltmeniz gereken bir şey yoktur ve seçiminiz korunur.
 
 ## Acente yapılandırması
 

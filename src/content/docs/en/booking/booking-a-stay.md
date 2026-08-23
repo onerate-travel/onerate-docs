@@ -22,6 +22,10 @@ Only an owner or admin can add it, and it only has to be done once.
 Open a hotel from the results. The page re-prices the stay against the supplier at that moment and
 lists every rate option — board, refundability, cancellation deadline, total.
 
+If you chose a rate on the results card, the page opens **on that rate**. A re-price is a fresh
+call to the supplier, so it can be gone by then; the page says so and shows the cheapest instead,
+rather than putting a different room under the terms you picked.
+
 If the rate is priced in a currency other than your selling currency, the page says so:
 
 > Priced in USD, not your selling currency EUR. This rate is bookable, but OneRate does not convert
@@ -43,7 +47,12 @@ This matters at hotels that check every guest in by name.
 
 ## The review screen
 
-Before anything reaches the supplier you get **Confirm this booking**, showing:
+Before anything reaches the supplier you get **Confirm this booking**. It opens over the page as a
+dialog, with focus on its heading, and it stays there until you answer: whatever the attempt
+produces — a confirmation, a refusal, a price that moved — is shown **inside it**, beside the
+details it is about and without losing the names you typed.
+
+It shows:
 
 | | |
 | --- | --- |

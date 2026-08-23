@@ -18,6 +18,9 @@ description: Invitare colleghi, scegliere e cambiare il loro ruolo, le filiali, 
 Il portale ti dà un link invece di dare per scontato che la consegna via email abbia funzionato.
 Mandalo come raggiungi normalmente quella persona.
 
+L'elenco si ordina per collega, per ruolo o per data di ingresso — premi l'intestazione di una
+colonna. L'ordinamento è solo tuo e dura quanto la schermata.
+
 ## Inviti in sospeso
 
 Tutti quelli che sono stati invitati e non sono ancora entrati, con la data di scadenza dell'invito.
@@ -117,6 +120,9 @@ di indovinarla.
 
 Titolari e amministratori possono sempre approvare. Un agente mai — lo stesso ragionamento che gli
 toglie l'annullamento, in [Ruoli](/it/start/roles/#perché-un-agente-non-può-annullare).
+
+Se ciò che scrivi non è un importo, il campo lo dice e non salva nulla, lasciando quello che hai
+scritto dove puoi correggerlo.
 
 ## Rimuovere qualcuno
 
