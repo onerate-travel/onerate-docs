@@ -92,7 +92,8 @@ funcționează o singură dată; dacă a fost folosit sau a expirat, cere unul n
 
 ## Schimbarea limbii
 
-Fiecare ecran are un selector de limbă. Se află în bara de sus, lângă moneda ta, și este o listă
-derulantă: English, Türkçe, Български, Magyar, Italiano, Polski și Română. Fiecare limbă este
-scrisă în ea însăși, deci caută numele așa cum l-ai scrie tu. Alegerea ta este reținută în acel
-browser.
+Fiecare ecran are un selector de limbă. Pe pagina de autentificare este o listă derulantă lângă
+titlu; în interiorul portalului este globul din bara de sus, care arată codul din două litere al
+limbii pe care o citești — apasă-l pentru lista completă. În ambele cazuri, cele șapte sunt English,
+Türkçe, Български, Magyar, Italiano, Polski și Română, fiecare scrisă în ea însăși, deci caută
+numele așa cum l-ai scrie tu. Alegerea ta este reținută în acel browser.

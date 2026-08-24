@@ -92,7 +92,8 @@ hamarosan lejár, és csak egyszer működik; ha felhasználták vagy lejárt, k
 
 ## Nyelvváltás
 
-Minden képernyőn van nyelvváltó. A felső sávban található, a pénznemed mellett, és legördülő lista:
-English, Türkçe, Български, Magyar, Italiano, Polski és Română. Minden nyelv a saját nyelvén van
-kiírva, tehát úgy keresd a nevet, ahogy te írnád. A választásod megjegyzésre kerül abban a
-böngészőben.
+Minden képernyőn van nyelvváltó. A bejelentkezési oldalon legördülő lista a cím mellett; a portálon
+belül a felső sáv földgömbje, amely az általad olvasott nyelv kétbetűs kódját mutatja — nyomd meg a
+teljes listáért. Mindkét esetben a hét nyelv: English, Türkçe, Български, Magyar, Italiano, Polski
+és Română, mindegyik a saját nyelvén kiírva, tehát úgy keresd a nevet, ahogy te írnád. A választásod
+megjegyzésre kerül abban a böngészőben.

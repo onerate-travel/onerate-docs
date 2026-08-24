@@ -46,13 +46,15 @@ ya da yönetici [Ayarlar](/tr/manage/settings/)'da belirler.
 İkisi de ayarlanmamışsa hiçbir şey eklenmez — tedarikçinin net fiyatından satıyorsunuz demektir.
 Alan bunu söyler. Bkz. [Fiyatlandırma ve kâr](/tr/manage/pricing/).
 
-### Para birimi ve dil
+### Dil
 
-- **Dil** — portalın konuştuğu yedi dilin açılır listesi (English, Türkçe, Български, Magyar,
-  Italiano, Polski, Română), o tarayıcıda hatırlanır. Bu yalnızca bir görüntüleme tercihidir.
-- **Para birimi** — bu bir görüntüleme tercihi **değildir**. Acentenizin *sattığı* para birimidir ve
-  değiştirmek, ana sonuç listenizde hangi tekliflerin sıralanacağını değiştirir. Hiçbir şey
-  çevrilmez. Yalnızca sahip veya yönetici değiştirebilir; diğer herkes salt okunur görür.
+Bardaki bir küre ve okuduğunuz dilin iki harfli kodu — **EN**, **TR**, **BG**, **HU**, **IT**,
+**PL** ya da **RO**. Basın, yedi dilin tamamı tam adıyla listelenir; her biri kendi dilinde
+yazılıdır ve yürürlükte olanın yanında bir işaret durur. Birini seçmek onu anında uygular ve
+listeyi kapatır. Seçiminiz o tarayıcıda hatırlanır.
+
+Bu yalnızca bir görüntüleme tercihidir. Acentenizin **sattığı** para birimi ayrı bir ayardır —
+yukarıdaki *Fiyatlandırmam* bölümüne bakın.
 
 ### Hesabınız
 
@@ -66,9 +68,10 @@ edin.
 
 ### Açık ya da koyu
 
-Dil seçicisinin yanında **Görünüm** vardır: **Sistemi izle**, **Açık** ya da **Koyu**. Bu cihazda
-hatırlanır ve her ekrana uygulanır. *Sistemi izle* (varsayılan) bırakılırsa portal bilgisayarınızın
-ayarını izler.
+Dil seçicisinin yanında **Görünüm** vardır: üç düğme — bir ekran, bir güneş ve bir ay. Ekran
+**Sistemi izle** demektir; varsayılan budur ve portal bilgisayarınızın ayarını izler. Güneş
+**Açık**, ay **Koyu** demektir. Adını okumak için üzerine gelin. Seçiminiz bu cihazda hatırlanır ve
+her ekrana uygulanır.
 
 ## Bildirimler
 
@@ -82,6 +85,8 @@ Bundan ayrı olarak, menüde **ilginizi bekleyen** rezervasyonların sayısı g�
 ## Her ekranda geçerli olanlar
 
 - **Dil seçici her zaman oradadır.** Hiçbir ekran yalnızca İngilizce değildir.
+- **Tarayıcı sekmesi bulunduğunuz ekranın adını taşır** — *Arama · Alfa Turizm · OneRate* — böylece
+  sekiz OneRate sekmesi açık bir pencere de, tarayıcı geçmişiniz de okunabilir kalır.
 - **Tutarlar `tr-TR` biçimindedir** — `1.250,00`, `1,250.00` değil — ve hizalı rakamlar kullanır,
   böylece bir fiyat sütunu dümdüz aşağı okunur.
 - **Erişemeyeceğiniz bir sayfa bunu söyler.** Rolünüz bir ekrana izin vermiyorsa o ekran menünüzde

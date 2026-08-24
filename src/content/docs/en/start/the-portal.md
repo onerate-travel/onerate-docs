@@ -46,14 +46,15 @@ set for itself. Leave a field blank and you follow the agency's, set in
 If neither is set, nothing is added — you are selling at the supplier's net price. The field says
 so. See [Pricing and margin](/en/manage/pricing/).
 
-### Currency and language
+### Language
 
-- **Language** — a drop-down of the seven languages the portal speaks (English, Türkçe,
-  Български, Magyar, Italiano, Polski, Română), remembered on this browser. This is a display
-  choice and nothing else.
-- **Currency** — this is **not** a display choice. It is the currency your agency *sells in*, and
-  changing it changes which offers are ranked in your main results list. Nothing is converted. Only
-  an owner or admin can change it; everyone else sees it read-only.
+A globe in the bar, with the two-letter code of the language you are reading — **EN**, **TR**,
+**BG**, **HU**, **IT**, **PL** or **RO**. Press it and all seven are listed in full, each named in
+itself, with a tick beside the one in effect. Choosing one applies it at once and closes the list.
+Your choice is remembered on this browser.
+
+This is a display choice and nothing else. The currency your agency **sells in** is a different
+setting — see *My pricing* above.
 
 ### Your account
 
@@ -66,9 +67,10 @@ switcher appears here. It changes whose data you are looking at. Check it before
 
 ### Light or dark
 
-Beside the language switch is **Appearance**: **Match my system**, **Light** or **Dark**. It is
-remembered on this device and applies to every screen. Left on *Match my system* — the default —
-the portal follows whatever your computer is set to.
+Beside the language switch is **Appearance**: three buttons — a monitor, a sun and a moon. The
+monitor is **Match my system**, the default, where the portal follows whatever your computer is set
+to; the sun is **Light** and the moon is **Dark**. Hover one to read its name. Your choice is
+remembered on this device and applies to every screen.
 
 ## Notifications
 
@@ -83,6 +85,8 @@ in a status that will not resolve itself. Follow it to the list; see
 
 - **The language switcher is always present.** No screen is English-only, and every language is
   reachable from every screen.
+- **The browser tab names the screen you are on** — *Search · Alfa Turizm · OneRate* — so a
+  window with eight OneRate tabs open is still readable, and so is your browser history.
 - **Amounts are formatted `tr-TR`** — `1.250,00`, not `1,250.00` — and use aligned figures so a
   column of prices reads straight down.
 - **A page you cannot reach says so.** If your role does not permit a screen, it is not in your

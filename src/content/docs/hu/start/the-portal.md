@@ -47,15 +47,15 @@ adminisztrátor állít be a [Beállításokban](/hu/manage/settings/).
 Ha egyik sincs beállítva, semmit nem adunk hozzá — a beszállító nettó árán adsz el. A mező ezt ki is
 írja. Lásd: [Árazás és árrés](/hu/manage/pricing/).
 
-### Pénznem és nyelv
+### Nyelv
 
-- **Nyelv** — a portál által beszélt hét nyelv legördülő listája (English, Türkçe, Български,
-  Magyar, Italiano, Polski, Română), ebben a böngészőben megjegyezve. Ez megjelenítési választás és
-  semmi más.
-- **Pénznem** — ez **nem** megjelenítési választás. Ez az a pénznem, amelyben az irodád *elad*, és
-  a megváltoztatása megváltoztatja, mely ajánlatok kerülnek rangsorolásra a fő találati listádon.
-  Semmit nem váltunk át. Csak tulajdonos vagy adminisztrátor módosíthatja; mindenki más csak
-  olvashatja.
+Egy földgömb a sávban, mellette az általad olvasott nyelv kétbetűs kódja — **EN**, **TR**, **BG**,
+**HU**, **IT**, **PL** vagy **RO**. Nyomd meg, és mind a hét teljes névvel megjelenik, mindegyik a
+saját nyelvén kiírva, pipával az éppen érvényes mellett. A választás azonnal érvénybe lép és
+bezárja a listát. A választásod ebben a böngészőben megjegyzésre kerül.
+
+Ez megjelenítési választás és semmi más. Az a pénznem, amelyben az irodád **elad**, külön
+beállítás — lásd fentebb az *Az én árazásom* részt.
 
 ### A fiókod
 
@@ -68,9 +68,10 @@ itt megjelenik egy váltó. Azt változtatja meg, kinek az adatait nézed. Ellen
 
 ### Világos vagy sötét
 
-A nyelvváltó mellett van a **Megjelenés**: **Rendszer szerint**, **Világos** vagy **Sötét**. Ezen az
-eszközön megjegyzi, és minden képernyőre vonatkozik. *Rendszer szerint* hagyva — ez az
-alapértelmezés — a portál a géped beállítását követi.
+A nyelvváltó mellett van a **Megjelenés**: három gomb — egy monitor, egy nap és egy hold. A monitor
+a **Rendszer szerint**, az alapértelmezés, ahol a portál a géped beállítását követi; a nap a
+**Világos**, a hold a **Sötét**. Vidd fölé az egeret, hogy elolvasd a nevét. A választásod ezen az
+eszközön megjegyzésre kerül, és minden képernyőre vonatkozik.
 
 ## Értesítések
 
@@ -85,6 +86,9 @@ Ettől függetlenül a navigáció számot mutat, ha vannak **figyelmet igényl�
 
 - **A nyelvváltó mindig ott van.** Egyetlen képernyő sem csak angol, és minden nyelv elérhető
   minden képernyőről.
+- **A böngészőfül annak a képernyőnek a nevét viseli, amelyen vagy** — *Keresés · Alfa Turizm ·
+  OneRate* — így egy nyolc OneRate-fület nyitva tartó ablak is olvasható marad, és a böngésződ
+  előzményei is.
 - **Az összegek `tr-TR` formátumúak** — `1.250,00`, nem `1,250.00` — és igazított számjegyeket
   használnak, hogy egy ároszlop egyenesen lefelé olvasható legyen.
 - **Egy oldal, amelyet nem érhetsz el, ezt meg is mondja.** Ha a szerepköröd nem enged egy

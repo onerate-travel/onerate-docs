@@ -93,7 +93,8 @@ yalnızca bir kez çalışır; kullanıldıysa veya süresi dolduysa yenisini is
 
 ## Dil değiştirmek
 
-Her ekranda bir dil seçici vardır. Üst barda, para biriminizin yanındadır ve açılır bir listedir:
-English, Türkçe, Български, Magyar, Italiano, Polski ve Română. Her dil kendi adıyla yazılıdır;
-aradığınız dili kendi yazdığınız gibi arayın.
-Seçiminiz o tarayıcıda hatırlanır.
+Her ekranda bir dil seçici vardır. Giriş sayfasında başlığın yanındaki açılır listedir; portalın
+içinde ise üst bardaki küredir ve okuduğunuz dilin iki harfli kodunu gösterir — tam liste için ona
+basın. Her iki durumda da yedi dil şunlardır: English, Türkçe, Български, Magyar, Italiano, Polski
+ve Română. Her dil kendi adıyla yazılıdır; aradığınız dili kendi yazdığınız gibi arayın. Seçiminiz
+o tarayıcıda hatırlanır.

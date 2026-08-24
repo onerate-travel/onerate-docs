@@ -94,7 +94,8 @@ scade a breve e funziona una sola volta; se è stato usato o è scaduto, richied
 
 ## Cambiare lingua
 
-Ogni schermata ha un selettore di lingua. È nella barra superiore, accanto alla tua valuta, ed è un
-elenco a discesa: English, Türkçe, Български, Magyar, Italiano, Polski e Română. Ogni lingua è
-scritta nella lingua stessa, quindi cerca il nome come lo scriveresti tu. La tua scelta viene
-ricordata su quel browser.
+Ogni schermata ha un selettore di lingua. Nella pagina di accesso è un elenco a discesa accanto al
+titolo; dentro il portale è il mappamondo nella barra superiore, che mostra il codice a due lettere
+della lingua che stai leggendo — premilo per l'elenco completo. In entrambi i casi le sette sono
+English, Türkçe, Български, Magyar, Italiano, Polski e Română, ognuna scritta nella lingua stessa,
+quindi cerca il nome come lo scriveresti tu. La tua scelta viene ricordata su quel browser.

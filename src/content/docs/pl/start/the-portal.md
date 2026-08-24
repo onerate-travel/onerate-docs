@@ -46,15 +46,15 @@ przez właściciela lub administratora.
 Jeśli żadna nie jest ustawiona, nic nie jest doliczane — sprzedajesz po cenie netto dostawcy. Pole
 tak mówi. Zobacz [Ceny i marża](/pl/manage/pricing/).
 
-### Waluta i język
+### Język
 
-- **Język** — lista rozwijana siedmiu języków, którymi mówi portal (English, Türkçe, Български,
-  Magyar, Italiano, Polski, Română), zapamiętana w tej przeglądarce. To wybór wyświetlania i nic
-  poza tym.
-- **Waluta** — to **nie** jest wybór wyświetlania. To waluta, w której Twoja agencja *sprzedaje*, a
-  jej zmiana zmienia, które oferty są zestawiane na Twojej głównej liście wyników. Nic nie jest
-  przeliczane. Zmienić ją może tylko właściciel lub administrator; pozostali widzą ją tylko do
-  odczytu.
+Globus w pasku, a przy nim dwuliterowy kod języka, który czytasz — **EN**, **TR**, **BG**, **HU**,
+**IT**, **PL** albo **RO**. Naciśnij go, a wszystkie siedem wyświetli się pełnymi nazwami, każda
+zapisana w niej samej, ze znacznikiem przy tej obowiązującej. Wybór działa natychmiast i zamyka
+listę. Twój wybór jest zapamiętywany w tej przeglądarce.
+
+To wybór wyświetlania i nic poza tym. Waluta, w której Twoja agencja **sprzedaje**, to osobne
+ustawienie — zobacz *Moje ceny* powyżej.
 
 ### Twoje konto
 
@@ -67,9 +67,10 @@ kilku — pojawia się tu przełącznik. Zmienia, czyje dane oglądasz. Sprawdź
 
 ### Jasny albo ciemny
 
-Obok przełącznika języka jest **Wygląd**: **Zgodnie z systemem**, **Jasny** albo **Ciemny**. Jest
-zapamiętywany na tym urządzeniu i dotyczy każdego ekranu. Pozostawiony na *Zgodnie z systemem* —
-domyślnie — portal podąża za ustawieniem Twojego komputera.
+Obok przełącznika języka jest **Wygląd**: trzy przyciski — monitor, słońce i księżyc. Monitor to
+**Zgodnie z systemem**, ustawienie domyślne, w którym portal podąża za ustawieniem Twojego
+komputera; słońce to **Jasny**, a księżyc **Ciemny**. Najedź na któryś, żeby odczytać jego nazwę.
+Twój wybór jest zapamiętywany na tym urządzeniu i dotyczy każdego ekranu.
 
 ## Powiadomienia
 
@@ -84,6 +85,9 @@ statusie, który sam się nie rozwiąże. Podążaj za nim do listy; zobacz
 
 - **Przełącznik języka jest zawsze obecny.** Żaden ekran nie jest wyłącznie angielski, a każdy język
   jest osiągalny z każdego ekranu.
+- **Karta przeglądarki nosi nazwę ekranu, na którym jesteś** — *Wyszukiwanie · Alfa Turizm ·
+  OneRate* — dzięki czemu okno z ośmioma otwartymi kartami OneRate pozostaje czytelne, podobnie jak
+  historia Twojej przeglądarki.
 - **Kwoty są formatowane `tr-TR`** — `1.250,00`, nie `1,250.00` — i używają wyrównanych cyfr, więc
   kolumna cen czyta się prosto w dół.
 - **Strona, do której nie masz dostępu, mówi o tym.** Jeśli Twoja rola nie dopuszcza ekranu, nie ma

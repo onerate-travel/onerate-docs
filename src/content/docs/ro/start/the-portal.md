@@ -46,15 +46,15 @@ proprietar sau administrator.
 Dacă niciuna nu este setată, nu se adaugă nimic — vinzi la netul furnizorului. Câmpul îți spune
 asta. Vezi [Prețuri și marjă](/ro/manage/pricing/).
 
-### Monedă și limbă
+### Limbă
 
-- **Limbă** — o listă derulantă cu cele șapte limbi pe care le vorbește portalul (English, Türkçe,
-  Български, Magyar, Italiano, Polski, Română), reținută în acest browser. Este o alegere de
-  afișare și nimic altceva.
-- **Monedă** — aceasta **nu** este o alegere de afișare. Este moneda în care agenția ta *vinde*, iar
-  schimbarea ei schimbă ce oferte sunt clasate în lista ta principală de rezultate. Nimic nu se
-  convertește. Doar un proprietar sau un administrator o poate schimba; ceilalți o văd doar în
-  citire.
+Un glob în bară, cu codul din două litere al limbii pe care o citești — **EN**, **TR**, **BG**,
+**HU**, **IT**, **PL** sau **RO**. Apasă-l și toate cele șapte apar cu numele întreg, fiecare scrisă
+în ea însăși, cu o bifă lângă cea în vigoare. Alegerea se aplică imediat și închide lista. Alegerea
+ta este reținută în acest browser.
+
+Este o alegere de afișare și nimic altceva. Moneda în care agenția ta **vinde** este o setare
+separată — vezi *Prețurile mele* mai sus.
 
 ### Contul tău
 
@@ -67,9 +67,10 @@ apare un comutator. El schimbă ale cui date te uiți. Verifică-l înainte să 
 
 ### Luminos sau întunecat
 
-Lângă selectorul de limbă se află **Aspect**: **Ca sistemul**, **Luminos** sau **Întunecat**. Este
-reținut pe acest dispozitiv și se aplică fiecărui ecran. Lăsat pe *Ca sistemul* — implicit —
-portalul urmează setarea calculatorului tău.
+Lângă selectorul de limbă se află **Aspect**: trei butoane — un monitor, un soare și o lună.
+Monitorul este **Ca sistemul**, valoarea implicită, în care portalul urmează setarea calculatorului
+tău; soarele este **Luminos**, iar luna **Întunecat**. Treci cu mouse-ul peste unul ca să îi
+citești numele. Alegerea ta este reținută pe acest dispozitiv și se aplică fiecărui ecran.
 
 ## Notificări
 
@@ -84,6 +85,9 @@ blocate într-o stare care nu se rezolvă de la sine. Urmează numărul până l
 
 - **Selectorul de limbă este mereu prezent.** Niciun ecran nu este doar în engleză, iar fiecare
   limbă se poate ajunge de pe orice ecran.
+- **Fila browserului poartă numele ecranului pe care te afli** — *Căutare · Alfa Turizm · OneRate* —
+  astfel încât o fereastră cu opt file OneRate deschise rămâne lizibilă, la fel și istoricul
+  browserului tău.
 - **Sumele sunt formatate `tr-TR`** — `1.250,00`, nu `1,250.00` — și folosesc cifre aliniate, ca o
   coloană de prețuri să se citească drept în jos.
 - **O pagină la care nu ai acces ți-o spune.** Dacă rolul tău nu permite un ecran, acesta nu apare

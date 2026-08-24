@@ -91,7 +91,8 @@ tylko raz; jeśli został użyty albo wygasł, poproś o nowy.
 
 ## Zmiana języka
 
-Każdy ekran ma przełącznik języka. Jest w pasku górnym, obok Twojej waluty, i jest listą
-rozwijaną: English, Türkçe, Български, Magyar, Italiano, Polski i Română. Każdy język zapisany jest
-w nim samym, więc szukaj nazwy tak, jak sam byś ją napisał. Twój wybór jest zapamiętywany w tej
-przeglądarce.
+Każdy ekran ma przełącznik języka. Na stronie logowania jest to lista rozwijana obok nagłówka; w
+samym portalu jest to globus w pasku górnym, pokazujący dwuliterowy kod języka, który czytasz —
+naciśnij go, aby zobaczyć pełną listę. W obu przypadkach siedem języków to English, Türkçe,
+Български, Magyar, Italiano, Polski i Română, każdy zapisany w nim samym, więc szukaj nazwy tak, jak
+sam byś ją napisał. Twój wybór jest zapamiętywany w tej przeglądarce.

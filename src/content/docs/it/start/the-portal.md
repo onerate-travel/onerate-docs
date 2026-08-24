@@ -47,15 +47,15 @@ impostare per sé. Lasciando un campo vuoto segui quelli dell'agenzia, impostati
 Se non è impostato nessuno dei due, non viene aggiunto nulla — stai vendendo al netto del fornitore.
 Il campo lo dice. Vedi [Prezzi e margine](/it/manage/pricing/).
 
-### Valuta e lingua
+### Lingua
 
-- **Lingua** — un elenco a discesa delle sette lingue che il portale parla (English, Türkçe,
-  Български, Magyar, Italiano, Polski, Română), ricordata su questo browser. È una scelta di
-  visualizzazione e nient'altro.
-- **Valuta** — questa **non** è una scelta di visualizzazione. È la valuta in cui la tua agenzia
-  *vende*, e cambiarla cambia quali offerte vengono ordinate nel tuo elenco risultati principale.
-  Nulla viene convertito. Solo un titolare o un amministratore può cambiarla; per tutti gli altri è
-  in sola lettura.
+Un mappamondo nella barra, con il codice a due lettere della lingua che stai leggendo — **EN**,
+**TR**, **BG**, **HU**, **IT**, **PL** o **RO**. Premilo e tutte e sette compaiono per esteso,
+ciascuna scritta nella lingua stessa, con un segno di spunta accanto a quella in uso. Sceglierne una
+la applica subito e chiude l'elenco. La tua scelta viene ricordata su questo browser.
+
+È una scelta di visualizzazione e nient'altro. La valuta in cui la tua agenzia **vende** è
+un'impostazione diversa — vedi *I miei prezzi* qui sopra.
 
 ### Il tuo account
 
@@ -68,9 +68,10 @@ compare un selettore. Cambia i dati che stai guardando. Controllalo prima di pre
 
 ### Chiaro o scuro
 
-Accanto al selettore della lingua c'è **Aspetto**: **Come il sistema**, **Chiaro** o **Scuro**. Viene
-ricordato su questo dispositivo e vale per ogni schermata. Lasciato su *Come il sistema* — il
-valore predefinito — il portale segue l'impostazione del tuo computer.
+Accanto al selettore della lingua c'è **Aspetto**: tre pulsanti — un monitor, un sole e una luna. Il
+monitor è **Come il sistema**, il valore predefinito, in cui il portale segue l'impostazione del tuo
+computer; il sole è **Chiaro** e la luna è **Scuro**. Passaci sopra il puntatore per leggerne il
+nome. La tua scelta viene ricordata su questo dispositivo e vale per ogni schermata.
 
 ## Notifiche
 
@@ -86,6 +87,9 @@ per arrivare all'elenco; vedi [Stati della prenotazione](/it/booking/statuses/).
 
 - **Il selettore di lingua è sempre presente.** Nessuna schermata è solo in inglese, e ogni lingua è
   raggiungibile da ogni schermata.
+- **La scheda del browser porta il nome della schermata su cui sei** — *Ricerca · Alfa Turizm ·
+  OneRate* — così una finestra con otto schede OneRate aperte resta leggibile, e con essa la
+  cronologia del tuo browser.
 - **Gli importi sono formattati `tr-TR`** — `1.250,00`, non `1,250.00` — e usano cifre allineate, in
   modo che una colonna di prezzi si legga dritta.
 - **Una pagina che non puoi raggiungere te lo dice.** Se il tuo ruolo non consente una schermata,
