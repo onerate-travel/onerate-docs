@@ -115,7 +115,13 @@ export default defineConfig({
         {
           label: 'Reference',
           translations: { tr: 'Başvuru', bg: 'Справочник', hu: 'Referencia', it: 'Riferimenti', pl: 'Materiały', ro: 'Referință' },
-          items: [{ slug: 'reference/glossary' }, { slug: 'reference/troubleshooting' }],
+          items: [
+            { slug: 'reference/glossary' },
+            { slug: 'reference/troubleshooting' },
+            // Last in Reference on purpose: it is what you reach for when the page above it did
+            // not answer the question.
+            { slug: 'reference/getting-support' },
+          ],
         },
       ],
     }),
