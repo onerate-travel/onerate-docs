@@ -53,7 +53,12 @@ jobs:
   # commands, so they cannot collapse into one line. They can still share one gate, and sharing it
   # is the point: duplicated jobs would duplicate the gate and give the copies somewhere to drift.
   deploy:
-    runs-on: self-hosted
+    # GitHub-hosted, not the Mac — see onerate-landing's deploy.yml for the whole argument. In
+    # short: this repository is PUBLIC, the organisation's Default runner group carries
+    # `allows_public_repositories: false`, and a job that cannot be scheduled is queued forever
+    # rather than refused. No error is ever emitted, and every diagnostic points at an online,
+    # idle runner. Public repositories get unlimited hosted minutes, so this costs nothing.
+    runs-on: ubuntu-latest
     timeout-minutes: 15
     # A GitHub environment, so the Cloudflare token can be scoped to it rather than repo-wide and a
     # required reviewer or wait timer can be attached in repo settings WITHOUT another code change.
@@ -83,12 +88,13 @@ jobs:
       # token. Same convention as onerate-egress's ci.yml, for the same reason.
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      # No `cache: npm` — see onerate-landing's deploy.yml. On a persistent self-hosted runner the
-      # cache is already local, and the directory is the machine owner's own: 26 GB, 34,031 files,
-      # against a 10 GB per-repository quota.
+      # `cache: npm` — see onerate-landing's deploy.yml. That comment now records why the option
+      # was removed and why an ephemeral runner brings it back: the reasoning against it was a fact
+      # about a PERSISTENT machine, and this job no longer runs on one.
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
