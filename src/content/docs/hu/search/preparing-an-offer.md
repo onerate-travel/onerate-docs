@@ -57,8 +57,15 @@ másodikat anélkül, hogy mindent újra bejelölne. A **Kijelölés törlése**
 - A tartózkodás: úti cél, érkezés, távozás, éjszakák, és hány szoba, felnőtt és gyermek.
 - Az Ön neve, telefonszáma és e-mail címe, valamint a fiókja címe és engedélyszáma, ha az irodának
   vannak fiókjai.
-- Szállodánként egy oldal: név, csillagok és cím, majd minden bejelölt szobához egy sor az
-  ellátással, az árral és a pénznemmel.
+- Szállodánként egy oldal: a fényképe és egy térkép arról, hol van, a neve, csillagai és címe,
+  majd minden bejelölt szobához egy sor az ellátással, az árral és a pénznemmel.
+
+A szállodák **a legolcsóbbtól** kezdve következnek — az egyes szállodákban bejelölt legolcsóbb
+szoba szerint —, és a szállodán belüli szobák ugyanígy, így a dokumentum az ároszlop mentén
+olvasható. Különböző pénznemű árakat soha nem hasonlít össze: minden pénznem önmagán belül rendezett.
+
+Az a szálloda, amelyhez a beszállító sem fényképet, sem koordinátát nem rögzített, azt mutatja,
+amije van. Az időben le nem tölthető kép kimarad, ahelyett hogy feltartaná a dokumentumot.
 
 Két dolog, amit szándékosan **nem** tartalmaz:
 

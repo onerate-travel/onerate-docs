@@ -57,8 +57,16 @@ secondo senza spuntare tutto di nuovo. **Cancella la selezione** la svuota quand
   [Impostazioni](/it/manage/settings/).
 - Il soggiorno: destinazione, check-in, check-out, notti, e quante camere, adulti e bambini.
 - Il tuo nome, telefono ed email, e l'indirizzo e la licenza della tua filiale dove l'agenzia ne ha.
-- Una pagina per hotel: nome, stelle e indirizzo, poi una riga per ogni camera spuntata con il suo
-  trattamento, il prezzo e la valuta.
+- Una pagina per hotel: la sua foto e una mappa di dove si trova, il nome, le stelle e
+  l'indirizzo, poi una riga per ogni camera spuntata con il suo trattamento, il prezzo e la valuta.
+
+Gli hotel sono ordinati **dal più economico**, in base alla camera più economica che hai spuntato
+in ciascuno, e le camere dentro un hotel seguono lo stesso ordine — così il documento si legge
+lungo la colonna dei prezzi. Prezzi in valute diverse non vengono mai confrontati: ogni valuta è
+ordinata al proprio interno.
+
+Un hotel di cui il fornitore non ha mai registrato una foto o le coordinate mostra quello che ha.
+Un'immagine che non arriva in tempo viene omessa invece di trattenere il documento.
 
 Due cose che deliberatamente **non** porta:
 

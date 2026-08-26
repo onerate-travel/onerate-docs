@@ -56,8 +56,15 @@ without ticking everything again. **Clear the selection** empties it when you ar
   [Settings](/en/manage/settings/).
 - The stay: destination, check-in, check-out, nights, and how many rooms, adults and children.
 - Your name, phone and email, and your branch's address and licence where your agency has branches.
-- A page per hotel: its name, stars and address, then a row per room you ticked with its board,
-  its price and its currency.
+- A page per hotel: its photo and a map of where it is, its name, stars and address, then a row
+  per room you ticked with its board, its price and its currency.
+
+Hotels are ordered **cheapest first**, by the cheapest room you ticked at each, and the rooms
+inside a hotel are ordered the same way — so the document reads down the price column. Prices in
+different currencies are never compared: each currency is ordered within itself.
+
+A hotel whose photo or coordinates the supplier never recorded simply shows what it has. A picture
+that cannot be fetched in time is left out rather than holding up the document.
 
 Two things it deliberately does **not** carry:
 

@@ -54,8 +54,15 @@ bir teklif hazırlayabilirsiniz. İşiniz bitince **Seçimi temizle** boşaltır
 - Acentenizin **logosu**, yüklemediyseniz adı. Bkz. [Ayarlar](/tr/manage/settings/).
 - Konaklama: destinasyon, giriş, çıkış, gece sayısı ve kaç oda, yetişkin, çocuk.
 - Adınız, telefonunuz ve e-postanız; acentenizin şubeleri varsa şubenizin adresi ve belge numarası.
-- Otel başına bir sayfa: adı, yıldızı ve adresi, ardından işaretlediğiniz her oda için pansiyonu,
-  fiyatı ve para birimiyle bir satır.
+- Otel başına bir sayfa: fotoğrafı ve konumunun haritası, adı, yıldızı ve adresi, ardından
+  işaretlediğiniz her oda için pansiyonu, fiyatı ve para birimiyle bir satır.
+
+Oteller **ucuzdan pahalıya** sıralanır — her otelde işaretlediğiniz en ucuz odaya göre — ve otel
+içindeki odalar da aynı şekilde. Böylece belge fiyat sütunu boyunca okunur. Farklı para
+birimlerindeki fiyatlar asla karşılaştırılmaz; her para birimi kendi içinde sıralanır.
+
+Tedarikçinin fotoğrafını ya da koordinatını kaydetmediği bir otel, elinde ne varsa onu gösterir.
+Zamanında indirilemeyen bir görsel, belgeyi bekletmek yerine çizilmeden bırakılır.
 
 Bilerek taşımadığı iki şey var:
 

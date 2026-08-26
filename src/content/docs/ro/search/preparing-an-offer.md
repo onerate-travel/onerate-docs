@@ -57,8 +57,16 @@ fără să bifezi totul din nou. **Șterge selecția** o golește când ai termi
 - Sejurul: destinația, sosirea, plecarea, nopțile și câte camere, adulți și copii.
 - Numele, telefonul și e-mailul tău, precum și adresa și licența filialei tale, dacă agenția are
   filiale.
-- Câte o pagină per hotel: numele, stelele și adresa, apoi un rând pentru fiecare cameră bifată cu
-  masa, prețul și moneda ei.
+- Câte o pagină per hotel: fotografia lui și o hartă cu locul unde se află, numele, stelele și
+  adresa, apoi un rând pentru fiecare cameră bifată cu masa, prețul și moneda ei.
+
+Hotelurile sunt ordonate **de la cel mai ieftin** — după cea mai ieftină cameră bifată la fiecare —
+iar camerele din interiorul unui hotel la fel, așa că documentul se citește de-a lungul coloanei de
+prețuri. Prețurile în monede diferite nu sunt niciodată comparate: fiecare monedă este ordonată în
+interiorul ei.
+
+Un hotel căruia furnizorul nu i-a înregistrat nici fotografie, nici coordonate arată ce are. O
+imagine care nu poate fi descărcată la timp este omisă, în loc să întârzie documentul.
 
 Două lucruri pe care în mod deliberat **nu** le poartă:
 

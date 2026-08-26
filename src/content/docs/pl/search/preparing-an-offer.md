@@ -58,8 +58,15 @@ ofertę bez ponownego zaznaczania wszystkiego. **Wyczyść wybór** opróżnia j
 - Pobyt: cel podróży, przyjazd, wyjazd, noce oraz liczba pokoi, dorosłych i dzieci.
 - Twoje imię, telefon i e-mail, a także adres i numer licencji Twojego oddziału, jeśli biuro ma
   oddziały.
-- Strona na hotel: nazwa, gwiazdki i adres, a potem wiersz dla każdego zaznaczonego pokoju z jego
-  wyżywieniem, ceną i walutą.
+- Strona na hotel: jego zdjęcie i mapa z lokalizacją, nazwa, gwiazdki i adres, a potem wiersz dla
+  każdego zaznaczonego pokoju z jego wyżywieniem, ceną i walutą.
+
+Hotele są uporządkowane **od najtańszego** — według najtańszego pokoju zaznaczonego w każdym z nich
+— a pokoje wewnątrz hotelu tak samo, więc dokument czyta się wzdłuż kolumny cen. Ceny w różnych
+walutach nigdy nie są porównywane: każda waluta jest sortowana w obrębie samej siebie.
+
+Hotel, dla którego dostawca nigdy nie zapisał zdjęcia ani współrzędnych, pokazuje to, co ma.
+Obraz, którego nie da się pobrać na czas, zostaje pominięty, zamiast wstrzymywać dokument.
 
 Dwie rzeczy, których celowo **nie** zawiera:
 
