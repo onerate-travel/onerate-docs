@@ -15,14 +15,22 @@ Jedna karta na hotel. Na niej:
 - Kwoty płatne w hotelu, a nie dostawcy — oznaczone jako *płatne w hotelu*, obok warunków stawki,
   do której należą.
 
-## Wybór stawki na karcie
+## Wybór pokoju na karcie
 
-Pod nazwą hotelu są wszystkie stawki, które sprzedaje: pokój, jego warunki, kto go sprzedaje i ile
-kosztuje. Pierwsze dwie są na karcie; **Pokaż jeszcze N stawek** otwiera resztę.
+Pod nazwą hotelu jest jeden wiersz na **klasę** — wyżywienie i warunki anulowania — podający dwie
+ceny, między którymi hotel jest sprzedawany, oraz liczbę nazw pokoi objętych tym rozrzutem, na
+przykład *4 nazwy pokoi*.
 
-Wybranie jednej przenosi ją na kartę — jej cenę, warunki i termin anulowania — a **Rezerwuj**
-otwiera stronę hotelu **na wybranej stawce**. Jeśli dwie stawki różnią się tylko dostawcą, wybór
-kieruje rezerwację do tego dostawcy.
+Naciśnij wiersz, aby go otworzyć. Portal pyta dostawcę o pokoje tego hotelu na tych warunkach i
+wypisuje je, każdy z polem wyboru, ceną i informacją, kto go sprzedaje. To nowe zapytanie, więc
+dzieje się po naciśnięciu, a nie wcześniej — i wiersz może zasadnie otworzyć się komunikatem *Na
+tych warunkach nie ma już pokoi w sprzedaży*.
+
+Zaznaczanie pokoi buduje **ofertę**, którą możesz wysłać klientowi w PDF — zobacz
+[Przygotowanie oferty](/pl/search/preparing-an-offer/).
+
+Znak **↗** na końcu wiersza otwiera własną stronę hotelu na tej klasie, gdzie rezerwujesz. To
+prawdziwy odnośnik — kliknij środkowym przyciskiem, aby porównać dwa hotele w dwóch kartach.
 
 Przeliczenie to nowe zapytanie do dostawcy, więc stawki może już nie być, gdy strona się otworzy.
 Wtedy portal to mówi i pokazuje najtańszą — zamiast po cichu podstawiać inny pokój pod wybrane

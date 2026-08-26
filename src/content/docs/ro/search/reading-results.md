@@ -16,14 +16,22 @@ Un card pentru fiecare hotel. Pe el:
 - Sumele plătibile la hotel, nu către furnizor — marcate *de plată la hotel*, lângă condițiile
   tarifului de care aparțin.
 
-## Alegerea unui tarif pe card
+## Alegerea unei camere pe card
 
-Sub numele hotelului sunt toate tarifele pe care le vinde: camera, condițiile ei, cine o vinde și
-cât costă. Primele două sunt pe card; **Arată încă N tarife** deschide restul.
+Sub numele hotelului există câte un rând per **clasă** — masa și condițiile de anulare — care indică
+cele două prețuri între care se vinde hotelul și câte denumiri de cameră acoperă acel interval, de
+exemplu *4 denumiri de cameră*.
 
-Alegerea unuia îl mută pe card — prețul, condițiile și termenul lui de anulare — iar **Rezervă**
-deschide pagina hotelului **pe tariful ales**. Dacă două tarife diferă doar prin furnizor, alegerea
-adresează rezervarea acelui furnizor.
+Apasă un rând ca să-l deschizi. Portalul cere furnizorului camerele acelui hotel în aceste condiții
+și le enumeră, fiecare cu o casetă de bifat, prețul și cine o vinde. Este un apel nou, deci se
+întâmplă la apăsare, nu înainte — iar un rând se poate deschide pe bună dreptate cu *Nu mai există
+camere la vânzare în aceste condiții*.
+
+Bifarea camerelor construiește o **ofertă** pe care o poți trimite unui client în PDF — vezi
+[Pregătirea unei oferte](/ro/search/preparing-an-offer/).
+
+Semnul **↗** de la capătul rândului deschide pagina proprie a hotelului pe acea clasă, unde rezervi.
+Este un link real — dă clic cu butonul din mijloc pentru a compara două hoteluri în două file.
 
 Reevaluarea este un apel nou către furnizor, așa că un tarif poate să nu mai existe când se deschide
 pagina. Atunci o spune și afișează cel mai ieftin, în loc să pună în tăcere altă cameră sub

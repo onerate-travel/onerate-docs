@@ -81,7 +81,11 @@ export default defineConfig({
         {
           label: 'Searching',
           translations: { tr: 'Arama', bg: 'Търсене', hu: 'Keresés', it: 'Ricerca', pl: 'Wyszukiwanie', ro: 'Căutare' },
-          items: [{ slug: 'search/running-a-search' }, { slug: 'search/reading-results' }],
+          items: [
+            { slug: 'search/running-a-search' },
+            { slug: 'search/reading-results' },
+            { slug: 'search/preparing-an-offer' },
+          ],
         },
         {
           label: 'Booking',

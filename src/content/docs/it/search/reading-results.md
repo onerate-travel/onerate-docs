@@ -16,14 +16,22 @@ Una scheda per hotel. Su di essa:
 - Gli importi da pagare in hotel anziché al fornitore, etichettati *da pagare in hotel*, accanto
   alle condizioni della tariffa a cui appartengono.
 
-## Scegliere una tariffa sulla scheda
+## Scegliere una camera sulla scheda
 
-Sotto il nome dell'hotel ci sono tutte le tariffe che vende: la camera, le sue condizioni, chi la
-vende e quanto costa. Le prime due sono sulla scheda; **Mostra altre N tariffe** apre il resto.
+Sotto il nome dell'hotel c'è una riga per **classe** — il trattamento e le condizioni di
+cancellazione — che indica i due prezzi tra cui l'hotel è venduto e quanti nomi di camera copre
+quella forbice, per esempio *4 nomi di camera*.
 
-Sceglierne una la porta sulla scheda — il suo prezzo, le sue condizioni, la sua scadenza di
-cancellazione — e **Prenota** apre la pagina dell'hotel **sulla tariffa che hai scelto**. Se due
-tariffe differiscono solo per fornitore, sceglierne una indirizza la prenotazione a quel fornitore.
+Premi una riga per aprirla. Il portale chiede al fornitore le camere di quell'hotel a quelle
+condizioni e le elenca, ognuna con una casella di spunta, il suo prezzo e chi la vende. È una nuova
+chiamata, quindi avviene quando premi e non prima — e una riga può legittimamente aprirsi su *Non ci
+sono più camere in vendita a queste condizioni*.
+
+Spuntare le camere costruisce un'**offerta** che puoi mandare a un cliente in PDF — vedi
+[Preparare un'offerta](/it/search/preparing-an-offer/).
+
+La **↗** in fondo alla riga apre la pagina dell'hotel su quella classe, dove prenoti. È un link
+vero: fai clic con il tasto centrale per confrontare due hotel in due schede.
 
 Il ricalcolo è una nuova chiamata al fornitore, quindi una tariffa può non esserci più quando la
 pagina si apre. In quel caso lo dice e mostra la più economica, invece di mettere in silenzio

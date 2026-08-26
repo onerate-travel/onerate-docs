@@ -1,0 +1,85 @@
+---
+title: Preparing an offer
+description: Tick rooms across several hotels on the results list and turn them into a PDF quotation on your agency’s letterhead.
+---
+
+## What this is
+
+An **offer** is a PDF quotation: a cover naming the stay, then a page per hotel listing the rooms
+you chose, their board, their cancellation terms and their price. You send it to a customer, they
+pick one, and you come back and book that room.
+
+It is built out of a search you have already run. Nothing is booked and nothing is held.
+
+## Choosing the rooms
+
+Each result card lists what the hotel is selling as one row per **class** — the board and the
+cancellation terms — with the two prices it is sold between and how many room names that spread
+covers.
+
+Press a row to open it. The portal asks the supplier for that hotel's rooms and lists them, each
+with a **checkbox**, its price, its terms and who is selling it.
+
+:::note
+Opening a row is a fresh call to the supplier, so it happens when you press and not before. That is
+also why a row can open onto *No room is on sale at these terms any more* — the list was built
+minutes ago and this answer is from now.
+:::
+
+Tick as many rooms as you want, at as many hotels as you want. A bar appears under the results
+saying how many rooms at how many hotels you have chosen.
+
+## What the selection remembers
+
+The selection belongs to the **stay** — the dates, the rooms and the guests you searched for.
+
+- Narrowing the same stay keeps it. Filtering, changing supplier, moving the map's circle,
+  searching a district instead of the city — all the same question, and your ticks survive.
+- Changing the stay empties it. New dates or a different party would put prices on the document
+  that were never quoted for the stay in its heading.
+
+The selection lives in the tab you are working in. It is not kept after you leave the search.
+
+## Preparing the document
+
+Type the customer's name if you have one — it prints on the cover as *Prepared for*. Leave it
+alone if you are quoting a walk-in; the row is simply not drawn.
+
+Press **Prepare offer**. The PDF downloads.
+
+Your selection stays after the document is built, so you can swap one hotel out and prepare another
+without ticking everything again. **Clear the selection** empties it when you are done.
+
+## What the document says
+
+- Your agency's **logo**, or its name where you have not uploaded one. See
+  [Settings](/en/manage/settings/).
+- The stay: destination, check-in, check-out, nights, and how many rooms, adults and children.
+- Your name, phone and email, and your branch's address and licence where your agency has branches.
+- A page per hotel: its name, stars and address, then a row per room you ticked with its board,
+  its price and its currency.
+
+Two things it deliberately does **not** carry:
+
+- **No total.** A quotation is a menu — the customer takes one of these rooms, not all of them — so
+  a sum at the foot of the column would be a number nobody will ever pay.
+- **No supplier names.** The document is your agency's paper. Which bedbank the rate came from is
+  yours to know and is on your screen, not on the customer's.
+
+Every offer carries the line that makes it a quotation rather than a confirmation:
+
+> This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
+> are subject to change until a booking is confirmed.
+
+That is the plain truth of it. A rate expires in minutes; when the customer comes back you re-run
+the search and book what is there then.
+
+## Limits
+
+One offer holds at most **60 rooms**. Past that the portal refuses rather than quietly dropping the
+last ones — a quotation missing rooms you ticked is the mistake nobody notices.
+
+## Next
+
+[Booking a stay](/en/booking/booking-a-stay/) — once the customer has chosen, this is how you turn
+their answer into a booking.

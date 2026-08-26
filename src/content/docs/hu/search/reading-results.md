@@ -16,17 +16,25 @@ Szállodánként egy kártya. Rajta:
 - A szállodában, nem a beszállítónak fizetendő összegek — *a szállodában fizetendő* címkével, annak
   az árnak a feltételei mellett, amelyhez tartoznak.
 
-## Ár választása a kártyán
+## Szoba választása a kártyán
 
-A szálloda neve alatt ott van minden ár, amit árul: a szoba, a feltételei, ki adja el és mennyibe
-kerül. Az első kettő a kártyán van; a **Még N ár mutatása** nyitja a többit.
+A szálloda neve alatt **osztályonként** egy sor áll — az ellátás és a lemondási feltételek —, amely
+megadja azt a két árat, amelyek között a szállodát értékesítik, és hogy hány szobanevet fed le ez a
+sáv, például *4 szobanév*.
 
-Ha kiválasztasz egyet, az a kártyára kerül — az ára, a feltételei, a lemondási határideje —, és a
-**Foglalás** a szálloda oldalát **a kiválasztott árral** nyitja meg. Ha két ár csak a beszállítóban
-tér el, a választás ahhoz a beszállítóhoz címzi a foglalást.
+Nyomja meg a sort a megnyitáshoz. A portál elkéri a beszállítótól a szálloda ilyen feltételű
+szobáit, és mindegyiket felsorolja egy jelölőnégyzettel, az árával és azzal, ki adja el. Ez új
+hívás, tehát megnyomáskor történik, nem előbb — és egy sor jogosan nyílhat meg azzal, hogy *Ilyen
+feltételekkel már nincs eladó szoba*.
 
-Az újraárazás új hívás a beszállító felé, így az ár el is tűnhet, mire az oldal megnyílik. Ezt
-kimondja, és helyette a legolcsóbbat mutatja — nem tesz csendben más szobát az általad választott
+A szobák bejelölése **ajánlatot** épít, amelyet PDF-ként küldhet az ügyfélnek — lásd:
+[Ajánlat készítése](/hu/search/preparing-an-offer/).
+
+A sor végén lévő **↗** a szálloda saját oldalát nyitja meg azon az osztályon, ahol foglal. Ez valódi
+hivatkozás, így középső gombbal kattintva két szállodát két lapfülön hasonlíthat össze.
+
+Az újraárazás új hívás a beszállító felé, így egy ár eltűnhet, mire az oldal megnyílik. Ilyenkor ezt
+kimondja, és helyette a legolcsóbbat mutatja, ahelyett hogy csendben más szobát tenne a választott
 feltételek alá.
 
 ## Miért az egyik ajánlat, és nem a másik

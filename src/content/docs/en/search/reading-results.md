@@ -16,14 +16,22 @@ One card per hotel. On it:
 - Amounts payable at the hotel rather than to the supplier, labelled *payable at the hotel*, beside
   the terms of the rate they belong to.
 
-## Choosing a rate on the card
+## Choosing a room on the card
 
-Under the hotel's name is every rate it is selling: the room, its terms, who is selling it and what
-it costs. The first two are on the card; **Show N more rates** opens the rest.
+Under the hotel's name is one row per **class** — the board and the cancellation terms — stating the
+two prices that hotel is sold between and how many room names that spread covers, such as
+*4 room names*.
 
-Choosing one moves it onto the card — its price, its terms, its cancellation deadline — and
-**Book** then opens the hotel's page **on the rate you chose**. If two rates differ only by
-supplier, choosing one addresses the booking to that supplier.
+Press a row to open it. The portal asks the supplier for that hotel's rooms at those terms and lists
+them, each with a checkbox, its price and who is selling it. That is a fresh call, so it happens
+when you press and not before — and a row can legitimately open onto *No room is on sale at these
+terms any more*.
+
+Ticking rooms builds an **offer** you can send a customer as a PDF — see
+[Preparing an offer](/en/search/preparing-an-offer/).
+
+The **↗** at the end of the row opens the hotel's own page on that class, where you book. It is a
+real link, so middle-click it to compare two hotels in two tabs.
 
 A re-price is a fresh call to the supplier, so a rate can be gone by the time the page opens. It
 says so and shows the cheapest instead, rather than quietly putting a different room under the

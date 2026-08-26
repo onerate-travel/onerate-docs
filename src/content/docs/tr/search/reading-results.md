@@ -16,14 +16,20 @@ Her otel için bir kart. Üzerinde:
 - Tedarikçiye değil otelde ödenecek tutarlar, *otelde ödenecek* etiketiyle, ait oldukları oranın
   koşullarının yanında.
 
-## Kartta oran seçmek
+## Kartta oda seçmek
 
-Otelin adının altında sattığı her oran vardır: oda, koşulları, kimin sattığı ve fiyatı. İlk ikisi
-kartta durur; **N oran daha göster** kalanını açar.
+Otelin adının altında **sınıf** başına bir satır vardır — pansiyon ve iptal koşulları — o otelin
+satıldığı iki fiyatı ve bu aralığın kaç oda adını kapsadığını söyler; örneğin *4 oda adı*.
 
-Birini seçmek onu kartın üstüne taşır — fiyatını, koşullarını, iptal süresini — ve **Rezerve et**
-otelin sayfasını **seçtiğiniz oranla** açar. İki oran yalnızca tedarikçiyle ayrılıyorsa, birini
-seçmek rezervasyonu o tedarikçiye yönlendirir.
+Satıra basınca açılır. Portal o otelin bu koşullardaki odalarını tedarikçiye sorar ve her birini bir
+onay kutusu, fiyatı ve satıcısıyla listeler. Bu taze bir çağrıdır; basıldığında olur, önceden değil
+— ve bir satır haklı olarak *Bu koşullarda satışta oda kalmadı* diyerek açılabilir.
+
+Oda işaretlemek, müşteriye PDF olarak gönderebileceğiniz bir **teklif** kurar — bkz.
+[Teklif hazırlamak](/tr/search/preparing-an-offer/).
+
+Satırın sonundaki **↗**, otelin kendi sayfasını o sınıfla açar; rezervasyon orada yapılır. Gerçek
+bir bağlantıdır, iki oteli iki sekmede karşılaştırmak için orta tıklayın.
 
 Yeniden fiyatlama tedarikçiye taze bir çağrıdır, dolayısıyla sayfa açıldığında oran gitmiş olabilir.
 Bunu söyler ve yerine en ucuzu gösterir — seçtiğiniz koşulların altına sessizce başka bir oda
