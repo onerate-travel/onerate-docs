@@ -45,6 +45,17 @@ Selecția trăiește în fila în care lucrezi. Nu se păstrează după ce păr�
 Scrie numele clientului, dacă îl ai — se tipărește pe copertă ca *Prepared for*. Lasă-l gol dacă
 faci o ofertă pentru cineva venit la ghișeu; rândul pur și simplu nu se desenează.
 
+Alături, alege **limba în care este scris documentul**. Pornește de la limba în care folosești
+portalul, care de obicei este cea potrivită — schimb-o când faci o ofertă cuiva care citește în
+alta. Alegerea decide tot documentul: descrierile hotelului, regulamentul și numele camerelor vin
+toate în ea.
+
+:::note
+Ecranele tale urmează comutatorul de limbă de sus, nu pe acesta. O căutare întreabă furnizorii în
+limba în care lucrezi, așa că numele camerelor din lista ta de rezultate rămân în a ta, indiferent
+în ce limbă trimiți oferta.
+:::
+
 Apasă **Trimite oferta**. Portalul preia cererea și îți spune încotro pleacă documentul:
 
 > Oferta este pe drum către *tu@agentiata.com*. Ajunge în câteva minute.

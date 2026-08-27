@@ -44,6 +44,16 @@ Seçim çalıştığınız sekmede yaşar. Aramadan ayrıldıktan sonra saklanma
 Varsa müşteri adını yazın — kapakta *Prepared for* olarak basılır. Bir gelene teklif veriyorsanız
 boş bırakın; o satır hiç çizilmez.
 
+Yanında **belgenin yazılacağı dili** seçin. Portalı kullandığınız dille başlar, ki çoğu zaman
+doğrusu odur — başka bir dil okuyan birine teklif veriyorsanız değiştirin. Bu seçim belgenin
+tamamına karar verir: otel açıklamaları, ev kuralları ve oda adları hep o dilde gelir.
+
+:::note
+Kendi ekranlarınız bunu değil, üstteki dil değiştiriciyi izler. Arama, tedarikçilere sizin
+çalıştığınız dilde sorar; yani teklifi hangi dilde gönderirseniz gönderin sonuç listenizdeki oda
+adları sizin dilinizde kalır.
+:::
+
 **Teklifi gönder**'e basın. Portal isteği alır ve belgenin nereye gittiğini söyler:
 
 > Teklif *siz@acenteniz.com* adresine gönderiliyor. Birkaç dakika içinde ulaşır.

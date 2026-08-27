@@ -46,6 +46,16 @@ wyszukiwania.
 Wpisz nazwę klienta, jeśli ją masz — drukuje się na okładce jako *Prepared for*. Zostaw puste, jeśli
 robisz wycenę dla kogoś z ulicy; wiersz po prostu nie zostanie narysowany.
 
+Obok wybierz **język, w którym napisany jest dokument**. Zaczyna od języka, w którym korzystasz z
+portalu, i zwykle to jest właściwe — zmień go, gdy robisz ofertę dla kogoś, kto czyta w innym.
+Wybór decyduje o całym dokumencie: opisy hotelu, regulamin i nazwy pokoi przychodzą w tym języku.
+
+:::note
+Twoje własne ekrany idą za przełącznikiem języka u góry, nie za tym. Wyszukiwanie pyta dostawców w
+języku, w którym pracujesz, więc nazwy pokoi na Twojej liście wyników zostają w Twoim, niezależnie
+od tego, w jakim języku wyślesz ofertę.
+:::
+
 Naciśnij **Wyślij ofertę**. Portal przyjmuje zlecenie i mówi, dokąd trafia dokument:
 
 > Oferta jest w drodze na adres *ty@twojebiuro.com*. Dotrze w ciągu kilku minut.

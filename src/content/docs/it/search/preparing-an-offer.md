@@ -46,6 +46,17 @@ La selezione vive nella scheda in cui stai lavorando. Non viene conservata dopo 
 Scrivi il nome del cliente, se ce l'hai: viene stampato in copertina come *Prepared for*. Lascialo
 stare se stai facendo un preventivo a chi è appena entrato; la riga semplicemente non viene disegnata.
 
+Accanto, scegli **la lingua in cui è scritto il documento**. Parte dalla lingua in cui stai usando
+il portale, che di solito è quella giusta: cambiala quando fai un preventivo a chi ne legge un'altra.
+La scelta decide tutto il documento: le descrizioni dell'hotel, il regolamento e i nomi delle camere
+arrivano tutti in quella lingua.
+
+:::note
+Le tue schermate seguono il selettore di lingua in alto, non questo. Una ricerca chiede ai fornitori
+nella lingua in cui stai lavorando, quindi i nomi delle camere nel tuo elenco restano nella tua,
+qualunque lingua tu scelga per l'offerta.
+:::
+
 Premi **Invia l'offerta**. Il portale prende in carico la richiesta e ti dice dove sta andando il
 documento:
 

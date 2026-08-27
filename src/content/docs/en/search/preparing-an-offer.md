@@ -45,6 +45,17 @@ The selection lives in the tab you are working in. It is not kept after you leav
 Type the customer's name if you have one — it prints on the cover as *Prepared for*. Leave it
 alone if you are quoting a walk-in; the row is simply not drawn.
 
+Beside it, choose the **language the document is written in**. It starts on the language you are
+using the portal in, which is usually right — change it when you are quoting somebody who reads
+another one. The choice decides the whole document: the hotel descriptions, the house rules and the
+room names all come back in it.
+
+:::note
+Your own screens follow the language switcher at the top, not this. A search asks the suppliers in
+the language you are working in, so the room names in your results list stay in yours whichever
+language you send the offer in.
+:::
+
 Press **Send offer**. The portal takes the request and tells you where the document is going:
 
 > The offer is on its way to *you@youragency.com*. It arrives within a few minutes.

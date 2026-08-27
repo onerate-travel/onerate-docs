@@ -45,6 +45,17 @@ A kijelölés abban a lapfülben él, amelyben dolgozik. A keresés elhagyása u
 Írja be az ügyfél nevét, ha van — a borítóra *Prepared for* néven kerül. Hagyja üresen, ha egy
 betérő vendégnek ad ajánlatot; a sor egyszerűen nem jelenik meg.
 
+Mellette válassza ki **a dokumentum nyelvét**. Azon a nyelven indul, amelyen a portált használja, és
+ez rendszerint helyes is — akkor változtasson rajta, ha olyasvalakinek ad ajánlatot, aki más nyelven
+olvas. A választás az egész dokumentumról dönt: a szálloda leírásai, a házirend és a szobanevek is
+azon a nyelven érkeznek.
+
+:::note
+A saját képernyői a felül lévő nyelvváltót követik, nem ezt. A keresés azon a nyelven kérdezi a
+beszállítókat, amelyiken dolgozik, így a találati listában a szobanevek az Ön nyelvén maradnak,
+bármilyen nyelven küldi is az ajánlatot.
+:::
+
 Nyomja meg az **Ajánlat küldése** gombot. A portál átveszi a kérést, és megmondja, hová tart a
 dokumentum:
 
