@@ -39,6 +39,8 @@ beszállító felvette. Ne foglald le újra ugyanazt a tartózkodást — foglal
 | „Részleges találatok — X abbahagyta a válaszolást…” | Egy beszállító hiányosan válaszolt. | Néhány szálloda hiányzik. Keress újra, ha számít. |
 | „Erre a keresésre nem találtunk szállodát.” | Nincs elérhető — **olvasd el a beszállítói állapotsort**. | Ha egy beszállító **Sikertelen**, ez nem teljes válasz. Próbáld újra. |
 | „A térképszolgáltató nem volt elérhető…” | A OneRate Google-térképe ehhez a kereséshez nem volt elérhető. | Általában átmeneti; a te oldaladon nincs teendő. A térképválasztásod a [Beállításokban](/hu/manage/settings/) van. |
+| Az ajánlatot tartalmazó e-mail nem érkezett meg | A dokumentum a gombnyomás után készül el, és akkor megy ki, amikor kész. | Várj néhány percet, majd nézd meg a spam mappát. A OneRate nem őriz másolatot, és a portálon nincs hol keresni — ha még mindig hiányzik, [küldd el újra](/hu/search/preparing-an-offer/). |
+| „Az ajánlatot nem sikerült elküldeni.” | A kérést még azelőtt utasította el, hogy bármi sorba került volna. | A kijelölésed érintetlen. Nyomd meg újra; ha továbbra sem megy, [szólj a támogatásnak](/hu/reference/getting-support/). |
 
 ### „Azt írja, nincs szabad hely, pedig tudom, hogy van”
 

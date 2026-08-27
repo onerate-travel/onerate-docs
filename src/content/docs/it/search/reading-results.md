@@ -137,6 +137,12 @@ tua banca, non da OneRate. Vedi [Prezzi](/it/manage/pricing/).
 Selezionando un hotel si apre la sua pagina, che riquota il soggiorno presso il fornitore in quel
 momento e mostra ogni opzione tariffaria con foto e dettagli.
 
+Ogni tariffa porta **una fotografia della camera che vende**, accanto al nome che il fornitore le
+dà. Premila per vedere a grandezza piena le immagini di quella camera. La fotografia appartiene al
+tipo di camera e non al suo nome, così due tariffe che il fornitore chiama per caso allo stesso modo
+mostrano comunque la camera che ciascuna vende davvero. Un fornitore che non pubblica fotografie
+delle camere lascia la tariffa senza: il prezzo e le condizioni non cambiano.
+
 Quella pagina si ricostruisce dal proprio indirizzo, quindi puoi aprire un hotel in una nuova
 scheda con il tasto centrale, o mandare il link a un collega — otterrà lo stesso soggiorno, quotato
 nel momento in cui lo apre.

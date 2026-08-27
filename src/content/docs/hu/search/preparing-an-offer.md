@@ -1,6 +1,6 @@
 ---
 title: Ajánlat készítése
-description: Jelöljön ki szobákat több szállodából a találati listán, és készítsen belőlük PDF ajánlatot az irodája fejlécével.
+description: Jelöljön ki szobákat több szállodából a találati listán, és kérje e-mailben az irodája fejlécével készült PDF ajánlatot.
 ---
 
 ## Mi ez
@@ -45,10 +45,27 @@ A kijelölés abban a lapfülben él, amelyben dolgozik. A keresés elhagyása u
 Írja be az ügyfél nevét, ha van — a borítóra *Prepared for* néven kerül. Hagyja üresen, ha egy
 betérő vendégnek ad ajánlatot; a sor egyszerűen nem jelenik meg.
 
-Nyomja meg az **Ajánlat készítése** gombot. A PDF letöltődik.
+Nyomja meg az **Ajánlat küldése** gombot. A portál átveszi a kérést, és megmondja, hová tart a
+dokumentum:
 
-A kijelölés a dokumentum elkészítése után megmarad, így egy szállodát lecserélve készíthet egy
-másodikat anélkül, hogy mindent újra bejelölne. A **Kijelölés törlése** üríti ki, ha végzett.
+> Az ajánlat úton van a(z) *on@azirodaja.com* címre. Néhány percen belül megérkezik.
+
+**E-mailben érkezik Önhöz, csatolt PDF-ként** — nem az ügyfélhez, és nem töltődik le erre a
+képernyőre. Egy ajánlat elkészítése azt jelenti, hogy minden rajta szereplő szállítótól le kell
+kérni a szálloda oldalát, és minden szobához le kell tölteni egy fényképet; ez tovább tart, mint
+amennyit bárkinek egy forgó kerék előtt kellene ülnie. Ezért a portál nem várakoztatja tovább, a
+dokumentum pedig a postaládájába érkezik.
+
+A cím az, amelyikkel belépett. Semmi, amit ezen a képernyőn beír, nem változtat rajta: az ügyfél
+soha nem kapja meg közvetlenül az ajánlatot, és a OneRate soha nem gyűjt ügyfélcímet.
+
+:::note
+A OneRate nem őriz meg másolatot. Az az e-mail az egyetlen példány, és a portálon nincs hol keresni
+— ha néhány perc múlva sem érkezett meg, küldje el újra az ajánlatot.
+:::
+
+A kijelölés az elküldés után megmarad, így egy szállodát lecserélve küldhet egy másodikat anélkül,
+hogy mindent újra bejelölne. A **Kijelölés törlése** üríti ki, ha végzett.
 
 ## Mit mond a dokumentum
 
@@ -58,7 +75,8 @@ másodikat anélkül, hogy mindent újra bejelölne. A **Kijelölés törlése**
 - Az Ön neve, telefonszáma és e-mail címe, valamint a fiókja címe és engedélyszáma, ha az irodának
   vannak fiókjai.
 - Szállodánként egy oldal: a fényképe és egy térkép arról, hol van, a neve, csillagai és címe,
-  majd minden bejelölt szobához egy sor az ellátással, az árral és a pénznemmel.
+  majd minden bejelölt szobához egy sor — **az adott szoba fényképével**, az ellátással, az árral és
+  a pénznemmel.
 
 A szállodák **a legolcsóbbtól** kezdve következnek — az egyes szállodákban bejelölt legolcsóbb
 szoba szerint —, és a szállodán belüli szobák ugyanígy, így a dokumentum az ároszlop mentén

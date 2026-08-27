@@ -1,6 +1,6 @@
 ---
 title: Pregătirea unei oferte
-description: Bifează camere din mai multe hoteluri în lista de rezultate și transformă-le într-o ofertă PDF pe antetul agenției tale.
+description: Bifează camere din mai multe hoteluri în lista de rezultate și primește pe e-mail o ofertă PDF pe antetul agenției tale.
 ---
 
 ## Ce este
@@ -45,10 +45,26 @@ Selecția trăiește în fila în care lucrezi. Nu se păstrează după ce păr�
 Scrie numele clientului, dacă îl ai — se tipărește pe copertă ca *Prepared for*. Lasă-l gol dacă
 faci o ofertă pentru cineva venit la ghișeu; rândul pur și simplu nu se desenează.
 
-Apasă **Pregătește oferta**. PDF-ul se descarcă.
+Apasă **Trimite oferta**. Portalul preia cererea și îți spune încotro pleacă documentul:
 
-Selecția rămâne după ce documentul e gata, așa că poți schimba un hotel și pregăti a doua ofertă
-fără să bifezi totul din nou. **Șterge selecția** o golește când ai terminat.
+> Oferta este pe drum către *tu@agentiata.com*. Ajunge în câteva minute.
+
+Îți vine **pe e-mail, cu PDF-ul atașat** — nu la clientul tău și nu se descarcă pe ecranul acesta.
+Pregătirea unei oferte înseamnă să ceri fiecărui furnizor de pe ea pagina hotelului și să descarci o
+fotografie pentru fiecare cameră, iar asta durează mai mult decât ar trebui să stea cineva în fața
+unei rotițe care se învârte. Așa că portalul nu te mai ține în așteptare, iar documentul îți ajunge
+în inbox.
+
+Adresa este cea cu care te-ai autentificat. Nimic din ce scrii pe acest ecran nu o schimbă: clientul
+nu primește niciodată oferta direct, iar OneRate nu colectează niciodată adresa unui client.
+
+:::note
+OneRate nu păstrează nicio copie. Acel e-mail este singurul exemplar și nu există unde să-l cauți în
+portal — dacă nu a ajuns după câteva minute, trimite oferta din nou.
+:::
+
+Selecția rămâne după trimitere, așa că poți schimba un hotel și trimite a doua ofertă fără să
+bifezi totul din nou. **Șterge selecția** o golește când ai terminat.
 
 ## Ce spune documentul
 
@@ -58,7 +74,8 @@ fără să bifezi totul din nou. **Șterge selecția** o golește când ai termi
 - Numele, telefonul și e-mailul tău, precum și adresa și licența filialei tale, dacă agenția are
   filiale.
 - Câte o pagină per hotel: fotografia lui și o hartă cu locul unde se află, numele, stelele și
-  adresa, apoi un rând pentru fiecare cameră bifată cu masa, prețul și moneda ei.
+  adresa, apoi un rând pentru fiecare cameră bifată — **cu o fotografie a acelei camere**, masa,
+  prețul și moneda ei.
 
 Hotelurile sunt ordonate **de la cel mai ieftin** — după cea mai ieftină cameră bifată la fiecare —
 iar camerele din interiorul unui hotel la fel, așa că documentul se citește de-a lungul coloanei de

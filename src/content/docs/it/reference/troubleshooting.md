@@ -40,6 +40,8 @@ tariffa diversa se l'ospite ha bisogno di una camera adesso.
 | "Risultati parziali — X ha smesso di rispondere…" | Un fornitore ha risposto in modo incompleto. | Alcuni hotel mancano. Cerca di nuovo se è importante. |
 | "Nessun hotel trovato per questa ricerca." | Nulla disponibile — **leggi la riga di stato dei fornitori**. | Se un fornitore mostra **Non riuscito**, questa non è una risposta completa. Riprova. |
 | "Non è stato possibile raggiungere il fornitore della mappa…" | La mappa Google di OneRate non era disponibile per questa ricerca. | Di solito è passeggero; nulla da fare da parte tua. La tua scelta della mappa è in [Impostazioni](/it/manage/settings/). |
+| L'email con l'offerta non è arrivata | Il documento viene preparato dopo che premi e spedito quando è pronto. | Aspetta qualche minuto, poi controlla la posta indesiderata. OneRate non conserva copie e nel portale non c'è dove cercare: se ancora manca, [inviala di nuovo](/it/search/preparing-an-offer/). |
+| "Non è stato possibile inviare l'offerta." | La richiesta è stata rifiutata prima che qualcosa entrasse in coda. | La tua selezione è intatta. Premi di nuovo; se continua, [segnalalo all'assistenza](/it/reference/getting-support/). |
 
 ### "Dice che non c'è disponibilità, ma io so che c'è"
 

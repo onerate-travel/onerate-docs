@@ -1,6 +1,6 @@
 ---
 title: Teklif hazırlamak
-description: Sonuç listesinde birden çok otelden oda seçip bunları acentenizin antetli kâğıdında PDF teklife dönüştürün.
+description: Sonuç listesinde birden çok otelden oda seçin, acentenizin antetli kâğıdındaki PDF teklif e-postanıza gelsin.
 ---
 
 ## Bu nedir
@@ -44,10 +44,25 @@ Seçim çalıştığınız sekmede yaşar. Aramadan ayrıldıktan sonra saklanma
 Varsa müşteri adını yazın — kapakta *Prepared for* olarak basılır. Bir gelene teklif veriyorsanız
 boş bırakın; o satır hiç çizilmez.
 
-**Teklif hazırla**'ya basın. PDF iner.
+**Teklifi gönder**'e basın. Portal isteği alır ve belgenin nereye gittiğini söyler:
 
-Belge üretildikten sonra seçiminiz durur; bir oteli değiştirip her şeyi baştan işaretlemeden ikinci
-bir teklif hazırlayabilirsiniz. İşiniz bitince **Seçimi temizle** boşaltır.
+> Teklif *siz@acenteniz.com* adresine gönderiliyor. Birkaç dakika içinde ulaşır.
+
+Belge **size e-postayla, PDF eki olarak** gelir — müşterinize değil, bu ekrana da inmez. Bir teklif
+hazırlamak, üzerindeki her tedarikçiden otelin sayfasını istemek ve her oda için bir fotoğraf
+indirmek demektir; bu, bir dönen çarkın karşısında beklenecek süreden uzundur. Portal da sizi
+bekletmeyi bırakır, belge gelen kutunuza gelir.
+
+Adres, giriş yaptığınız adrestir. Bu ekranda yazdığınız hiçbir şey onu değiştirmez: teklif müşteriye
+doğrudan gitmez ve OneRate hiçbir müşteri adresi toplamaz.
+
+:::note
+OneRate hiçbir kopya saklamaz. Tek kopya o e-postadır ve portalda bakılacak bir yer yoktur —
+birkaç dakika içinde ulaşmadıysa teklifi yeniden gönderin.
+:::
+
+Teklif gönderildikten sonra seçiminiz durur; bir oteli değiştirip her şeyi baştan işaretlemeden
+ikinci bir teklif gönderebilirsiniz. İşiniz bitince **Seçimi temizle** boşaltır.
 
 ## Belge ne söyler
 
@@ -55,7 +70,7 @@ bir teklif hazırlayabilirsiniz. İşiniz bitince **Seçimi temizle** boşaltır
 - Konaklama: destinasyon, giriş, çıkış, gece sayısı ve kaç oda, yetişkin, çocuk.
 - Adınız, telefonunuz ve e-postanız; acentenizin şubeleri varsa şubenizin adresi ve belge numarası.
 - Otel başına bir sayfa: fotoğrafı ve konumunun haritası, adı, yıldızı ve adresi, ardından
-  işaretlediğiniz her oda için pansiyonu, fiyatı ve para birimiyle bir satır.
+  işaretlediğiniz her oda için **o odanın fotoğrafı**, pansiyonu, fiyatı ve para birimiyle bir satır.
 
 Oteller **ucuzdan pahalıya** sıralanır — her otelde işaretlediğiniz en ucuz odaya göre — ve otel
 içindeki odalar da aynı şekilde. Böylece belge fiyat sütunu boyunca okunur. Farklı para

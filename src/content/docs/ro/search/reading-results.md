@@ -137,6 +137,12 @@ OneRate. Vezi [Prețuri](/ro/manage/pricing/).
 Selectând un hotel se deschide pagina lui, care recotează sejurul la furnizor în acel moment și
 arată fiecare opțiune de tarif, cu fotografii și detalii.
 
+Fiecare tarif poartă **o fotografie a camerei pe care o vinde**, lângă numele pe care i-l dă
+furnizorul. Apasă pe ea ca să vezi la dimensiune întreagă pozele acelei camere. Fotografia aparține
+tipului de cameră, nu numelui ei, așa că două tarife pe care furnizorul le numește întâmplător la
+fel arată totuși camera pe care fiecare o vinde cu adevărat. Un furnizor care nu publică fotografii
+ale camerelor lasă tariful fără una — prețul și condițiile nu sunt afectate.
+
 Acea pagină se reconstruiește din propria adresă, deci poți deschide un hotel într-o filă nouă cu
 clic pe rotiță sau poți trimite linkul unui coleg — va primi același sejur, cotat în momentul în
 care îl deschide.

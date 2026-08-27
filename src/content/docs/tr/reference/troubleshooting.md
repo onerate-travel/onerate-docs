@@ -40,6 +40,8 @@ farklı bir otel ya da farklı bir fiyat rezerve edin.
 | "Kısmi sonuçlar — X yanıt vermeyi bıraktı…" | Bir tedarikçi eksik yanıtladı. | Bazı oteller eksik. Önemliyse tekrar arayın. |
 | "Bu arama için otel bulunamadı." | Müsaitlik yok — **tedarikçi durum satırını kontrol edin**. | Bir tedarikçi **Başarısız** gösteriyorsa bu eksiksiz bir cevap değildir. Tekrar deneyin. |
 | "Harita sağlayıcısına ulaşılamadı, bu harita OpenStreetMap üzerine çizildi." | OneRate'in Google haritası bu arama için kullanılamadı. | Genelde geçicidir; sizin tarafınızda yapılacak bir şey yok. Harita seçiminiz [Ayarlar](/tr/manage/settings/#harita)'dadır. |
+| Teklif e-postası gelmedi | Belge siz bastıktan sonra hazırlanır ve hazır olunca postalanır. | Birkaç dakika bekleyin, sonra spam klasörünüze bakın. OneRate hiçbir kopya saklamaz ve portalda bakılacak bir yer yoktur; hâlâ yoksa [yeniden gönderin](/tr/search/preparing-an-offer/). |
+| "Teklif gönderilemedi." | İstek, kuyruğa hiç alınmadan reddedildi. | Seçiminiz olduğu gibi duruyor. Tekrar basın; sürerse [desteğe bildirin](/tr/reference/getting-support/). |
 
 ### "Müsaitlik yok diyor ama olduğunu biliyorum"
 

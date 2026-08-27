@@ -136,6 +136,11 @@ olacağı OneRate'e değil bankanıza bağlıdır. Bkz. [Fiyatlandırma](/tr/man
 Bir oteli seçmek kendi sayfasını açar; sayfa konaklamayı o anda tedarikçiye karşı yeniden
 fiyatlandırır ve her fiyat seçeneğini fotoğraflar ve detaylarla gösterir.
 
+Her fiyat, tedarikçinin verdiği oda adının yanında **sattığı odanın fotoğrafını** taşır. Üstüne
+basınca o odanın fotoğrafları tam boy açılır. Fotoğraf oda adına değil oda tipine bağlıdır; yani
+tedarikçinin tesadüfen aynı adı verdiği iki fiyat, yine de gerçekte sattıkları odayı gösterir. Oda
+fotoğrafı yayınlamayan bir tedarikçide fiyat fotoğrafsız kalır — fiyat ve koşullar etkilenmez.
+
 O sayfa kendini adresinden yeniden kurar; yani bir oteli yeni sekmede açmak için orta tuşla
 tıklayabilir ya da bağlantıyı bir meslektaşınıza gönderebilirsiniz — o da aynı konaklamayı,
 açtığı anda fiyatlanmış olarak görür.

@@ -1,6 +1,6 @@
 ---
 title: Preparare un’offerta
-description: Spunta le camere di più hotel nell’elenco dei risultati e trasformale in un preventivo PDF sulla carta intestata della tua agenzia.
+description: Spunta le camere di più hotel nell’elenco dei risultati e ricevi via email un preventivo PDF sulla carta intestata della tua agenzia.
 ---
 
 ## Che cos'è
@@ -46,10 +46,26 @@ La selezione vive nella scheda in cui stai lavorando. Non viene conservata dopo 
 Scrivi il nome del cliente, se ce l'hai: viene stampato in copertina come *Prepared for*. Lascialo
 stare se stai facendo un preventivo a chi è appena entrato; la riga semplicemente non viene disegnata.
 
-Premi **Prepara l'offerta**. Il PDF viene scaricato.
+Premi **Invia l'offerta**. Il portale prende in carico la richiesta e ti dice dove sta andando il
+documento:
 
-La selezione resta dopo che il documento è pronto, così puoi sostituire un hotel e prepararne un
-secondo senza spuntare tutto di nuovo. **Cancella la selezione** la svuota quando hai finito.
+> L'offerta è in arrivo a *tu@tuaagenzia.com*. Arriva entro pochi minuti.
+
+Ti arriva **via email, con il PDF allegato** — non al tuo cliente, e non viene scaricato su questa
+schermata. Preparare un preventivo significa chiedere a ogni fornitore la pagina dell'hotel e
+scaricare una fotografia per ogni camera: più tempo di quanto chiunque debba passare davanti a una
+rotellina che gira. Così il portale smette di farti aspettare e il documento arriva nella tua posta.
+
+L'indirizzo è quello con cui hai fatto l'accesso. Nulla di quello che scrivi qui lo cambia: il
+cliente non riceve mai l'offerta direttamente, e OneRate non raccoglie mai l'indirizzo di un cliente.
+
+:::note
+OneRate non conserva copie. Quella email è l'unica che esiste, e nel portale non c'è nessun posto
+dove cercarla: se dopo qualche minuto non è arrivata, invia di nuovo l'offerta.
+:::
+
+La selezione resta dopo l'invio, così puoi sostituire un hotel e inviarne una seconda senza spuntare
+tutto di nuovo. **Cancella la selezione** la svuota quando hai finito.
 
 ## Cosa dice il documento
 
@@ -58,7 +74,8 @@ secondo senza spuntare tutto di nuovo. **Cancella la selezione** la svuota quand
 - Il soggiorno: destinazione, check-in, check-out, notti, e quante camere, adulti e bambini.
 - Il tuo nome, telefono ed email, e l'indirizzo e la licenza della tua filiale dove l'agenzia ne ha.
 - Una pagina per hotel: la sua foto e una mappa di dove si trova, il nome, le stelle e
-  l'indirizzo, poi una riga per ogni camera spuntata con il suo trattamento, il prezzo e la valuta.
+  l'indirizzo, poi una riga per ogni camera spuntata — **con una fotografia di quella camera**, il
+  suo trattamento, il prezzo e la valuta.
 
 Gli hotel sono ordinati **dal più economico**, in base alla camera più economica che hai spuntato
 in ciascuno, e le camere dentro un hotel seguono lo stesso ordine — così il documento si legge

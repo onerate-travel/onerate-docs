@@ -1,6 +1,6 @@
 ---
 title: Preparing an offer
-description: Tick rooms across several hotels on the results list and turn them into a PDF quotation on your agency’s letterhead.
+description: Tick rooms across several hotels on the results list and have a PDF quotation on your agency’s letterhead emailed to you.
 ---
 
 ## What this is
@@ -45,10 +45,25 @@ The selection lives in the tab you are working in. It is not kept after you leav
 Type the customer's name if you have one — it prints on the cover as *Prepared for*. Leave it
 alone if you are quoting a walk-in; the row is simply not drawn.
 
-Press **Prepare offer**. The PDF downloads.
+Press **Send offer**. The portal takes the request and tells you where the document is going:
 
-Your selection stays after the document is built, so you can swap one hotel out and prepare another
-without ticking everything again. **Clear the selection** empties it when you are done.
+> The offer is on its way to *you@youragency.com*. It arrives within a few minutes.
+
+It is **emailed to you, with the PDF attached** — not to your customer, and not downloaded to this
+screen. Building a quotation means asking every supplier on it for the hotel's page and fetching a
+photograph for every room, which takes longer than anyone should sit in front of a spinner. So the
+portal stops making you wait, and the document comes to your inbox.
+
+The address is the one you signed in with. Nothing you type on this screen changes it: the customer
+never receives the offer directly, and OneRate never collects a customer's address.
+
+:::note
+OneRate keeps no copy. That email is the only one there is, and there is nowhere in the portal to
+look for it — if it has not arrived after a few minutes, send the offer again.
+:::
+
+Your selection stays after the offer is sent, so you can swap one hotel out and send another without
+ticking everything again. **Clear the selection** empties it when you are done.
 
 ## What the document says
 
@@ -57,7 +72,7 @@ without ticking everything again. **Clear the selection** empties it when you ar
 - The stay: destination, check-in, check-out, nights, and how many rooms, adults and children.
 - Your name, phone and email, and your branch's address and licence where your agency has branches.
 - A page per hotel: its photo and a map of where it is, its name, stars and address, then a row
-  per room you ticked with its board, its price and its currency.
+  per room you ticked — **with a photograph of that room**, its board, its price and its currency.
 
 Hotels are ordered **cheapest first**, by the cheapest room you ticked at each, and the rooms
 inside a hotel are ordered the same way — so the document reads down the price column. Prices in

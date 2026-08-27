@@ -1,6 +1,6 @@
 ---
 title: Przygotowanie oferty
-description: Zaznacz pokoje w kilku hotelach na liście wyników i zamień je w ofertę PDF na papierze firmowym Twojego biura.
+description: Zaznacz pokoje w kilku hotelach na liście wyników i odbierz e-mailem ofertę PDF na papierze firmowym Twojego biura.
 ---
 
 ## Czym to jest
@@ -46,10 +46,25 @@ wyszukiwania.
 Wpisz nazwę klienta, jeśli ją masz — drukuje się na okładce jako *Prepared for*. Zostaw puste, jeśli
 robisz wycenę dla kogoś z ulicy; wiersz po prostu nie zostanie narysowany.
 
-Naciśnij **Przygotuj ofertę**. PDF się pobiera.
+Naciśnij **Wyślij ofertę**. Portal przyjmuje zlecenie i mówi, dokąd trafia dokument:
 
-Zaznaczenie zostaje po przygotowaniu dokumentu, więc możesz wymienić jeden hotel i przygotować drugą
-ofertę bez ponownego zaznaczania wszystkiego. **Wyczyść wybór** opróżnia je, gdy skończysz.
+> Oferta jest w drodze na adres *ty@twojebiuro.com*. Dotrze w ciągu kilku minut.
+
+Trafia **e-mailem do Ciebie, z załączonym PDF-em** — nie do klienta i nie pobiera się na tym
+ekranie. Przygotowanie oferty oznacza zapytanie każdego dostawcy o stronę hotelu i pobranie zdjęcia
+dla każdego pokoju, a to trwa dłużej, niż ktokolwiek powinien siedzieć przed kręcącym się kółkiem.
+Dlatego portal przestaje kazać Ci czekać, a dokument przychodzi na Twoją skrzynkę.
+
+Adres to ten, którym się zalogowałeś. Nic, co wpiszesz na tym ekranie, tego nie zmienia: klient
+nigdy nie dostaje oferty bezpośrednio, a OneRate nigdy nie zbiera adresu klienta.
+
+:::note
+OneRate nie przechowuje kopii. Ten e-mail to jedyny egzemplarz i w portalu nie ma gdzie go szukać —
+jeśli po kilku minutach nie dotarł, wyślij ofertę ponownie.
+:::
+
+Zaznaczenie zostaje po wysłaniu, więc możesz wymienić jeden hotel i wysłać drugą ofertę bez
+ponownego zaznaczania wszystkiego. **Wyczyść wybór** opróżnia je, gdy skończysz.
 
 ## Co mówi dokument
 
@@ -59,7 +74,7 @@ ofertę bez ponownego zaznaczania wszystkiego. **Wyczyść wybór** opróżnia j
 - Twoje imię, telefon i e-mail, a także adres i numer licencji Twojego oddziału, jeśli biuro ma
   oddziały.
 - Strona na hotel: jego zdjęcie i mapa z lokalizacją, nazwa, gwiazdki i adres, a potem wiersz dla
-  każdego zaznaczonego pokoju z jego wyżywieniem, ceną i walutą.
+  każdego zaznaczonego pokoju — **ze zdjęciem tego pokoju**, jego wyżywieniem, ceną i walutą.
 
 Hotele są uporządkowane **od najtańszego** — według najtańszego pokoju zaznaczonego w każdym z nich
 — a pokoje wewnątrz hotelu tak samo, więc dokument czyta się wzdłuż kolumny cen. Ceny w różnych

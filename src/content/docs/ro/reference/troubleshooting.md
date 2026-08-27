@@ -39,6 +39,8 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Rezultate parțiale — X a încetat să răspundă…” | Un furnizor a răspuns incomplet. | Unele hoteluri lipsesc. Caută din nou dacă contează. |
 | „Niciun hotel găsit pentru această căutare.” | Nimic disponibil — **citește linia de stare a furnizorilor**. | Dacă un furnizor apare **Eșuat**, acesta nu este un răspuns complet. Încearcă din nou. |
 | „Furnizorul de hărți nu a putut fi contactat…” | Harta Google a OneRate nu a fost disponibilă pentru această căutare. | De obicei este trecător; nimic de făcut din partea ta. Alegerea hărții este în [Setări](/ro/manage/settings/). |
+| E-mailul cu oferta nu a ajuns | Documentul se construiește după ce apeși și pleacă atunci când e gata. | Așteaptă câteva minute, apoi verifică folderul spam. OneRate nu păstrează nicio copie și nu există unde să cauți în portal — dacă tot lipsește, [trimite-o din nou](/ro/search/preparing-an-offer/). |
+| „Oferta nu a putut fi trimisă.” | Cererea a fost refuzată înainte ca ceva să intre în coadă. | Selecția ta este neatinsă. Apasă din nou; dacă persistă, [spune-i suportului](/ro/reference/getting-support/). |
 
 ### „Spune că nu există disponibilitate, dar știu că există”
 

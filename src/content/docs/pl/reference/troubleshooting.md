@@ -39,6 +39,8 @@ pokoju teraz. [Pełne wyjaśnienie](/pl/booking/statuses/).
 | „Wyniki częściowe — X przestał odpowiadać…” | Dostawca odpowiedział niekompletnie. | Części hoteli brakuje. Wyszukaj ponownie, jeśli to ważne. |
 | „Nie znaleziono hoteli dla tego wyszukiwania.” | Nic nie jest dostępne — **przeczytaj wiersz statusu dostawców**. | Jeśli dostawca pokazuje **Nieudane**, to nie jest pełna odpowiedź. Spróbuj ponownie. |
 | „Nie udało się połączyć z dostawcą map…” | Mapa Google OneRate była niedostępna dla tego wyszukiwania. | Zwykle przejściowe; po Twojej stronie nie ma nic do zrobienia. Twój wybór mapy jest w [Ustawieniach](/pl/manage/settings/). |
+| E-mail z ofertą nie dotarł | Dokument powstaje po naciśnięciu i jest wysyłany, gdy jest gotowy. | Odczekaj kilka minut, potem sprawdź folder spam. OneRate nie przechowuje kopii i w portalu nie ma gdzie szukać — jeśli nadal go nie ma, [wyślij ją ponownie](/pl/search/preparing-an-offer/). |
+| „Nie udało się wysłać oferty.” | Żądanie zostało odrzucone, zanim cokolwiek trafiło do kolejki. | Twoje zaznaczenie jest nienaruszone. Naciśnij ponownie; jeśli się powtarza, [zgłoś to wsparciu](/pl/reference/getting-support/). |
 
 ### „Pisze, że nie ma nic wolnego, a wiem, że jest”
 

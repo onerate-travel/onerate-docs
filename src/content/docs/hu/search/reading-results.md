@@ -138,6 +138,12 @@ múlik, nem a OneRate-en. Lásd: [Árazás](/hu/manage/pricing/).
 Egy szálloda kiválasztásakor megnyílik a saját oldala, amely abban a pillanatban újraárazza a
 tartózkodást a beszállítónál, és minden árlehetőséget megmutat fotókkal és részletekkel.
 
+Minden ár mellett ott van **az általa értékesített szoba fényképe**, a beszállító saját szobaneve
+mellett. Rákattintva az adott szoba képei teljes méretben megnyílnak. A kép a szobatípushoz tartozik,
+nem a szoba nevéhez, így két ár, amelyet a beszállító véletlenül ugyanúgy nevez, továbbra is azt a
+szobát mutatja, amelyiket valóban árulja. Egy szobafényképeket nem közlő beszállítónál az ár fénykép
+nélkül marad — az árat és a feltételeket ez nem érinti.
+
 Ez az oldal a saját címéből építi fel magát, így középső egérgombbal új lapon nyithatsz meg egy
 szállodát, vagy elküldheted a linket egy kollégának — ugyanazt a tartózkodást fogja kapni, a
 megnyitás pillanatában árazva.

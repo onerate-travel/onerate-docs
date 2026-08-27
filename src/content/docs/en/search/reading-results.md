@@ -132,6 +132,12 @@ your bank, not on OneRate. See [Pricing](/en/manage/pricing/).
 Selecting a hotel opens its own page, which re-prices the stay against the supplier at that moment
 and shows every rate option with photos and detail.
 
+Each rate carries **a photograph of the room it sells**, next to the supplier's own name for it.
+Press it to see that room's pictures full size. The picture belongs to the room type rather than to
+the room name, so two rates a supplier happens to call the same thing still show the room each one
+is actually selling. A supplier that publishes no room photographs leaves the rate without one — the
+price and the terms are unaffected.
+
 That page reconstructs itself from its address, so you can middle-click a hotel to open it in a new
 tab, or send the link to a colleague — they will get the same stay, priced when they open it.
 

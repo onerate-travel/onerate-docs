@@ -135,6 +135,12 @@ OneRate. Zobacz [Ceny](/pl/manage/pricing/).
 Wybranie hotelu otwiera jego własną stronę, która w tej chwili wycenia pobyt u dostawcy na nowo i
 pokazuje każdą opcję stawki ze zdjęciami i szczegółami.
 
+Każda stawka niesie **zdjęcie pokoju, który sprzedaje**, obok nazwy nadanej mu przez dostawcę.
+Naciśnij je, aby zobaczyć zdjęcia tego pokoju w pełnym rozmiarze. Zdjęcie należy do typu pokoju, a
+nie do jego nazwy, więc dwie stawki, które dostawca przypadkiem nazywa tak samo, i tak pokazują
+pokój, który każda z nich naprawdę sprzedaje. Dostawca, który nie publikuje zdjęć pokoi, zostawia
+stawkę bez zdjęcia — cena i warunki się nie zmieniają.
+
 Ta strona odtwarza się ze swojego adresu, więc możesz otworzyć hotel w nowej karcie środkowym
 przyciskiem albo wysłać link współpracownikowi — dostanie ten sam pobyt, wyceniony w chwili
 otwarcia.

@@ -39,6 +39,8 @@ a room now. [Full explanation](/en/booking/statuses/#reconciling).
 | "Partial results — X stopped responding…" | A supplier answered incompletely. | Some hotels are missing. Search again if it matters. |
 | "No hotels found for this search." | Nothing available — **check the supplier status line**. | If a supplier shows **Failed**, this is not a complete answer. Try again. |
 | "The map provider could not be reached, so this map is drawn on OpenStreetMap." | OneRate's Google map was unavailable for this search. | Usually transient; nothing to do on your side. Your map choice is in [Settings](/en/manage/settings/#map). |
+| The offer email has not arrived | The document is built after you press, and mailed when it is ready. | Give it a few minutes, then check your spam folder. OneRate keeps no copy and there is nowhere in the portal to look, so if it is still missing, [send it again](/en/search/preparing-an-offer/). |
+| "The offer could not be sent." | The request was refused before anything was queued. | Your selection is untouched. Press again; if it keeps failing, [tell support](/en/reference/getting-support/). |
 
 ### "It says there is nothing available, but I know there is"
 
