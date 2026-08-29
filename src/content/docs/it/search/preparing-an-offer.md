@@ -1,6 +1,6 @@
 ---
 title: Preparare un’offerta
-description: Spunta le camere di più hotel nell’elenco dei risultati e ricevi via email un preventivo PDF sulla carta intestata della tua agenzia.
+description: Spunta le camere di più hotel nell’elenco dei risultati e scarica un preventivo PDF sulla carta intestata della tua agenzia.
 ---
 
 ## Che cos'è
@@ -57,25 +57,27 @@ nella lingua in cui stai lavorando, quindi i nomi delle camere nel tuo elenco re
 qualunque lingua tu scelga per l'offerta.
 :::
 
-Premi **Invia l'offerta**. Il portale prende in carico la richiesta e ti dice dove sta andando il
-documento:
+Premi **Prepara l’offerta**. Il portale prende la richiesta e inizia a costruirla:
 
-> L'offerta è in arrivo a *tu@tuaagenzia.com*. Arriva entro pochi minuti.
+> L’offerta è in preparazione. Sarà pronta tra un momento.
 
-Ti arriva **via email, con il PDF allegato** — non al tuo cliente, e non viene scaricato su questa
-schermata. Preparare un preventivo significa chiedere a ogni fornitore la pagina dell'hotel e
-scaricare una fotografia per ogni camera: più tempo di quanto chiunque debba passare davanti a una
-rotellina che gira. Così il portale smette di farti aspettare e il documento arriva nella tua posta.
+Preparare un preventivo significa chiedere a ogni fornitore la pagina dell’hotel e scaricare una
+fotografia per ogni camera: più a lungo di quanto chiunque dovrebbe restare davanti a una rotellina.
+Perciò il portale lo fa in background e la barra avvisa quando è pronto:
 
-L'indirizzo è quello con cui hai fatto l'accesso. Nulla di quello che scrivi qui lo cambia: il
-cliente non riceve mai l'offerta direttamente, e OneRate non raccoglie mai l'indirizzo di un cliente.
+> Apri l’offerta (PDF)
+
+Il collegamento apre il documento finito in una nuova scheda. Salvalo, oppure allegalo alla tua
+email — l’offerta non viene mai inviata a nessuno per tuo conto e OneRate non raccoglie indirizzi
+dei clienti.
 
 :::note
-OneRate non conserva copie. Quella email è l'unica che esiste, e nel portale non c'è nessun posto
-dove cercarla: se dopo qualche minuto non è arrivata, invia di nuovo l'offerta.
+Il documento è conservato per **30 giorni**, poi eliminato. Il collegamento si trova nella barra da
+cui l’hai preparato e in nessun altro posto: se lasci la ricerca non puoi tornarci. Prepararla di
+nuovo non costa altro che l’attesa.
 :::
 
-La selezione resta dopo l'invio, così puoi sostituire un hotel e inviarne una seconda senza spuntare
+La selezione resta dopo la preparazione, così puoi sostituire un hotel e prepararne una seconda senza spuntare
 tutto di nuovo. **Cancella la selezione** la svuota quando hai finito.
 
 ## Cosa dice il documento

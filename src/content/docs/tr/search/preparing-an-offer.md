@@ -1,6 +1,6 @@
 ---
 title: Teklif hazırlamak
-description: Sonuç listesinde birden çok otelden oda seçin, acentenizin antetli kâğıdındaki PDF teklif e-postanıza gelsin.
+description: Sonuç listesinde birden çok otelden oda seçin, acentenizin antetli kâğıdındaki PDF teklifi indirin.
 ---
 
 ## Bu nedir
@@ -54,24 +54,25 @@ Kendi ekranlarınız bunu değil, üstteki dil değiştiriciyi izler. Arama, ted
 adları sizin dilinizde kalır.
 :::
 
-**Teklifi gönder**'e basın. Portal isteği alır ve belgenin nereye gittiğini söyler:
+**Teklifi hazırla**'ya basın. Portal isteği alır ve hazırlamaya başlar:
 
-> Teklif *siz@acenteniz.com* adresine gönderiliyor. Birkaç dakika içinde ulaşır.
+> Teklif hazırlanıyor. Birazdan hazır olacak.
 
-Belge **size e-postayla, PDF eki olarak** gelir — müşterinize değil, bu ekrana da inmez. Bir teklif
-hazırlamak, üzerindeki her tedarikçiden otelin sayfasını istemek ve her oda için bir fotoğraf
-indirmek demektir; bu, bir dönen çarkın karşısında beklenecek süreden uzundur. Portal da sizi
-bekletmeyi bırakır, belge gelen kutunuza gelir.
+Bir teklif hazırlamak, üzerindeki her tedarikçiden otelin sayfasını istemek ve her oda için bir
+fotoğraf indirmek demektir; bu, bir dönen çarkın karşısında beklenecek süreden uzundur. Portal bu
+işi arka planda yapar ve bittiğinde çubuk size söyler:
 
-Adres, giriş yaptığınız adrestir. Bu ekranda yazdığınız hiçbir şey onu değiştirmez: teklif müşteriye
-doğrudan gitmez ve OneRate hiçbir müşteri adresi toplamaz.
+> Teklifi aç (PDF)
+
+Bu bağlantı belgeyi yeni bir sekmede açar. Kaydedin ya da kendi e-postanıza ekleyip gönderin —
+teklif sizin adınıza hiçbir yere gönderilmez ve OneRate hiçbir müşteri adresi toplamaz.
 
 :::note
-OneRate hiçbir kopya saklamaz. Tek kopya o e-postadır ve portalda bakılacak bir yer yoktur —
-birkaç dakika içinde ulaşmadıysa teklifi yeniden gönderin.
+Belge **30 gün** saklanır, sonra silinir. Bağlantı yalnızca onu hazırladığınız çubuktadır: aramadan
+ayrılırsanız ona geri dönemezsiniz. Yeniden hazırlamak beklemekten başka bir şeye mal olmaz.
 :::
 
-Teklif gönderildikten sonra seçiminiz durur; bir oteli değiştirip her şeyi baştan işaretlemeden
+Teklif hazırlandıktan sonra seçiminiz durur; bir oteli değiştirip her şeyi baştan işaretlemeden
 ikinci bir teklif gönderebilirsiniz. İşiniz bitince **Seçimi temizle** boşaltır.
 
 ## Belge ne söyler

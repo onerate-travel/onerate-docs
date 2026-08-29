@@ -1,6 +1,6 @@
 ---
 title: Przygotowanie oferty
-description: Zaznacz pokoje w kilku hotelach na liście wyników i odbierz e-mailem ofertę PDF na papierze firmowym Twojego biura.
+description: Zaznacz pokoje w kilku hotelach na liście wyników i pobierz ofertę PDF na papierze firmowym Twojego biura.
 ---
 
 ## Czym to jest
@@ -56,24 +56,26 @@ języku, w którym pracujesz, więc nazwy pokoi na Twojej liście wyników zosta
 od tego, w jakim języku wyślesz ofertę.
 :::
 
-Naciśnij **Wyślij ofertę**. Portal przyjmuje zlecenie i mówi, dokąd trafia dokument:
+Naciśnij **Przygotuj ofertę**. Portal przyjmuje żądanie i zaczyna ją tworzyć:
 
-> Oferta jest w drodze na adres *ty@twojebiuro.com*. Dotrze w ciągu kilku minut.
+> Oferta jest przygotowywana. Będzie gotowa za chwilę.
 
-Trafia **e-mailem do Ciebie, z załączonym PDF-em** — nie do klienta i nie pobiera się na tym
-ekranie. Przygotowanie oferty oznacza zapytanie każdego dostawcy o stronę hotelu i pobranie zdjęcia
-dla każdego pokoju, a to trwa dłużej, niż ktokolwiek powinien siedzieć przed kręcącym się kółkiem.
-Dlatego portal przestaje kazać Ci czekać, a dokument przychodzi na Twoją skrzynkę.
+Przygotowanie oferty oznacza pobranie strony hotelu od każdego dostawcy na niej oraz zdjęcia dla
+każdego pokoju — trwa to dłużej, niż ktokolwiek powinien siedzieć przed kręcącym się kółkiem.
+Dlatego portal robi to w tle, a pasek informuje, gdy skończy:
 
-Adres to ten, którym się zalogowałeś. Nic, co wpiszesz na tym ekranie, tego nie zmienia: klient
-nigdy nie dostaje oferty bezpośrednio, a OneRate nigdy nie zbiera adresu klienta.
+> Otwórz ofertę (PDF)
+
+Odnośnik otwiera gotowy dokument w nowej karcie. Zapisz go albo dołącz do własnej wiadomości —
+oferta nigdy nie jest wysyłana w Twoim imieniu, a OneRate nie zbiera adresów klientów.
 
 :::note
-OneRate nie przechowuje kopii. Ten e-mail to jedyny egzemplarz i w portalu nie ma gdzie go szukać —
-jeśli po kilku minutach nie dotarł, wyślij ofertę ponownie.
+Dokument jest przechowywany przez **30 dni**, potem usuwany. Odnośnik znajduje się w pasku, z
+którego go przygotowano, i nigdzie indziej: po opuszczeniu wyszukiwania nie da się do niego wrócić.
+Ponowne przygotowanie kosztuje tylko czas oczekiwania.
 :::
 
-Zaznaczenie zostaje po wysłaniu, więc możesz wymienić jeden hotel i wysłać drugą ofertę bez
+Zaznaczenie zostaje po przygotowaniu, więc możesz wymienić jeden hotel i przygotować drugą ofertę bez
 ponownego zaznaczania wszystkiego. **Wyczyść wybór** opróżnia je, gdy skończysz.
 
 ## Co mówi dokument

@@ -1,6 +1,6 @@
 ---
 title: Ajánlat készítése
-description: Jelöljön ki szobákat több szállodából a találati listán, és kérje e-mailben az irodája fejlécével készült PDF ajánlatot.
+description: Jelöljön ki szobákat több szállodából a találati listán, és töltse le az irodája fejlécével készült PDF ajánlatot.
 ---
 
 ## Mi ez
@@ -56,27 +56,28 @@ beszállítókat, amelyiken dolgozik, így a találati listában a szobanevek az
 bármilyen nyelven küldi is az ajánlatot.
 :::
 
-Nyomja meg az **Ajánlat küldése** gombot. A portál átveszi a kérést, és megmondja, hová tart a
-dokumentum:
+Nyomja meg az **Ajánlat elkészítése** gombot. A portál átveszi a kérést, és hozzálát:
 
-> Az ajánlat úton van a(z) *on@azirodaja.com* címre. Néhány percen belül megérkezik.
+> Az ajánlat készül. Egy pillanat múlva kész lesz.
 
-**E-mailben érkezik Önhöz, csatolt PDF-ként** — nem az ügyfélhez, és nem töltődik le erre a
-képernyőre. Egy ajánlat elkészítése azt jelenti, hogy minden rajta szereplő szállítótól le kell
-kérni a szálloda oldalát, és minden szobához le kell tölteni egy fényképet; ez tovább tart, mint
-amennyit bárkinek egy forgó kerék előtt kellene ülnie. Ezért a portál nem várakoztatja tovább, a
-dokumentum pedig a postaládájába érkezik.
+Egy ajánlat elkészítése azt jelenti, hogy minden rajta szereplő szállítótól le kell kérni a szálloda
+oldalát, és minden szobához képet kell letölteni — ez tovább tart annál, mint amennyit bárkinek egy
+forgó karika előtt kellene töltenie. Ezért a portál a háttérben végzi el, és a sáv szól, ha kész:
 
-A cím az, amelyikkel belépett. Semmi, amit ezen a képernyőn beír, nem változtat rajta: az ügyfél
-soha nem kapja meg közvetlenül az ajánlatot, és a OneRate soha nem gyűjt ügyfélcímet.
+> Ajánlat megnyitása (PDF)
+
+A hivatkozás új lapon nyitja meg az elkészült dokumentumot. Mentse el, vagy csatolja a saját
+e-mailjéhez — az ajánlatot a rendszer soha nem küldi el az ön nevében, és a OneRate nem gyűjt
+ügyfélcímeket.
 
 :::note
-A OneRate nem őriz meg másolatot. Az az e-mail az egyetlen példány, és a portálon nincs hol keresni
-— ha néhány perc múlva sem érkezett meg, küldje el újra az ajánlatot.
+A dokumentumot **30 napig** őrizzük meg, utána töröljük. A hivatkozás abban a sávban van, amelyből
+elkészítette, és sehol máshol: ha elhagyja a keresést, nem tud visszatérni hozzá. Az újbóli
+elkészítés csak a várakozásba kerül.
 :::
 
-A kijelölés az elküldés után megmarad, így egy szállodát lecserélve küldhet egy másodikat anélkül,
-hogy mindent újra bejelölne. A **Kijelölés törlése** üríti ki, ha végzett.
+A kijelölés az elkészítés után megmarad, így egy szállodát lecserélve készíthet egy másodikat
+anélkül, hogy mindent újra bejelölne. A **Kijelölés törlése** üríti ki, ha végzett.
 
 ## Mit mond a dokumentum
 

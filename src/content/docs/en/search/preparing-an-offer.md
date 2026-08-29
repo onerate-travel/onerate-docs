@@ -1,6 +1,6 @@
 ---
 title: Preparing an offer
-description: Tick rooms across several hotels on the results list and have a PDF quotation on your agency’s letterhead emailed to you.
+description: Tick rooms across several hotels on the results list and download a PDF quotation on your agency’s letterhead.
 ---
 
 ## What this is
@@ -56,24 +56,26 @@ the language you are working in, so the room names in your results list stay in 
 language you send the offer in.
 :::
 
-Press **Send offer**. The portal takes the request and tells you where the document is going:
+Press **Prepare offer**. The portal takes the request and starts building:
 
-> The offer is on its way to *you@youragency.com*. It arrives within a few minutes.
+> The offer is being prepared. It will be ready in a moment.
 
-It is **emailed to you, with the PDF attached** — not to your customer, and not downloaded to this
-screen. Building a quotation means asking every supplier on it for the hotel's page and fetching a
+Building a quotation means asking every supplier on it for the hotel's page and fetching a
 photograph for every room, which takes longer than anyone should sit in front of a spinner. So the
-portal stops making you wait, and the document comes to your inbox.
+portal does that work in the background, and the bar says when it is done:
 
-The address is the one you signed in with. Nothing you type on this screen changes it: the customer
-never receives the offer directly, and OneRate never collects a customer's address.
+> Open the offer (PDF)
+
+That link opens the finished document in a new tab. Save it, or attach it to your own email — the
+offer is never sent anywhere on your behalf, and OneRate never collects a customer's address.
 
 :::note
-OneRate keeps no copy. That email is the only one there is, and there is nowhere in the portal to
-look for it — if it has not arrived after a few minutes, send the offer again.
+The document is kept for **30 days**, then deleted. The link is in the bar you built it from and
+nowhere else: leave the search and you cannot come back to it. Building it again costs nothing but
+the wait.
 :::
 
-Your selection stays after the offer is sent, so you can swap one hotel out and send another without
+Your selection stays after the offer is built, so you can swap one hotel out and send another without
 ticking everything again. **Clear the selection** empties it when you are done.
 
 ## What the document says

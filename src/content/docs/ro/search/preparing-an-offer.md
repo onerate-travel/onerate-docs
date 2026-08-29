@@ -1,6 +1,6 @@
 ---
 title: Pregătirea unei oferte
-description: Bifează camere din mai multe hoteluri în lista de rezultate și primește pe e-mail o ofertă PDF pe antetul agenției tale.
+description: Bifează camere din mai multe hoteluri în lista de rezultate și descarcă o ofertă PDF pe antetul agenției tale.
 ---
 
 ## Ce este
@@ -56,25 +56,26 @@ limba în care lucrezi, așa că numele camerelor din lista ta de rezultate răm
 în ce limbă trimiți oferta.
 :::
 
-Apasă **Trimite oferta**. Portalul preia cererea și îți spune încotro pleacă documentul:
+Apasă **Pregătește oferta**. Portalul preia cererea și începe să o construiască:
 
-> Oferta este pe drum către *tu@agentiata.com*. Ajunge în câteva minute.
+> Oferta se pregătește. Va fi gata într-o clipă.
 
-Îți vine **pe e-mail, cu PDF-ul atașat** — nu la clientul tău și nu se descarcă pe ecranul acesta.
-Pregătirea unei oferte înseamnă să ceri fiecărui furnizor de pe ea pagina hotelului și să descarci o
-fotografie pentru fiecare cameră, iar asta durează mai mult decât ar trebui să stea cineva în fața
-unei rotițe care se învârte. Așa că portalul nu te mai ține în așteptare, iar documentul îți ajunge
-în inbox.
+Pregătirea unei oferte înseamnă să ceri pagina hotelului de la fiecare furnizor de pe ea și să
+descarci o fotografie pentru fiecare cameră — mai mult decât ar trebui să stea cineva în fața unei
+rotițe. De aceea portalul face asta în fundal, iar bara anunță când e gata:
 
-Adresa este cea cu care te-ai autentificat. Nimic din ce scrii pe acest ecran nu o schimbă: clientul
-nu primește niciodată oferta direct, iar OneRate nu colectează niciodată adresa unui client.
+> Deschide oferta (PDF)
+
+Linkul deschide documentul finalizat într-o filă nouă. Salvează-l sau atașează-l propriului tău
+e-mail — oferta nu este trimisă nicăieri în numele tău, iar OneRate nu colectează adrese de clienți.
 
 :::note
-OneRate nu păstrează nicio copie. Acel e-mail este singurul exemplar și nu există unde să-l cauți în
-portal — dacă nu a ajuns după câteva minute, trimite oferta din nou.
+Documentul se păstrează **30 de zile**, apoi se șterge. Linkul se află în bara din care l-ai
+pregătit și nicăieri altundeva: dacă părăsești căutarea nu mai poți reveni la el. Repregătirea nu
+costă decât așteptarea.
 :::
 
-Selecția rămâne după trimitere, așa că poți schimba un hotel și trimite a doua ofertă fără să
+Selecția rămâne după pregătire, așa că poți schimba un hotel și pregăti a doua ofertă fără să
 bifezi totul din nou. **Șterge selecția** o golește când ai terminat.
 
 ## Ce spune documentul
