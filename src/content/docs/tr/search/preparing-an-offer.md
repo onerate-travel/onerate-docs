@@ -68,7 +68,7 @@ Bu bağlantı belgeyi yeni bir sekmede açar. Kaydedin ya da kendi e-postanıza 
 teklif sizin adınıza hiçbir yere gönderilmez ve OneRate hiçbir müşteri adresi toplamaz.
 
 :::note
-Belge **30 gün** saklanır, sonra silinir. Bağlantı yalnızca onu hazırladığınız çubuktadır: aramadan
+Belge **bir yıl** saklanır, sonra silinir. Bağlantı yalnızca onu hazırladığınız çubuktadır: aramadan
 ayrılırsanız ona geri dönemezsiniz. Yeniden hazırlamak beklemekten başka bir şeye mal olmaz.
 :::
 

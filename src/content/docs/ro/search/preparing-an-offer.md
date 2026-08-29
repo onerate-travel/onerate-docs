@@ -70,7 +70,7 @@ Linkul deschide documentul finalizat într-o filă nouă. Salvează-l sau atașe
 e-mail — oferta nu este trimisă nicăieri în numele tău, iar OneRate nu colectează adrese de clienți.
 
 :::note
-Documentul se păstrează **30 de zile**, apoi se șterge. Linkul se află în bara din care l-ai
+Documentul se păstrează **un an**, apoi se șterge. Linkul se află în bara din care l-ai
 pregătit și nicăieri altundeva: dacă părăsești căutarea nu mai poți reveni la el. Repregătirea nu
 costă decât așteptarea.
 :::

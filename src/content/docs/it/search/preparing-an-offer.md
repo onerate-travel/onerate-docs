@@ -72,7 +72,7 @@ email — l’offerta non viene mai inviata a nessuno per tuo conto e OneRate no
 dei clienti.
 
 :::note
-Il documento è conservato per **30 giorni**, poi eliminato. Il collegamento si trova nella barra da
+Il documento è conservato per **un anno**, poi eliminato. Il collegamento si trova nella barra da
 cui l’hai preparato e in nessun altro posto: se lasci la ricerca non puoi tornarci. Prepararla di
 nuovo non costa altro che l’attesa.
 :::

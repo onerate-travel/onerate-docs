@@ -70,7 +70,7 @@ Odnośnik otwiera gotowy dokument w nowej karcie. Zapisz go albo dołącz do wł
 oferta nigdy nie jest wysyłana w Twoim imieniu, a OneRate nie zbiera adresów klientów.
 
 :::note
-Dokument jest przechowywany przez **30 dni**, potem usuwany. Odnośnik znajduje się w pasku, z
+Dokument jest przechowywany przez **rok**, potem usuwany. Odnośnik znajduje się w pasku, z
 którego go przygotowano, i nigdzie indziej: po opuszczeniu wyszukiwania nie da się do niego wrócić.
 Ponowne przygotowanie kosztuje tylko czas oczekiwania.
 :::

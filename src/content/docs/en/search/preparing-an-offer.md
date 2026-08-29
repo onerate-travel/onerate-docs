@@ -70,7 +70,7 @@ That link opens the finished document in a new tab. Save it, or attach it to you
 offer is never sent anywhere on your behalf, and OneRate never collects a customer's address.
 
 :::note
-The document is kept for **30 days**, then deleted. The link is in the bar you built it from and
+The document is kept for **one year**, then deleted. The link is in the bar you built it from and
 nowhere else: leave the search and you cannot come back to it. Building it again costs nothing but
 the wait.
 :::

@@ -71,7 +71,7 @@ e-mailjéhez — az ajánlatot a rendszer soha nem küldi el az ön nevében, é
 ügyfélcímeket.
 
 :::note
-A dokumentumot **30 napig** őrizzük meg, utána töröljük. A hivatkozás abban a sávban van, amelyből
+A dokumentumot **egy évig** őrizzük meg, utána töröljük. A hivatkozás abban a sávban van, amelyből
 elkészítette, és sehol máshol: ha elhagyja a keresést, nem tud visszatérni hozzá. Az újbóli
 elkészítés csak a várakozásba kerül.
 :::
