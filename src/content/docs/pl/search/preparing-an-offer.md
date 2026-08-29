@@ -43,12 +43,13 @@ wyszukiwania.
 
 ## Przygotowanie dokumentu
 
-Wpisz nazwę klienta, jeśli ją masz — drukuje się na okładce jako *Prepared for*. Zostaw puste, jeśli
+Wpisz nazwę klienta, jeśli ją masz — drukuje się na okładce jako *Klient*. Zostaw puste, jeśli
 robisz wycenę dla kogoś z ulicy; wiersz po prostu nie zostanie narysowany.
 
 Obok wybierz **język, w którym napisany jest dokument**. Zaczyna od języka, w którym korzystasz z
 portalu, i zwykle to jest właściwe — zmień go, gdy robisz ofertę dla kogoś, kto czyta w innym.
-Wybór decyduje o całym dokumencie: opisy hotelu, regulamin i nazwy pokoi przychodzą w tym języku.
+Wybór decyduje o całym dokumencie: nagłówki kolumn, wiersze na stronie tytułowej i warunki
+anulowania, a także opisy hotelu, regulamin i nazwy pokoi, które przysyłają dostawcy.
 
 :::note
 Twoje własne ekrany idą za przełącznikiem języka u góry, nie za tym. Wyszukiwanie pyta dostawców w
@@ -102,10 +103,10 @@ Dwie rzeczy, których celowo **nie** zawiera:
 - **Brak nazw dostawców.** Dokument to papier Twojego biura. To, z którego bedbanku pochodzi stawka,
   jest Twoją sprawą i jest na Twoim ekranie, nie na ekranie klienta.
 
-Każda oferta niesie wiersz, który czyni ją wyceną, a nie potwierdzeniem:
+Każda oferta niesie wiersz, który czyni ją wyceną, a nie potwierdzeniem — w języku dokumentu:
 
-> This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
-> are subject to change until a booking is confirmed.
+> To jest oferta, a nie rezerwacja. Ceny i dostępność podano na moment wystawienia i mogą ulec
+> zmianie do czasu potwierdzenia rezerwacji.
 
 To zwykła prawda. Stawka wygasa w kilka minut; gdy klient wróci, uruchamiasz wyszukiwanie ponownie i
 rezerwujesz to, co jest wtedy.

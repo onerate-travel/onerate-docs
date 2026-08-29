@@ -42,13 +42,14 @@ A kijelölés abban a lapfülben él, amelyben dolgozik. A keresés elhagyása u
 
 ## A dokumentum elkészítése
 
-Írja be az ügyfél nevét, ha van — a borítóra *Prepared for* néven kerül. Hagyja üresen, ha egy
+Írja be az ügyfél nevét, ha van — a borítóra *Ügyfél* néven kerül. Hagyja üresen, ha egy
 betérő vendégnek ad ajánlatot; a sor egyszerűen nem jelenik meg.
 
 Mellette válassza ki **a dokumentum nyelvét**. Azon a nyelven indul, amelyen a portált használja, és
 ez rendszerint helyes is — akkor változtasson rajta, ha olyasvalakinek ad ajánlatot, aki más nyelven
-olvas. A választás az egész dokumentumról dönt: a szálloda leírásai, a házirend és a szobanevek is
-azon a nyelven érkeznek.
+olvas. A választás az egész dokumentumról dönt: az oszlopfejlécek, a borító sorai és a lemondási
+feltételek éppúgy azon a nyelven készülnek, mint a beszállítóktól érkező szállodaleírások, a
+házirend és a szobanevek.
 
 :::note
 A saját képernyői a felül lévő nyelvváltót követik, nem ezt. A keresés azon a nyelven kérdezi a
@@ -104,10 +105,11 @@ Két dolog, amit szándékosan **nem** tartalmaz:
 - **Nincsenek beszállítói nevek.** A dokumentum az Ön irodájának papírja. Hogy az ár melyik
   szállásközvetítőtől jött, az az Ön dolga, és az Ön képernyőjén van, nem az ügyfélén.
 
-Minden ajánlat viseli azt a sort, amely árajánlattá és nem visszaigazolássá teszi:
+Minden ajánlat viseli azt a sort, amely árajánlattá és nem visszaigazolássá teszi — a
+dokumentum nyelvén:
 
-> This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
-> are subject to change until a booking is confirmed.
+> Ez árajánlat, nem foglalás. Az árak és az elérhetőség a kiállítás időpontjában érvényesek, és a
+> foglalás visszaigazolásáig változhatnak.
 
 Ez az egyszerű igazság. Egy ár percek alatt lejár; amikor az ügyfél visszatér, újra lefuttatja a
 keresést, és azt foglalja le, ami akkor van.

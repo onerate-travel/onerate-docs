@@ -41,12 +41,13 @@ Seçim çalıştığınız sekmede yaşar. Aramadan ayrıldıktan sonra saklanma
 
 ## Belgeyi hazırlamak
 
-Varsa müşteri adını yazın — kapakta *Prepared for* olarak basılır. Bir gelene teklif veriyorsanız
+Varsa müşteri adını yazın — kapakta *Müşteri* olarak basılır. Bir gelene teklif veriyorsanız
 boş bırakın; o satır hiç çizilmez.
 
 Yanında **belgenin yazılacağı dili** seçin. Portalı kullandığınız dille başlar, ki çoğu zaman
 doğrusu odur — başka bir dil okuyan birine teklif veriyorsanız değiştirin. Bu seçim belgenin
-tamamına karar verir: otel açıklamaları, ev kuralları ve oda adları hep o dilde gelir.
+tamamına karar verir: sütun başlıkları, kapak satırları ve iptal koşullarının yanı sıra
+tedarikçilerden gelen otel açıklamaları, ev kuralları ve oda adları da o dilde olur.
 
 :::note
 Kendi ekranlarınız bunu değil, üstteki dil değiştiriciyi izler. Arama, tedarikçilere sizin
@@ -97,10 +98,10 @@ Bilerek taşımadığı iki şey var:
 - **Tedarikçi adı yok.** Belge sizin acentenizin kâğıdıdır. Oranın hangi bedbank'ten geldiği size
   aittir ve sizin ekranınızdadır, müşterinin değil.
 
-Her teklif, onu onay değil teklif yapan satırı taşır:
+Her teklif, onu onay değil teklif yapan satırı belgenin yazıldığı dilde taşır:
 
-> This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
-> are subject to change until a booking is confirmed.
+> Bu bir tekliftir, rezervasyon değildir. Fiyatlar ve müsaitlik teklifin düzenlendiği andaki
+> durumu gösterir; rezervasyon onaylanana kadar değişebilir.
 
 İşin doğrusu budur. Bir oran dakikalar içinde geçersizleşir; müşteri döndüğünde aramayı yeniden
 çalıştırıp o an ne varsa onu rezerve edersiniz.

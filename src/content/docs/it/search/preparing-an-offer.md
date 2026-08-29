@@ -43,13 +43,14 @@ La selezione vive nella scheda in cui stai lavorando. Non viene conservata dopo 
 
 ## Preparare il documento
 
-Scrivi il nome del cliente, se ce l'hai: viene stampato in copertina come *Prepared for*. Lascialo
+Scrivi il nome del cliente, se ce l'hai: viene stampato in copertina come *Cliente*. Lascialo
 stare se stai facendo un preventivo a chi è appena entrato; la riga semplicemente non viene disegnata.
 
 Accanto, scegli **la lingua in cui è scritto il documento**. Parte dalla lingua in cui stai usando
 il portale, che di solito è quella giusta: cambiala quando fai un preventivo a chi ne legge un'altra.
-La scelta decide tutto il documento: le descrizioni dell'hotel, il regolamento e i nomi delle camere
-arrivano tutti in quella lingua.
+La scelta decide tutto il documento: le intestazioni delle colonne, le righe di copertina e le
+condizioni di cancellazione, oltre alle descrizioni dell'hotel, al regolamento e ai nomi delle
+camere che arrivano dai fornitori.
 
 :::note
 Le tue schermate seguono il selettore di lingua in alto, non questo. Una ricerca chiede ai fornitori
@@ -105,10 +106,11 @@ Due cose che deliberatamente **non** porta:
 - **Nessun nome di fornitore.** Il documento è la carta della tua agenzia. Da quale bedbank arriva
   la tariffa è affare tuo ed è sul tuo schermo, non su quello del cliente.
 
-Ogni offerta porta la riga che la rende un preventivo e non una conferma:
+Ogni offerta porta la riga che la rende un preventivo e non una conferma, nella lingua del
+documento:
 
-> This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
-> are subject to change until a booking is confirmed.
+> Questo è un preventivo, non una prenotazione. I prezzi e la disponibilità sono quelli al
+> momento dell’emissione e possono variare fino alla conferma della prenotazione.
 
 È la semplice verità. Una tariffa scade in minuti; quando il cliente torna rifai la ricerca e
 prenoti quello che c'è allora.

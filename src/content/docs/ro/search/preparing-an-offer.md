@@ -42,13 +42,13 @@ Selecția trăiește în fila în care lucrezi. Nu se păstrează după ce păr�
 
 ## Pregătirea documentului
 
-Scrie numele clientului, dacă îl ai — se tipărește pe copertă ca *Prepared for*. Lasă-l gol dacă
+Scrie numele clientului, dacă îl ai — se tipărește pe copertă ca *Client*. Lasă-l gol dacă
 faci o ofertă pentru cineva venit la ghișeu; rândul pur și simplu nu se desenează.
 
 Alături, alege **limba în care este scris documentul**. Pornește de la limba în care folosești
 portalul, care de obicei este cea potrivită — schimb-o când faci o ofertă cuiva care citește în
-alta. Alegerea decide tot documentul: descrierile hotelului, regulamentul și numele camerelor vin
-toate în ea.
+alta. Alegerea decide tot documentul: capetele de coloană, rândurile de pe copertă și condițiile de
+anulare, ca și descrierile hotelului, regulamentul și numele camerelor care vin de la furnizori.
 
 :::note
 Ecranele tale urmează comutatorul de limbă de sus, nu pe acesta. O căutare întreabă furnizorii în
@@ -104,10 +104,10 @@ Două lucruri pe care în mod deliberat **nu** le poartă:
 - **Fără nume de furnizori.** Documentul este hârtia agenției tale. Din ce bedbank vine tariful este
   treaba ta și este pe ecranul tău, nu pe al clientului.
 
-Fiecare ofertă poartă rândul care o face o cotație și nu o confirmare:
+Fiecare ofertă poartă rândul care o face o cotație și nu o confirmare, în limba documentului:
 
-> This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
-> are subject to change until a booking is confirmed.
+> Aceasta este o ofertă, nu o rezervare. Prețurile și disponibilitatea sunt cele de la momentul
+> emiterii și se pot modifica până la confirmarea rezervării.
 
 Acesta este adevărul simplu. Un tarif expiră în câteva minute; când clientul se întoarce, reiei
 căutarea și rezervi ce există atunci.

@@ -47,8 +47,9 @@ alone if you are quoting a walk-in; the row is simply not drawn.
 
 Beside it, choose the **language the document is written in**. It starts on the language you are
 using the portal in, which is usually right — change it when you are quoting somebody who reads
-another one. The choice decides the whole document: the hotel descriptions, the house rules and the
-room names all come back in it.
+another one. The choice decides the whole document — the column headings, the cover rows and the
+cancellation terms, as well as the hotel descriptions, the house rules and the room names the
+suppliers send back.
 
 :::note
 Your own screens follow the language switcher at the top, not this. A search asks the suppliers in
@@ -101,7 +102,8 @@ Two things it deliberately does **not** carry:
 - **No supplier names.** The document is your agency's paper. Which bedbank the rate came from is
   yours to know and is on your screen, not on the customer's.
 
-Every offer carries the line that makes it a quotation rather than a confirmation:
+Every offer carries the line that makes it a quotation rather than a confirmation, in the
+language the document is written in:
 
 > This is a quotation, not a booking. Prices and availability are quoted at the time of issue and
 > are subject to change until a booking is confirmed.
