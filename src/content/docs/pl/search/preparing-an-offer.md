@@ -1,11 +1,11 @@
 ---
 title: Przygotowanie oferty
-description: Zaznacz pokoje w kilku hotelach na liście wyników i pobierz ofertę PDF na papierze firmowym Twojego biura.
+description: Zaznacz pokoje w kilku hotelach na liście wyników i pobierz ofertę na papierze firmowym Twojego biura — jako PDF albo jako edytowalny dokument Word.
 ---
 
 ## Czym to jest
 
-**Oferta** to wycena w PDF: okładka z pobytem, a następnie strona na hotel z wybranymi pokojami, ich
+**Oferta** to wycena — w PDF albo w dokumencie Word, który Twoi pracownicy mogą edytować: okładka z pobytem, a następnie strona na hotel z wybranymi pokojami, ich
 wyżywieniem, warunkami anulowania i ceną. Wysyłasz ją klientowi, on wybiera jeden, a Ty wracasz i
 rezerwujesz właśnie ten pokój.
 
@@ -57,6 +57,17 @@ języku, w którym pracujesz, więc nazwy pokoi na Twojej liście wyników zosta
 od tego, w jakim języku wyślesz ofertę.
 :::
 
+Obok języka wybierz **format**. **PDF** to gotowy dokument: wygląda tak samo na każdym komputerze i
+nikt go przez przypadek nie zmieni. **Word (edytowalny)** to ten sam dokument — ta sama okładka, te
+same hotele w tej samej kolejności, te same zdjęcia — jako plik `.docx`, który Twoi pracownicy mogą
+otworzyć i zmienić: usunąć hotel odrzucony przez klienta, poprawić cenę stałemu klientowi albo dodać
+własny akapit przed wysłaniem.
+
+:::note
+Jedno naciśnięcie tworzy **jeden plik**, w wybranym formacie. Jeśli chcesz też ten drugi, zmień
+format i naciśnij ponownie — kosztuje to tylko czas oczekiwania.
+:::
+
 Naciśnij **Przygotuj ofertę**. Portal przyjmuje żądanie i zaczyna ją tworzyć:
 
 > Oferta jest przygotowywana. Będzie gotowa za chwilę.
@@ -67,8 +78,10 @@ Dlatego portal robi to w tle, a pasek informuje, gdy skończy:
 
 > Otwórz ofertę (PDF)
 
-Odnośnik otwiera gotowy dokument w nowej karcie. Zapisz go albo dołącz do własnej wiadomości —
-oferta nigdy nie jest wysyłana w Twoim imieniu, a OneRate nie zbiera adresów klientów.
+Odnośnik otwiera gotowy dokument w nowej karcie. Przy ofercie Word widnieje **Pobierz ofertę (Word)**
+i plik zostaje zapisany — żadna przeglądarka nie wyświetli `.docx`. W obu przypadkach: zapisz go albo
+dołącz do własnej wiadomości. Oferta nigdy nie jest wysyłana w Twoim imieniu, a OneRate nie zbiera
+adresów klientów.
 
 :::note
 Dokument jest przechowywany przez **rok**, potem usuwany. Odnośnik znajduje się w pasku, z

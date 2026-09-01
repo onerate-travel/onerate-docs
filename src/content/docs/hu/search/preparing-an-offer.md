@@ -1,11 +1,11 @@
 ---
 title: Ajánlat készítése
-description: Jelöljön ki szobákat több szállodából a találati listán, és töltse le az irodája fejlécével készült PDF ajánlatot.
+description: Jelöljön ki szobákat több szállodából a találati listán, és töltse le az irodája fejlécével készült ajánlatot PDF-ként vagy szerkeszthető Word-dokumentumként.
 ---
 
 ## Mi ez
 
-Az **ajánlat** egy PDF árajánlat: egy borító a tartózkodással, majd szállodánként egy oldal a
+Az **ajánlat** egy árajánlat — PDF-ként vagy Word-dokumentumként, amelyet a munkatársai szerkeszthetnek: egy borító a tartózkodással, majd szállodánként egy oldal a
 kiválasztott szobákkal, az ellátással, a lemondási feltételekkel és az árral. Elküldi az ügyfélnek,
 ő választ egyet, Ön pedig visszatér és lefoglalja azt a szobát.
 
@@ -57,6 +57,18 @@ beszállítókat, amelyiken dolgozik, így a találati listában a szobanevek az
 bármilyen nyelven küldi is az ajánlatot.
 :::
 
+A nyelv mellett válassza ki a **formátumot**. A **PDF** a kész dokumentum: minden gépen ugyanúgy néz
+ki, és véletlenül senki nem írja át. A **Word (szerkeszthető)** ugyanaz a dokumentum — ugyanaz a
+borító, ugyanazok a szállodák ugyanabban a sorrendben, ugyanazok a fényképek — `.docx` fájlként,
+amelyet a munkatársai megnyithatnak és átírhatnak: kivehetnek egy szállodát, amelyet az ügyfél
+elvetett, módosíthatnak egy árat egy törzsvendégnek, vagy hozzáírhatnak egy saját bekezdést, mielőtt
+továbbküldik.
+
+:::note
+Egy gombnyomás **egy fájlt** készít, a választott formátumban. Ha a másikra is szüksége van, váltson
+formátumot és nyomja meg újra — csak a várakozásba kerül.
+:::
+
 Nyomja meg az **Ajánlat elkészítése** gombot. A portál átveszi a kérést, és hozzálát:
 
 > Az ajánlat készül. Egy pillanat múlva kész lesz.
@@ -67,9 +79,10 @@ forgó karika előtt kellene töltenie. Ezért a portál a háttérben végzi el
 
 > Ajánlat megnyitása (PDF)
 
-A hivatkozás új lapon nyitja meg az elkészült dokumentumot. Mentse el, vagy csatolja a saját
-e-mailjéhez — az ajánlatot a rendszer soha nem küldi el az ön nevében, és a OneRate nem gyűjt
-ügyfélcímeket.
+A hivatkozás új lapon nyitja meg az elkészült dokumentumot. Word-ajánlatnál **Ajánlat letöltése
+(Word)** áll rajta, és a fájlt menti — `.docx`-et egyetlen böngésző sem tud megjeleníteni. Mindkét
+esetben: mentse el, vagy csatolja a saját e-mailjéhez. Az ajánlatot a rendszer soha nem küldi el az
+ön nevében, és a OneRate nem gyűjt ügyfélcímeket.
 
 :::note
 A dokumentumot **egy évig** őrizzük meg, utána töröljük. A hivatkozás abban a sávban van, amelyből

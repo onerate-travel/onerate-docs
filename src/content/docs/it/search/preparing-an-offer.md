@@ -1,11 +1,11 @@
 ---
 title: Preparare un’offerta
-description: Spunta le camere di più hotel nell’elenco dei risultati e scarica un preventivo PDF sulla carta intestata della tua agenzia.
+description: Spunta le camere di più hotel nell’elenco dei risultati e scarica un preventivo sulla carta intestata della tua agenzia, in PDF o in un documento Word modificabile.
 ---
 
 ## Che cos'è
 
-Un'**offerta** è un preventivo in PDF: una copertina con il soggiorno, poi una pagina per hotel con
+Un'**offerta** è un preventivo — in PDF, oppure in un documento Word che il tuo personale può modificare: una copertina con il soggiorno, poi una pagina per hotel con
 le camere che hai scelto, il trattamento, le condizioni di cancellazione e il prezzo. La mandi al
 cliente, lui ne sceglie una, e tu torni e prenoti quella camera.
 
@@ -58,6 +58,17 @@ nella lingua in cui stai lavorando, quindi i nomi delle camere nel tuo elenco re
 qualunque lingua tu scelga per l'offerta.
 :::
 
+Accanto alla lingua, scegli il **formato**. Il **PDF** è il documento finito: si vede uguale su ogni
+macchina e nessuno lo cambia per sbaglio. **Word (modificabile)** è lo stesso documento — stessa
+copertina, stessi hotel nello stesso ordine, stesse fotografie — come file `.docx` che il tuo
+personale può aprire e modificare: togliere un hotel che il cliente ha escluso, correggere un prezzo
+per un cliente abituale, o aggiungere un paragrafo tuo prima di inviarlo.
+
+:::note
+Una pressione costruisce **un solo file**, nel formato che hai scelto. Se vuoi anche l'altro, cambia
+formato e premi di nuovo: non costa altro che l'attesa.
+:::
+
 Premi **Prepara l’offerta**. Il portale prende la richiesta e inizia a costruirla:
 
 > L’offerta è in preparazione. Sarà pronta tra un momento.
@@ -68,9 +79,10 @@ Perciò il portale lo fa in background e la barra avvisa quando è pronto:
 
 > Apri l’offerta (PDF)
 
-Il collegamento apre il documento finito in una nuova scheda. Salvalo, oppure allegalo alla tua
-email — l’offerta non viene mai inviata a nessuno per tuo conto e OneRate non raccoglie indirizzi
-dei clienti.
+Il collegamento apre il documento finito in una nuova scheda. Un’offerta Word dice invece **Scarica
+l’offerta (Word)** e salva il file: nessun browser sa mostrare un `.docx`. In entrambi i casi:
+salvalo, oppure allegalo alla tua email. L’offerta non viene mai inviata a nessuno per tuo conto e
+OneRate non raccoglie indirizzi dei clienti.
 
 :::note
 Il documento è conservato per **un anno**, poi eliminato. Il collegamento si trova nella barra da

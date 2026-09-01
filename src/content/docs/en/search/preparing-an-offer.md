@@ -1,11 +1,11 @@
 ---
 title: Preparing an offer
-description: Tick rooms across several hotels on the results list and download a PDF quotation on your agency’s letterhead.
+description: Tick rooms across several hotels on the results list and download a quotation on your agency’s letterhead, as a PDF or as an editable Word document.
 ---
 
 ## What this is
 
-An **offer** is a PDF quotation: a cover naming the stay, then a page per hotel listing the rooms
+An **offer** is a quotation — a PDF, or a Word document your staff can edit: a cover naming the stay, then a page per hotel listing the rooms
 you chose, their board, their cancellation terms and their price. You send it to a customer, they
 pick one, and you come back and book that room.
 
@@ -57,6 +57,17 @@ the language you are working in, so the room names in your results list stay in 
 language you send the offer in.
 :::
 
+Beside the language, choose the **format**. **PDF** is the finished document: it looks the same on
+every machine and nobody changes it by accident. **Word (editable)** is the same document — same
+cover, same hotels in the same order, same photographs — as a `.docx` file your staff can open and
+change: strike a hotel the customer has ruled out, adjust a price for a regular, or add a paragraph
+of your own before you send it on.
+
+:::note
+One press builds **one file**, in the format you chose. If you want the other one as well, change
+the format and press again — it costs nothing but the wait.
+:::
+
 Press **Prepare offer**. The portal takes the request and starts building:
 
 > The offer is being prepared. It will be ready in a moment.
@@ -67,8 +78,10 @@ portal does that work in the background, and the bar says when it is done:
 
 > Open the offer (PDF)
 
-That link opens the finished document in a new tab. Save it, or attach it to your own email — the
-offer is never sent anywhere on your behalf, and OneRate never collects a customer's address.
+That link opens the finished document in a new tab. A Word offer says **Download the offer (Word)**
+and saves the file instead — no browser can display a `.docx`. Either way: save it, or attach it to
+your own email. The offer is never sent anywhere on your behalf, and OneRate never collects a
+customer's address.
 
 :::note
 The document is kept for **one year**, then deleted. The link is in the bar you built it from and
@@ -110,6 +123,11 @@ language the document is written in:
 
 That is the plain truth of it. A rate expires in minutes; when the customer comes back you re-run
 the search and book what is there then.
+
+:::note
+The Word file carries all of this, laid out the same way. The room prices are a real table, so you
+can type into a cell without the row coming apart.
+:::
 
 ## Limits
 
