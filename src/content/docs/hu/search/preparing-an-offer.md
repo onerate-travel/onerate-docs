@@ -58,7 +58,7 @@ bármilyen nyelven küldi is az ajánlatot.
 :::
 
 A nyelv mellett válassza ki a **formátumot**. A **PDF** a kész dokumentum: minden gépen ugyanúgy néz
-ki, és véletlenül senki nem írja át. A **Word (szerkeszthető)** ugyanaz a dokumentum — ugyanaz a
+ki, és véletlenül senki nem írja át. A **Word** ugyanaz a dokumentum — ugyanaz a
 borító, ugyanazok a szállodák ugyanabban a sorrendben, ugyanazok a fényképek — `.docx` fájlként,
 amelyet a munkatársai megnyithatnak és átírhatnak: kivehetnek egy szállodát, amelyet az ügyfél
 elvetett, módosíthatnak egy árat egy törzsvendégnek, vagy hozzáírhatnak egy saját bekezdést, mielőtt

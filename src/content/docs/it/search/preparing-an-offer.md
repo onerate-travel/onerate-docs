@@ -59,7 +59,7 @@ qualunque lingua tu scelga per l'offerta.
 :::
 
 Accanto alla lingua, scegli il **formato**. Il **PDF** è il documento finito: si vede uguale su ogni
-macchina e nessuno lo cambia per sbaglio. **Word (modificabile)** è lo stesso documento — stessa
+macchina e nessuno lo cambia per sbaglio. **Word** è lo stesso documento — stessa
 copertina, stessi hotel nello stesso ordine, stesse fotografie — come file `.docx` che il tuo
 personale può aprire e modificare: togliere un hotel che il cliente ha escluso, correggere un prezzo
 per un cliente abituale, o aggiungere un paragrafo tuo prima di inviarlo.

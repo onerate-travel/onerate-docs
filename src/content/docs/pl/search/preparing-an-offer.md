@@ -58,7 +58,7 @@ od tego, w jakim języku wyślesz ofertę.
 :::
 
 Obok języka wybierz **format**. **PDF** to gotowy dokument: wygląda tak samo na każdym komputerze i
-nikt go przez przypadek nie zmieni. **Word (edytowalny)** to ten sam dokument — ta sama okładka, te
+nikt go przez przypadek nie zmieni. **Word** to ten sam dokument — ta sama okładka, te
 same hotele w tej samej kolejności, te same zdjęcia — jako plik `.docx`, który Twoi pracownicy mogą
 otworzyć i zmienić: usunąć hotel odrzucony przez klienta, poprawić cenę stałemu klientowi albo dodać
 własny akapit przed wysłaniem.

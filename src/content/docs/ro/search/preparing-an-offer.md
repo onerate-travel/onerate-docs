@@ -57,7 +57,7 @@ limba în care lucrezi, așa că numele camerelor din lista ta de rezultate răm
 :::
 
 Lângă limbă, alege **formatul**. **PDF** este documentul finit: arată la fel pe orice calculator și
-nimeni nu îl schimbă din greșeală. **Word (editabil)** este același document — aceeași copertă,
+nimeni nu îl schimbă din greșeală. **Word** este același document — aceeași copertă,
 aceleași hoteluri în aceeași ordine, aceleași fotografii — ca fișier `.docx` pe care personalul tău
 îl poate deschide și modifica: scoate un hotel refuzat de client, ajustează un preț pentru un client
 fidel sau adaugă un paragraf propriu înainte de a-l trimite.

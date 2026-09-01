@@ -56,7 +56,7 @@ adları sizin dilinizde kalır.
 :::
 
 Dilin yanında **biçimi** seçin. **PDF** bitmiş belgedir: her makinede aynı görünür ve kimse yanlışlıkla
-değiştiremez. **Word (düzenlenebilir)** aynı belgedir — aynı kapak, aynı sırada aynı oteller, aynı
+değiştiremez. **Word** aynı belgedir — aynı kapak, aynı sırada aynı oteller, aynı
 fotoğraflar — ama çalışanlarınızın açıp değiştirebileceği bir `.docx` dosyası olarak: müşterinin
 elediği oteli çıkarın, düzenli bir müşteri için fiyatı düzeltin ya da göndermeden önce kendi
 paragrafınızı ekleyin.

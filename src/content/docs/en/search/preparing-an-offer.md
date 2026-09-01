@@ -58,7 +58,7 @@ language you send the offer in.
 :::
 
 Beside the language, choose the **format**. **PDF** is the finished document: it looks the same on
-every machine and nobody changes it by accident. **Word (editable)** is the same document — same
+every machine and nobody changes it by accident. **Word** is the same document — same
 cover, same hotels in the same order, same photographs — as a `.docx` file your staff can open and
 change: strike a hotel the customer has ruled out, adjust a price for a regular, or add a paragraph
 of your own before you send it on.
