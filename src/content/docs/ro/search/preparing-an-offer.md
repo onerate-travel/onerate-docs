@@ -1,11 +1,11 @@
 ---
 title: Pregătirea unei oferte
-description: Bifează camere din mai multe hoteluri în lista de rezultate și descarcă o ofertă PDF pe antetul agenției tale.
+description: Bifează camere din mai multe hoteluri în lista de rezultate și descarcă o ofertă pe antetul agenției tale, ca PDF sau ca document Word editabil.
 ---
 
 ## Ce este
 
-O **ofertă** este o cotație PDF: o copertă cu sejurul, apoi câte o pagină per hotel cu camerele pe
+O **ofertă** este o cotație — ca PDF sau ca document Word pe care personalul tău îl poate edita: o copertă cu sejurul, apoi câte o pagină per hotel cu camerele pe
 care le-ai ales, masa, condițiile de anulare și prețul. O trimiți clientului, el alege una, iar tu
 te întorci și rezervi exact acea cameră.
 
@@ -56,6 +56,17 @@ limba în care lucrezi, așa că numele camerelor din lista ta de rezultate răm
 în ce limbă trimiți oferta.
 :::
 
+Lângă limbă, alege **formatul**. **PDF** este documentul finit: arată la fel pe orice calculator și
+nimeni nu îl schimbă din greșeală. **Word (editabil)** este același document — aceeași copertă,
+aceleași hoteluri în aceeași ordine, aceleași fotografii — ca fișier `.docx` pe care personalul tău
+îl poate deschide și modifica: scoate un hotel refuzat de client, ajustează un preț pentru un client
+fidel sau adaugă un paragraf propriu înainte de a-l trimite.
+
+:::note
+O apăsare construiește **un singur fișier**, în formatul ales. Dacă îl vrei și pe celălalt, schimbă
+formatul și apasă din nou — nu costă decât așteptarea.
+:::
+
 Apasă **Pregătește oferta**. Portalul preia cererea și începe să o construiască:
 
 > Oferta se pregătește. Va fi gata într-o clipă.
@@ -66,8 +77,10 @@ rotițe. De aceea portalul face asta în fundal, iar bara anunță când e gata:
 
 > Deschide oferta (PDF)
 
-Linkul deschide documentul finalizat într-o filă nouă. Salvează-l sau atașează-l propriului tău
-e-mail — oferta nu este trimisă nicăieri în numele tău, iar OneRate nu colectează adrese de clienți.
+Linkul deschide documentul finalizat într-o filă nouă. La o ofertă Word scrie **Descarcă oferta
+(Word)** și fișierul se salvează — niciun browser nu poate afișa un `.docx`. În ambele cazuri:
+salvează-l sau atașează-l propriului tău e-mail. Oferta nu este trimisă nicăieri în numele tău, iar
+OneRate nu colectează adrese de clienți.
 
 :::note
 Documentul se păstrează **un an**, apoi se șterge. Linkul se află în bara din care l-ai

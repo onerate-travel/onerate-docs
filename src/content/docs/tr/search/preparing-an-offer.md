@@ -1,11 +1,11 @@
 ---
 title: Teklif hazırlamak
-description: Sonuç listesinde birden çok otelden oda seçin, acentenizin antetli kâğıdındaki PDF teklifi indirin.
+description: Sonuç listesinde birden çok otelden oda seçin, acentenizin antetli kâğıdındaki teklifi PDF ya da düzenlenebilir Word belgesi olarak indirin.
 ---
 
 ## Bu nedir
 
-**Teklif** bir PDF fiyat teklifidir: konaklamayı anlatan bir kapak, ardından her otel için seçtiğiniz
+**Teklif** bir fiyat teklifidir — PDF olarak ya da çalışanlarınızın düzenleyebileceği bir Word belgesi olarak: konaklamayı anlatan bir kapak, ardından her otel için seçtiğiniz
 odaları, pansiyonlarını, iptal koşullarını ve fiyatlarını listeleyen birer sayfa. Müşteriye
 gönderirsiniz, biri seçilir, siz dönüp o odayı rezerve edersiniz.
 
@@ -55,6 +55,17 @@ Kendi ekranlarınız bunu değil, üstteki dil değiştiriciyi izler. Arama, ted
 adları sizin dilinizde kalır.
 :::
 
+Dilin yanında **biçimi** seçin. **PDF** bitmiş belgedir: her makinede aynı görünür ve kimse yanlışlıkla
+değiştiremez. **Word (düzenlenebilir)** aynı belgedir — aynı kapak, aynı sırada aynı oteller, aynı
+fotoğraflar — ama çalışanlarınızın açıp değiştirebileceği bir `.docx` dosyası olarak: müşterinin
+elediği oteli çıkarın, düzenli bir müşteri için fiyatı düzeltin ya da göndermeden önce kendi
+paragrafınızı ekleyin.
+
+:::note
+Bir basış **tek bir dosya** üretir, seçtiğiniz biçimde. Diğerini de istiyorsanız biçimi değiştirip
+tekrar basın — beklemekten başka bir şeye mal olmaz.
+:::
+
 **Teklifi hazırla**'ya basın. Portal isteği alır ve hazırlamaya başlar:
 
 > Teklif hazırlanıyor. Birazdan hazır olacak.
@@ -65,8 +76,10 @@ işi arka planda yapar ve bittiğinde çubuk size söyler:
 
 > Teklifi aç (PDF)
 
-Bu bağlantı belgeyi yeni bir sekmede açar. Kaydedin ya da kendi e-postanıza ekleyip gönderin —
-teklif sizin adınıza hiçbir yere gönderilmez ve OneRate hiçbir müşteri adresi toplamaz.
+Bu bağlantı belgeyi yeni bir sekmede açar. Word teklifinde bunun yerine **Teklifi indir (Word)**
+yazar ve dosyayı kaydeder — hiçbir tarayıcı `.docx` görüntüleyemez. Her iki durumda da kaydedin ya
+da kendi e-postanıza ekleyip gönderin; teklif sizin adınıza hiçbir yere gönderilmez ve OneRate
+hiçbir müşteri adresi toplamaz.
 
 :::note
 Belge **bir yıl** saklanır, sonra silinir. Bağlantı yalnızca onu hazırladığınız çubuktadır: aramadan
