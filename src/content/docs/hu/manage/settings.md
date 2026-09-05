@@ -135,7 +135,10 @@ Ezek az API-kulcsaira is vonatkoznak — a kulcs is az iroda forgalma. Lásd:
 Az előfizetésed állapota: **Aktív**, **Próbaidőszak**, **Fizetés késedelemben** vagy
 **Megszüntetve**. Csak tulajdonosok.
 
-Ha nem látható, a portál ezt világosan kimondja, és a OneRate-hez irányít, ahelyett hogy találgatna.
+Minden irodának van egy attól a naptól, hogy létrehozták: az új iroda **Próbaidőszak**kal indul, az
+első fizetés pedig **Aktív**ra viszi. Nincs negyedik lehetőség, amelyben egy irodának egyszerűen
+nincs előfizetése — ez az állapot korábban létezett, és megkülönböztethetetlen volt a korlátlan
+ingyenes fióktól, ezért ma már nincs.
 
 Az előfizetés állapota a **bejelentkezést** szabályozza, soha nem egy már folyamatban lévő foglalást.
 Egy futó foglalás nem marad félbe attól, hogy közben lejár az előfizetés.

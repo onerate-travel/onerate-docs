@@ -139,8 +139,10 @@ Valgono anche per le vostre chiavi API — una chiave è comunque traffico della
 Lo stato del tuo abbonamento: **Attivo**, **Prova**, **Pagamento in ritardo** o **Annullato**. Solo
 titolari.
 
-Se non è visibile, il portale lo dice chiaramente e ti indirizza a OneRate invece di tirare a
-indovinare.
+Ogni agenzia ne ha uno dal giorno in cui viene creata: una nuova agenzia parte in **Prova**, e il
+primo pagamento la porta in **Attivo**. Non esiste una quarta possibilità in cui un'agenzia
+semplicemente non ha abbonamento — quello stato esisteva ed era indistinguibile da un account
+gratuito illimitato, ed è per questo che non esiste più.
 
 Lo stato dell'abbonamento condiziona **l'accesso**, mai una prenotazione già in corso. Una
 prenotazione in corso quando un abbonamento scade non viene abbandonata a metà.

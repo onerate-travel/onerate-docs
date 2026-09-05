@@ -123,6 +123,11 @@ risponde è una scelta della vostra agenzia, in
 e non annulla mai, **rilascio** restituisce la camera. Un'agenzia che non ha dichiarato nulla ottiene
 **promemoria**, perché un annullamento sbagliato è denaro vero.
 
+Se il rilascio automatico non riesce a raggiungere il fornitore — rifiuta l'annullamento, oppure non
+risponde — la prenotazione lo dice: l'opzione risulta rilasciata **e** porta un avviso che la camera
+è ancora tenuta, mentre lo stato della prenotazione resta confermato, perché lo è. Annullala tu
+dalla pagina della prenotazione; non c'è nient'altro da disfare prima.
+
 Il voucher di un'opzione aperta dichiara che lo è, così un cliente che lo ha in mano non può
 scambiarlo per un soggiorno definito.
 

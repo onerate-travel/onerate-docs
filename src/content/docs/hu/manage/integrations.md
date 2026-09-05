@@ -81,6 +81,12 @@ kérdezné.
 Csak `https`, és semmilyen belső hálózati cím. Az aláírás bizonyítja, hogy az üzenet valódi; nem
 rejti el a tartalmát, ezek az üzenetek pedig vendégneveket hordoznak.
 
+Ezt a szabályt minden kézbesítéskor újra ellenőrizzük, nem csak a végpont hozzáadásakor — így egy
+belső hálózatba került cím kézbesítése megszűnik, bármikor is került oda. **A fogadódnak is
+közvetlenül kell válaszolnia: az átirányítást elutasítjuk, nem követjük.** A vendégneveket hordozó
+üzenet nem megy tovább oda, amit a OneRate soha nem látott. Ha a fogadód elköltözött, add meg itt az
+új címét.
+
 ### Az események
 
 | Esemény | Mikor |

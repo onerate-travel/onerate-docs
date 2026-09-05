@@ -79,6 +79,11 @@ Webhook, sisteminizin sormasını beklemek yerine OneRate'in ona bir şey olduğ
 Yalnızca `https`, ve iç ağdaki adresler kabul edilmez. İmza mesajın gerçek olduğunu kanıtlar;
 içindekini gizlemez, ve bu mesajlar misafir adı taşır.
 
+Bu kural yalnızca uç noktayı eklerken değil, her teslimatta yeniden denetlenir — iç ağa düşen bir
+adrese, ne zaman düşmüş olursa olsun, teslimat durur. **Alıcınız da doğrudan yanıt vermeli:
+yönlendirme izlenmez, reddedilir.** Misafir adı taşıyan bir mesaj, OneRate'e hiç gösterilmemiş bir
+yere iletilmez. Alıcınız taşındıysa yeni adresini buraya ekleyin.
+
 ### Olaylar
 
 | Olay | Ne zaman |

@@ -133,7 +133,9 @@ Bunlar API anahtarlarınız için de geçerlidir — anahtar da acentenizin traf
 Abonelik durumunuz: **Aktif**, **Deneme**, **Ödeme gecikti** ya da **İptal edildi**. Yalnızca
 sahipler.
 
-Görünmüyorsa portal bunu açıkça söyler ve tahmin yürütmek yerine sizi OneRate'e yönlendirir.
+Her acentenin kurulduğu günden itibaren bir aboneliği vardır: yeni acente **Deneme** ile başlar, ilk
+ödeme onu **Aktif**'e taşır. Acentenin hiç aboneliğinin olmadığı dördüncü bir ihtimal yok — o durum
+eskiden vardı ve sınırsız ücretsiz hesaptan ayırt edilemiyordu, artık bu yüzden yok.
 
 Abonelik durumu **giriş yapmayı** kısıtlar, devam eden bir rezervasyonu asla. Abonelik sona
 erdiğinde yürüyen bir rezervasyon yarıda bırakılmaz.

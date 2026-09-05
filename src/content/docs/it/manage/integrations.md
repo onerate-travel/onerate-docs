@@ -82,6 +82,12 @@ che lo chiede.
 Solo `https`, e nessun indirizzo di rete interna. La firma dimostra che un messaggio è autentico; non
 ne nasconde il contenuto, e questi messaggi portano nomi di ospiti.
 
+Questa regola viene ricontrollata a ogni consegna, non solo quando aggiungi l'endpoint — così un
+indirizzo finito in una rete interna smette di ricevere consegne, in qualunque momento ci sia
+finito. **Anche il tuo ricevitore deve rispondere direttamente: un redirect viene rifiutato, non
+seguito.** Un messaggio con i nomi degli ospiti non verrà inoltrato in un posto che OneRate non ha
+mai visto. Se il tuo ricevitore si è spostato, aggiungi qui il suo nuovo indirizzo.
+
 ### Gli eventi
 
 | Evento | Quando |

@@ -137,7 +137,10 @@ Se aplică și cheilor dvs. API — o cheie este tot trafic al agenției. Vedeț
 Starea abonamentului tău: **Activ**, **Perioadă de probă**, **Plată restantă** sau **Anulat**. Doar
 proprietari.
 
-Dacă nu este vizibilă, portalul o spune limpede și te trimite la OneRate în loc să ghicească.
+Fiecare agenție are unul din ziua în care este creată: o agenție nouă începe în **Perioadă de
+probă**, iar prima plată o mută în **Activ**. Nu există o a patra posibilitate în care o agenție pur
+și simplu nu are abonament — acea stare exista și nu se deosebea de un cont gratuit nelimitat, motiv
+pentru care nu mai există.
 
 Starea abonamentului condiționează **autentificarea**, niciodată o rezervare deja în curs. O rezervare
 aflată în desfășurare când un abonament expiră nu este abandonată la jumătate.

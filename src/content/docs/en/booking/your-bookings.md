@@ -117,6 +117,11 @@ is your agency's choice, in [Settings](/en/manage/settings/#agency-configuration
 warning and never cancels, **release** gives the room back. An agency that has stated nothing gets
 **remind**, because a wrong cancellation is real money.
 
+If the automatic release cannot reach the supplier — it refuses the cancellation, or does not answer
+— the booking says so: the option shows as released **and** carries a warning that the room is still
+held, and the booking's own status stays confirmed, because it is. Cancel it yourself from the
+booking page; nothing else has to be undone first.
+
 The voucher of an open option says it is one, so a customer holding it cannot mistake it for a
 settled stay.
 

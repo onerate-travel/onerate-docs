@@ -78,6 +78,12 @@ A webhook is OneRate telling your system that something happened, instead of you
 Only `https`, and no address inside a private network. The signature proves a message is genuine; it
 does not hide what is in it, and these messages carry guest names.
 
+That rule is checked again on every delivery, not only when you add the endpoint — so an address
+that is inside a private network stops being delivered to, whenever it became one. **Your receiver
+must answer directly, too: a redirect is refused rather than followed.** A message with your guests'
+names on it will not be sent on to somewhere OneRate was never shown. If your receiver has moved,
+add its new address here.
+
 ### The events
 
 | Event | When |

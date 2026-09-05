@@ -133,7 +133,10 @@ These apply to your API keys as well — a key is still your agency's traffic. S
 
 Your subscription status: **Active**, **Trial**, **Payment overdue** or **Cancelled**. Owners only.
 
-If it is not visible, the portal says so plainly and points you at OneRate rather than guessing.
+Every agency has one from the day it is set up: a new agency starts on **Trial**, and the first
+payment moves it to **Active**. There is no fourth possibility where an agency simply has no
+subscription — that state used to exist and was indistinguishable from an unlimited free account,
+which is why it no longer does.
 
 Subscription status gates **signing in**, never a booking already in progress. A booking underway
 when a subscription lapses is not abandoned halfway.

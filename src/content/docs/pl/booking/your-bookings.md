@@ -118,6 +118,11 @@ nikt nie odpowie, jest wyborem Państwa biura, w
 nie anuluje, **zwolnienie** oddaje pokój. Biuro, które nic nie zadeklarowało, dostaje
 **przypomnienie**, bo błędne anulowanie to prawdziwe pieniądze.
 
+Jeśli automatyczne zwolnienie nie dotrze do dostawcy — odmówi anulowania albo nie odpowie —
+rezerwacja to powie: opcja pokazuje się jako zwolniona **i** niesie ostrzeżenie, że pokój jest wciąż
+trzymany, a własny status rezerwacji pozostaje potwierdzony, bo taki jest. Anuluj ją sam ze strony
+rezerwacji; nic innego nie trzeba wcześniej cofać.
+
 Voucher otwartej opcji mówi, że nią jest, więc klient trzymający go w ręku nie pomyli go z
 przesądzonym pobytem.
 

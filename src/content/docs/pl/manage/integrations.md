@@ -80,6 +80,12 @@ Webhook to OneRate mówiący Państwa systemowi, że coś się wydarzyło, zamia
 Tylko `https` i żadnych adresów w sieci wewnętrznej. Podpis dowodzi, że wiadomość jest autentyczna;
 nie ukrywa jej treści, a te wiadomości niosą nazwiska gości.
 
+Ta reguła jest sprawdzana ponownie przy każdej dostawie, nie tylko przy dodawaniu punktu końcowego —
+więc adres, który znalazł się w sieci wewnętrznej, przestaje być obsługiwany, kiedykolwiek się tam
+znalazł. **Twój odbiornik też musi odpowiadać bezpośrednio: przekierowanie jest odrzucane, a nie
+śledzone.** Wiadomość z nazwiskami gości nie zostanie przesłana dalej tam, gdzie OneRate nigdy nie
+zajrzał. Jeśli Twój odbiornik się przeniósł, dodaj tutaj jego nowy adres.
+
 ### Zdarzenia
 
 | Zdarzenie | Kiedy |

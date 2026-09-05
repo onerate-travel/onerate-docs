@@ -80,6 +80,12 @@ dvs. să întrebe.
 Doar `https` și nicio adresă din rețeaua internă. Semnătura dovedește că un mesaj este autentic; nu
 îi ascunde conținutul, iar aceste mesaje poartă nume de oaspeți.
 
+Această regulă este verificată din nou la fiecare livrare, nu doar când adaugi punctul final — așa
+că o adresă ajunsă într-o rețea internă nu mai primește livrări, oricând ar fi ajuns acolo. **Și
+receptorul tău trebuie să răspundă direct: o redirecționare este refuzată, nu urmată.** Un mesaj cu
+numele oaspeților nu va fi trimis mai departe într-un loc pe care OneRate nu l-a văzut niciodată.
+Dacă receptorul tău s-a mutat, adaugă aici noua lui adresă.
+
 ### Evenimentele
 
 | Eveniment | Când |

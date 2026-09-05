@@ -135,7 +135,10 @@ Obowiązują także dla kluczy API — klucz to również ruch Państwa biura. Z
 Status Twojej subskrypcji: **Aktywna**, **Okres próbny**, **Płatność zaległa** albo **Anulowana**.
 Tylko właściciele.
 
-Jeśli nie jest widoczny, portal mówi to wprost i kieruje Cię do OneRate, zamiast zgadywać.
+Każda agencja ma ją od dnia założenia: nowa agencja zaczyna od **Okresu próbnego**, a pierwsza
+płatność przenosi ją na **Aktywną**. Nie ma czwartej możliwości, w której agencja po prostu nie ma
+subskrypcji — ten stan istniał i był nie do odróżnienia od nieograniczonego darmowego konta, dlatego
+już go nie ma.
 
 Status subskrypcji warunkuje **logowanie**, nigdy rezerwację, która już trwa. Rezerwacja w toku, gdy
 subskrypcja wygaśnie, nie zostaje porzucona w połowie.

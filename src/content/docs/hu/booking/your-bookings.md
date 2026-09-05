@@ -118,6 +118,11 @@ válaszol, az az iroda döntése a [Beállításokban](/hu/manage/settings/#az-i
 az **emlékeztetés** tovább figyelmeztet és soha nem mond le, az **elengedés** visszaadja a szobát.
 Az az iroda, amely semmit nem mondott ki, **emlékeztetést** kap, mert egy téves lemondás valódi pénz.
 
+Ha az automatikus elengedés nem éri el a beszállítót — visszautasítja a lemondást, vagy nem válaszol
+—, a foglalás ezt kimondja: az opció elengedettként jelenik meg, **és** figyelmeztetést hordoz
+arról, hogy a szobát még mindig tartják; a foglalás saját státusza visszaigazolt marad, mert az.
+Mondd le magad a foglalás oldaláról; előtte semmi mást nem kell visszavonni.
+
 A nyitott opció voucherje kimondja, hogy opció, így az ügyfél, aki a kezében tartja, nem nézheti
 lezárt tartózkodásnak.
 

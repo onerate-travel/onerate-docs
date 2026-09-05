@@ -118,6 +118,11 @@ olacağı acentenizin seçimidir, [Ayarlar](/tr/manage/settings/#acente-yapılan
 **hatırlat** uyarmaya devam eder ve asla iptal etmez, **bırak** odayı geri verir. Hiçbir şey
 belirtmemiş bir acente **hatırlat**ı alır, çünkü yanlış bir iptal gerçek paradır.
 
+Otomatik bırakma tedarikçiye ulaşamazsa — iptali reddederse ya da yanıt vermezse — rezervasyon bunu
+söyler: opsiyon bırakılmış görünür **ve** odanın hâlâ tutulduğu uyarısını taşır; rezervasyonun kendi
+durumu onaylı kalır, çünkü öyledir. Rezervasyon sayfasından kendiniz iptal edin; önce geri alınması
+gereken başka bir şey yok.
+
 Açık bir opsiyonun voucher'ı bunu yazar, böylece elinde onu tutan bir müşteri onu kesinleşmiş bir
 konaklama sanamaz.
 

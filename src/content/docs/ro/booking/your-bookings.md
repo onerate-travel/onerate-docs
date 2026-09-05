@@ -119,6 +119,11 @@ răspunde nimeni este alegerea agenției dvs., în
 anulează niciodată, **eliberarea** dă camera înapoi. O agenție care nu a declarat nimic primește
 **amintire**, pentru că o anulare greșită înseamnă bani adevărați.
 
+Dacă eliberarea automată nu ajunge la furnizor — refuză anularea sau nu răspunde — rezervarea o
+spune: opțiunea apare ca eliberată **și** poartă un avertisment că această cameră este încă ținută,
+iar statutul propriu al rezervării rămâne confirmat, pentru că așa este. Anuleaz-o tu din pagina
+rezervării; nimic altceva nu trebuie desfăcut înainte.
+
 Voucherul unei opțiuni deschise spune că este una, așa că un client care îl are în mână nu îl poate
 confunda cu un sejur stabilit.
 
