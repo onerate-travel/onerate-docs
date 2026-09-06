@@ -12,8 +12,9 @@ Se sei un agente e una prenotazione va annullata, chiedi al tuo titolare o ammin
 
 ## Annullare
 
-Apri la prenotazione e premi **Annulla prenotazione**. Ti viene chiesta una conferma, e la conferma
-ti dice quanto costerà:
+Da **Prenotazioni**, premi **Annulla prenotazione** sulla riga — oppure apri la prenotazione e
+premi lo stesso pulsante lì. In entrambi i casi ti viene chiesta una conferma, e la conferma ti
+dice quanto costerà:
 
 > Annullare questa prenotazione? La penale prevista è di €120,00.
 

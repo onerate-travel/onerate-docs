@@ -1,6 +1,6 @@
 ---
 title: Rezervările tale
-description: Găsirea unei rezervări, ce înregistrează pagina de detalii, aprobare, opțiuni, vouchere, amintiri de anulare și ștergerea datelor oaspeților.
+description: Găsirea unei rezervări, cât costă anularea și anularea din listă, ce înregistrează pagina de detalii, aprobare, opțiuni, vouchere și limba lor, amintiri de anulare și ștergerea datelor oaspeților.
 ---
 
 ## Lista
@@ -13,8 +13,20 @@ Filtrează și găsește:
 - **Check-in de la / până la** — un interval de date pe sejur, nu pe momentul rezervării
 - **Găsește** — text liber pe numele oaspetelui, hotel și referința de confirmare a furnizorului
 
-Coloane: hotel, oaspete, sejur, furnizor, stare, preț de vânzare, creată. Totalul stă deasupra
-listei, iar listele lungi se paginează.
+Coloane: hotel, oaspete, sejur, preț de vânzare, stare, anulare, furnizor, rezervată de. Totalul stă
+deasupra listei, iar listele lungi se paginează.
+
+**Anulare** arată cât ar costa renunțarea la acea rezervare *chiar acum*, după condițiile
+înregistrate la momentul rezervării: „Anularea acum este gratuită.”, o sumă, sau „Această rezervare
+nu este rambursabilă; anularea va fi taxată (furnizorul nu a indicat suma).” Când furnizorul dă un
+termen fără fus orar, rândul adaugă „Orele sunt aproximative, deci și suma.” O rezervare fără
+condiții înregistrate o spune — „Pentru această rezervare nu au fost înregistrate condiții de
+anulare.” — în loc să nu arate nimic: tăcerea s-ar citi ca „nu e nimic de plată”, care este felul
+mai costisitor de a greși.
+
+Dacă aveți dreptul să anulați, o rezervare confirmată poartă și **Anulează rezervarea** pe rândul
+ei. Întreabă întâi, iar întrebarea citează aceeași sumă, așa că un clic greșit nu costă. Agenții nu
+văd butonul — [nu pot anula](/ro/booking/cancelling/#cine-poate-anula).
 
 O rezervare ale cărei date de oaspete au fost șterse afișează *datele oaspetelui șterse* în locul
 numelui. Rezervarea în sine rămâne.
@@ -143,6 +155,29 @@ produce un voucher fără rândul de telefon, nu cu unul gol — un "de plată l
 ca "nu e nimic de plată", iar aceasta este varianta mai scumpă de a greși. Sumele datorate la
 recepție sunt listate pe valută și niciodată adunate, pentru că un total între două valute este un
 număr pe care nimeni nu îl poate plăti.
+
+Acolo unde furnizorul a indicat poziția hotelului, în panoul de sus, lângă referință, stă o hartă
+mică — ceva ce un oaspete care sosește cu taxiul poate arăta.
+
+Sub sejur vin **regulile** proprii ale hotelului — orele de check-in și check-out, garanții, animale
+de companie — și **descrierea** lui, așa cum le declară acel furnizor. Ambele sunt aduse la emiterea
+voucherului, deci sunt condițiile hotelului de azi, nu cele din ziua rezervării. Voucherul încape pe
+o pagină acolo unde poate; un hotel cu multe de spus îl trece pe a doua, iar nimic nu este scurtat
+pentru a evita asta — o regulă a casei tăiată în jumătate pentru a economisi o coală este mai rea
+decât coala.
+
+O rezervare făcută înainte ca OneRate să înceapă să înregistreze poziția hotelului și referința
+hotelului la furnizor nu poartă nici harta, nici aceste secțiuni. Ambele pot fi cunoscute doar în
+momentul rezervării, iar nimic ulterior nu le poate recupera.
+
+### În ce limbă
+
+**Limba voucherului** stă lângă descărcare și pornește de la limba în care citiți portalul.
+Schimbați-o și se schimbă întregul document: cuvintele OneRate și cele ale hotelului împreună —
+astfel un client care a primit o ofertă în bulgară nu primește după ea un voucher în engleză.
+
+Alegeți limba oaspetelui, nu pe a dumneavoastră. Aceeași agenție emite într-o singură dimineață
+vouchere pentru oaspeți în limbi diferite; de aceea alegerea stă pe rezervare, nu în setări.
 
 Butonul este înlocuit de o propoziție când nu există voucher, iar propoziția spune de ce:
 

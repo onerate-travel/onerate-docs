@@ -1,6 +1,6 @@
 ---
 title: A foglalásaid
-description: Foglalás megtalálása, mit rögzít a részletező oldal, jóváhagyás, opciók, voucherek, lemondási emlékeztetők és vendégadatok törlése.
+description: Foglalás megtalálása, mibe kerül a lemondás és lemondás a listából, mit rögzít a részletező oldal, jóváhagyás, opciók, voucherek és a nyelvük, lemondási emlékeztetők és vendégadatok törlése.
 ---
 
 ## A lista
@@ -14,8 +14,21 @@ Szűrés és keresés:
 - **Keresés** — szabad szöveg a vendég nevére, a szállodára és a beszállítói visszaigazolási
   azonosítóra
 
-Oszlopok: szálloda, vendég, tartózkodás, beszállító, állapot, eladási ár, létrehozva. Az összesítés
-a lista fölött áll, a hosszú listák pedig lapozódnak.
+Oszlopok: szálloda, vendég, tartózkodás, eladási ár, állapot, lemondás, beszállító, foglalta. Az
+összesítés a lista fölött áll, a hosszú listák pedig lapozódnak.
+
+A **lemondás** azt mutatja, mennyibe kerülne *most* elengedni a foglalást, a foglaláskor rögzített
+feltételek szerint: „A lemondás most díjmentes.”, egy összeg, vagy „Ez a foglalás nem
+visszatéríthető; a lemondás díjköteles (a szállító nem adott meg összeget).” Ha a szállító időzóna
+nélkül ad meg határidőt, a sor kiegészül azzal, hogy „Az időpontok becsültek, így az összeg is.”
+A rögzített feltétel nélküli foglalás ki is mondja — „Ehhez a foglaláshoz nem rögzültek lemondási
+feltételek.” —, ahelyett hogy semmit sem írna: a hallgatás úgy olvasható, hogy nincs mit fizetni, és
+ez a tévedés drágább fajtája.
+
+Ha lemondhat foglalást, a visszaigazolt foglalás sorában a **Foglalás lemondása** is megjelenik.
+Előbb kérdez, és a kérdés ugyanazt az összeget mondja, így egyetlen téves kattintás sem kerül
+pénzbe. Az ügyintézők nem látják a gombot —
+[nem mondhatnak le foglalást](/hu/booking/cancelling/#ki-mondhat-le).
 
 Az a foglalás, amelynek vendégadatait töröltük, a név helyén *vendégadatok törölve* feliratot mutat.
 Maga a foglalás megmarad.
@@ -142,6 +155,29 @@ telefonsor nélküli vouchert eredményez, nem üres sort — az üres "szállod
 jelenti, hogy "nincs mit fizetni", és ez a drágább tévedés. A recepción fizetendő összegek
 devizánként szerepelnek, és soha nem adódnak össze: két deviza összege olyan szám, amelyet senki
 nem tud kifizetni.
+
+Ha a szállító megadta a szálloda helyét, a fenti panelben, a hivatkozás mellett kis térkép áll —
+valami, amire a taxival érkező vendég rámutathat.
+
+A tartózkodás alatt következnek a szálloda saját **szabályai** — be- és kijelentkezési idők,
+kaució, háziállatok — és a **leírása**, ahogyan azokat a szállító megadja. Mindkettőt a voucher
+kiállításakor kérdezzük le, tehát a szálloda mai feltételei, nem azok, amelyek a foglalás napján
+érvényesek voltak. A voucher egy oldalra fér, ahol elfér; egy sokat mondó szálloda átviszi a
+másodikra, és ennek elkerüléséért semmit nem vágunk le — egy félbevágott házirend rosszabb, mint
+egy második lap.
+
+Az a foglalás, amely azelőtt készült, hogy a OneRate rögzíteni kezdte volna a szálloda helyét és a
+szállító saját szállodahivatkozását, sem térképet, sem ezeket a szakaszokat nem tartalmazza.
+Mindkettő csak a foglalás pillanatában ismerhető meg, és utólag semmi nem hozza vissza őket.
+
+### Milyen nyelven
+
+A **Voucher nyelve** a letöltés mellett áll, és azon a nyelven indul, amelyen a portált olvassa.
+Ha megváltoztatja, az egész dokumentum megváltozik: a OneRate saját szavai és a szállodáé együtt —
+így egy ügyfél, aki bolgár ajánlatot kapott, nem angol vouchert kap utána.
+
+A vendég nyelvét válassza, ne a sajátját. Ugyanaz az iroda egyetlen délelőtt több nyelven ad ki
+vouchert; ezért áll ez a választás a foglaláson, nem a beállításokban.
 
 A gomb helyére mondat lép, ha nincs voucher, és a mondat megmondja, miért:
 

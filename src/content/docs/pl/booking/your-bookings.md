@@ -1,6 +1,6 @@
 ---
 title: Twoje rezerwacje
-description: Znalezienie rezerwacji, co zapisuje strona szczegółów, zatwierdzanie, opcje, vouchery, przypomnienia o anulowaniu i usuwanie danych gości.
+description: Znalezienie rezerwacji, ile kosztuje anulowanie i anulowanie z listy, co zapisuje strona szczegółów, zatwierdzanie, opcje, vouchery i ich język, przypomnienia o anulowaniu i usuwanie danych gości.
 ---
 
 ## Lista
@@ -13,8 +13,20 @@ Filtruj i szukaj:
 - **Zameldowanie od / do** — zakres dat pobytu, a nie momentu rezerwacji
 - **Znajdź** — dowolny tekst po nazwisku gościa, hotelu i numerze potwierdzenia u dostawcy
 
-Kolumny: hotel, gość, pobyt, dostawca, status, cena sprzedaży, utworzona. Suma stoi nad listą, a
-długie listy są stronicowane.
+Kolumny: hotel, gość, pobyt, cena sprzedaży, status, anulowanie, dostawca, rezerwujący. Suma stoi
+nad listą, a długie listy są stronicowane.
+
+**Anulowanie** pokazuje, ile kosztowałoby odstąpienie od tej rezerwacji *w tej chwili*, według
+warunków zapisanych przy rezerwacji: „Anulowanie teraz jest bezpłatne.”, kwota, albo „Ta rezerwacja
+jest bezzwrotna; anulowanie zostanie obciążone (dostawca nie podał kwoty).” Gdy dostawca podaje
+termin bez strefy czasowej, wiersz dodaje „Godziny są przybliżone, więc kwota również.” Rezerwacja
+bez zapisanych warunków mówi to wprost — „Dla tej rezerwacji nie zapisano warunków anulowania.” —
+zamiast nie pokazywać nic: milczenie czyta się jako „nie ma czego płacić”, a to droższy sposób
+pomyłki.
+
+Jeśli wolno Ci anulować, potwierdzona rezerwacja ma też **Anuluj rezerwację** w swoim wierszu.
+Najpierw pyta, a pytanie podaje tę samą kwotę, więc jedno omyłkowe kliknięcie nie kosztuje. Agenci
+nie widzą przycisku — [nie mogą anulować](/pl/booking/cancelling/#kto-może-anulować).
 
 Rezerwacja, której dane gościa usunięto, pokazuje *dane gościa usunięte* zamiast nazwiska. Sama
 rezerwacja pozostaje.
@@ -142,6 +154,29 @@ daje voucher bez wiersza z telefonem, a nie z pustym wierszem — puste "płatne
 jako "nie ma nic do zapłaty", a to droższy sposób na pomyłkę. Kwoty płatne w recepcji są wypisane
 osobno dla każdej waluty i nigdy nie są sumowane: suma dwóch walut to liczba, której nikt nie
 zapłaci.
+
+Tam, gdzie dostawca podał położenie hotelu, w panelu u góry, obok numeru potwierdzenia, stoi mała
+mapa — coś, co gość przyjeżdżający taksówką może pokazać.
+
+Pod pobytem znajdują się własne **zasady** hotelu — godziny zameldowania i wymeldowania, kaucje,
+zwierzęta — oraz jego **opis**, tak jak podaje je dostawca. Oba są pobierane przy wystawianiu
+vouchera, są więc dzisiejszymi warunkami hotelu, a nie tymi z dnia rezerwacji. Voucher mieści się
+na jednej stronie tam, gdzie może; hotel, który ma dużo do powiedzenia, przenosi go na drugą i nic
+nie jest skracane, aby tego uniknąć — zasada hotelu przycięta w połowie dla oszczędzenia kartki
+jest gorsza niż ta kartka.
+
+Rezerwacja złożona zanim OneRate zaczął zapisywać położenie hotelu i numer hotelu u dostawcy nie ma
+ani mapy, ani tych sekcji. Oba są poznawalne wyłącznie w chwili rezerwacji i nic późniejszego ich
+nie odtworzy.
+
+### W jakim języku
+
+**Język vouchera** stoi obok pobierania i zaczyna od języka, w którym czytasz portal. Zmień go, a
+zmieni się cały dokument: słowa OneRate i hotelu razem — więc klient, który dostał ofertę po
+bułgarsku, nie dostanie po niej vouchera po angielsku.
+
+Wybierz język gościa, nie swój. Ta sama agencja wystawia jednego ranka vouchery dla gości w różnych
+językach; dlatego ten wybór stoi na rezerwacji, a nie w ustawieniach.
 
 Gdy vouchera nie ma, przycisk zastępuje zdanie — i to zdanie mówi dlaczego:
 

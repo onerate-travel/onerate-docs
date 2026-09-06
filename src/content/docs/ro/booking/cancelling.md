@@ -12,8 +12,8 @@ Dacă ești agent și o rezervare trebuie anulată, cere-i proprietarului sau ad
 
 ## Anularea
 
-Deschide rezervarea și apasă **Anulează rezervarea**. Ți se cere să confirmi, iar confirmarea îți
-spune cât va costa:
+Din **Rezervări**, apasă **Anulează rezervarea** pe rând — sau deschide rezervarea și apasă același
+buton acolo. În ambele cazuri ți se cere să confirmi, iar confirmarea îți spune cât va costa:
 
 > Anulezi această rezervare? Penalizarea de anulare estimată este 120,00 €.
 

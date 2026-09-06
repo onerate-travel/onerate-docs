@@ -1,6 +1,6 @@
 ---
 title: Rezervasyonlarınız
-description: Bir rezervasyonu bulmak, detay sayfasının kaydettikleri, onay, opsiyonlar, voucher'lar, iptal hatırlatmaları ve misafir verisini silmek.
+description: Bir rezervasyonu bulmak, iptalin ne tutacağını görmek ve listeden iptal etmek, detay sayfasının kaydettikleri, onay, opsiyonlar, voucher'lar ve hangi dilde kesildikleri, iptal hatırlatmaları ve misafir verisini silmek.
 ---
 
 ## Liste
@@ -14,8 +14,19 @@ Filtreleyin ve bulun:
   aralık
 - **Bul** — misafir adı, otel ve tedarikçi onay referansı üzerinde serbest metin
 
-Sütunlar: otel, misafir, konaklama, tedarikçi, durum, satış fiyatı, oluşturulma. Toplam listenin
-üstündedir ve uzun listeler sayfalanır.
+Sütunlar: otel, misafir, konaklama, satış fiyatı, durum, iptal, tedarikçi, işlemi yapan. Toplam
+listenin üstündedir ve uzun listeler sayfalanır.
+
+**İptal**, o rezervasyonu *şu anda* bırakmanın neye mal olacağıdır — rezervasyon anında kaydedilen
+şartlara göre: "Şu anda iptal ücretsiz.", bir tutar, ya da "Bu rezervasyon iade edilemez; iptalde
+ücret alınır (tutarı tedarikçi bildirmedi)." Tedarikçi son tarihi saat dilimi belirtmeden veriyorsa
+satıra "Saatler yaklaşık olduğundan tutar da yaklaşıktır." eklenir. Şartı kayıtlı olmayan bir rezervasyon
+bunu söyler — "İptal ücreti bu rezervasyon için kayıtlı değil." — hiçbir şey yazmaz değil: sessizlik
+"ödenecek bir şey yok" diye okunur ve yanılmanın pahalı yolu budur.
+
+İptal yetkiniz varsa onaylanmış rezervasyonun satırında **Rezervasyonu iptal et** de bulunur. Önce
+sorar ve soru aynı tutarı söyler; yanlış bir tıkla ücret ödemezsiniz. Danışmanlar bu butonu görmez
+— [iptal yetkileri yoktur](/tr/booking/cancelling/#kim-iptal-edebilir).
 
 Misafir verisi silinmiş bir rezervasyon, isim yerine *misafir verisi silindi* gösterir.
 Rezervasyonun kendisi hâlâ oradadır.
@@ -141,6 +152,29 @@ Bir satır yalnızca tedarikçi onu söylediyse görünür. Telefon numarası g�
 satır yerine telefon satırı olmayan bir voucher üretir — boş bir "otelde ödenecek" satırı "ödenecek
 bir şey yok" diye okunur ve yanılmanın pahalı olan yolu budur. Otelde ödenecek tutarlar para birimi
 başına yazılır, asla toplanmaz: iki para biriminin toplamı kimsenin ödeyemeyeceği bir sayıdır.
+
+Tedarikçi otelin konumunu verdiyse, üstteki panelde referansın yanında küçük bir harita durur —
+taksiyle gelen bir misafirin gösterebileceği bir şey.
+
+Konaklamanın altında otelin kendi **kuralları** — giriş ve çıkış saatleri, depozito, evcil hayvan —
+ve **tanıtım metni** gelir; tedarikçinin bildirdiği hâliyle. İkisi de voucher kesilirken çekilir,
+yani otelin bugünkü koşullarıdır, rezervasyon günündeki hâli değil. Voucher sığdığı yerde tek
+sayfada kalır; söyleyecek çok şeyi olan bir otel onu ikinci sayfaya taşır ve bunu önlemek için
+hiçbir şey kısaltılmaz — bir kâğıt tasarrufu için yarıdan kesilmiş bir otel kuralı, o kâğıttan
+kötüdür.
+
+OneRate otelin konumunu ve tedarikçinin kendi otel referansını kaydetmeye başlamadan önce yapılmış
+bir rezervasyonda ne harita ne de bu bölümler bulunur. İkisi de yalnızca rezervasyon anında
+bilinebilir; sonradan hiçbir şey onları geri getiremez.
+
+### Hangi dilde
+
+**Voucher dili** indirme bağlantısının yanındadır ve portalı okuduğunuz dille başlar. Değiştirin,
+belgenin tamamı değişir: OneRate'in kendi kelimeleri ve otelinkiler birlikte — böylece Bulgarca
+teklif almış bir müşteriye ardından İngilizce voucher verilmez.
+
+Kendi dilinizi değil, misafirin dilini seçin. Aynı acenta aynı sabah farklı dillerdeki misafirlere
+voucher keser; bu yüzden bu seçim ayarlarda değil, rezervasyonun üzerindedir.
 
 Voucher yoksa düğmenin yerini bir cümle alır ve o cümle nedenini söyler:
 

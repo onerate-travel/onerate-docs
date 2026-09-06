@@ -12,7 +12,8 @@ Jeśli jesteś agentem, a rezerwację trzeba anulować, poproś właściciela lu
 
 ## Anulowanie
 
-Otwórz rezerwację i naciśnij **Anuluj rezerwację**. Poprosimy o potwierdzenie, a potwierdzenie mówi,
+Na liście **Rezerwacje** naciśnij **Anuluj rezerwację** w wierszu — albo otwórz rezerwację i
+naciśnij ten sam przycisk tam. W obu przypadkach poprosimy o potwierdzenie, a potwierdzenie mówi,
 ile to będzie kosztować:
 
 > Anulować tę rezerwację? Spodziewana opłata za anulowanie to 120,00 €.

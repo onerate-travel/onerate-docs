@@ -13,8 +13,9 @@ yöneticinize başvurun.
 
 ## İptal etmek
 
-Rezervasyonu açıp **Rezervasyonu iptal et**e basın. Onaylamanız istenir ve onay size ne kadara mal
-olacağını söyler:
+**Rezervasyonlar** listesinde satırdaki **Rezervasyonu iptal et**e basın — ya da rezervasyonu açıp
+oradaki aynı düğmeye. Her iki durumda da onaylamanız istenir ve onay size ne kadara mal olacağını
+söyler:
 
 > Bu rezervasyon iptal edilsin mi? Beklenen iptal ücreti 120,00 €.
 

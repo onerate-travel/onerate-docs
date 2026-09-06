@@ -12,8 +12,9 @@ If you are an agent and a booking must be cancelled, ask your owner or admin.
 
 ## Cancelling
 
-Open the booking and press **Cancel booking**. You are asked to confirm, and the confirmation tells
-you what it will cost:
+From **Bookings**, press **Cancel booking** on the row — or open the booking and press the same
+button there. Either way you are asked to confirm, and the confirmation tells you what it will
+cost:
 
 > Cancel this booking? The expected cancellation fee is €120,00.
 

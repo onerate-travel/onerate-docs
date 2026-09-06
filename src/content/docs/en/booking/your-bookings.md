@@ -1,6 +1,6 @@
 ---
 title: Your bookings
-description: Finding a booking, what its detail page records, approval, options, vouchers, cancellation reminders and erasing guest data.
+description: Finding a booking, seeing what cancelling costs and cancelling from the list, what its detail page records, approval, options, vouchers and the language they are issued in, cancellation reminders and erasing guest data.
 ---
 
 ## The list
@@ -13,8 +13,19 @@ Filter and find:
 - **Check-in from / to** — a date range on the stay, not on when it was booked
 - **Find** — free text over guest name, hotel, and supplier confirmation reference
 
-Columns: hotel, guest, stay, supplier, status, sell price, created. The total sits above the list,
-and long lists page.
+Columns: hotel, guest, stay, sell price, status, cancellation, supplier, booked by. The total sits
+above the list, and long lists page.
+
+**Cancellation** is what dropping that booking would cost *right now*, under the terms stored when
+you booked: "Cancelling now is free.", an amount, or "This booking is non-refundable; cancelling
+will be charged (the supplier stated no amount)." Where the supplier states a deadline without a
+timezone the line adds "The times are approximate, so the amount is too." A booking with no stored
+terms says so — "No cancellation terms were recorded for this booking." — rather than nothing at all:
+silence reads as "there is nothing to pay", which is the more expensive way to be wrong.
+
+If you may cancel, a confirmed booking also carries **Cancel booking** on its row. It asks first,
+and the question quotes the same fee, so you are never one stray click from a charge. Agents do not
+see the button — [they may not cancel](/en/booking/cancelling/#who-can-cancel).
 
 A booking whose guest data has been erased shows *guest data erased* in place of the name. The
 booking itself is still there.
@@ -141,6 +152,30 @@ voucher with no phone row rather than an empty one — a blank "Payable at hotel
 nothing to pay", which is the more expensive way to be wrong. What is owed at the desk is listed
 per currency and never added together, because a total across two currencies is a number nobody
 can pay.
+
+Where the supplier gave the hotel's position, a small map sits in the panel at the top, beside the
+reference — something a guest arriving by taxi can point at.
+
+Below the stay come the hotel's own **rules** — check-in and check-out times, deposits, pets — and
+its **description**, as that supplier states them. Both are fetched when the voucher is issued, so
+they are the hotel's terms as they stand now rather than as they read on the day you booked. The
+voucher fits on one page where it can; a hotel with a lot to say pushes it onto a second, and
+nothing is cut short to prevent that — a house rule trimmed in half to save a sheet of paper is
+worse than the sheet.
+
+A booking made before OneRate began recording the hotel's position and the supplier's own hotel
+reference carries neither the map nor these sections. Both are knowable only at the moment of
+booking, and nothing afterwards can recover them.
+
+### Which language
+
+**Voucher language** sits beside the download and starts on the language you are reading the portal
+in. Change it and the whole document changes: OneRate's own words and the hotel's, together — so a
+customer who received a Bulgarian offer is not handed an English voucher after it.
+
+Choose the guest's language rather than your own. The same agency issues vouchers for guests in
+different languages on the same morning, which is why this sits on the booking and not in
+settings.
 
 The button is replaced by a sentence when there is no voucher, and the sentence says why:
 

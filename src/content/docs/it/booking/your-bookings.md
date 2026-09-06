@@ -1,6 +1,6 @@
 ---
 title: Le tue prenotazioni
-description: Trovare una prenotazione, che cosa registra la pagina di dettaglio, approvazione, opzioni, voucher, promemoria di annullamento e cancellazione dei dati degli ospiti.
+description: Trovare una prenotazione, vedere quanto costa annullare e annullare dall'elenco, che cosa registra la pagina di dettaglio, approvazione, opzioni, voucher e la loro lingua, promemoria di annullamento e cancellazione dei dati degli ospiti.
 ---
 
 ## L'elenco
@@ -13,8 +13,21 @@ Filtra e trova:
 - **Check-in dal / al** — un intervallo di date sul soggiorno, non su quando è stato prenotato
 - **Trova** — testo libero su nome dell'ospite, hotel e riferimento di conferma del fornitore
 
-Colonne: hotel, ospite, soggiorno, fornitore, stato, prezzo di vendita, creata. Il totale sta sopra
-l'elenco, e gli elenchi lunghi vengono paginati.
+Colonne: hotel, ospite, soggiorno, prezzo di vendita, stato, cancellazione, fornitore, prenotata da.
+Il totale sta sopra l'elenco, e gli elenchi lunghi vengono paginati.
+
+**Cancellazione** indica quanto costerebbe rinunciare a quella prenotazione *adesso*, secondo le
+condizioni registrate al momento della prenotazione: «Annullare adesso è gratuito.», un importo, o
+«Questa prenotazione non è rimborsabile; l'annullamento sarà addebitato (il fornitore non ha
+indicato l'importo).» Quando il fornitore indica una scadenza senza fuso orario, la riga aggiunge
+«Gli orari sono approssimativi, quindi anche l'importo.» Una prenotazione senza condizioni
+registrate lo dice — «Per questa prenotazione non sono state registrate condizioni di
+annullamento.» — invece di non mostrare nulla: il silenzio si legge come «non c'è nulla da pagare»,
+che è il modo più costoso di sbagliare.
+
+Se può annullare, una prenotazione confermata porta anche **Annulla prenotazione** sulla sua riga.
+Chiede prima, e la domanda cita lo stesso importo, così un clic sbagliato non costa nulla. Gli
+agenti non vedono il pulsante — [non possono annullare](/it/booking/cancelling/#chi-può-annullare).
 
 Una prenotazione i cui dati ospite sono stati cancellati mostra *dati ospite cancellati* al posto
 del nome. La prenotazione in sé resta.
@@ -148,6 +161,29 @@ produce un voucher senza la riga del telefono, non con una riga vuota: un "da pa
 vuoto si legge come "non c'è nulla da pagare", ed è il modo più costoso di sbagliare. Quanto è
 dovuto al ricevimento è elencato per valuta e mai sommato, perché un totale fra due valute è un
 numero che nessuno può pagare.
+
+Dove il fornitore ha indicato la posizione dell'hotel, una piccola mappa sta nel pannello in alto,
+accanto al riferimento — qualcosa che un ospite in arrivo in taxi può mostrare.
+
+Sotto il soggiorno arrivano le **regole** dell'hotel — orari di check-in e check-out, cauzioni,
+animali — e la sua **descrizione**, come le dichiara quel fornitore. Entrambe vengono recuperate
+all'emissione del voucher, quindi sono le condizioni dell'hotel di oggi e non quelle del giorno in
+cui hai prenotato. Il voucher sta su una pagina dove può; un hotel con molto da dire lo porta a una
+seconda, e nulla viene troncato per evitarlo — una regola della casa tagliata a metà per
+risparmiare un foglio è peggio del foglio.
+
+Una prenotazione fatta prima che OneRate iniziasse a registrare la posizione dell'hotel e il
+riferimento dell'hotel presso il fornitore non porta né la mappa né queste sezioni. Entrambi sono
+conoscibili solo al momento della prenotazione, e nulla dopo può recuperarli.
+
+### In quale lingua
+
+**Lingua del voucher** sta accanto al download e parte dalla lingua in cui stai leggendo il
+portale. Cambiala e cambia l'intero documento: le parole di OneRate e quelle dell'hotel insieme —
+così un cliente che ha ricevuto un'offerta in bulgaro non riceve poi un voucher in inglese.
+
+Scegli la lingua dell'ospite, non la tua. La stessa agenzia emette voucher per ospiti in lingue
+diverse nella stessa mattina: per questo la scelta sta sulla prenotazione e non nelle impostazioni.
 
 Il pulsante è sostituito da una frase quando non c'è voucher, e la frase dice perché:
 
