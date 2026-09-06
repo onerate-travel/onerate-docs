@@ -74,9 +74,30 @@ dowiadujesz się o tym przy zameldowaniu.
 
 ## Jeśli anulowanie się nie powiedzie
 
-„Nie udało się anulować rezerwacji” oznacza, że dostawca odmówił albo nie odpowiedział. Rezerwacja
-**nie** została anulowana.
+Trzy różne rzeczy mogą pójść źle, a ekran mówi która. Różnica decyduje o tym, co zrobisz dalej,
+więc czytaj treść, a nie to, że coś zrobiło się czerwone.
 
-Nie zakładaj, że przeszło, i nie klikaj przycisku w kółko — u większości dostawców anulowanie nie
-jest idempotentne, więc powtarzanie może wygenerować drugą opłatę. Sprawdź historię zdarzeń, a potem
-skontaktuj się bezpośrednio z dostawcą, jeśli błąd się powtarza.
+| Co widzisz | Co się stało | Co zrobić |
+| --- | --- | --- |
+| „Nie udało się anulować rezerwacji.” | Żądanie nie przeszło. | Spróbuj ponownie. |
+| „Rezerwacja nie została anulowana: dostawca odrzucił żądanie (…).” | Dotarło do dostawcy i on odmówił. Kod w nawiasie jest jego. | Zobacz kody poniżej. |
+| „Dostawca nie odpowiedział, więc nie możemy stwierdzić, czy ta rezerwacja została anulowana.” | Nikt jeszcze nie wie. Mogło przejść albo nie. | **Nie próbuj ponownie.** Poczekaj. |
+
+Trzeci przypadek wymaga ostrożności. U większości dostawców anulowanie nie jest idempotentne, więc
+drugie anulowanie może zostać naliczone drugi raz. OneRate sam wyjaśnia to z dostawcą, a status tutaj
+zmienia się, gdy przyjdzie odpowiedź; historia zdarzeń to zapisuje.
+
+W każdym z tych trzech przypadków rezerwacja **nie** została anulowana, chyba że ekran mówi, że tak.
+
+### Kody odmowy
+
+Kod jest pokazany dokładnie tak, jak powstał, żebyś mógł zacytować go dostawcy.
+
+| Kod | Znaczenie |
+| --- | --- |
+| `not_cancellable_CANCELLED` | Już anulowana. Nie ma nic do zrobienia. |
+| `not_cancellable_…` (dowolny inny status) | Rezerwacja nie jest w stanie, który można anulować — na przykład pobyt, którego dostawca nigdy nie potwierdził. Sprawdź jej status. |
+| `transition_conflict_…` | Ktoś inny zmienił tę rezerwację w trakcie Twojego anulowania. Przeładuj ją i przeczytaj status, zanim zrobisz cokolwiek innego. |
+| `AUTH` | Dostawca odrzucił poświadczenie. Sprawdź je w sekcji **Dostawcy**. |
+| `VALIDATION` | Dostawca nie rozpoznaje tej rezerwacji jako możliwej do anulowania. Skontaktuj się z nim, podając referencję dostawcy. |
+| Cokolwiek innego | Własna odmowa dostawcy. Zacytuj mu kod. |

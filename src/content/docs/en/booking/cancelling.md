@@ -72,9 +72,30 @@ find out at check-in.
 
 ## If cancellation fails
 
-"Booking could not be cancelled" means the supplier refused or did not answer. The booking has
-**not** been cancelled.
+Three different things can go wrong, and the screen says which. The difference decides what you do
+next, so read the wording rather than the fact that something went red.
 
-Do not assume it went through and do not spam the button — cancellation is not idempotent at most
-suppliers, so repeating it can produce a second fee. Check the timeline, then contact your
-supplier directly if it keeps failing.
+| What you see | What happened | What to do |
+| --- | --- | --- |
+| "Booking could not be cancelled." | The request did not get through. | Try again. |
+| "The booking was not cancelled: your supplier refused the request (…)." | It reached your supplier and they refused it. The code in brackets is theirs. | See the codes below. |
+| "Your supplier did not answer, so we cannot say whether this booking was cancelled." | Nobody knows yet. It may or may not have gone through. | **Do not try again.** Wait. |
+
+The third one is the one to be careful with. Cancellation is not idempotent at most suppliers, so
+cancelling a second time can be charged a second time. OneRate checks with your supplier itself, and
+the booking's status here changes once the answer arrives; the timeline records it.
+
+In every one of the three the booking has **not** been cancelled unless the screen says it has.
+
+### The refusal codes
+
+The code is shown exactly as it was produced, so you can quote it to your supplier.
+
+| Code | Meaning |
+| --- | --- |
+| `not_cancellable_CANCELLED` | Already cancelled. Nothing to do. |
+| `not_cancellable_…` (any other status) | The booking is not in a state that can be cancelled — a stay the supplier never confirmed, for example. Look at its status. |
+| `transition_conflict_…` | Somebody else changed this booking while you were cancelling it. Reload it and read the status before doing anything else. |
+| `AUTH` | Your supplier refused the credential. Check it under **Suppliers**. |
+| `VALIDATION` | Your supplier does not recognise this booking as one it can cancel. Contact them with the supplier reference. |
+| Anything else | Your supplier's own refusal. Quote the code to them. |

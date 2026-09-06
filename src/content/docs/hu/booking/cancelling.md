@@ -75,9 +75,30 @@ szétválnak — és ez a bejelentkezéskor derül ki.
 
 ## Ha a lemondás nem sikerül
 
-A „A foglalást nem sikerült lemondani” azt jelenti, hogy a beszállító elutasította, vagy nem
-válaszolt. A foglalás **nem** lett lemondva.
+Három különböző dolog romolhat el, és a képernyő megmondja, melyik. A különbség dönti el, mit tegyél
+utána — a szöveget olvasd, ne azt, hogy valami pirosra váltott.
 
-Ne feltételezd, hogy átment, és ne nyomkodd a gombot — a legtöbb beszállítónál a lemondás nem
-idempotens, így az ismétlés második díjat is eredményezhet. Nézd meg az idővonalat, majd lépj
-kapcsolatba közvetlenül a beszállítóval, ha továbbra sem sikerül.
+| Amit látsz | Mi történt | Mit tegyél |
+| --- | --- | --- |
+| „A foglalást nem sikerült lemondani.” | A kérés nem jutott át. | Próbáld újra. |
+| „A foglalást nem mondtuk le: a szállítója elutasította a kérést (…).” | Eljutott a beszállítóhoz, és ő utasította el. A zárójeles kód az övé. | Lásd a kódokat alább. |
+| „A szállítója nem válaszolt, ezért nem tudjuk megmondani, lemondták-e ezt a foglalást.” | Még senki nem tudja. Lehet, hogy átment, lehet, hogy nem. | **Ne próbáld újra.** Várj. |
+
+A harmadikkal kell óvatosnak lenni. A legtöbb beszállítónál a lemondás nem idempotens, így a második
+lemondás másodszor is felszámítható. A OneRate maga egyeztet a beszállítóddal, és az itteni állapot
+változik, amint megjön a válasz; az idővonal rögzíti.
+
+Mindhárom esetben a foglalás **nincs** lemondva, hacsak a képernyő nem mondja, hogy igen.
+
+### Az elutasítási kódok
+
+A kód pontosan úgy jelenik meg, ahogy keletkezett, hogy idézni tudd a beszállítódnak.
+
+| Kód | Jelentés |
+| --- | --- |
+| `not_cancellable_CANCELLED` | Már le van mondva. Nincs teendő. |
+| `not_cancellable_…` (bármely más állapot) | A foglalás nincs olyan állapotban, amit le lehet mondani — például olyan tartózkodás, amelyet a beszállító soha nem erősített meg. Nézd meg az állapotát. |
+| `transition_conflict_…` | Valaki más módosította ezt a foglalást, miközben te lemondtad. Töltsd újra, és olvasd el az állapotot, mielőtt bármit tennél. |
+| `AUTH` | A beszállítód elutasította a hitelesítő adatot. Ellenőrizd a **Beszállítók** alatt. |
+| `VALIDATION` | A beszállítód nem ismeri fel ezt a foglalást olyanként, amit le tud mondani. Keresd meg őket a beszállítói hivatkozással. |
+| Bármi más | A beszállítód saját elutasítása. Idézd nekik a kódot. |

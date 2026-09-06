@@ -75,9 +75,31 @@ cliente divergono — e te ne accorgi al check-in.
 
 ## Se l'annullamento non riesce
 
-"Impossibile annullare la prenotazione" significa che il fornitore ha rifiutato o non ha risposto.
-La prenotazione **non** è stata annullata.
+Tre cose diverse possono andare storte, e la schermata dice quale. La differenza decide cosa fai
+dopo, quindi leggi il testo e non il fatto che qualcosa sia diventato rosso.
 
-Non dare per scontato che sia andata a buon fine e non martellare il pulsante — presso la maggior
-parte dei fornitori l'annullamento non è idempotente, quindi ripeterlo può produrre una seconda
-penale. Controlla la cronologia, poi contatta direttamente il tuo fornitore se continua a fallire.
+| Cosa vedi | Cosa è successo | Cosa fare |
+| --- | --- | --- |
+| "Impossibile annullare la prenotazione." | La richiesta non è passata. | Riprova. |
+| "La prenotazione non è stata annullata: il tuo fornitore ha rifiutato la richiesta (…)." | È arrivata al fornitore e lui ha rifiutato. Il codice tra parentesi è suo. | Vedi i codici sotto. |
+| "Il tuo fornitore non ha risposto, quindi non possiamo dire se questa prenotazione sia stata annullata." | Ancora nessuno lo sa. Può essere andata a buon fine oppure no. | **Non riprovare.** Aspetta. |
+
+Il terzo è quello con cui fare attenzione. Presso la maggior parte dei fornitori l'annullamento non è
+idempotente, quindi annullare una seconda volta può essere addebitato una seconda volta. OneRate
+verifica da sé con il tuo fornitore e lo stato qui cambia appena arriva la risposta; la cronologia lo
+registra.
+
+In tutti e tre i casi la prenotazione **non** è stata annullata, a meno che la schermata non lo dica.
+
+### I codici di rifiuto
+
+Il codice è mostrato esattamente come è stato prodotto, così puoi citarlo al tuo fornitore.
+
+| Codice | Significato |
+| --- | --- |
+| `not_cancellable_CANCELLED` | Già annullata. Nulla da fare. |
+| `not_cancellable_…` (qualsiasi altro stato) | La prenotazione non è in uno stato annullabile — per esempio un soggiorno che il fornitore non ha mai confermato. Guarda il suo stato. |
+| `transition_conflict_…` | Qualcun altro ha modificato questa prenotazione mentre la annullavi. Ricaricala e leggi lo stato prima di fare altro. |
+| `AUTH` | Il tuo fornitore ha rifiutato la credenziale. Controllala in **Fornitori**. |
+| `VALIDATION` | Il tuo fornitore non riconosce questa prenotazione come annullabile. Contattalo con il riferimento del fornitore. |
+| Qualsiasi altro | Un rifiuto del tuo fornitore. Cita loro il codice. |

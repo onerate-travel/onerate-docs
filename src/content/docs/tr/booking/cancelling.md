@@ -75,9 +75,30 @@ kayda hiç ulaşmaz; rezervasyon listeniz ile müşterinizin beklentisi ayrış�
 
 ## İptal başarısız olursa
 
-"Rezervasyon iptal edilemedi", tedarikçinin reddettiği ya da cevap vermediği anlamına gelir.
-Rezervasyon iptal **edilmemiştir**.
+Üç ayrı şey ters gidebilir ve ekran hangisi olduğunu söyler. Aradaki fark bundan sonra ne
+yapacağınızı belirler; bir şeyin kırmızıya döndüğüne değil, yazana bakın.
 
-Geçtiğini varsaymayın ve düğmeye üst üste basmayın — iptal çoğu tedarikçide idempotent değildir,
-yani tekrarlamak ikinci bir ücret doğurabilir. Zaman çizelgesini kontrol edin, sonra hâlâ
-olmuyorsa doğrudan tedarikçinize başvurun.
+| Gördüğünüz | Ne oldu | Ne yapmalı |
+| --- | --- | --- |
+| "Rezervasyon iptal edilemedi." | İstek karşıya ulaşmadı. | Tekrar deneyin. |
+| "Rezervasyon iptal edilmedi: tedarikçiniz isteği reddetti (…)." | Tedarikçinize ulaştı ve reddetti. Parantez içindeki kod onlarındır. | Aşağıdaki kodlara bakın. |
+| "Tedarikçiniz yanıt vermedi; bu rezervasyonun iptal edilip edilmediğini söyleyemiyoruz." | Henüz kimse bilmiyor. Geçmiş de olabilir, geçmemiş de. | **Tekrar denemeyin.** Bekleyin. |
+
+Dikkat edilmesi gereken üçüncüsüdür. İptal çoğu tedarikçide idempotent değildir; ikinci kez iptal
+ikinci kez ücretlendirilebilir. OneRate durumu tedarikçinizle kendisi doğrular ve cevap geldiğinde
+buradaki durum değişir; zaman çizelgesi bunu kaydeder.
+
+Üçünde de ekran iptal edildiğini söylemedikçe rezervasyon iptal **edilmemiştir**.
+
+### Ret kodları
+
+Kod, tedarikçinize aynen aktarabilesiniz diye üretildiği hâliyle gösterilir.
+
+| Kod | Anlamı |
+| --- | --- |
+| `not_cancellable_CANCELLED` | Zaten iptal edilmiş. Yapılacak bir şey yok. |
+| `not_cancellable_…` (başka bir durum) | Rezervasyon iptal edilebilecek bir durumda değil — örneğin tedarikçinin hiç teyit etmediği bir konaklama. Durumuna bakın. |
+| `transition_conflict_…` | Siz iptal ederken bir başkası bu rezervasyonu değiştirdi. Sayfayı yenileyin ve başka bir şey yapmadan önce durumu okuyun. |
+| `AUTH` | Tedarikçiniz kimlik bilgisini reddetti. **Tedarikçiler** altında kontrol edin. |
+| `VALIDATION` | Tedarikçiniz bu rezervasyonu iptal edebileceği bir kayıt olarak tanımıyor. Tedarikçi referansıyla onlara başvurun. |
+| Diğer | Tedarikçinizin kendi reddi. Kodu onlara iletin. |

@@ -73,9 +73,30 @@ clientului tău se despart — iar tu afli la check-in.
 
 ## Dacă anularea eșuează
 
-„Rezervarea nu a putut fi anulată” înseamnă că furnizorul a refuzat sau nu a răspuns. Rezervarea
-**nu** a fost anulată.
+Trei lucruri diferite pot merge prost, iar ecranul spune care. Diferența decide ce faci mai departe,
+așa că citește textul, nu faptul că ceva s-a făcut roșu.
 
-Nu presupune că a trecut și nu apăsa butonul la nesfârșit — la majoritatea furnizorilor anularea nu
-este idempotentă, deci repetarea poate produce o a doua penalizare. Verifică cronologia, apoi
-contactează direct furnizorul dacă tot eșuează.
+| Ce vezi | Ce s-a întâmplat | Ce să faci |
+| --- | --- | --- |
+| „Rezervarea nu a putut fi anulată.” | Cererea nu a ajuns. | Încearcă din nou. |
+| „Rezervarea nu a fost anulată: furnizorul dumneavoastră a respins cererea (…).” | A ajuns la furnizor și el a refuzat. Codul din paranteză este al lui. | Vezi codurile de mai jos. |
+| „Furnizorul dumneavoastră nu a răspuns, așa că nu putem spune dacă această rezervare a fost anulată.” | Încă nu știe nimeni. Poate a trecut, poate nu. | **Nu încerca din nou.** Așteaptă. |
+
+Al treilea este cel cu care trebuie să fii atent. La majoritatea furnizorilor anularea nu este
+idempotentă, deci o a doua anulare poate fi taxată a doua oară. OneRate verifică el însuși cu
+furnizorul tău, iar starea de aici se schimbă când sosește răspunsul; cronologia o înregistrează.
+
+În toate trei cazurile rezervarea **nu** a fost anulată, decât dacă ecranul spune că a fost.
+
+### Codurile de refuz
+
+Codul este afișat exact așa cum a fost produs, ca să îl poți cita furnizorului tău.
+
+| Cod | Semnificație |
+| --- | --- |
+| `not_cancellable_CANCELLED` | Deja anulată. Nu ai ce face. |
+| `not_cancellable_…` (orice altă stare) | Rezervarea nu este într-o stare care poate fi anulată — de exemplu un sejur pe care furnizorul nu l-a confirmat niciodată. Uită-te la starea ei. |
+| `transition_conflict_…` | Altcineva a modificat această rezervare în timp ce o anulai. Reîncarc-o și citește starea înainte de a face altceva. |
+| `AUTH` | Furnizorul tău a refuzat credențialul. Verifică-l la **Furnizori**. |
+| `VALIDATION` | Furnizorul tău nu recunoaște această rezervare ca fiind una pe care o poate anula. Contactează-l cu referința furnizorului. |
+| Orice altceva | Un refuz al furnizorului tău. Citează-i codul. |
