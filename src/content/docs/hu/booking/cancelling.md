@@ -13,9 +13,10 @@ adminisztrátorodat.
 
 ## A lemondás
 
-A **Foglalások** listában nyomd meg a sorban a **Foglalás lemondása** gombot — vagy nyisd meg a
-foglalást, és nyomd meg ugyanazt a gombot ott. Mindkét esetben megerősítést kérünk, és a
-megerősítés megmondja, mibe fog kerülni:
+Nyisd meg a foglalást a **Foglalások** listából — az egész sor egy hivatkozás —, és ott nyomd meg a
+**Foglalás lemondása** gombot. Magában a listában nincs ott: a lemondás az egyetlen művelet itt,
+amit nem lehet visszavonni, a listában pedig a mutató amúgy is végigfut egy oszlopon. Megerősítést
+kérünk, és a megerősítés megmondja, mibe fog kerülni:
 
 > Lemondod ezt a foglalást? A várható lemondási díj 120,00 €.
 

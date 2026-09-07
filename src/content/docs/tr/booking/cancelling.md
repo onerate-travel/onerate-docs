@@ -13,9 +13,10 @@ yöneticinize başvurun.
 
 ## İptal etmek
 
-**Rezervasyonlar** listesinde satırdaki **Rezervasyonu iptal et**e basın — ya da rezervasyonu açıp
-oradaki aynı düğmeye. Her iki durumda da onaylamanız istenir ve onay size ne kadara mal olacağını
-söyler:
+Rezervasyonu **Rezervasyonlar** listesinden açın — satırın tamamı bir bağlantıdır — ve oradaki
+**Rezervasyonu iptal et**e basın. Listenin kendisinde bu düğme yoktur: iptal, burada geri
+alamayacağınız tek işlemdir ve listede imleç zaten bir sütun boyunca ilerlemektedir. Onaylamanız
+istenir ve onay size ne kadara mal olacağını söyler:
 
 > Bu rezervasyon iptal edilsin mi? Beklenen iptal ücreti 120,00 €.
 

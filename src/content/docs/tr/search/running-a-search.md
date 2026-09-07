@@ -48,6 +48,10 @@ demektir.
 İsteğe bağlıdır ve fiyatları değiştirir. Bazı tedarikçilerde ve bazı otellerde uyruğa veya ikamete
 göre kısıtlı fiyatlar vardır. **Belirtilmedi** olarak bırakırsanız kısıtsız fiyatları alırsınız.
 
+Ülkeyi bulmak için yazmaya başlayın — kutu siz yazdıkça süzer; *tür* Türkiye'yi, *krallık* Birleşik
+Krallık'ı bulur. Hiçbir şey yazmadan önce bu ürünün satıldığı ülkeleri önerir. Ok tuşları listede
+gezinir, Enter vurgulananı seçer, **×** ise *Belirtilmedi*'ye döndürür.
+
 ## Aramayı çalıştırmak
 
 **Müsaitliği sorgula**ya basın.

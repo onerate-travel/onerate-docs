@@ -39,7 +39,7 @@ mentődik el.
 
 Ebben a szakaszban minden az Öné, és rákerül arra a papírra, amelyet az ügyfelei megőriznek.
 
-### Az iroda adatai
+### Az iroda adatai a dokumentumokon
 
 - **Cégnév** — a bejegyzett cégnév, ha eltér attól, amelyen kereskedik
 - **Cím**
@@ -63,6 +63,21 @@ megjelenik, a dokumentumról viszont csendben eltűnik, rosszabb az elutasítás
 észre, amíg egy ügyfél rá nem kérdez.
 
 Cseréhez töltsön fel másikat; a **Logó eltávolítása** visszaáll a OneRate jelére.
+
+### Mit mondanak a dokumentumaid
+
+Két beállítás dönti el, mit mond a papírod annak, aki a kezében tartja. Mindkettő a tiéd, és
+mindkettő **ki van kapcsolva vagy üres, amíg be nem állítod** — egyiknek sincs olyan alapértéke,
+ami mindenkinek jó volna.
+
+- **Csatorna feltüntetése a voucheren** — alapból ki. A voucher az a papír, amelyet a vendéged a
+  szállodai pultnál felmutat, és alapból nem nevezi meg a nagykereskedőt, akitől a szoba jött: az
+  ellátási láncod a tiéd, hogy felfedd. Kapcsold be, ha a saját csapatod használja a vouchert
+  operatívan, és a csatornára van szüksége a kereséshez.
+- **Ajánlat érvényessége (nap)** — alapból üres. Ha beállítod, minden ajánlat *Érvényes eddig*
+  felirattal és az ennyi nappal későbbi dátummal nyomtatódik. Üresen hagyva semmilyen érvényességi
+  sor nem kerül rá: hogy meddig állsz egy ár mögött, kereskedelmi ígéret, és a OneRate nem teszi meg
+  helyetted.
 
 ### Márkaszín
 

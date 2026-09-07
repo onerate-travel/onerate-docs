@@ -38,7 +38,7 @@ wsparciem OneRate. Ekran tak mówi, zamiast pokazywać pole, które i tak się n
 Wszystko w tej sekcji należy do Państwa i pojawia się na dokumentach, które zachowują Państwa
 klienci.
 
-### Dane biura
+### Dane biura na dokumentach
 
 - **Nazwa rejestrowa** — firma tak, jak jest zarejestrowana, jeśli różni się od nazwy handlowej
 - **Adres**
@@ -61,7 +61,22 @@ Tylko te dwa formaty, ponieważ tyle może unieść voucher. Format, który wyś
 cichu znika z dokumentu, byłby gorszy niż odmowa — nikt by się nie zorientował, dopóki klient nie
 zapyta.
 
-Aby zmienić, proszę wgrać inne; **Usuń logo** przywraca znak OneRate.
+Proszę nacisnąć **Wybierz logo**, aby je wgrać. Aby zmienić, proszę wgrać inne; **Usuń logo**
+przywraca znak OneRate.
+
+### Co mówią Państwa dokumenty
+
+Dwa ustawienia decydują o tym, co Państwa dokument mówi osobie, która trzyma go w ręku. Oba należą
+do Państwa i oba są **wyłączone lub puste, dopóki ich Państwo nie ustawią** — żadne nie ma wartości
+domyślnej, która byłaby właściwa dla wszystkich.
+
+- **Nazwa kanału na voucherze** — domyślnie wyłączone. Voucher to kartka, którą gość pokazuje w
+  recepcji, i domyślnie nie wymienia hurtownika, od którego pochodzi pokój: Państwa łańcuch dostaw
+  należy do Państwa. Proszę włączyć, jeśli voucher jest używany operacyjnie przez Państwa własny
+  zespół i potrzebuje kanału do odszukania rezerwacji.
+- **Ważność oferty (dni)** — domyślnie nieustawione. Po ustawieniu każda oferta drukuje *Ważna do* z
+  datą oddaloną o tyle dni. Pozostawione puste, żaden wiersz ważności nie jest drukowany: jak długo
+  stoją Państwo za ceną, to obietnica handlowa, a OneRate nie składa jej w Państwa imieniu.
 
 ### Kolor marki
 

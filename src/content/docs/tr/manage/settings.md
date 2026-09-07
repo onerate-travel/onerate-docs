@@ -37,7 +37,7 @@ iletişime geçin. Ekran, kaydedilmeyecek bir alan göstermek yerine bunu söyle
 
 Bu bölümdeki her şey sizindir ve müşterilerinizin elinde kalan evraka basılır.
 
-### Acente kimliği
+### Belgelerdeki kimliğiniz
 
 - **Ticari unvan** — şirketinizin tescilli adı, ticari adınızdan farklıysa
 - **Adres**
@@ -59,7 +59,22 @@ görünür.
 Yalnızca bu iki biçim, çünkü bir voucher'ın taşıyabildiği ikisi bunlar. Portalda görünüp belgeden
 sessizce kaybolan bir biçim, reddedilmekten kötüdür — kimse bir müşteri sorana kadar fark etmez.
 
-Değiştirmek için başkasını yükleyin; **Logoyu kaldır** OneRate'in markasına döner.
+Yüklemek için **Logo seç**e basın. Değiştirmek için başkasını yükleyin; **Logoyu kaldır**
+OneRate'in markasına döner.
+
+### Belgeleriniz ne söyler
+
+İki ayar, belgenizi elinde tutan kişiye ne söyleneceğine karar verir. İkisi de sizindir ve ikisi de
+**siz ayarlayana kadar kapalı ya da boştur** — hiçbirinin herkes için doğru olacak bir varsayılanı
+yoktur.
+
+- **Voucher'da kanalı yaz** — varsayılan kapalı. Voucher, misafirinizin otel resepsiyonunda
+  gösterdiği kâğıttır ve varsayılan olarak odanın geldiği toptancıyı yazmaz: tedarik zincirinizi
+  açıklamak size ait bir karardır. Voucher'ı operasyonel olarak kendi ekibiniz kullanıyorsa ve
+  referansı bir kanal altında aratması gerekiyorsa açın.
+- **Teklif geçerliliği (gün)** — varsayılan boş. Ayarlarsanız her teklifin kapağına *Geçerlilik* ve
+  o kadar gün sonraki tarih basılır. Boş bırakılırsa hiç geçerlilik satırı basılmaz: bir fiyatın
+  arkasında ne kadar durduğunuz ticari bir taahhüttür ve OneRate bunu sizin adınıza vermez.
 
 ### Marka rengi
 

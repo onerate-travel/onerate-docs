@@ -25,10 +25,13 @@ A rögzített feltétel nélküli foglalás ki is mondja — „Ehhez a foglalá
 feltételek.” —, ahelyett hogy semmit sem írna: a hallgatás úgy olvasható, hogy nincs mit fizetni, és
 ez a tévedés drágább fajtája.
 
-Ha lemondhat foglalást, a visszaigazolt foglalás sorában a **Foglalás lemondása** is megjelenik.
-Előbb kérdez, és a kérdés ugyanazt az összeget mondja, így egyetlen téves kattintás sem kerül
-pénzbe. Az ügyintézők nem látják a gombot —
-[nem mondhatnak le foglalást](/hu/booking/cancelling/#ki-mondhat-le).
+A teljes sor hivatkozás: bárhová kattintasz rajta, megnyílik a foglalás, a szálloda neve pedig
+önálló hivatkozás, így két foglalást két lapon nyithatsz meg és hasonlíthatsz össze.
+
+A lemondás ezen a listán **nincs** felkínálva. Ez az egyetlen művelet itt, amit nem lehet
+visszavonni, a listában pedig a mutató amúgy is végigfut egy oszlopon — ezért a foglalás saját
+képernyőjén él, egy tudatos lépéssel arrébb. Lásd:
+[Foglalás lemondása](/hu/booking/cancelling/).
 
 Az a foglalás, amelynek vendégadatait töröltük, a név helyén *vendégadatok törölve* feliratot mutat.
 Maga a foglalás megmarad.
@@ -141,13 +144,17 @@ lezárt tartózkodásnak.
 
 ## Voucherek
 
-A **Voucher letöltése** adja a PDF-et. A **Voucher küldése e-mailben** elküldi.
+A **Voucher letöltése** azon a nyelven adja a PDF-et, amelyen a portált olvasod. A mellette lévő
+**▾** nyitja a többit: ugyanaz a voucher a másik hat nyelv mindegyikén, és a **Voucher küldése
+e-mailben**. A menü minden nyelve valódi hivatkozás, így egyet új lapon nyithatsz meg anélkül, hogy
+ezt elveszítenéd.
 
 ### Mit tartalmaz
 
 A voucher az a dokumentum, amelyet a vendég a szálloda recepcióján ad át, ezért úgy írja le a
 tartózkodást, ahogyan eladták: a szállító visszaigazolási hivatkozása, minden vendég, a szálloda a
-saját címével és telefonszámával, a szoba, az ellátás, a dátumok, a foglaláskor érvényes lemondási
+saját címével és telefonszámával, a szoba, a teljesen kiírt ellátás (*Szoba reggelivel (BB)*, nem csak a kód), a dátumok, hány
+éjszaka és hány fő, a foglaláskor érvényes lemondási
 feltételek, a szállodában fizetendő tételek, valamint az irodája azonosítója és logója.
 
 Egy sor csak akkor jelenik meg, ha a szállító megadta. Az a szálloda, amely nem küld telefonszámot,
@@ -172,9 +179,9 @@ Mindkettő csak a foglalás pillanatában ismerhető meg, és utólag semmi nem 
 
 ### Milyen nyelven
 
-A **Voucher nyelve** a letöltés mellett áll, és azon a nyelven indul, amelyen a portált olvassa.
-Ha megváltoztatja, az egész dokumentum megváltozik: a OneRate saját szavai és a szállodáé együtt —
-így egy ügyfél, aki bolgár ajánlatot kapott, nem angol vouchert kap utána.
+A **Voucher letöltése** azon a nyelven állítja ki, amelyen a portált olvassa; a mellette lévő **▾**
+felsorolja a másik hatot. Mindegyik a teljes dokumentum azon a nyelven — a OneRate saját szavai és a
+szállodáé együtt —, így egy ügyfél, aki bolgár ajánlatot kapott, nem angol vouchert kap utána.
 
 A vendég nyelvét válassza, ne a sajátját. Ugyanaz az iroda egyetlen délelőtt több nyelven ad ki
 vouchert; ezért áll ez a választás a foglaláson, nem a beállításokban.

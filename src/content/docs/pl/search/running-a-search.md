@@ -51,6 +51,10 @@ Opcjonalne i zmienia ceny. Niektórzy dostawcy i niektóre hotele mają stawki o
 narodowością lub miejscem zamieszkania. Pozostawione jako **Nie podano**, dostajesz stawki bez
 ograniczeń.
 
+Zacznij pisać, aby znaleźć kraj — pole filtruje w trakcie pisania. Zanim cokolwiek wpiszesz,
+proponuje kraje, w których sprzedawany jest ten produkt. Strzałki przesuwają się po liście, Enter
+wybiera podświetlony, a **×** przywraca *Nie podano*.
+
 ## Uruchomienie
 
 Naciśnij **Sprawdź dostępność**.

@@ -52,6 +52,10 @@ Nem kötelező, és befolyásolja az árakat. Egyes beszállítóknak és száll
 állampolgársághoz vagy lakóhelyhez kötött áraik. **Nincs megadva** értéken hagyva a korlátozás
 nélküli árakat kapod.
 
+Kezdj el gépelni az ország megkereséséhez — a mező gépelés közben szűr. Mielőtt bármit beírnál,
+azokat az országokat kínálja, ahol ezt a terméket árusítjuk. A nyilak a listában mozognak, az Enter
+kiválasztja a kiemeltet, az **×** pedig visszaállítja *Nincs megadva* értékre.
+
 ## Az indítás
 
 Nyomd meg az **Elérhetőség ellenőrzése** gombot.

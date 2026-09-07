@@ -51,6 +51,10 @@ Folosește **Adaugă cameră** pentru a doua sau a treia cameră. Fiecare camer�
 Opțională, și schimbă prețurile. Unii furnizori și unele hoteluri au tarife restricționate după
 naționalitate sau rezidență. Lăsată pe **Nespecificată**, primești tarifele nerestricționate.
 
+Începe să scrii pentru a găsi o țară — câmpul filtrează pe măsură ce scrii. Înainte să scrii ceva,
+îți propune țările în care se vinde acest produs. Săgețile parcurg lista, Enter o ia pe cea
+evidențiată, iar **×** revine la *Nespecificată*.
+
 ## Pornirea
 
 Apasă **Verifică disponibilitatea**.

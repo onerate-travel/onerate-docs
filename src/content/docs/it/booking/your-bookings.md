@@ -25,9 +25,14 @@ registrate lo dice — «Per questa prenotazione non sono state registrate condi
 annullamento.» — invece di non mostrare nulla: il silenzio si legge come «non c'è nulla da pagare»,
 che è il modo più costoso di sbagliare.
 
-Se può annullare, una prenotazione confermata porta anche **Annulla prenotazione** sulla sua riga.
-Chiede prima, e la domanda cita lo stesso importo, così un clic sbagliato non costa nulla. Gli
-agenti non vedono il pulsante — [non possono annullare](/it/booking/cancelling/#chi-può-annullare).
+L'intera riga è un collegamento: cliccando in un punto qualsiasi si apre quella prenotazione, e il
+nome dell'hotel è un collegamento a sé, così puoi aprire due prenotazioni in due schede e
+confrontarle.
+
+L'annullamento **non** è offerto in questo elenco. È l'unica azione qui che non si può disfare, e in
+un elenco il puntatore sta già scorrendo lungo una colonna — quindi vive sulla schermata della
+prenotazione stessa, a un passo deliberato di distanza. Vedi
+[Annullare una prenotazione](/it/booking/cancelling/).
 
 Una prenotazione i cui dati ospite sono stati cancellati mostra *dati ospite cancellati* al posto
 del nome. La prenotazione in sé resta.
@@ -146,13 +151,17 @@ scambiarlo per un soggiorno definito.
 
 ## Voucher
 
-**Scarica il voucher** ti dà il PDF. **Invia il voucher via email** lo spedisce.
+**Scarica il voucher** ti dà il PDF nella lingua in cui stai leggendo il portale. La **▾** accanto
+apre il resto: lo stesso voucher in ciascuna delle altre sei lingue, e **Invia il voucher via
+email**. Ogni lingua in quel menu è un collegamento vero, così puoi aprirne una in una nuova scheda
+senza perdere questa.
 
 ### Che cosa contiene
 
 Il voucher è il documento che il tuo ospite consegna al ricevimento, quindi descrive il soggiorno
 come è stato venduto: il riferimento di conferma del fornitore, tutti gli ospiti, l'hotel con il
-proprio indirizzo e telefono, la camera, il trattamento, le date, le condizioni di cancellazione
+proprio indirizzo e telefono, la camera, il trattamento scritto per esteso (*Pernottamento e prima colazione (BB)*, non solo il
+codice), le date, quante notti e quante persone, le condizioni di cancellazione
 come erano al momento della prenotazione, quanto è dovuto in hotel e l'identità e il logo della tua
 agenzia.
 
@@ -178,9 +187,10 @@ conoscibili solo al momento della prenotazione, e nulla dopo può recuperarli.
 
 ### In quale lingua
 
-**Lingua del voucher** sta accanto al download e parte dalla lingua in cui stai leggendo il
-portale. Cambiala e cambia l'intero documento: le parole di OneRate e quelle dell'hotel insieme —
-così un cliente che ha ricevuto un'offerta in bulgaro non riceve poi un voucher in inglese.
+**Scarica il voucher** lo emette nella lingua in cui stai leggendo il portale; la **▾** accanto
+elenca le altre sei. Ciascuna è l'intero documento in quella lingua — le parole di OneRate e quelle
+dell'hotel insieme — così un cliente che ha ricevuto un'offerta in bulgaro non riceve poi un voucher
+in inglese.
 
 Scegli la lingua dell'ospite, non la tua. La stessa agenzia emette voucher per ospiti in lingue
 diverse nella stessa mattina: per questo la scelta sta sulla prenotazione e non nelle impostazioni.

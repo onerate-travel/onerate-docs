@@ -12,9 +12,10 @@ Jeśli jesteś agentem, a rezerwację trzeba anulować, poproś właściciela lu
 
 ## Anulowanie
 
-Na liście **Rezerwacje** naciśnij **Anuluj rezerwację** w wierszu — albo otwórz rezerwację i
-naciśnij ten sam przycisk tam. W obu przypadkach poprosimy o potwierdzenie, a potwierdzenie mówi,
-ile to będzie kosztować:
+Otwórz rezerwację z listy **Rezerwacje** — cały wiersz jest odnośnikiem — i naciśnij tam **Anuluj
+rezerwację**. Na samej liście tego przycisku nie ma: anulowanie to jedyna czynność, której nie da
+się cofnąć, a na liście wskaźnik i tak przesuwa się w dół kolumny. Poprosimy o potwierdzenie, a
+potwierdzenie mówi, ile to będzie kosztować:
 
 > Anulować tę rezerwację? Spodziewana opłata za anulowanie to 120,00 €.
 

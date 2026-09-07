@@ -24,9 +24,12 @@ satıra "Saatler yaklaşık olduğundan tutar da yaklaşıktır." eklenir. Şart
 bunu söyler — "İptal ücreti bu rezervasyon için kayıtlı değil." — hiçbir şey yazmaz değil: sessizlik
 "ödenecek bir şey yok" diye okunur ve yanılmanın pahalı yolu budur.
 
-İptal yetkiniz varsa onaylanmış rezervasyonun satırında **Rezervasyonu iptal et** de bulunur. Önce
-sorar ve soru aynı tutarı söyler; yanlış bir tıkla ücret ödemezsiniz. Danışmanlar bu butonu görmez
-— [iptal yetkileri yoktur](/tr/booking/cancelling/#kim-iptal-edebilir).
+Satırın tamamı bir bağlantıdır: herhangi bir yerine tıklamak o rezervasyonu açar; otel adı da düz
+bir bağlantı olduğu için iki rezervasyonu iki sekmede karşılaştırmak üzere orta tuşla açabilirsiniz.
+
+İptal bu listede **sunulmaz**. Burada geri alamayacağınız tek işlem odur ve listede imleç zaten bir
+sütun boyunca ilerlemektedir — bu yüzden rezervasyonun kendi ekranında, bilinçli bir adım ötede
+durur. Bkz. [Rezervasyon iptali](/tr/booking/cancelling/).
 
 Misafir verisi silinmiş bir rezervasyon, isim yerine *misafir verisi silindi* gösterir.
 Rezervasyonun kendisi hâlâ oradadır.
@@ -139,12 +142,14 @@ konaklama sanamaz.
 
 ## Voucher'lar
 
-**Voucher indir** size PDF'i verir. **Voucher'ı e-postayla gönder** onu gönderir.
+**Voucher indir** size PDF'i portalı okuduğunuz dilde verir. Yanındaki **▾** gerisini açar: aynı
+voucher diğer altı dilin her birinde, bir de **Voucher'ı e-postayla gönder**. Bu menüdeki her dil
+gerçek bir bağlantıdır; birini yeni sekmede açıp bu sekmeyi kaybetmezsiniz.
 
 ### Voucher'da ne yazar
 
 Voucher, misafirinizin otel resepsiyonuna verdiği belgedir; bu yüzden konaklamayı satıldığı hâliyle
-yazar: tedarikçi onay referansı, konaklayan herkes, otelin kendi adresi ve telefonu, oda, pansiyon,
+yazar: tedarikçi onay referansı, konaklayan herkes, otelin kendi adresi ve telefonu, oda, pansiyon açık yazımıyla (*Oda + kahvaltı (BB)*, yalnız kod değil), kaç gece ve kaç kişi,
 tarihler, rezervasyon anındaki iptal koşulları, otelde ödenecek tutarlar ve acentenizin kimliğiyle
 logosu.
 
@@ -169,9 +174,9 @@ bilinebilir; sonradan hiçbir şey onları geri getiremez.
 
 ### Hangi dilde
 
-**Voucher dili** indirme bağlantısının yanındadır ve portalı okuduğunuz dille başlar. Değiştirin,
-belgenin tamamı değişir: OneRate'in kendi kelimeleri ve otelinkiler birlikte — böylece Bulgarca
-teklif almış bir müşteriye ardından İngilizce voucher verilmez.
+**Voucher indir** belgeyi portalı okuduğunuz dilde keser; yanındaki **▾** diğer altısını listeler.
+Her biri belgenin o dildeki tamamıdır — OneRate'in kendi kelimeleri ve otelinkiler birlikte —
+böylece Bulgarca teklif almış bir müşteriye ardından İngilizce voucher verilmez.
 
 Kendi dilinizi değil, misafirin dilini seçin. Aynı acenta aynı sabah farklı dillerdeki misafirlere
 voucher keser; bu yüzden bu seçim ayarlarda değil, rezervasyonun üzerindedir.

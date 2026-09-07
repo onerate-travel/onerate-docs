@@ -48,6 +48,11 @@ Use **Add room** for a second or third room. Each room has its own occupancy.
 Optional, and it changes prices. Some suppliers and some hotels have rates restricted by
 nationality or residency. Left as **Not stated**, you get the unrestricted rates.
 
+Start typing to find a country — the box filters as you type, so *tur* finds Türkiye and *kingdom*
+finds the United Kingdom. Before you type anything it offers the countries this product is sold
+into. Arrow keys move through the list, Enter takes the one highlighted, and **×** clears it back to
+*Not stated*.
+
 ## Running it
 
 Press **Check availability**.

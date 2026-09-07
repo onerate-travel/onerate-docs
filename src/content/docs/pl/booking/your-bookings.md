@@ -24,9 +24,12 @@ bez zapisanych warunków mówi to wprost — „Dla tej rezerwacji nie zapisano 
 zamiast nie pokazywać nic: milczenie czyta się jako „nie ma czego płacić”, a to droższy sposób
 pomyłki.
 
-Jeśli wolno Ci anulować, potwierdzona rezerwacja ma też **Anuluj rezerwację** w swoim wierszu.
-Najpierw pyta, a pytanie podaje tę samą kwotę, więc jedno omyłkowe kliknięcie nie kosztuje. Agenci
-nie widzą przycisku — [nie mogą anulować](/pl/booking/cancelling/#kto-może-anulować).
+Cały wiersz jest odnośnikiem: kliknięcie w dowolnym jego miejscu otwiera rezerwację, a nazwa hotelu
+jest osobnym odnośnikiem, więc dwie rezerwacje możesz otworzyć w dwóch kartach i porównać.
+
+Anulowania na tej liście **nie ma**. To jedyna czynność, której nie da się cofnąć, a na liście
+wskaźnik i tak przesuwa się w dół kolumny — dlatego mieszka na własnym ekranie rezerwacji, o jeden
+świadomy krok dalej. Zobacz [Anulowanie rezerwacji](/pl/booking/cancelling/).
 
 Rezerwacja, której dane gościa usunięto, pokazuje *dane gościa usunięte* zamiast nazwiska. Sama
 rezerwacja pozostaje.
@@ -140,13 +143,16 @@ przesądzonym pobytem.
 
 ## Vouchery
 
-**Pobierz voucher** daje Ci PDF. **Wyślij voucher e-mailem** go wysyła.
+**Pobierz voucher** daje Ci PDF w języku, w którym czytasz portal. **▾** obok otwiera resztę: ten
+sam voucher w każdym z pozostałych sześciu języków oraz **Wyślij voucher e-mailem**. Każdy język w
+tym menu jest prawdziwym odnośnikiem, więc możesz otworzyć jeden w nowej karcie, nie tracąc tej.
 
 ### Co zawiera
 
 Voucher to dokument, który gość podaje w recepcji hotelu, więc opisuje pobyt tak, jak został
 sprzedany: numer potwierdzenia dostawcy, wszystkich gości, hotel z jego własnym adresem i
-telefonem, pokój, wyżywienie, daty, warunki anulowania obowiązujące w chwili rezerwacji, kwoty
+telefonem, pokój, wyżywienie zapisane w pełni (*Nocleg ze śniadaniem (BB)*, nie sam kod), daty, ile nocy i ile
+osób, warunki anulowania obowiązujące w chwili rezerwacji, kwoty
 płatne w hotelu oraz dane i logo Twojego biura.
 
 Wiersz pojawia się tylko wtedy, gdy dostawca go podał. Hotel, który nie przesyła numeru telefonu,
@@ -171,9 +177,9 @@ nie odtworzy.
 
 ### W jakim języku
 
-**Język vouchera** stoi obok pobierania i zaczyna od języka, w którym czytasz portal. Zmień go, a
-zmieni się cały dokument: słowa OneRate i hotelu razem — więc klient, który dostał ofertę po
-bułgarsku, nie dostanie po niej vouchera po angielsku.
+**Pobierz voucher** wystawia go w języku, w którym czytasz portal; **▾** obok wymienia pozostałe
+sześć. Każdy z nich to cały dokument w tym języku — słowa OneRate i hotelu razem — więc klient,
+który dostał ofertę po bułgarsku, nie dostanie po niej vouchera po angielsku.
 
 Wybierz język gościa, nie swój. Ta sama agencja wystawia jednego ranka vouchery dla gości w różnych
 językach; dlatego ten wybór stoi na rezerwacji, a nie w ustawieniach.

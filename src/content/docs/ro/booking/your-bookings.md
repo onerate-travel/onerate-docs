@@ -24,9 +24,13 @@ condiții înregistrate o spune — „Pentru această rezervare nu au fost înr
 anulare.” — în loc să nu arate nimic: tăcerea s-ar citi ca „nu e nimic de plată”, care este felul
 mai costisitor de a greși.
 
-Dacă aveți dreptul să anulați, o rezervare confirmată poartă și **Anulează rezervarea** pe rândul
-ei. Întreabă întâi, iar întrebarea citează aceeași sumă, așa că un clic greșit nu costă. Agenții nu
-văd butonul — [nu pot anula](/ro/booking/cancelling/#cine-poate-anula).
+Întregul rând este o legătură: un clic oriunde pe el deschide acea rezervare, iar numele hotelului
+este o legătură separată, așa că puteți deschide două rezervări în două file și le puteți compara.
+
+Anularea **nu** este oferită în această listă. Este singura acțiune de aici care nu poate fi
+refăcută, iar într-o listă cursorul coboară oricum de-a lungul unei coloane — de aceea stă pe ecranul
+propriu al rezervării, la un pas deliberat distanță. Vedeți
+[Anularea unei rezervări](/ro/booking/cancelling/).
 
 O rezervare ale cărei date de oaspete au fost șterse afișează *datele oaspetelui șterse* în locul
 numelui. Rezervarea în sine rămâne.
@@ -141,13 +145,17 @@ confunda cu un sejur stabilit.
 
 ## Vouchere
 
-**Descarcă voucherul** îți dă PDF-ul. **Trimite voucherul pe email** îl expediază.
+**Descarcă voucherul** îți dă PDF-ul în limba în care citești portalul. **▾** de lângă deschide
+restul: același voucher în fiecare dintre celelalte șase limbi, și **Trimite voucherul pe email**.
+Fiecare limbă din acel meniu este o legătură reală, așa că poți deschide una într-o filă nouă fără
+să o pierzi pe aceasta.
 
 ### Ce conține
 
 Voucherul este documentul pe care oaspetele îl dă la recepția hotelului, așa că descrie sejurul așa
 cum a fost vândut: referința de confirmare a furnizorului, toți oaspeții, hotelul cu adresa și
-telefonul lui, camera, masa, datele, condițiile de anulare așa cum erau la momentul rezervării,
+telefonul lui, camera, masa scrisă complet (*Mic dejun inclus (BB)*, nu doar codul), datele, câte nopți și câte
+persoane, condițiile de anulare așa cum erau la momentul rezervării,
 sumele plătibile la hotel, precum și identitatea și logoul agenției tale.
 
 Un rând apare doar dacă furnizorul l-a declarat. Un hotel care nu trimite un număr de telefon
@@ -172,9 +180,10 @@ momentul rezervării, iar nimic ulterior nu le poate recupera.
 
 ### În ce limbă
 
-**Limba voucherului** stă lângă descărcare și pornește de la limba în care citiți portalul.
-Schimbați-o și se schimbă întregul document: cuvintele OneRate și cele ale hotelului împreună —
-astfel un client care a primit o ofertă în bulgară nu primește după ea un voucher în engleză.
+**Descarcă voucherul** îl emite în limba în care citiți portalul; **▾** de lângă le enumeră pe
+celelalte șase. Fiecare este documentul întreg în acea limbă — cuvintele OneRate și cele ale
+hotelului împreună — astfel un client care a primit o ofertă în bulgară nu primește după ea un
+voucher în engleză.
 
 Alegeți limba oaspetelui, nu pe a dumneavoastră. Aceeași agenție emite într-o singură dimineață
 vouchere pentru oaspeți în limbi diferite; de aceea alegerea stă pe rezervare, nu în setări.

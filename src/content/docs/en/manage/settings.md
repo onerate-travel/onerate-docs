@@ -36,7 +36,7 @@ screen says so rather than showing you a field that will not save.
 
 Everything in this section is yours to set, and it appears on the paperwork your customers keep.
 
-### Agency identity
+### Identity on your documents
 
 - **Registered name** — your company as it is registered, when that differs from the name you trade
   under
@@ -60,7 +60,21 @@ Those two formats and no others, because they are the two a voucher can carry. A
 displayed in the portal and vanished from the document would be worse than a refusal — nobody would
 find out until a customer asked.
 
-Replace it by uploading another; **Remove logo** goes back to OneRate's mark.
+Press **Choose a logo** to upload one. Replace it by uploading another; **Remove logo** goes back
+to OneRate's mark.
+
+### What your documents say
+
+Two settings decide what your paperwork tells the person holding it. Both are yours, and both are
+**off or absent until you set them** — neither has a house value that would be right for everybody.
+
+- **Name the channel on vouchers** — off by default. A voucher is the paper your guest waves at a
+  hotel desk, and by default it does not name the wholesaler the room came from: your supply chain
+  is yours to disclose. Turn it on if your own staff use the voucher operationally and need the
+  channel to look a reference up under.
+- **Quotation validity (days)** — unset by default. Set it and every quotation prints *Valid until*
+  with the date that many days out. Left unset, no validity line is printed at all: how long you
+  stand behind a price is a commercial promise, and not one OneRate will make on your behalf.
 
 ### Brand colour
 

@@ -38,7 +38,7 @@ asistența OneRate. Ecranul o spune, în loc să îți arate un câmp care nu se
 
 Tot ce urmează vă aparține și apare pe documentele pe care clienții dvs. le păstrează.
 
-### Datele agenției
+### Datele agenției pe documente
 
 - **Denumire înregistrată** — societatea așa cum este înregistrată, când diferă de numele sub care
   operați
@@ -62,7 +62,23 @@ Doar aceste două formate, pentru că acestea sunt cele două pe care un voucher
 format care se vede în portal și dispare discret de pe document ar fi mai rău decât un refuz —
 nimeni nu ar afla până când un client nu întreabă.
 
-Pentru înlocuire încărcați altul; **Elimină logoul** revine la marca OneRate.
+Apăsați **Alegeți un logo** pentru a încărca unul. Pentru înlocuire încărcați altul; **Elimină
+logoul** revine la marca OneRate.
+
+### Ce spun documentele dvs.
+
+Două setări decid ce îi spune hârtia dvs. celui care o ține în mână. Ambele vă aparțin și ambele
+sunt **oprite sau absente până le setați** — niciuna nu are o valoare implicită care să fie corectă
+pentru toată lumea.
+
+- **Numiți canalul pe voucher** — oprit implicit. Voucherul este hârtia pe care oaspetele o arată la
+  recepție și, implicit, nu numește angrosistul de la care a venit camera: lanțul dvs. de
+  aprovizionare vă aparține. Activați-l dacă voucherul este folosit operațional de propria echipă și
+  are nevoie de canal pentru a regăsi rezervarea.
+- **Valabilitatea ofertei (zile)** — nesetată implicit. Dacă o setați, fiecare ofertă tipărește
+  *Valabilă până la* cu data de peste atâtea zile. Lăsată nesetată, nu se tipărește niciun rând de
+  valabilitate: cât timp susțineți un preț este o promisiune comercială, iar OneRate nu o face în
+  numele dvs.
 
 ### Culoarea mărcii
 

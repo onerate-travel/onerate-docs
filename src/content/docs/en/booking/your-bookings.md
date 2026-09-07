@@ -23,9 +23,12 @@ timezone the line adds "The times are approximate, so the amount is too." A book
 terms says so — "No cancellation terms were recorded for this booking." — rather than nothing at all:
 silence reads as "there is nothing to pay", which is the more expensive way to be wrong.
 
-If you may cancel, a confirmed booking also carries **Cancel booking** on its row. It asks first,
-and the question quotes the same fee, so you are never one stray click from a charge. Agents do not
-see the button — [they may not cancel](/en/booking/cancelling/#who-can-cancel).
+The whole row is a link: clicking anywhere on it opens that booking, and the hotel's name is a
+plain link, so you can middle-click two bookings into two tabs to compare them.
+
+Cancelling is **not** offered on this list. It is the one action here you cannot undo, and a list is
+where the pointer is already travelling down a column — so it lives on the booking's own screen,
+one deliberate step away. See [Cancelling a booking](/en/booking/cancelling/).
 
 A booking whose guest data has been erased shows *guest data erased* in place of the name. The
 booking itself is still there.
@@ -138,13 +141,17 @@ settled stay.
 
 ## Vouchers
 
-**Download voucher** gives you the PDF. **Email the voucher** sends it.
+**Download voucher** gives you the PDF, in the language you are reading the portal in. The **▾**
+beside it opens the rest: the same voucher in each of the other six languages, and **Email the
+voucher**. Every language in that menu is a real link, so you can open one in a new tab without
+losing this one.
 
 ### What it carries
 
 The voucher is the document your guest hands to a hotel desk, so it states the stay as it was
 sold: the supplier confirmation reference, everyone staying, the hotel with its own address and
-phone, the room, the board, the dates, the cancellation terms as they stood when you booked,
+phone, the room, the board written out in full (*Bed and breakfast (BB)*, not just the code), the
+dates, how many nights and how many people, the cancellation terms as they stood when you booked,
 anything payable at the hotel, and your agency's identity and logo.
 
 A row appears only when the supplier stated it. A hotel that sends no phone number produces a
@@ -169,9 +176,10 @@ booking, and nothing afterwards can recover them.
 
 ### Which language
 
-**Voucher language** sits beside the download and starts on the language you are reading the portal
-in. Change it and the whole document changes: OneRate's own words and the hotel's, together — so a
-customer who received a Bulgarian offer is not handed an English voucher after it.
+**Download voucher** issues it in the language you are reading the portal in; the **▾** beside it
+lists the other six. Each is the whole document in that language — OneRate's own words and the
+hotel's, together — so a customer who received a Bulgarian offer is not handed an English voucher
+after it.
 
 Choose the guest's language rather than your own. The same agency issues vouchers for guests in
 different languages on the same morning, which is why this sits on the booking and not in

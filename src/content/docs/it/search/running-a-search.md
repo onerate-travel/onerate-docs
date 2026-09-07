@@ -51,6 +51,10 @@ Usa **Aggiungi camera** per una seconda o terza camera. Ogni camera ha la propri
 Facoltativa, e cambia i prezzi. Alcuni fornitori e alcuni hotel hanno tariffe riservate per
 nazionalità o residenza. Lasciata su **Non indicata**, ottieni le tariffe senza restrizioni.
 
+Inizia a digitare per trovare un paese — il campo filtra mentre scrivi. Prima che tu scriva qualcosa
+propone i paesi in cui questo prodotto viene venduto. Le frecce scorrono l'elenco, Invio prende
+quello evidenziato e **×** riporta a *Non indicata*.
+
 ## Lanciarla
 
 Premi **Verifica disponibilità**.

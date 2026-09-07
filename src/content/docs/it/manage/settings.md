@@ -39,7 +39,7 @@ OneRate. La schermata lo dice invece di mostrarti un campo che non si salverà.
 
 Tutto ciò che segue è vostro da impostare e compare sui documenti che i vostri clienti conservano.
 
-### Dati dell'agenzia
+### Identità sui vostri documenti
 
 - **Ragione sociale** — la vostra società come è registrata, quando differisce dal nome con cui
   operate
@@ -64,7 +64,23 @@ Solo questi due formati, perché sono i due che un voucher può portare. Un form
 portale e sparisce dal documento sarebbe peggio di un rifiuto: nessuno se ne accorgerebbe finché un
 cliente non lo chiede.
 
-Per sostituirlo caricatene un altro; **Rimuovi il logo** torna al marchio di OneRate.
+Premete **Scegli un logo** per caricarne uno. Per sostituirlo caricatene un altro; **Rimuovi il
+logo** torna al marchio di OneRate.
+
+### Che cosa dicono i vostri documenti
+
+Due impostazioni decidono che cosa dice la vostra carta a chi la tiene in mano. Entrambe sono
+vostre, ed entrambe sono **spente o assenti finché non le impostate**: nessuna delle due ha un
+valore predefinito che andrebbe bene per tutti.
+
+- **Nominare il canale sul voucher** — spento di default. Il voucher è il foglio che il vostro
+  ospite mostra alla reception e di default non nomina il grossista da cui è arrivata la camera: la
+  vostra catena di fornitura è vostra da rivelare. Attivatelo se il voucher lo usa operativamente il
+  vostro stesso personale e ha bisogno del canale per ritrovare la prenotazione.
+- **Validità del preventivo (giorni)** — non impostata di default. Impostatela e ogni preventivo
+  stamperà *Valido fino al* con la data a quei giorni di distanza. Lasciata vuota, non viene
+  stampata alcuna riga di validità: per quanto tempo tenete un prezzo è una promessa commerciale, e
+  OneRate non la fa al posto vostro.
 
 ### Colore del marchio
 
