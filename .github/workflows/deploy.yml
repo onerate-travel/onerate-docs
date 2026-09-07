@@ -2,7 +2,9 @@ name: Deploy
 
 # A push to `main` publishes docs.onerate.travel, after the full gate. That is the only automatic
 # path: this repo has no `staging` branch and is not getting one, so staging stays a deliberate
-# rehearsal you ask for by hand. Unlike onerate-app — which does split staging and main across two
+# rehearsal you ask for by hand. (It said that while one existed — created at some point and wired
+# to nothing, deleted 2026-09-07. A branch a pipeline ignores is worse than no branch: it invites a
+# push that looks like a deploy and is not.) Unlike onerate-app — which does split staging and main across two
 # branches — the docs site has one live surface and a preview URL, not two environments people work
 # against in parallel.
 #
