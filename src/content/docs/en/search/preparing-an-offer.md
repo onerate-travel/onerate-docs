@@ -129,6 +129,22 @@ The Word file carries all of this, laid out the same way. The room prices are a 
 can type into a cell without the row coming apart.
 :::
 
+## Finding one again
+
+**Quotations** in the sidebar lists everything this agency has built, newest first, with a way to
+download each one again or withdraw it.
+
+**There is no search by customer, and that is deliberate.** The customer's name is inside the
+document; OneRate does not keep it as data, so the list cannot look it up. What the list does hold
+is the **check-in date** of the stay each quotation is for — which is also the name the file is
+saved under — so the way to find one is by the trip it was for.
+
+**Withdrawing** deletes the stored file. Anyone you already sent it to still has their copy; this
+removes yours, which is what you want when a document went to the wrong customer. It cannot be
+undone.
+
+A quotation is kept for a year and then removed automatically.
+
 ## Limits
 
 One offer holds at most **60 rooms**. Past that the portal refuses rather than quietly dropping the

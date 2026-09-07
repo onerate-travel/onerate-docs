@@ -119,6 +119,21 @@ Her teklif, onu onay değil teklif yapan satırı belgenin yazıldığı dilde t
 İşin doğrusu budur. Bir oran dakikalar içinde geçersizleşir; müşteri döndüğünde aramayı yeniden
 çalıştırıp o an ne varsa onu rezerve edersiniz.
 
+## Bir teklifi yeniden bulmak
+
+Kenar çubuğundaki **Teklifler**, bu acentenin oluşturduğu her şeyi en yenisi başta listeler; her
+birini yeniden indirebilir veya geri çekebilirsiniz.
+
+**Müşteriye göre arama yok ve bu bilinçli.** Müşteri adı belgenin içinde; OneRate onu veri olarak
+tutmuyor, bu yüzden liste onu arayamaz. Listenin tuttuğu şey, her teklifin ait olduğu konaklamanın
+**giriş tarihi** — dosyanın kaydedildiği ad da odur — yani bir teklifi ait olduğu seyahatten
+bulursunuz.
+
+**Geri çekmek** saklanan dosyayı siler. Daha önce gönderdiğiniz kişide kendi kopyası kalır; bu işlem
+sizinkini kaldırır, ki bir belge yanlış müşteriye gittiğinde istediğiniz budur. Geri alınamaz.
+
+Bir teklif bir yıl saklanır, sonra otomatik olarak kaldırılır.
+
 ## Sınırlar
 
 Bir teklif en çok **60 oda** taşır. Fazlasında portal sessizce sondakileri atmak yerine reddeder —

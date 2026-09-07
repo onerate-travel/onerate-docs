@@ -124,6 +124,21 @@ Każda oferta niesie wiersz, który czyni ją wyceną, a nie potwierdzeniem — 
 To zwykła prawda. Stawka wygasa w kilka minut; gdy klient wróci, uruchamiasz wyszukiwanie ponownie i
 rezerwujesz to, co jest wtedy.
 
+## Jak ponownie znaleźć ofertę
+
+**Oferty** na pasku bocznym wymieniają wszystko, co ta agencja przygotowała, od najnowszej, z
+możliwością ponownego pobrania lub wycofania każdej z nich.
+
+**Nie ma wyszukiwania po kliencie i jest to celowe.** Nazwisko klienta znajduje się w dokumencie;
+OneRate nie przechowuje go jako danych, więc lista nie może go wyszukać. Lista przechowuje **datę
+zameldowania** pobytu, którego dotyczy każda oferta — to również nazwa, pod jaką plik jest zapisany —
+więc ofertę znajduje się po podróży, dla której powstała.
+
+**Wycofanie** usuwa zapisany plik. Osoba, której ją już wysłano, zachowa swoją kopię; to usuwa Twoją,
+co jest tym, czego potrzebujesz, gdy dokument trafił do niewłaściwego klienta. Nie można tego cofnąć.
+
+Oferta jest przechowywana przez rok, a następnie usuwana automatycznie.
+
 ## Ograniczenia
 
 Jedna oferta mieści najwyżej **60 pokoi**. Powyżej portal odmawia, zamiast po cichu pominąć

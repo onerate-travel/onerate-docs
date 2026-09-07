@@ -125,6 +125,22 @@ Fiecare ofertă poartă rândul care o face o cotație și nu o confirmare, în 
 Acesta este adevărul simplu. Un tarif expiră în câteva minute; când clientul se întoarce, reiei
 căutarea și rezervi ce există atunci.
 
+## Cum găsiți din nou o ofertă
+
+**Oferte** din bara laterală listează tot ce a creat această agenție, cele mai noi primele, cu
+posibilitatea de a descărca fiecare din nou sau de a o retrage.
+
+**Nu există căutare după client, și acest lucru este deliberat.** Numele clientului se află în
+document; OneRate nu îl păstrează ca date, deci lista nu îl poate căuta. Ceea ce păstrează lista este
+**data de check-in** a sejurului la care se referă fiecare ofertă — care este și numele sub care este
+salvat fișierul — așa că găsiți o ofertă după călătoria pentru care a fost făcută.
+
+**Retragerea** șterge fișierul stocat. Cine a primit-o deja păstrează copia sa; aceasta o elimină pe
+a dumneavoastră, ceea ce este exact ce doriți dacă documentul a ajuns la clientul greșit. Nu poate fi
+anulată.
+
+O ofertă este păstrată timp de un an, apoi este eliminată automat.
+
 ## Limite
 
 O ofertă conține cel mult **60 de camere**. Peste asta portalul refuză în loc să renunțe în tăcere

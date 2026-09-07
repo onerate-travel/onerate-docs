@@ -101,6 +101,17 @@ poziomu wyżej — nigdy do zera.
 Miejsce grupy jest celowe: grupa to stwierdzenie o *zbiorze*, więc wszystko, co powiedziano o
 pojedynczym kliencie, ją bije, a ona bije Państwa ogólną stawkę domyślną.
 
+### Gdy nic nie pasowało
+
+Jeśli żaden poziom w tym łańcuchu nie ma marży, strona wyników mówi o tym nad listą: *Żadna reguła
+marży nie pasowała do tych wyników, więc zastosowano domyślną wartość Twojej agencji: X.* Pojawia
+się tylko wtedy, gdy nic nie pasowało — jeśli więc ją widzisz, liczba pochodzi z wartości domyślnej,
+a nie z czegoś ustawionego dla tego agenta, klienta czy grupy.
+
+Warto to wiedzieć ze względu na to, ile wynosi wartość domyślna, jeśli jej nie ustawiono: **0%**.
+To właściwe zachowanie — OneRate nie wymyśli marży za Ciebie — ale oznacza, że agencja, która nic
+nie skonfigurowała, wycenia po koszcie, na stronie wyglądającej jak wyceniona.
+
 ## Sprawdziany warte zrobienia
 
 1. **Uruchom wyszukiwanie i otwórz hotel.** Cena na karcie i cena na ekranie podsumowania powinny

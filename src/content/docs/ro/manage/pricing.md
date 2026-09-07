@@ -102,6 +102,17 @@ după ea; unul fără cade pe cea a clientului, apoi pe cea a grupei lui, apoi p
 Locul grupei este deliberat: grupa este ceea ce spuneți despre un *grup*, deci orice ați spus despre
 un client anume o învinge, iar ea învinge valoarea dvs. generală.
 
+### Când nu s-a potrivit nimic
+
+Dacă niciun nivel din lanț nu are adaos, pagina de rezultate spune asta deasupra listei: *Nicio
+regulă de adaos nu s-a potrivit acestor rezultate, așa că a fost aplicată valoarea implicită a
+agenției dumneavoastră: X.* Apare doar când nu s-a potrivit nimic, deci dacă o vedeți, numărul vine
+din valoarea implicită, nu din ceva setat pentru acest agent, client sau grup.
+
+Merită știut din cauza valorii implicite când nu ați setat una: **0%**. Este comportamentul corect —
+OneRate nu inventează un adaos în locul dumneavoastră — dar înseamnă că o agenție care nu a
+configurat nimic vinde la cost, dintr-o pagină care arată exact ca una cu prețuri.
+
 ## Verificări de bun-simț care merită făcute
 
 1. **Pornește o căutare și deschide un hotel.** Prețul de pe card și cel de pe ecranul de verificare

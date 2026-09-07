@@ -74,6 +74,7 @@ Nell'ordine:
 | "Prenotazione non riuscita. Riprova." | Un errore generico. | **Controlla prima [Prenotazioni](/it/booking/your-bookings/)** per confermare che non sia stato creato nulla, poi riprova. |
 | "Un campo obbligatorio manca o non è valido." | Uno dei [campi](/it/manage/settings/#campi-dellagenzia) della vostra agenzia è vuoto, o un valore non rispetta la sua definizione. | Completalo nella schermata di riepilogo. Nulla è stato prenotato e nulla è stato inviato al fornitore. |
 | "Questa prenotazione porterebbe il cliente oltre il suo tetto di prenotazioni aperte." | Il cliente ha un [tetto delle prenotazioni aperte](/it/manage/customers/#tetto-delle-prenotazioni-aperte) e questa prenotazione lo supera. | Parlate con l'agenzia. Non è un fido — scende quando i soggiorni si concludono e le prenotazioni vengono annullate, mai al pagamento. |
+| "L'abbonamento della tua agenzia non è attivo…" | Le nuove prenotazioni sono sospese perché l'abbonamento è scaduto. Quelle già effettuate non sono interessate; ricerca, lettura delle prenotazioni e download dei voucher continuano a funzionare. | Un titolare ripristina l'abbonamento. Riprovare non serve. |
 
 ## Prenotazioni e annullamento
 

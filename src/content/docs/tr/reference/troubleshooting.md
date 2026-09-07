@@ -74,6 +74,7 @@ Sırayla:
 | "Rezervasyon başarısız. Lütfen tekrar deneyin." | Genel bir hata. | **Önce [Rezervasyonlar](/tr/booking/your-bookings/)'a bakıp** hiçbir şeyin oluşmadığını doğrulayın, sonra tekrar deneyin. |
 | "Zorunlu bir alan eksik ya da geçersiz." | Acentenizin kendi [alanlarından](/tr/manage/settings/#acente-alanları) biri boş ya da bir değer tanımına uymuyor. | Gözden geçirme ekranında tamamlayın. Hiçbir şey rezerve edilmedi ve tedarikçiye hiçbir şey gitmedi. |
 | "Bu, müşteriyi açık rezervasyon tavanının üzerine çıkarır." | Müşterinin bir [açık rezervasyon tavanı](/tr/manage/customers/#açık-rezervasyon-tavanı) var ve bu rezervasyon onu aşıyor. | Acenteyle konuşun. Bu bir kredi limiti değildir — ödemeyle değil, konaklamalar tamamlandıkça ve rezervasyonlar iptal edildikçe düşer. |
+| "Acentenizin aboneliği etkin değil…" | Abonelik sona erdiği için yeni rezervasyonlar duraklatıldı. Mevcut rezervasyonlar etkilenmez; arama, rezervasyonları görme ve voucher indirme çalışmaya devam eder. | Bir sahip aboneliği yeniden etkinleştirir. Tekrar denemek işe yaramaz. |
 
 ## Rezervasyonlar ve iptal
 

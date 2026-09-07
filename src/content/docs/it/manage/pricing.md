@@ -106,6 +106,19 @@ quello dell'agenzia. Cancellare un override ricade sul livello superiore — mai
 La posizione della fascia è deliberata: la fascia è ciò che dite su un *gruppo*, quindi tutto ciò che
 avete detto su un singolo cliente la batte, e lei batte il vostro valore generale.
 
+### Quando non corrisponde nulla
+
+Se nessun livello della catena ha un ricarico, la pagina dei risultati lo dice sopra l'elenco:
+*Nessuna regola di ricarico corrisponde a questi risultati, quindi è stato applicato il valore
+predefinito della tua agenzia: X.* Compare solo quando non ha corrisposto nulla, quindi vederlo
+significa che il numero viene dal tuo valore predefinito e non da qualcosa impostato per questo
+agente, cliente o fascia.
+
+Vale la pena saperlo per via di quale sia il valore predefinito se non ne hai impostato uno: **0%**.
+È il comportamento corretto — OneRate non inventa un margine al posto tuo — ma significa che
+un'agenzia che non ha configurato nulla sta quotando a costo, da una pagina che sembra identica a
+una con prezzi.
+
 ## Controlli di buon senso da fare
 
 1. **Lancia una ricerca e apri un hotel.** Il prezzo sulla scheda e quello sulla schermata di

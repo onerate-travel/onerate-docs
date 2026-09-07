@@ -127,6 +127,21 @@ documento:
 È la semplice verità. Una tariffa scade in minuti; quando il cliente torna rifai la ricerca e
 prenoti quello che c'è allora.
 
+## Ritrovare un preventivo
+
+**Preventivi** nella barra laterale elenca tutto ciò che questa agenzia ha creato, dal più recente,
+con la possibilità di scaricarlo di nuovo o di ritirarlo.
+
+**Non c'è ricerca per cliente, ed è voluto.** Il nome del cliente è dentro il documento; OneRate non
+lo conserva come dato, quindi l'elenco non può cercarlo. Quello che l'elenco conserva è la **data di
+check-in** del soggiorno a cui ogni preventivo si riferisce — che è anche il nome con cui il file è
+salvato — quindi si ritrova un preventivo dal viaggio per cui è stato fatto.
+
+**Ritirare** elimina il file archiviato. Chi lo ha già ricevuto conserva la sua copia; questo rimuove
+la tua, che è quello che serve se un documento è andato al cliente sbagliato. Non è reversibile.
+
+Un preventivo è conservato per un anno, poi rimosso automaticamente.
+
 ## Limiti
 
 Un'offerta contiene al massimo **60 camere**. Oltre, il portale rifiuta invece di lasciar cadere in

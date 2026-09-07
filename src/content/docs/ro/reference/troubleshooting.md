@@ -73,6 +73,7 @@ oaspetele are nevoie de o cameră acum. [Explicația completă](/ro/booking/stat
 | „Rezervarea a eșuat. Te rugăm să încerci din nou.” | O eroare generală. | **Verifică întâi [Rezervări](/ro/booking/your-bookings/)** ca să confirmi că nu s-a creat nimic, apoi reîncearcă. |
 | „Un câmp obligatoriu lipsește sau este invalid.” | Unul dintre [câmpurile](/ro/manage/settings/#câmpurile-agenției) proprii ale agenției tale este gol, sau o valoare nu se potrivește cu definiția sa. | Completează-l pe ecranul de verificare. Nu s-a rezervat nimic și nimic nu a fost trimis furnizorului. |
 | „Aceasta ar duce clientul peste plafonul rezervărilor deschise.” | Clientul are un [plafon al rezervărilor deschise](/ro/manage/customers/#plafonul-rezervărilor-deschise), iar această rezervare îl depășește. | Vorbește cu agenția. Nu este o limită de credit — scade pe măsură ce sejururile se încheie și rezervările sunt anulate, niciodată la plată. |
+| „Abonamentul agenției dumneavoastră nu este activ…” | Rezervările noi sunt suspendate pentru că abonamentul a expirat. Cele deja făcute nu sunt afectate; căutarea, deschiderea rezervărilor și descărcarea voucherelor funcționează în continuare. | Un proprietar reactivează abonamentul. Reîncercarea nu ajută. |
 
 ## Rezervări și anulare
 

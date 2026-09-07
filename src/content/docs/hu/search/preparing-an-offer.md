@@ -127,6 +127,22 @@ dokumentum nyelvén:
 Ez az egyszerű igazság. Egy ár percek alatt lejár; amikor az ügyfél visszatér, újra lefuttatja a
 keresést, és azt foglalja le, ami akkor van.
 
+## Egy ajánlat újbóli megtalálása
+
+Az oldalsávban az **Ajánlatok** felsorolja mindazt, amit ez az ügynökség készített, a legújabbal
+kezdve, és mindegyiket újra letöltheti vagy visszavonhatja.
+
+**Ügyfél szerint nem lehet keresni, és ez szándékos.** Az ügyfél neve a dokumentumban van; a OneRate
+nem tárolja adatként, ezért a lista nem tud rákeresni. Amit a lista tárol, az minden ajánlat
+tartózkodásának **érkezési dátuma** — ez a fájl mentési neve is —, tehát az ajánlatot az utazás
+alapján találja meg, amelyhez tartozik.
+
+**A visszavonás** törli a tárolt fájlt. Akinek már elküldte, annál megmarad a saját példánya; ez az
+Önét távolítja el, ami pontosan az, amit akar, ha a dokumentum rossz ügyfélhez került. Nem vonható
+vissza.
+
+Egy ajánlat egy évig marad meg, majd automatikusan törlődik.
+
 ## Korlátok
 
 Egy ajánlat legfeljebb **60 szobát** tartalmaz. Ezen felül a portál elutasítja, ahelyett hogy

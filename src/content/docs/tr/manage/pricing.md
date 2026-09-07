@@ -103,6 +103,17 @@ temizlemek sıfıra değil, bir üstteki seviyeye döner.
 Grubun yeri bilinçlidir: grup, bir *küme* hakkında söylediğiniz şeydir — dolayısıyla tek bir müşteri
 hakkında söylediğiniz her şey onu yener, o da genel varsayılanınızı yener.
 
+### Hiçbiri eşleşmediğinde
+
+Bu zincirdeki hiçbir seviyede marj yoksa, sonuç sayfası bunu listenin üstünde söyler: *Bu sonuçlara
+hiçbir marj kuralı uymadı; acentenizin X varsayılanı uygulandı.* Yalnızca hiçbir şey eşleşmediğinde
+çıkar; yani gördüyseniz sayı, bu temsilci, müşteri veya grup için tanımladığınız bir şeyden değil,
+varsayılanınızdan gelmiştir.
+
+Bilmeye değer, çünkü siz tanımlamadıysanız varsayılan **%0**'dır. Bu doğru varsayılandır — OneRate
+sizin adınıza marj uydurmaz — ama hiçbir ayar yapmamış bir acentenin maliyetine satış yaptığı,
+üstelik bunu fiyatlanmış görünen bir sayfadan yaptığı anlamına gelir.
+
 ## Yapmaya değer kontroller
 
 1. **Bir arama yapıp bir oteli açın.** Karttaki ve gözden geçirme ekranındaki fiyat, netiniz artı

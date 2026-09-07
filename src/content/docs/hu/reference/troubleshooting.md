@@ -72,6 +72,7 @@ Sorrendben:
 | „A foglalás nem sikerült. Kérjük, próbáld újra.” | Általános hiba. | **Előbb nézd meg a [Foglalásokat](/hu/booking/your-bookings/)**, hogy semmi nem jött-e létre, és csak utána próbáld újra. |
 | „Egy kötelező mező hiányzik vagy érvénytelen.” | Az irodád saját [mezőinek](/hu/manage/settings/#irodai-mezők) egyike üres, vagy egy érték nem felel meg a definíciójának. | Töltsd ki az ellenőrző képernyőn. Semmit nem foglaltunk le, és semmi nem ment el a beszállítóhoz. |
 | „Ezzel az ügyfél a nyitott foglalási plafonja fölé kerülne.” | Az ügyfélnek van [nyitott foglalási plafonja](/hu/manage/customers/#nyitott-foglalási-plafon), és ez a foglalás átlépné. | Beszélj az irodával. Ez nem hitelkeret — akkor csökken, amikor a tartózkodások lezárulnak és foglalásokat lemondanak, soha nem fizetéskor. |
+| „Az ügynöksége előfizetése nem aktív…” | Az új foglalások szünetelnek, mert az előfizetés lejárt. A meglévő foglalásokat ez nem érinti; a keresés, a foglalások megnyitása és a voucherek letöltése továbbra is működik. | Egy tulajdonos állítja helyre az előfizetést. Az újrapróbálkozás nem segít. |
 
 ## Foglalások és lemondás
 

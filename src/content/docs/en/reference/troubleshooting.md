@@ -72,6 +72,7 @@ In order:
 | "Booking failed. Please try again." | A general failure. | **Check [Bookings](/en/booking/your-bookings/) first** to confirm nothing was created, then retry. |
 | "A required field is missing or invalid." | One of your agency's own [fields](/en/manage/settings/#agency-fields) is empty, or a value does not fit its definition. | Complete it on the review screen. Nothing was booked and nothing was sent to the supplier. |
 | "This would take the customer over their open-booking ceiling." | The customer has an [open-booking ceiling](/en/manage/customers/#open-booking-ceiling) and this booking crosses it. | Speak to the agency. It is not a credit limit — it falls as stays complete and bookings are cancelled, never on payment. |
+| "Your agency's subscription is not active…" | New bookings are paused because the subscription lapsed. Everything already booked is unaffected, and searching, reading bookings and downloading vouchers all still work. | An owner restores the subscription. Retrying the booking will not help. |
 
 ## Bookings and cancellation
 

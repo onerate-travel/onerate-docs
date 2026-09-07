@@ -101,6 +101,17 @@ said about one customer specifically beats it, and it beats your blanket default
 This is the same inheritance the rest of your agency configuration uses, so it behaves the way you
 would expect from [Settings](/en/manage/settings/).
 
+### When nothing matched
+
+If no level in that chain has a margin, the results page says so above the list: *No markup rule
+matched these results, so your agency's default of X was applied.* It appears only when nothing
+matched, so seeing it means the number came from your default rather than from anything you set for
+this agent, customer or band.
+
+Worth knowing because of what the default is when you have not set one: **0%**. That is the right
+default — OneRate will not invent a margin on your behalf — but it does mean an agency that has
+configured nothing is quoting at cost, from a page that otherwise looks exactly like a priced one.
+
 ## Sanity checks worth doing
 
 1. **Run a search and open a hotel.** The price on the card and the price on the review screen

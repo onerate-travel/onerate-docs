@@ -103,6 +103,18 @@ felülírás törlése a fölötte lévő szintre esik vissza — soha nem null�
 A csoport helye szándékos: a csoport egy *halmazról* tett kijelentés, ezért bármi, amit egyetlen
 ügyfélről mondott, legyőzi, ő pedig legyőzi az általános alapértelmezést.
 
+### Amikor semmi sem illeszkedett
+
+Ha a láncban egyetlen szinten sincs árrés, a találati oldal ezt kiírja a lista fölé: *Ezekre a
+találatokra egyetlen árrésszabály sem illeszkedett, ezért az ügynöksége X alapértelmezett értéke
+lett alkalmazva.* Csak akkor jelenik meg, ha semmi sem illeszkedett, tehát ha látja, a szám az
+alapértelmezésből származik, nem valamiből, amit ehhez az ügynökhöz, ügyfélhez vagy csoporthoz
+állított be.
+
+Érdemes tudni, mert az alapértelmezés — ha nem állított be sajátot — **0%**. Ez a helyes viselkedés:
+a OneRate nem talál ki Ön helyett árrést. Azt viszont jelenti, hogy egy semmit sem konfiguráló
+ügynökség önköltségen ajánl, egy egyébként árazottnak látszó oldalról.
+
 ## Érdemes ellenőrzések
 
 1. **Indíts egy keresést, és nyiss meg egy szállodát.** A kártyán és az ellenőrző képernyőn lévő

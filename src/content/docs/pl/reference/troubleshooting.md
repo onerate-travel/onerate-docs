@@ -72,6 +72,7 @@ Po kolei:
 | „Rezerwacja nie powiodła się. Spróbuj ponownie.” | Ogólny błąd. | **Najpierw sprawdź [Rezerwacje](/pl/booking/your-bookings/)**, aby potwierdzić, że nic nie powstało, a potem ponów. |
 | „Brakuje wymaganego pola lub jest ono nieprawidłowe.” | Jedno z własnych [pól](/pl/manage/settings/#pola-biura) Państwa biura jest puste albo wartość nie pasuje do definicji. | Uzupełnij je na ekranie podsumowania. Nic nie zostało zarezerwowane i nic nie poszło do dostawcy. |
 | „To przekroczyłoby pułap otwartych rezerwacji klienta.” | Klient ma [pułap otwartych rezerwacji](/pl/manage/customers/#pułap-otwartych-rezerwacji), a ta rezerwacja go przekracza. | Porozmawiaj z agencją. To nie jest limit kredytowy — opada, gdy pobyty się kończą i rezerwacje są anulowane, nigdy przy płatności. |
+| „Subskrypcja Twojej agencji nie jest aktywna…” | Nowe rezerwacje są wstrzymane, ponieważ subskrypcja wygasła. Już dokonane pozostają bez zmian; wyszukiwanie, przeglądanie rezerwacji i pobieranie voucherów nadal działa. | Właściciel przywraca subskrypcję. Ponowna próba nie pomoże. |
 
 ## Rezerwacje i anulowanie
 
