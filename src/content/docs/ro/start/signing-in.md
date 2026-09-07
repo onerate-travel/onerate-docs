@@ -1,6 +1,6 @@
 ---
 title: Autentificare
-description: Acceptarea unei invitații, autentificarea, verificarea în doi pași, codurile de rezervă și ce faci când nu poți intra.
+description: Acceptarea unei invitații, autentificarea, verificarea umană, verificarea în doi pași, codurile de rezervă și ce faci când nu poți intra.
 ---
 
 Portalul se află la **[app.onerate.travel](https://app.onerate.travel)**.
@@ -34,6 +34,17 @@ Introdu emailul și parola și apasă **Autentificare**.
   minut și încearcă din nou — o reîncercare imediată nu va funcționa.
 - **„Acest cont nu se poate autentifica momentan.”** înseamnă că ți-a fost suspendat contul sau că
   abonamentul agenției tale nu este activ. Contactează administratorul agenției tale.
+
+## Verificarea umană
+
+Deasupra butonului **Autentificare** există o verificare ce confirmă că la tastatură se află o
+persoană, nu un script. De cele mai multe ori se încheie singură și vezi doar o bifă; uneori îți
+cere să apeși ceva. **Autentificare** rămâne estompat până când se termină — este normal și durează
+o secundă sau două.
+
+Fiecare verificare este valabilă pentru o singură încercare. Dacă autentificarea eșuează din orice
+motiv — inclusiv o parolă greșită — se desenează o verificare nouă, care trebuie să se încheie din
+nou înainte de următoarea încercare.
 
 ## Verificarea în doi pași
 
@@ -80,6 +91,8 @@ Confirmarea spune „dacă adresa are un cont”, indiferent dacă are sau nu �
 ecranul să nu poată fi folosit pentru a descoperi cine are cont. Linkul expiră în scurt timp și
 funcționează o singură dată; dacă a fost folosit sau a expirat, cere unul nou.
 
+Aceeași verificare se află deasupra butonului **Trimite linkul de resetare** și funcționează la fel.
+
 ## Dacă nu poți intra
 
 | Ce vezi | Ce înseamnă |
@@ -89,6 +102,7 @@ funcționează o singură dată; dacă a fost folosit sau a expirat, cere unul n
 | „Acest cont nu se poate autentifica momentan.” | Cont suspendat sau abonament inactiv. Întreabă administratorul agenției tale. |
 | „Nu am putut contacta OneRate.” | O problemă de rețea de partea ta. **Nu** ai fost autentificat și nu s-a schimbat nimic. |
 | „Sesiunea ta s-a încheiat.” | Sesiunea a expirat cât timp fila era deschisă. Autentifică-te din nou — lucrul nesalvat de pe ecran se pierde. |
+| "Verificarea nu a fost finalizată. Rezolvă verificarea de mai jos și încearcă din nou." | Verificarea a eșuat sau a expirat. Sub mesaj apare una nouă — las-o să se încheie, apoi încearcă din nou. |
 
 ## Schimbarea limbii
 

@@ -1,6 +1,6 @@
 ---
 title: Bejelentkezés
-description: Meghívó elfogadása, bejelentkezés, kétlépcsős azonosítás, tartalék kódok, és mit tegyél, ha nem tudsz bejutni.
+description: Meghívó elfogadása, bejelentkezés, az ellenőrzés, kétlépcsős azonosítás, tartalék kódok, és mit tegyél, ha nem tudsz bejutni.
 ---
 
 A portál itt található: **[app.onerate.travel](https://app.onerate.travel)**.
@@ -33,6 +33,16 @@ Add meg az e-mail címedet és a jelszavadat, majd nyomd meg a **Bejelentkezés*
   próbáld újra — az azonnali újrapróbálkozás nem fog működni.
 - **„Ez a fiók jelenleg nem tud bejelentkezni.”** azt jelenti, hogy a fiókodat felfüggesztették,
   vagy az irodád előfizetése nem aktív. Vedd fel a kapcsolatot az irodád adminisztrátorával.
+
+## Az ellenőrzés
+
+A **Bejelentkezés** fölött van egy ellenőrzés, amely megerősíti, hogy ember ül a billentyűzetnél,
+nem szkript. Legtöbbször magától lefut, és csak egy pipát látsz; időnként kér egy kattintást. A
+**Bejelentkezés** addig halvány marad, amíg be nem fejeződik — ez normális, és egy-két másodperc.
+
+Minden ellenőrzés egyetlen próbálkozásra szól. Ha a bejelentkezés bármilyen okból sikertelen — akár
+elgépelt jelszó miatt is —, új ellenőrzés jelenik meg, és annak is le kell futnia az újabb
+próbálkozás előtt.
 
 ## Kétlépcsős azonosítás
 
@@ -80,6 +90,8 @@ A visszajelzés akkor is azt mondja, hogy „ha ehhez a címhez tartozik fiók�
 szándékos, hogy a képernyőt ne lehessen arra használni, hogy kiderüljön, kinek van fiókja. A link
 hamarosan lejár, és csak egyszer működik; ha felhasználták vagy lejárt, kérj újat.
 
+Ugyanez az ellenőrzés a **Visszaállító link küldése** fölött is ott van, és ugyanígy működik.
+
 ## Ha nem tudsz bejutni
 
 | Amit látsz | Mit jelent |
@@ -89,6 +101,7 @@ hamarosan lejár, és csak egyszer működik; ha felhasználták vagy lejárt, k
 | „Ez a fiók jelenleg nem tud bejelentkezni.” | Felfüggesztett fiók vagy inaktív előfizetés. Kérdezd az irodád adminisztrátorát. |
 | „Nem értük el a OneRate-et.” | Hálózati hiba a te oldaladon. **Nem** jelentkeztél be, és semmi nem változott. |
 | „A munkameneted lejárt.” | A munkamenet lejárt, miközben a lap nyitva volt. Jelentkezz be újra — a képernyőn lévő mentetlen munka elvész. |
+| "Az ellenőrzés nem fejeződött be. Oldja meg az alábbi ellenőrzést, és próbálja újra." | Az ellenőrzés sikertelen volt vagy lejárt. Az üzenet alatt új jelenik meg — várd meg, amíg lefut, majd próbáld újra. |
 
 ## Nyelvváltás
 

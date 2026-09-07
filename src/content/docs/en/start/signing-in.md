@@ -1,6 +1,6 @@
 ---
 title: Signing in
-description: Accepting an invitation, signing in, two-step verification, backup codes, and what to do when you cannot get in.
+description: Accepting an invitation, signing in, the verification check, two-step verification, backup codes, and what to do when you cannot get in.
 ---
 
 The portal is at **[app.onerate.travel](https://app.onerate.travel)**.
@@ -34,6 +34,15 @@ Enter your email and password and press **Sign in**.
   again — retrying immediately will not work.
 - **"This account cannot sign in at the moment."** means your account has been suspended or your
   agency's subscription is not active. Contact your agency administrator.
+
+## The verification check
+
+Above **Sign in** there is a check that confirms a person is at the keyboard rather than a script.
+Most of the time it completes by itself and you see only a tick; occasionally it asks you to press
+something. **Sign in** stays greyed out until it finishes, which is normal and takes a second or two.
+
+Each check is good for one attempt. If a sign-in fails for any reason — a mistyped password
+included — a fresh check is drawn, and it has to finish again before you can try once more.
 
 ## Two-step verification
 
@@ -79,6 +88,8 @@ The confirmation says "if that address has an account" whether or not it does �
 intentional, so the screen cannot be used to discover who has an account. The link expires shortly
 and works only once; if it has been used or has expired, request a new one.
 
+The same check sits above **Send reset link**, and works the same way.
+
 ## If you cannot get in
 
 | What you see | What it means |
@@ -88,6 +99,7 @@ and works only once; if it has been used or has expired, request a new one.
 | "This account cannot sign in at the moment." | Suspended account or inactive subscription. Ask your agency administrator. |
 | "We could not reach OneRate." | A network problem on your side. You have **not** been signed in and nothing has changed. |
 | "Your session has ended." | Your session expired while the tab was open. Sign in again — unsaved work on the screen is lost. |
+| "The verification did not complete. Solve the check below and try again." | The human check failed or expired. A new one is drawn under the message — let it finish, then try again. |
 
 ## Changing language
 

@@ -1,6 +1,6 @@
 ---
 title: Logowanie
-description: Przyjęcie zaproszenia, logowanie, weryfikacja dwuetapowa, kody zapasowe i co robić, gdy nie możesz się dostać do środka.
+description: Przyjęcie zaproszenia, logowanie, test weryfikacyjny, weryfikacja dwuetapowa, kody zapasowe i co robić, gdy nie możesz się dostać do środka.
 ---
 
 Portal znajdziesz pod **[app.onerate.travel](https://app.onerate.travel)**.
@@ -34,6 +34,17 @@ Wpisz e-mail i hasło, a następnie naciśnij **Zaloguj się**.
   spróbuj ponownie — natychmiastowa kolejna próba nie zadziała.
 - **„To konto nie może się teraz zalogować.”** oznacza, że Twoje konto zostało zawieszone albo że
   subskrypcja Twojej agencji nie jest aktywna. Skontaktuj się z administratorem swojej agencji.
+
+## Test weryfikacyjny
+
+Nad przyciskiem **Zaloguj się** znajduje się test potwierdzający, że przy klawiaturze siedzi
+człowiek, a nie skrypt. Najczęściej kończy się sam i widzisz tylko znacznik; czasem prosi o
+kliknięcie. **Zaloguj się** pozostaje wyszarzony, dopóki test się nie zakończy — to normalne i
+trwa sekundę lub dwie.
+
+Każdy test wystarcza na jedną próbę. Jeśli logowanie się nie powiedzie z dowolnego powodu — również
+przez błędnie wpisane hasło — pojawia się nowy test, który musi zakończyć się ponownie przed kolejną
+próbą.
 
 ## Weryfikacja dwuetapowa
 
@@ -79,6 +90,8 @@ Potwierdzenie mówi „jeśli do tego adresu przypisane jest konto” niezależn
 celowe, żeby ekranu nie dało się użyć do sprawdzania, kto ma konto. Link wkrótce wygasa i działa
 tylko raz; jeśli został użyty albo wygasł, poproś o nowy.
 
+Ten sam test znajduje się nad przyciskiem **Wyślij link resetujący** i działa tak samo.
+
 ## Jeśli nie możesz się dostać
 
 | Co widzisz | Co to znaczy |
@@ -88,6 +101,7 @@ tylko raz; jeśli został użyty albo wygasł, poproś o nowy.
 | „To konto nie może się teraz zalogować.” | Zawieszone konto albo nieaktywna subskrypcja. Zapytaj administratora swojej agencji. |
 | „Nie udało się połączyć z OneRate.” | Problem sieciowy po Twojej stronie. **Nie** zostałeś zalogowany i nic się nie zmieniło. |
 | „Twoja sesja zakończyła się.” | Sesja wygasła, gdy karta była otwarta. Zaloguj się ponownie — niezapisana praca na ekranie przepada. |
+| "Weryfikacja nie została ukończona. Rozwiąż poniższy test i spróbuj ponownie." | Test nie powiódł się lub wygasł. Pod komunikatem pojawia się nowy — poczekaj, aż się zakończy, i spróbuj ponownie. |
 
 ## Zmiana języka
 

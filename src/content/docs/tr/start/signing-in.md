@@ -1,6 +1,6 @@
 ---
 title: Giriş yapmak
-description: Daveti kabul etmek, giriş yapmak, iki adımlı doğrulama, yedek kodlar ve giriş yapamadığınızda ne yapmanız gerektiği.
+description: Daveti kabul etmek, giriş yapmak, doğrulama kontrolü, iki adımlı doğrulama, yedek kodlar ve giriş yapamadığınızda ne yapmanız gerektiği.
 ---
 
 Portal: **[app.onerate.travel](https://app.onerate.travel)**
@@ -34,6 +34,16 @@ E-postanızı ve şifrenizi girip **Giriş yap**a basın.
   hemen tekrar denemek işe yaramaz.
 - **"Bu hesap şu anda giriş yapamıyor."** hesabınızın askıya alındığı ya da acentenizin
   aboneliğinin aktif olmadığı anlamına gelir. Acente yöneticinize başvurun.
+
+## Doğrulama kontrolü
+
+**Giriş yap** düğmesinin üzerinde, klavye başında bir kişinin mi yoksa bir betiğin mi olduğunu
+anlayan bir kontrol var. Çoğu zaman kendiliğinden tamamlanır ve siz yalnızca bir onay işareti
+görürsünüz; ara sıra bir yere basmanızı ister. Kontrol bitene kadar **Giriş yap** soluk kalır — bu
+normaldir ve bir iki saniye sürer.
+
+Her kontrol tek bir deneme içindir. Giriş herhangi bir sebeple başarısız olursa — şifre yanlış
+yazıldıysa da — yeni bir kontrol çizilir ve tekrar denemeden önce onun da bitmesi gerekir.
 
 ## İki adımlı doğrulama
 
@@ -81,6 +91,8 @@ Onay mesajı, adresin hesabı olsun olmasın "o adresin bir hesabı varsa" der �
 kimin hesabı olduğunu öğrenmek için kullanılamasın diye. Bağlantının süresi kısa sürede dolar ve
 yalnızca bir kez çalışır; kullanıldıysa veya süresi dolduysa yenisini isteyin.
 
+Aynı kontrol **Sıfırlama bağlantısı gönder** düğmesinin üzerinde de yer alır ve aynı şekilde çalışır.
+
 ## Giriş yapamıyorsanız
 
 | Gördüğünüz | Anlamı |
@@ -90,6 +102,7 @@ yalnızca bir kez çalışır; kullanıldıysa veya süresi dolduysa yenisini is
 | "Bu hesap şu anda giriş yapamıyor." | Askıya alınmış hesap ya da aktif olmayan abonelik. Acente yöneticinize başvurun. |
 | "OneRate'e ulaşamadık." | Sizin tarafınızda ağ sorunu. Giriş **yapılmadı** ve hiçbir şey değişmedi. |
 | "Oturumunuz sona erdi." | Sekme açıkken oturumunuzun süresi doldu. Tekrar giriş yapın — ekrandaki kaydedilmemiş çalışma kaybolur. |
+| "Doğrulama tamamlanamadı. Aşağıdaki kontrolü çözüp tekrar deneyin." | İnsan kontrolü başarısız oldu ya da süresi doldu. Mesajın altında yenisi çizilir — bitmesini bekleyip tekrar deneyin. |
 
 ## Dil değiştirmek
 

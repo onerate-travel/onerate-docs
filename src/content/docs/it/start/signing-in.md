@@ -1,6 +1,6 @@
 ---
 title: Accesso
-description: Accettare un invito, accedere, la verifica in due passaggi, i codici di riserva e che cosa fare quando non riesci a entrare.
+description: Accettare un invito, accedere, il controllo di verifica, la verifica in due passaggi, i codici di riserva e che cosa fare quando non riesci a entrare.
 ---
 
 Il portale è su **[app.onerate.travel](https://app.onerate.travel)**.
@@ -35,6 +35,17 @@ Inserisci email e password e premi **Accedi**.
 - **"Questo account al momento non può accedere."** significa che il tuo account è stato sospeso
   oppure che l'abbonamento della tua agenzia non è attivo. Contatta l'amministratore della tua
   agenzia.
+
+## Il controllo di verifica
+
+Sopra **Accedi** c'è un controllo che conferma che alla tastiera c'è una persona e non uno script.
+Nella maggior parte dei casi si completa da solo e vedi soltanto un segno di spunta; ogni tanto ti
+chiede di premere qualcosa. **Accedi** resta in grigio finché non termina: è normale e richiede un
+secondo o due.
+
+Ogni controllo vale per un solo tentativo. Se l'accesso fallisce per qualsiasi motivo — anche per
+una password digitata male — viene disegnato un nuovo controllo, che deve completarsi di nuovo prima
+del tentativo successivo.
 
 ## Verifica in due passaggi
 
@@ -82,6 +93,8 @@ La conferma dice "se a quell'indirizzo corrisponde un account" a prescindere dal
 è intenzionale, così la schermata non può essere usata per scoprire chi ha un account. Il link
 scade a breve e funziona una sola volta; se è stato usato o è scaduto, richiedine uno nuovo.
 
+Lo stesso controllo si trova sopra **Invia il link di reimpostazione** e funziona allo stesso modo.
+
 ## Se non riesci a entrare
 
 | Che cosa vedi | Che cosa significa |
@@ -91,6 +104,7 @@ scade a breve e funziona una sola volta; se è stato usato o è scaduto, richied
 | "Questo account al momento non può accedere." | Account sospeso o abbonamento non attivo. Chiedi all'amministratore della tua agenzia. |
 | "Non siamo riusciti a raggiungere OneRate." | Un problema di rete dalla tua parte. **Non** hai effettuato l'accesso e non è cambiato nulla. |
 | "La tua sessione è terminata." | La sessione è scaduta mentre la scheda era aperta. Accedi di nuovo — il lavoro non salvato sulla schermata è perso. |
+| "La verifica non è stata completata. Risolvi il controllo qui sotto e riprova." | Il controllo è fallito o è scaduto. Sotto il messaggio ne compare uno nuovo: lascialo completare, poi riprova. |
 
 ## Cambiare lingua
 
