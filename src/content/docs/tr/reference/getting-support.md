@@ -5,8 +5,11 @@ description: Portal içinden OneRate'e nasıl ulaşılır, bir kayda ne yazılı
 
 ## Nerede
 
-**Destek**, portalın sol menüsünde, en altta. Her rol için orada — giriş yapabiliyorsanız
-OneRate'e yazabilirsiniz.
+**Destek**, her ekranın sağ üstündeki baş harflerinizin bulunduğu dairenin arkasındaki hesap
+menüsünde. Her rol için orada — giriş yapabiliyorsanız OneRate'e yazabilirsiniz.
+
+OneRate henüz okumadığınız bir yanıt verdiyse o dairede bir nokta belirir ve satır kaç tanesinin
+beklediğini söyler.
 
 `support.onerate.travel` aynı yere gider. Kaydetmeye değer bir kısayol; önce giriş yapmanızı
 ister, çünkü bir destek kaydı acentenize bağlıdır.

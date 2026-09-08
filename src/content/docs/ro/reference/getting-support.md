@@ -5,8 +5,12 @@ description: Cum contactați OneRate din portal, ce să scrieți într-o solicit
 
 ## Unde se află
 
-**Asistență** este în navigarea din stânga a portalului, jos de tot. Este acolo pentru orice rol —
-dacă vă puteți autentifica, puteți scrie către OneRate.
+**Asistență** este în meniul contului, în spatele cercului cu inițialele tale din colțul din
+dreapta sus al fiecărui ecran. Este acolo pentru orice rol — dacă vă puteți autentifica, puteți
+scrie către OneRate.
+
+Când OneRate a răspuns la ceva ce nu ai citit încă, pe cerc apare un punct, iar rândul spune câte
+așteaptă.
 
 `support.onerate.travel` duce în același loc. Este o scurtătură care merită salvată; vă va cere mai
 întâi să vă autentificați, pentru că o solicitare de asistență este legată de agenția dumneavoastră.

@@ -5,8 +5,11 @@ description: How to reach OneRate from inside the portal, what to put in a ticke
 
 ## Where it is
 
-**Support** is in the portal's left-hand navigation, at the foot. It is there for every role — if
-you can sign in, you can write to OneRate.
+**Support** is in the account menu, behind the circle with your initials at the top right of every
+screen. It is there for every role — if you can sign in, you can write to OneRate.
+
+When OneRate has answered something you have not read yet, a dot appears on that circle and the
+entry says how many are waiting.
 
 `support.onerate.travel` goes to the same place. It is a shortcut worth saving; it will ask you to
 sign in first, because a support ticket is tied to your agency.

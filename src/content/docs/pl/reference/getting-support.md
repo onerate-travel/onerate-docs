@@ -5,8 +5,11 @@ description: Jak skontaktować się z OneRate z poziomu portalu, co napisać w z
 
 ## Gdzie to jest
 
-**Wsparcie** znajduje się w lewym menu portalu, na dole. Jest dostępne dla każdej roli — jeśli można
-się zalogować, można napisać do OneRate.
+**Wsparcie** znajduje się w menu konta, za kółkiem z inicjałami w prawym górnym rogu każdego
+ekranu. Jest dostępne dla każdej roli — jeśli można się zalogować, można napisać do OneRate.
+
+Gdy OneRate odpowiedział na coś, czego jeszcze nie przeczytano, na kółku pojawia się kropka, a
+pozycja pokazuje, ile odpowiedzi czeka.
 
 `support.onerate.travel` prowadzi w to samo miejsce. To skrót wart zapisania; najpierw poprosi o
 zalogowanie, ponieważ zgłoszenie jest powiązane z Państwa agencją.

@@ -5,8 +5,11 @@ description: Hogyan érheti el a OneRate-et a portálról, mit írjon a jegybe, 
 
 ## Hol található
 
-A **Támogatás** a portál bal oldali menüjének alján van. Minden szerepkör számára elérhető — ha be
-tud jelentkezni, írhat a OneRate-nek.
+A **Támogatás** a fiókmenüben van, minden képernyő jobb felső sarkában a monogramos kör mögött.
+Minden szerepkör számára elérhető — ha be tud jelentkezni, írhat a OneRate-nek.
+
+Ha a OneRate válaszolt valamire, amit még nem olvasott el, a körön pont jelenik meg, a sor pedig
+megmutatja, hány válasz vár.
 
 A `support.onerate.travel` ugyanoda vezet. Érdemes elmenteni; először bejelentkezést kér, mert a
 támogatási jegy az irodájához kötődik.

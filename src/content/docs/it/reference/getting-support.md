@@ -5,8 +5,11 @@ description: Come contattare OneRate dal portale, che cosa scrivere in una richi
 
 ## Dove si trova
 
-**Assistenza** è nella navigazione a sinistra del portale, in fondo. C'è per ogni ruolo — se riesci
-ad accedere, puoi scrivere a OneRate.
+**Assistenza** è nel menu dell'account, dietro il cerchio con le tue iniziali in alto a destra in
+ogni schermata. C'è per ogni ruolo — se riesci ad accedere, puoi scrivere a OneRate.
+
+Quando OneRate ha risposto a qualcosa che non hai ancora letto, sul cerchio compare un punto e la
+voce indica quante risposte ti aspettano.
 
 `support.onerate.travel` porta allo stesso posto. È una scorciatoia che vale la pena salvare; ti
 chiederà prima di accedere, perché una richiesta di assistenza è legata alla tua agenzia.
