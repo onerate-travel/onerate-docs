@@ -17,8 +17,11 @@ Każda karta wyniku wypisuje, co hotel sprzedaje, po jednym wierszu na **klasę*
 warunki anulowania — wraz z dwiema cenami, między którymi jest sprzedawany, i liczbą nazw pokoi,
 które ten rozrzut obejmuje.
 
-Naciśnij wiersz, aby go otworzyć. Portal pyta dostawcę o pokoje tego hotelu i wypisuje je, każdy z
-**polem wyboru**, ceną, warunkami i informacją, kto go sprzedaje.
+Naciśnij wiersz, aby go otworzyć. Portal pyta dostawców o pokoje tego hotelu i wypisuje je po jednym
+wierszu na pokój, każdy z **polem wyboru**, warunkami i ceną. Pod każdym pokojem są dostawcy, którzy go
+sprzedają, z cenami: wybrany jest najtańszy, a możesz wybrać innego. Pole wyboru dodaje do oferty
+stawkę **wybranego dostawcy**, a jeśli potem wybierzesz innego dostawcę, pokój przechodzi do niego —
+pokój nigdy nie trafia do oferty dwa razy.
 
 :::note
 Otwarcie wiersza to nowe zapytanie do dostawcy, więc dzieje się po naciśnięciu, a nie wcześniej.

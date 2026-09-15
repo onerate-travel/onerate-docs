@@ -5,7 +5,9 @@ description: What the price on a result card means, the "Why this supplier?" rec
 
 ## What a result card shows
 
-One card per hotel. On it:
+One card per hotel — also when several of your suppliers sell it. OneRate recognises the same
+building from its name and location, and puts every supplier's rates on the one card. Two hotels
+whose names differ by a word stay two cards, however close they are. On it:
 
 - The **cheapest total for the whole stay**, in your selling currency, with your margin applied.
   Not a per-night rate. The line above the list says so explicitly: *"Prices are the total for 3
@@ -22,8 +24,10 @@ Under the hotel's name is one row per **class** — the board and the cancellati
 two prices that hotel is sold between and how many room names that spread covers, such as
 *4 room names*.
 
-Press a row to open it. The portal asks the supplier for that hotel's rooms at those terms and lists
-them, each with a checkbox, its price and who is selling it. That is a fresh call, so it happens
+Press a row to open it. The portal asks every supplier on the card for that hotel's rooms at those
+terms and lists them one row per room, with a checkbox. Under each room are the suppliers selling
+it, each with its price; the cheapest is chosen to begin with, and you can choose another. Rooms are
+put together only when the suppliers use the same name for them. That is a fresh call, so it happens
 when you press and not before — and a row can legitimately open onto *No room is on sale at these
 terms any more*.
 

@@ -17,8 +17,11 @@ Fiecare card de rezultat enumeră ce vinde hotelul cu câte un rând per **clas�
 de anulare — cu cele două prețuri între care se vinde și câte denumiri de cameră acoperă acel
 interval.
 
-Apasă un rând ca să-l deschizi. Portalul cere furnizorului camerele acelui hotel și le enumeră,
-fiecare cu o **casetă de bifat**, prețul, condițiile și cine o vinde.
+Apasă un rând ca să-l deschizi. Portalul cere furnizorilor camerele acelui hotel și le enumeră câte un
+rând pe cameră, fiecare cu o **casetă de bifat**, condițiile și prețul. Sub fiecare cameră sunt furnizorii
+care o vând, cu prețurile lor: este ales cel mai ieftin, iar tu poți alege altul. Caseta pune în ofertă
+tariful **furnizorului ales**, iar dacă alegi apoi alt furnizor, camera trece la acela — o cameră nu este
+niciodată ofertată de două ori.
 
 :::note
 Deschiderea unui rând este un apel nou către furnizor, deci se întâmplă la apăsare, nu înainte. De

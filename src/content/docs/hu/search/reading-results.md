@@ -5,7 +5,9 @@ description: Mit jelent az ár egy találati kártyán, a „Miért ez a beszál
 
 ## Mit mutat egy találati kártya
 
-Szállodánként egy kártya. Rajta:
+Szállodánként egy kártya — akkor is, ha több beszállítód is értékesíti. A OneRate a neve és a helye
+alapján ismeri fel ugyanazt az épületet, és minden beszállító árait egyetlen kártyára teszi. Két
+szálloda, amelynek neve egy szóban eltér, két kártya marad, akármilyen közel vannak. Rajta:
 
 - A **legolcsóbb végösszeg a teljes tartózkodásra**, a te eladási pénznemedben, a te árréseddel. Nem
   egy éjszakára szóló ár. A lista fölötti sor ezt ki is mondja: *„Az árak 3 éjszakára összesen
@@ -22,8 +24,11 @@ A szálloda neve alatt **osztályonként** egy sor áll — az ellátás és a l
 megadja azt a két árat, amelyek között a szállodát értékesítik, és hogy hány szobanevet fed le ez a
 sáv, például *4 szobanév*.
 
-Nyomja meg a sort a megnyitáshoz. A portál elkéri a beszállítótól a szálloda ilyen feltételű
-szobáit, és mindegyiket felsorolja egy jelölőnégyzettel, az árával és azzal, ki adja el. Ez új
+Nyomja meg a sort a megnyitáshoz. A portál a kártya minden beszállítójától elkéri a szálloda ilyen
+feltételű szobáit, és szobánként egy sorban, jelölőnégyzettel sorolja fel őket. Minden szoba alatt
+ott vannak az azt értékesítő beszállítók az áraikkal; kezdetben a legolcsóbb van kiválasztva, de
+választhat mást. A szobák csak akkor kerülnek egy sorba, ha a beszállítók ugyanazzal a névvel
+illetik őket. Ez új
 hívás, tehát megnyomáskor történik, nem előbb — és egy sor jogosan nyílhat meg azzal, hogy *Ilyen
 feltételekkel már nincs eladó szoba*.
 

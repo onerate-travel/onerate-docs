@@ -20,8 +20,9 @@ Doar un proprietar sau un administrator îl poate adăuga, și se face o singur�
 
 ## Alegerea unui tarif
 
-Deschide un hotel din rezultate. Pagina recotează sejurul la furnizor în acel moment și listează
-fiecare opțiune de tarif — masă, rambursabilitate, termen de anulare, total.
+Deschide un hotel din rezultate. Pagina recotează sejurul la fiecare furnizor de pe card în acel moment
+și listează tarifele cameră cu cameră: camera cu masa și rambursabilitatea, iar dedesubt furnizorii care
+o vând, fiecare cu termenul de anulare și totalul. Alege furnizorul la care vrei să rezervi camera.
 
 Dacă ai ales un tarif pe cardul de rezultate, pagina se deschide **pe acel tarif**. Reevaluarea este
 un apel nou către furnizor, așa că tariful poate să nu mai existe; pagina o spune și afișează cel

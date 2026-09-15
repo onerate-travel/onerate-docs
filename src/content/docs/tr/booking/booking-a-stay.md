@@ -20,8 +20,10 @@ Yalnızca bir sahip veya yönetici ekleyebilir ve bir kez yapılması yeterlidir
 
 ## Fiyat seçmek
 
-Sonuçlardan bir oteli açın. Sayfa konaklamayı o anda tedarikçiye karşı yeniden fiyatlandırır ve
-her fiyat seçeneğini listeler — pansiyon, iade koşulu, iptal son tarihi, toplam.
+Sonuçlardan bir oteli açın. Sayfa konaklamayı o anda karttaki her tedarikçiye karşı yeniden
+fiyatlandırır ve fiyatları oda oda listeler: pansiyonu ve iade koşuluyla oda, altında da onu satan
+tedarikçiler, her biri iptal son tarihi ve toplamıyla. Odayı hangi tedarikçiyle rezerve etmek
+istiyorsanız onu seçin.
 
 Sonuç kartında bir oran seçtiyseniz sayfa **o oranla** açılır. Yeniden fiyatlama tedarikçiye taze
 bir çağrıdır, dolayısıyla oran o ana kadar gitmiş olabilir; sayfa bunu söyler ve yerine en ucuzu

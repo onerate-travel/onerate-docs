@@ -17,8 +17,11 @@ Minden találati kártya **osztályonként** egy sorban sorolja fel, mit ad el a
 és a lemondási feltételeket —, a két árral, amelyek között értékesítik, és azzal, hány szobanevet
 fed le ez a sáv.
 
-Nyomja meg a sort a megnyitáshoz. A portál elkéri a beszállítótól a szálloda szobáit, és mindegyiket
-felsorolja egy **jelölőnégyzettel**, az árával, a feltételeivel és azzal, ki adja el.
+Nyomja meg a sort a megnyitáshoz. A portál elkéri a beszállítóktól a szálloda szobáit, és szobánként
+egy sorban sorolja fel őket, mindegyiket **jelölőnégyzettel**, a feltételeivel és az árával. Minden
+szoba alatt ott vannak az azt értékesítő beszállítók az áraikkal: a legolcsóbb van kiválasztva, de
+választhat mást. A jelölőnégyzet a **kiválasztott beszállító** árát teszi az ajánlatba, és ha utána
+másik beszállítót választ, a szoba átkerül hozzá — egy szoba soha nem szerepel kétszer.
 
 :::note
 Egy sor megnyitása új hívás a beszállító felé, ezért megnyomáskor történik, nem előbb. Ezért is

@@ -16,8 +16,11 @@ Zaten yaptığınız bir aramadan üretilir. Hiçbir şey rezerve edilmez, hiçb
 Her sonuç kartı otelin sattıklarını **sınıf** başına bir satır olarak listeler — pansiyon ve iptal
 koşulları — satıldığı iki fiyat ve bu aralığın kaç oda adını kapsadığıyla birlikte.
 
-Satıra basınca açılır. Portal o otelin odalarını tedarikçiye sorar ve her birini bir **onay kutusu**,
-fiyatı, koşulları ve satıcısıyla listeler.
+Satıra basınca açılır. Portal o otelin odalarını tedarikçilere sorar ve oda başına bir satır halinde,
+her birini bir **onay kutusu**, koşulları ve fiyatıyla listeler. Her odanın altında onu satan
+tedarikçiler fiyatlarıyla yer alır: en ucuzu seçilidir, başka birini seçebilirsiniz. Onay kutusu
+**seçilen tedarikçinin** fiyatını teklife koyar; sonradan başka bir tedarikçi seçerseniz oda ona
+taşınır — bir oda hiçbir zaman iki kez teklif edilmez.
 
 :::note
 Bir satırı açmak tedarikçiye taze bir çağrıdır; bu yüzden basıldığında olur, önceden değil. Satırın

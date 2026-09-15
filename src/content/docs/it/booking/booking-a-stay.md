@@ -21,8 +21,10 @@ Solo un titolare o un amministratore può aggiungerlo, e va fatto una volta sola
 
 ## Scegliere una tariffa
 
-Apri un hotel dai risultati. La pagina riquota il soggiorno presso il fornitore in quel momento ed
-elenca ogni opzione tariffaria — trattamento, rimborsabilità, scadenza di cancellazione, totale.
+Apri un hotel dai risultati. La pagina riquota il soggiorno presso ogni fornitore della scheda in quel
+momento ed elenca le tariffe camera per camera: la camera con il trattamento e la rimborsabilità, e sotto
+i fornitori che la vendono, ognuno con scadenza di cancellazione e totale. Scegli il fornitore con cui
+vuoi prenotare la camera.
 
 Se hai scelto una tariffa sulla scheda dei risultati, la pagina si apre **su quella tariffa**. Il
 ricalcolo è una nuova chiamata al fornitore, quindi può non esserci più; la pagina lo dice e mostra

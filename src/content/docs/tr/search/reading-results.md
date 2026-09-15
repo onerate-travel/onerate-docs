@@ -5,7 +5,9 @@ description: Sonuç kartındaki fiyatın anlamı, "Neden bu tedarikçi?" kaydı,
 
 ## Sonuç kartında ne var
 
-Her otel için bir kart. Üzerinde:
+Her otel için bir kart — o oteli birden fazla tedarikçiniz satıyorsa da. OneRate aynı binayı adından
+ve konumundan tanır ve her tedarikçinin fiyatlarını tek karta koyar. Adları bir kelimeyle ayrılan iki
+otel, ne kadar yakın olursa olsun iki kart kalır. Üzerinde:
 
 - **Tüm konaklamanın en ucuz toplamı**, satış para biriminizde, kârınız uygulanmış halde. Gecelik
   fiyat değil. Listenin üstündeki satır bunu açıkça söyler: *"Fiyatlar 3 gecelik toplamdır, EUR
@@ -21,8 +23,10 @@ Her otel için bir kart. Üzerinde:
 Otelin adının altında **sınıf** başına bir satır vardır — pansiyon ve iptal koşulları — o otelin
 satıldığı iki fiyatı ve bu aralığın kaç oda adını kapsadığını söyler; örneğin *4 oda adı*.
 
-Satıra basınca açılır. Portal o otelin bu koşullardaki odalarını tedarikçiye sorar ve her birini bir
-onay kutusu, fiyatı ve satıcısıyla listeler. Bu taze bir çağrıdır; basıldığında olur, önceden değil
+Satıra basınca açılır. Portal o otelin bu koşullardaki odalarını karttaki her tedarikçiye sorar ve
+oda başına bir satır, bir onay kutusuyla listeler. Her odanın altında onu satan tedarikçiler
+fiyatlarıyla yer alır; başta en ucuzu seçilidir, başka birini seçebilirsiniz. Odalar yalnızca
+tedarikçiler onlara aynı adı verdiğinde bir araya getirilir. Bu taze bir çağrıdır; basıldığında olur, önceden değil
 — ve bir satır haklı olarak *Bu koşullarda satışta oda kalmadı* diyerek açılabilir.
 
 Oda işaretlemek, müşteriye PDF olarak gönderebileceğiniz bir **teklif** kurar — bkz.

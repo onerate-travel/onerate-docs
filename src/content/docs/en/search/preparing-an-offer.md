@@ -17,8 +17,11 @@ Each result card lists what the hotel is selling as one row per **class** — th
 cancellation terms — with the two prices it is sold between and how many room names that spread
 covers.
 
-Press a row to open it. The portal asks the supplier for that hotel's rooms and lists them, each
-with a **checkbox**, its price, its terms and who is selling it.
+Press a row to open it. The portal asks the suppliers for that hotel's rooms and lists them one row
+per room, each with a **checkbox**, its terms and its price. Under each room are the suppliers
+selling it, with their prices: the cheapest is chosen, and you can choose another. The checkbox puts
+the **chosen supplier's** rate in the offer, and choosing a different supplier afterwards moves the
+room to that one — a room is never quoted twice.
 
 :::note
 Opening a row is a fresh call to the supplier, so it happens when you press and not before. That is

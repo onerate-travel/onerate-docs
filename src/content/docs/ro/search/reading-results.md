@@ -5,7 +5,9 @@ description: Ce înseamnă prețul de pe un card de rezultat, înregistrarea „
 
 ## Ce arată un card de rezultat
 
-Un card pentru fiecare hotel. Pe el:
+Un card pentru fiecare hotel — și atunci când îl vând mai mulți dintre furnizorii tăi. OneRate
+recunoaște aceeași clădire după nume și locație și pune tarifele fiecărui furnizor pe un singur card.
+Două hoteluri ale căror nume diferă printr-un cuvânt rămân două carduri, oricât de aproape ar fi. Pe el:
 
 - **Cel mai mic total pentru întregul sejur**, în moneda ta de vânzare, cu marja ta aplicată. Nu un
   tarif pe noapte. Linia de deasupra listei o spune explicit: *„Prețurile sunt totalul pentru 3
@@ -22,8 +24,10 @@ Sub numele hotelului există câte un rând per **clasă** — masa și condiți
 cele două prețuri între care se vinde hotelul și câte denumiri de cameră acoperă acel interval, de
 exemplu *4 denumiri de cameră*.
 
-Apasă un rând ca să-l deschizi. Portalul cere furnizorului camerele acelui hotel în aceste condiții
-și le enumeră, fiecare cu o casetă de bifat, prețul și cine o vinde. Este un apel nou, deci se
+Apasă un rând ca să-l deschizi. Portalul cere fiecărui furnizor de pe card camerele acelui hotel în
+aceste condiții și le enumeră câte un rând pe cameră, cu o casetă de bifat. Sub fiecare cameră sunt
+furnizorii care o vând, fiecare cu prețul său; la început este ales cel mai ieftin, iar tu poți alege
+altul. Camerele sunt puse împreună doar când furnizorii le dau același nume. Este un apel nou, deci se
 întâmplă la apăsare, nu înainte — iar un rând se poate deschide pe bună dreptate cu *Nu mai există
 camere la vânzare în aceste condiții*.
 

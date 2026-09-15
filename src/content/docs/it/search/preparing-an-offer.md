@@ -17,8 +17,11 @@ Ogni scheda dei risultati elenca ciò che l'hotel vende con una riga per **class
 e le condizioni di cancellazione — con i due prezzi tra cui è venduta e quanti nomi di camera copre
 quella forbice.
 
-Premi una riga per aprirla. Il portale chiede al fornitore le camere di quell'hotel e le elenca,
-ognuna con una **casella di spunta**, il suo prezzo, le sue condizioni e chi la vende.
+Premi una riga per aprirla. Il portale chiede ai fornitori le camere di quell'hotel e le elenca una riga
+per camera, ognuna con una **casella di spunta**, le sue condizioni e il suo prezzo. Sotto ogni camera ci
+sono i fornitori che la vendono, con i loro prezzi: è scelto il più economico, e puoi sceglierne un altro.
+La casella mette nell'offerta la tariffa del **fornitore scelto**, e se poi scegli un altro fornitore la
+camera passa a quello — una camera non viene mai quotata due volte.
 
 :::note
 Aprire una riga è una nuova chiamata al fornitore, quindi avviene quando premi e non prima. È anche

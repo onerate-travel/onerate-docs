@@ -5,7 +5,9 @@ description: Co znaczy cena na karcie wyniku, zapis „Dlaczego ten dostawca?”
 
 ## Co pokazuje karta wyniku
 
-Jedna karta na hotel. Na niej:
+Jedna karta na hotel — także wtedy, gdy sprzedaje go kilku Twoich dostawców. OneRate rozpoznaje ten
+sam budynek po nazwie i położeniu i umieszcza stawki każdego dostawcy na jednej karcie. Dwa hotele,
+których nazwy różnią się jednym słowem, pozostają dwiema kartami, niezależnie od odległości. Na niej:
 
 - **Najniższa suma za cały pobyt**, w Twojej walucie sprzedaży, z naliczoną Twoją marżą. Nie stawka
   za noc. Wiersz nad listą mówi to wprost: *„Ceny to łączny koszt za 3 noce, w EUR.”*
@@ -21,8 +23,10 @@ Pod nazwą hotelu jest jeden wiersz na **klasę** — wyżywienie i warunki anul
 ceny, między którymi hotel jest sprzedawany, oraz liczbę nazw pokoi objętych tym rozrzutem, na
 przykład *4 nazwy pokoi*.
 
-Naciśnij wiersz, aby go otworzyć. Portal pyta dostawcę o pokoje tego hotelu na tych warunkach i
-wypisuje je, każdy z polem wyboru, ceną i informacją, kto go sprzedaje. To nowe zapytanie, więc
+Naciśnij wiersz, aby go otworzyć. Portal pyta każdego dostawcę z karty o pokoje tego hotelu na tych
+warunkach i wypisuje je po jednym wierszu na pokój, z polem wyboru. Pod każdym pokojem są dostawcy,
+którzy go sprzedają, każdy ze swoją ceną; na początku wybrany jest najtańszy, a możesz wybrać innego.
+Pokoje są łączone tylko wtedy, gdy dostawcy nazywają je tak samo. To nowe zapytanie, więc
 dzieje się po naciśnięciu, a nie wcześniej — i wiersz może zasadnie otworzyć się komunikatem *Na
 tych warunkach nie ma już pokoi w sprzedaży*.
 

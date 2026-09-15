@@ -5,7 +5,9 @@ description: Che cosa significa il prezzo su una scheda risultato, il record "Pe
 
 ## Che cosa mostra una scheda risultato
 
-Una scheda per hotel. Su di essa:
+Una scheda per hotel — anche quando lo vendono più dei tuoi fornitori. OneRate riconosce lo stesso
+edificio dal nome e dalla posizione e mette le tariffe di ogni fornitore sulla stessa scheda. Due hotel
+i cui nomi differiscono per una parola restano due schede, per quanto vicini siano. Su di essa:
 
 - Il **totale più economico per l'intero soggiorno**, nella tua valuta di vendita, con il tuo
   margine applicato. Non una tariffa a notte. La riga sopra l'elenco lo dice esplicitamente: *"I
@@ -22,8 +24,11 @@ Sotto il nome dell'hotel c'è una riga per **classe** — il trattamento e le co
 cancellazione — che indica i due prezzi tra cui l'hotel è venduto e quanti nomi di camera copre
 quella forbice, per esempio *4 nomi di camera*.
 
-Premi una riga per aprirla. Il portale chiede al fornitore le camere di quell'hotel a quelle
-condizioni e le elenca, ognuna con una casella di spunta, il suo prezzo e chi la vende. È una nuova
+Premi una riga per aprirla. Il portale chiede a ogni fornitore della scheda le camere di quell'hotel a
+quelle condizioni e le elenca una riga per camera, con una casella di spunta. Sotto ogni camera ci sono
+i fornitori che la vendono, ognuno con il suo prezzo; all'inizio è scelto il più economico, e puoi
+sceglierne un altro. Le camere vengono raggruppate solo quando i fornitori le chiamano con lo stesso
+nome. È una nuova
 chiamata, quindi avviene quando premi e non prima — e una riga può legittimamente aprirsi su *Non ci
 sono più camere in vendita a queste condizioni*.
 
