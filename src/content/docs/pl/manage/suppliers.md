@@ -15,7 +15,10 @@ Tylko właściciele i administratorzy.
 3. Wybierz **środowisko** — **Środowisko testowe** albo **Produkcja**. To środowisko dostawcy, do
    którego należy klucz, a klucza testowego nie można używać produkcyjnie. Pomyłka tutaj to
    najczęstszy błąd konfiguracji.
-4. Wpisz dane dostępowe wydane Ci przez dostawcę.
+4. Wpisz dane dostępowe wydane Ci przez dostawcę. Niektórzy dostawcy zadają też pytanie z ustalonymi
+   odpowiedziami: LiteAPI pyta o pole **Metoda płatności**, czyli sposób, w jaki Twoje konto LiteAPI
+   płaci za rezerwacje — **Portfel**, **Karta przypisana do konta** albo **Linia kredytowa**. Wybierz
+   ten ustawiony na Twoim własnym koncie u tego dostawcy; OneRate nigdy nie płaci za rezerwację.
 5. Opcjonalnie nadaj **etykietę** — przydatną, gdy masz dwie umowy z tym samym dostawcą.
 6. **Dodaj dostawcę.**
 

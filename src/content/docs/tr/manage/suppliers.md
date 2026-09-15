@@ -15,7 +15,10 @@ Yalnızca sahipler ve yöneticiler.
 3. **Ortamı** seçin — **Sandbox** ya da **Canlı**. Bu, anahtarın ait olduğu, tedarikçinin kendi
    ortamıdır ve bir sandbox anahtarı canlıda kullanılamaz. Bunu yanlış yapmak en sık görülen kurulum
    hatasıdır.
-4. Tedarikçinizin size verdiği kimlik bilgilerini girin.
+4. Tedarikçinizin size verdiği kimlik bilgilerini girin. Bazı tedarikçiler sabit seçenekli bir soru
+   da sorar: LiteAPI, LiteAPI hesabınızın rezervasyonları hangi yolla ödediğini **Ödeme yöntemi**
+   olarak sorar — **Cüzdan**, **Hesaptaki kredi kartı** ya da **Kredi limiti**. O tedarikçideki kendi
+   hesabınızda tanımlı olanı seçin; OneRate hiçbir rezervasyonun ödemesini yapmaz.
 5. İsterseniz bir **etiket** verin; aynı tedarikçiyle iki kontratınız varsa işe yarar.
 6. **Tedarikçi ekle.**
 

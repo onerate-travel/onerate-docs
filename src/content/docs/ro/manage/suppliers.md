@@ -15,7 +15,10 @@ Doar proprietari și administratori.
 3. Alege **mediul** — **Sandbox** sau **Producție**. Este mediul propriu al furnizorului căruia îi
    aparține cheia, iar o cheie de sandbox nu poate fi folosită în producție. Greșeala aici este cea
    mai frecventă eroare de configurare.
-4. Introdu datele de acces pe care ți le-a emis furnizorul.
+4. Introdu datele de acces pe care ți le-a emis furnizorul. Unii furnizori pun și o întrebare cu
+   răspunsuri fixe: LiteAPI cere câmpul **Metodă de plată**, adică felul în care contul tău LiteAPI
+   plătește rezervările — **Portofel**, **Card atașat contului** sau **Linie de credit**. Alege-o pe
+   cea configurată în propriul tău cont la acel furnizor; OneRate nu plătește niciodată o rezervare.
 5. Opțional dă-i o **etichetă**, utilă când ai două contracte cu același furnizor.
 6. **Adaugă furnizorul.**
 

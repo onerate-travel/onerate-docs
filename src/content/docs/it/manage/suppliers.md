@@ -15,7 +15,11 @@ Solo titolari e amministratori.
 3. Scegli l'**ambiente** — **Sandbox** o **Produzione**. È l'ambiente del fornitore a cui appartiene
    la chiave, e una chiave di sandbox non può essere usata in produzione. Sbagliare qui è l'errore
    di configurazione più comune in assoluto.
-4. Inserisci le credenziali che il tuo fornitore ti ha rilasciato.
+4. Inserisci le credenziali che il tuo fornitore ti ha rilasciato. Alcuni fornitori pongono anche
+   una domanda a risposta fissa: LiteAPI chiede il **Metodo di pagamento** con cui il tuo account
+   LiteAPI paga le prenotazioni — **Portafoglio**, **Carta dell'account** o **Linea di credito**.
+   Scegli quello impostato sul tuo account presso quel fornitore; OneRate non paga mai una
+   prenotazione.
 5. Facoltativamente dagli un'**etichetta**, utile quando hai due contratti con lo stesso fornitore.
 6. **Aggiungi fornitore.**
 

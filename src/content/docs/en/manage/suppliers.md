@@ -15,7 +15,10 @@ Owners and admins only.
 3. Choose the **environment** — **Sandbox** or **Live**. This is the supplier's own environment
    that the key belongs to, and a sandbox key cannot be used in production. Getting this wrong is
    the single most common setup mistake.
-4. Enter the credentials your supplier issued you.
+4. Enter the credentials your supplier issued you. Some suppliers also ask a question with fixed
+   answers: LiteAPI asks for the **Payment method** your LiteAPI account books with — **Wallet**,
+   **Card on the account** or **Credit line**. Choose the one set up on your own account with that
+   supplier; OneRate never pays for a booking.
 5. Optionally give it a **label**, useful when you hold two contracts with the same supplier.
 6. **Add supplier.**
 

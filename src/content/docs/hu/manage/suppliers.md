@@ -15,7 +15,11 @@ Csak tulajdonosok és adminisztrátorok.
 3. Válaszd ki a **környezetet** — **Sandbox** vagy **Éles**. Ez a beszállító saját környezete,
    amelyhez a kulcs tartozik, és egy sandbox kulcs nem használható éles környezetben. Ennek
    elrontása a leggyakoribb beállítási hiba.
-4. Add meg a beszállítód által kiadott hozzáférési adatokat.
+4. Add meg a beszállítód által kiadott hozzáférési adatokat. Egyes beszállítók rögzített
+   válaszlehetőségű kérdést is feltesznek: a LiteAPI a **Fizetési mód** megadását kéri, amellyel a
+   LiteAPI-fiókod a foglalásokat fizeti — **Tárca**, **Fiókhoz rendelt kártya** vagy **Hitelkeret**.
+   Azt válaszd, amelyik az adott beszállítónál vezetett saját fiókodon be van állítva; a OneRate
+   soha nem fizet foglalást.
 5. Adhatsz neki **címkét** is — hasznos, ha ugyanazzal a beszállítóval két szerződésed van.
 6. **Beszállító hozzáadása.**
 
