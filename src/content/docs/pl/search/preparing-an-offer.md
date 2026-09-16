@@ -23,6 +23,9 @@ sprzedają, z cenami: wybrany jest najtańszy, a możesz wybrać innego. Pole wy
 stawkę **wybranego dostawcy**, a jeśli potem wybierzesz innego dostawcę, pokój przechodzi do niego —
 pokój nigdy nie trafia do oferty dwa razy.
 
+Pod pokojem wypisane są tylko stawki warte wyboru: najtańsza i te, które można anulować dłużej.
+Pozostałe kryją się za liczbą, którą możesz otworzyć.
+
 :::note
 Otwarcie wiersza to nowe zapytanie do dostawcy, więc dzieje się po naciśnięciu, a nie wcześniej.
 Dlatego też wiersz może otworzyć się komunikatem *Na tych warunkach nie ma już pokoi w sprzedaży* —

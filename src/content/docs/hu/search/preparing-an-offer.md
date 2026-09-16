@@ -23,6 +23,9 @@ szoba alatt ott vannak az azt értékesítő beszállítók az áraikkal: a lego
 választhat mást. A jelölőnégyzet a **kiválasztott beszállító** árát teszi az ajánlatba, és ha utána
 másik beszállítót választ, a szoba átkerül hozzá — egy szoba soha nem szerepel kétszer.
 
+Egy szoba alatt csak a választásra érdemes árak szerepelnek: a legolcsóbb, és amelyik tovább mondható
+le. A többi egy megnyitható szám mögött van.
+
 :::note
 Egy sor megnyitása új hívás a beszállító felé, ezért megnyomáskor történik, nem előbb. Ezért is
 nyílhat meg egy sor azzal, hogy *Ilyen feltételekkel már nincs eladó szoba* — a lista percekkel

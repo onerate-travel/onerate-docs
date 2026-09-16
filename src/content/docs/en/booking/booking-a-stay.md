@@ -22,7 +22,8 @@ Only an owner or admin can add it, and it only has to be done once.
 Open a hotel from the results. The page re-prices the stay against every supplier on the card at
 that moment and lists the rates one room at a time: the room with its board and refundability, and
 under it the suppliers selling it, each with its cancellation deadline and total. Choose the
-supplier you want to book the room with.
+supplier you want to book the room with. Only the rates worth choosing are drawn — the cheapest, and
+any that can be cancelled for longer; the rest are behind a count you can open.
 
 If you chose a rate on the results card, the page opens **on that rate**. A re-price is a fresh
 call to the supplier, so it can be gone by then; the page says so and shows the cheapest instead,

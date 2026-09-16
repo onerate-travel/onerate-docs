@@ -22,6 +22,9 @@ tedarikçiler fiyatlarıyla yer alır: en ucuzu seçilidir, başka birini seçeb
 **seçilen tedarikçinin** fiyatını teklife koyar; sonradan başka bir tedarikçi seçerseniz oda ona
 taşınır — bir oda hiçbir zaman iki kez teklif edilmez.
 
+Bir odanın altında yalnızca seçilmeye değer fiyatlar listelenir: en ucuzu ve daha geç iptal
+edilebilenler. Kalanlar açabileceğiniz bir sayının arkasında durur.
+
 :::note
 Bir satırı açmak tedarikçiye taze bir çağrıdır; bu yüzden basıldığında olur, önceden değil. Satırın
 *Bu koşullarda satışta oda kalmadı* diyerek açılabilmesinin sebebi de budur — liste dakikalar önce

@@ -28,9 +28,11 @@ Nyomja meg a sort a megnyitáshoz. A portál a kártya minden beszállítóját�
 feltételű szobáit, és szobánként egy sorban, jelölőnégyzettel sorolja fel őket. Minden szoba alatt
 ott vannak az azt értékesítő beszállítók az áraikkal; kezdetben a legolcsóbb van kiválasztva, de
 választhat mást. A szobák csak akkor kerülnek egy sorba, ha a beszállítók ugyanazzal a névvel
-illetik őket. Ez új
-hívás, tehát megnyomáskor történik, nem előbb — és egy sor jogosan nyílhat meg azzal, hogy *Ilyen
-feltételekkel már nincs eladó szoba*.
+illetik őket. Ez új hívás, tehát megnyomáskor történik, nem előbb — és egy sor jogosan nyílhat meg
+azzal, hogy *Ilyen feltételekkel már nincs eladó szoba*.
+
+Egy szoba alatt csak a választásra érdemes árak jelennek meg: a legolcsóbb, és amelyik tovább
+mondható le. A többi drágább, és nem ad későbbi határidőt — egy megnyitható szám mögött vannak.
 
 A szobák bejelölése **ajánlatot** épít, amelyet PDF-ként küldhet az ügyfélnek — lásd:
 [Ajánlat készítése](/hu/search/preparing-an-offer/).

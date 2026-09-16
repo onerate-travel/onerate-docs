@@ -26,8 +26,13 @@ satıldığı iki fiyatı ve bu aralığın kaç oda adını kapsadığını sö
 Satıra basınca açılır. Portal o otelin bu koşullardaki odalarını karttaki her tedarikçiye sorar ve
 oda başına bir satır, bir onay kutusuyla listeler. Her odanın altında onu satan tedarikçiler
 fiyatlarıyla yer alır; başta en ucuzu seçilidir, başka birini seçebilirsiniz. Odalar yalnızca
-tedarikçiler onlara aynı adı verdiğinde bir araya getirilir. Bu taze bir çağrıdır; basıldığında olur, önceden değil
-— ve bir satır haklı olarak *Bu koşullarda satışta oda kalmadı* diyerek açılabilir.
+tedarikçiler onlara aynı adı verdiğinde bir araya getirilir. Bu taze bir çağrıdır; basıldığında
+olur, önceden değil — ve bir satır haklı olarak *Bu koşullarda satışta oda kalmadı* diyerek
+açılabilir.
+
+Bir odanın altında yalnızca seçilmeye değer fiyatlar çizilir: en ucuzu ve daha geç iptal
+edilebilenler. Kalanlar daha pahalıdır ve daha geç iptal hakkı da vermez; açabileceğiniz bir sayının
+arkasında durur.
 
 Oda işaretlemek, müşteriye PDF olarak gönderebileceğiniz bir **teklif** kurar — bkz.
 [Teklif hazırlamak](/tr/search/preparing-an-offer/).

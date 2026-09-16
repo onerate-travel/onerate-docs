@@ -23,7 +23,8 @@ Csak tulajdonos vagy adminisztrátor adhatja meg, és csak egyszer kell megtenni
 Nyiss meg egy szállodát a találatokból. Az oldal abban a pillanatban újraárazza a tartózkodást a
 kártya minden beszállítójánál, és szobánként sorolja fel az árakat: a szobát az ellátással és a
 visszatéríthetőséggel, alatta pedig az azt értékesítő beszállítókat, mindegyiket lemondási
-határidővel és végösszeggel. Válaszd ki, melyik beszállítónál szeretnéd lefoglalni a szobát.
+határidővel és végösszeggel. Válaszd ki, melyik beszállítónál szeretnéd lefoglalni a szobát. Csak a választásra érdemes árak
+jelennek meg — a legolcsóbb, és amelyik tovább mondható le; a többi egy megnyitható szám mögött van.
 
 Ha a találati kártyán kiválasztottál egy árat, az oldal **azzal** nyílik meg. Az újraárazás új hívás
 a beszállító felé, így addigra el is tűnhet; az oldal ezt kimondja, és helyette a legolcsóbbat

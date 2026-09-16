@@ -27,9 +27,13 @@ exemplu *4 denumiri de cameră*.
 Apasă un rând ca să-l deschizi. Portalul cere fiecărui furnizor de pe card camerele acelui hotel în
 aceste condiții și le enumeră câte un rând pe cameră, cu o casetă de bifat. Sub fiecare cameră sunt
 furnizorii care o vând, fiecare cu prețul său; la început este ales cel mai ieftin, iar tu poți alege
-altul. Camerele sunt puse împreună doar când furnizorii le dau același nume. Este un apel nou, deci se
-întâmplă la apăsare, nu înainte — iar un rând se poate deschide pe bună dreptate cu *Nu mai există
-camere la vânzare în aceste condiții*.
+altul. Camerele sunt puse împreună doar când furnizorii le dau același nume. Este un apel nou, deci
+se întâmplă la apăsare, nu înainte — iar un rând se poate deschide pe bună dreptate cu *Nu mai
+există camere la vânzare în aceste condiții*.
+
+Sub o cameră sunt afișate doar tarifele care merită alese: cel mai ieftin și cele care pot fi
+anulate mai târziu. Restul sunt mai scumpe fără un termen mai îndepărtat și stau în spatele unui
+număr pe care îl poți deschide.
 
 Bifarea camerelor construiește o **ofertă** pe care o poți trimite unui client în PDF — vezi
 [Pregătirea unei oferte](/ro/search/preparing-an-offer/).

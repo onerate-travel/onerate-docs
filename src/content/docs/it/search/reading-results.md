@@ -28,9 +28,12 @@ Premi una riga per aprirla. Il portale chiede a ogni fornitore della scheda le c
 quelle condizioni e le elenca una riga per camera, con una casella di spunta. Sotto ogni camera ci sono
 i fornitori che la vendono, ognuno con il suo prezzo; all'inizio è scelto il più economico, e puoi
 sceglierne un altro. Le camere vengono raggruppate solo quando i fornitori le chiamano con lo stesso
-nome. È una nuova
-chiamata, quindi avviene quando premi e non prima — e una riga può legittimamente aprirsi su *Non ci
-sono più camere in vendita a queste condizioni*.
+nome. È una nuova chiamata, quindi avviene quando premi e non prima — e una riga può legittimamente
+aprirsi su *Non ci sono più camere in vendita a queste condizioni*.
+
+Sotto una camera sono disegnate solo le tariffe che vale la pena scegliere: la più economica e
+quelle cancellabili più a lungo. Le altre sono più care senza una scadenza più lontana e stanno
+dietro a un numero che puoi aprire.
 
 Spuntare le camere costruisce un'**offerta** che puoi mandare a un cliente in PDF — vedi
 [Preparare un'offerta](/it/search/preparing-an-offer/).

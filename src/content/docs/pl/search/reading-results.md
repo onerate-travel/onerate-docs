@@ -26,9 +26,12 @@ przykład *4 nazwy pokoi*.
 Naciśnij wiersz, aby go otworzyć. Portal pyta każdego dostawcę z karty o pokoje tego hotelu na tych
 warunkach i wypisuje je po jednym wierszu na pokój, z polem wyboru. Pod każdym pokojem są dostawcy,
 którzy go sprzedają, każdy ze swoją ceną; na początku wybrany jest najtańszy, a możesz wybrać innego.
-Pokoje są łączone tylko wtedy, gdy dostawcy nazywają je tak samo. To nowe zapytanie, więc
-dzieje się po naciśnięciu, a nie wcześniej — i wiersz może zasadnie otworzyć się komunikatem *Na
-tych warunkach nie ma już pokoi w sprzedaży*.
+Pokoje są łączone tylko wtedy, gdy dostawcy nazywają je tak samo. To nowe zapytanie, więc dzieje się
+po naciśnięciu, a nie wcześniej — i wiersz może zasadnie otworzyć się komunikatem *Na tych warunkach
+nie ma już pokoi w sprzedaży*.
+
+Pod jednym pokojem pokazywane są tylko stawki warte wyboru: najtańsza i te, które można anulować
+dłużej. Pozostałe są droższe bez późniejszego terminu i kryją się za liczbą, którą możesz otworzyć.
 
 Zaznaczanie pokoi buduje **ofertę**, którą możesz wysłać klientowi w PDF — zobacz
 [Przygotowanie oferty](/pl/search/preparing-an-offer/).

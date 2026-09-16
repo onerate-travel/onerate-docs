@@ -23,6 +23,9 @@ care o vând, cu prețurile lor: este ales cel mai ieftin, iar tu poți alege al
 tariful **furnizorului ales**, iar dacă alegi apoi alt furnizor, camera trece la acela — o cameră nu este
 niciodată ofertată de două ori.
 
+Sub o cameră sunt enumerate doar tarifele care merită alese: cel mai ieftin și cele care pot fi
+anulate mai târziu. Restul stau în spatele unui număr pe care îl poți deschide.
+
 :::note
 Deschiderea unui rând este un apel nou către furnizor, deci se întâmplă la apăsare, nu înainte. De
 aceea un rând se poate deschide cu *Nu mai există camere la vânzare în aceste condiții* — lista a

@@ -23,6 +23,9 @@ selling it, with their prices: the cheapest is chosen, and you can choose anothe
 the **chosen supplier's** rate in the offer, and choosing a different supplier afterwards moves the
 room to that one — a room is never quoted twice.
 
+Only the rates worth choosing are listed under a room: the cheapest, and any that can be cancelled
+for longer. The rest sit behind a count you can open.
+
 :::note
 Opening a row is a fresh call to the supplier, so it happens when you press and not before. That is
 also why a row can open onto *No room is on sale at these terms any more* — the list was built

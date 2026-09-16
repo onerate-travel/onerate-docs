@@ -22,7 +22,8 @@ Dodać go może tylko właściciel lub administrator i robi się to raz.
 
 Otwórz hotel z wyników. Strona wycenia pobyt na nowo w tej chwili u każdego dostawcy z karty i wypisuje
 stawki pokój po pokoju: pokój z wyżywieniem i zwrotnością, a pod nim dostawców, którzy go sprzedają,
-każdego z terminem anulowania i sumą. Wybierz dostawcę, u którego chcesz zarezerwować pokój.
+każdego z terminem anulowania i sumą. Wybierz dostawcę, u którego chcesz zarezerwować pokój. Pokazywane są tylko stawki warte wyboru —
+najtańsza i te, które można anulować dłużej; pozostałe kryją się za liczbą, którą możesz otworzyć.
 
 Jeśli wybrałeś stawkę na karcie wyników, strona otworzy się **na tej stawce**. Przeliczenie to nowe
 zapytanie do dostawcy, więc stawki może już nie być; strona to mówi i pokazuje najtańszą, zamiast

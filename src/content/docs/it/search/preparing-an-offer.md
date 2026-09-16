@@ -23,6 +23,9 @@ sono i fornitori che la vendono, con i loro prezzi: è scelto il più economico,
 La casella mette nell'offerta la tariffa del **fornitore scelto**, e se poi scegli un altro fornitore la
 camera passa a quello — una camera non viene mai quotata due volte.
 
+Sotto una camera sono elencate solo le tariffe che vale la pena scegliere: la più economica e quelle
+cancellabili più a lungo. Le altre stanno dietro a un numero che puoi aprire.
+
 :::note
 Aprire una riga è una nuova chiamata al fornitore, quindi avviene quando premi e non prima. È anche
 il motivo per cui una riga può aprirsi su *Non ci sono più camere in vendita a queste condizioni* —

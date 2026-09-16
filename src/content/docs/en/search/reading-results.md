@@ -31,6 +31,9 @@ put together only when the suppliers use the same name for them. That is a fresh
 when you press and not before — and a row can legitimately open onto *No room is on sale at these
 terms any more*.
 
+Under one room only the rates worth choosing are drawn: the cheapest, and any that can be cancelled
+for longer. The rest are dearer without a later deadline, and sit behind a count you can open.
+
 Ticking rooms builds an **offer** you can send a customer as a PDF — see
 [Preparing an offer](/en/search/preparing-an-offer/).
 
